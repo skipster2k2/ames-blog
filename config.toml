@@ -1,6 +1,6 @@
 theme = "bento"
 languageCode = "en-us"
-baseurl = "https://www.ames.world/"
+baseurl = "https://ames.world"
 title = "Ames World"
 
 author = "Ian Ames"

@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scrum on Ames World</title>
-    <link>https://www.ames.world/tags/scrum/</link>
+    <link>https://ames.world/tags/scrum/</link>
     <description>Recent content in scrum on Ames World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.ames.world/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ames.world/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Are Sprints Sustainable</title>
-      <link>https://www.ames.world/posts/are-sprints-sustainable/</link>
+      <link>https://ames.world/posts/are-sprints-sustainable/</link>
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ames.world/posts/are-sprints-sustainable/</guid>
+      <guid>https://ames.world/posts/are-sprints-sustainable/</guid>
       <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.&lt;/p&gt;
 &lt;p&gt;Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.&lt;/p&gt;
 &lt;p&gt;We use Scrum as our methodology for delivering software. Scrum at its simplest level defines a way of working to deliver small incremental changes at frequent intervals.
@@ -27,7 +27,7 @@ As a result, show and tells become extremely demoralising, and our velocity on a
 Stopping and restarting sprints regularly does not feel practical or particularly sustainable. Similarly setting aside a portion of the sprint ‘just in case’ is wasteful.&lt;/p&gt;
 &lt;h2 id=&#34;so-how-did-we-get-here&#34;&gt;So how did we get here?&lt;/h2&gt;
 &lt;p&gt;For the last year we have been in the difficult (although not uncommon) predicament of having a fixed scope and a fixed timescale. As any project manager will tell you if you fix scope and time, quality will drop:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/iron-triangle.gif&#34; alt=&#34;&#34; title=&#34;The time, cost, scope, constraint. Changing any of these can affect quality&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/iron-triangle.gif&#34; alt=&#34;&#34; title=&#34;The time, cost, scope, constraint. Changing any of these can affect quality&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This certainly reflects our experience. Our quality has suffered as we struggle to meet delivering a large re-usable payment and account creation function in time for assessment and KPI deadlines.&lt;/p&gt;
 &lt;p&gt;But could we have done something different?&lt;/p&gt;
 &lt;p&gt;Scrum and especially point estimation encourages you to commit to work you know you can deliver (no bad thing) but when you are delivering new products using new technologies and new languages, estimation has a tendency to obey Hofstadter’s law:&lt;/p&gt;
@@ -66,7 +66,7 @@ Stopping and restarting sprints regularly does not feel practical or particularl
 &lt;p&gt;This is something I have struggled with as a concept in scrum, most teams estimate in points, but then we are expected to forecast delivery in time.&lt;/p&gt;
 &lt;p&gt;I have often seen this turn into ‘1 point = 1 day’ conversations as a result.&lt;/p&gt;
 &lt;p&gt;Most product backlogs fall into a standard distribution bell curve. There will be some complex large stories to deliver, there will be some tiny small stories, but most stuff will fall within 1 standard deviation of the average.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/bell-curve.jpeg&#34; alt=&#34;&#34; title=&#34;a statistical bell curve&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/bell-curve.jpeg&#34; alt=&#34;&#34; title=&#34;a statistical bell curve&#34;&gt;&lt;/p&gt;
 &lt;p&gt;That being the case, if we know our average speed to deliver a story, and we know how many items are on the backlog we can easily project how long a project will take to complete without the need for points based estimation.&lt;/p&gt;
 &lt;p&gt;Additionally if we want to produce ranges we can use the standard deviations to project good and bad cases early on in the product.&lt;/p&gt;
 &lt;h4 id=&#34;what-about-quality&#34;&gt;What about quality?&lt;/h4&gt;
@@ -83,10 +83,10 @@ Stopping and restarting sprints regularly does not feel practical or particularl
     
     <item>
       <title>User Research Is the Most Frustrating Thing Ever</title>
-      <link>https://www.ames.world/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <link>https://ames.world/posts/user-research-is-the-most-frustrating-thing-ever/</link>
       <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ames.world/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <guid>https://ames.world/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
       <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.&lt;/p&gt;
 &lt;p&gt;Our team is made up of user researchers, a designer, a BA, developers and testers.&lt;/p&gt;
 &lt;p&gt;Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.&lt;/p&gt;
@@ -112,7 +112,7 @@ When a new feature is being misused, panned or worst of all ignored I can see th
 &lt;p&gt;We totally misjudged reactions and as a result we saved a ton of work restyling and regression testing our payment platform.&lt;/p&gt;
 &lt;h2 id=&#34;user-research-is-a-team-sport&#34;&gt;User Research is a team sport.&lt;/h2&gt;
 &lt;p&gt;So user research makes you want run into the room screaming JUST CLICK THE BUTTON RIGHT THERE!!!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/picard-click-the-button.jpeg&#34; alt=&#34;&#34; title=&#34;Jean Luc Picard saying just click the damn button&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/picard-click-the-button.jpeg&#34; alt=&#34;&#34; title=&#34;Jean Luc Picard saying just click the damn button&#34;&gt;&lt;/p&gt;
 &lt;p&gt;But expose the team to it anyway, it teaches humility, it teaches us to question why we are building the things we are building, and it teaches us to think ‘what would I do in a user shoes.’&lt;/p&gt;
 &lt;p&gt;So how do you do effective research without the team breaking down in tears every lab session:&lt;/p&gt;
 &lt;ol&gt;
