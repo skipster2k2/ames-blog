@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>digital transformation on Bento</title>
+    <link>https://www.example.com/tags/digital-transformation/</link>
+    <description>Recent content in digital transformation on Bento</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Tue, 16 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.example.com/tags/digital-transformation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>https://www.example.com/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.&lt;/p&gt;
+&lt;p&gt;Our team is made up of user researchers, a designer, a BA, developers and testers.&lt;/p&gt;
+&lt;p&gt;Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.&lt;/p&gt;
+&lt;p&gt;However I have found user research to be one of the most frustrating parts of my current role.
+When a new feature is being misused, panned or worst of all ignored I can see the frustration on the devs and testers faces.&lt;/p&gt;
+&lt;p&gt;They have put effort and care into nurturing this feature into existence and making sure it passes all tests and doesn’t make anything blow up. You can see them willing and hoping or worse praying that a user behaves in the way we expected them to.&lt;/p&gt;
+&lt;p&gt;Users never do.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;How it feels to watch a user test your product for the first time. &lt;a href=&#34;https://t.co/WqYqYoxmfq&#34;&gt;pic.twitter.com/WqYqYoxmfq&lt;/a&gt;&lt;/p&gt;&amp;mdash; Farbod Saraf (@farbodsaraf) &lt;a href=&#34;https://twitter.com/farbodsaraf/status/762858067218149376?ref_src=twsrc%5Etfw&#34;&gt;August 9, 2016&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;but-you-should-do-it-anyway&#34;&gt;…but you should do it anyway.&lt;/h2&gt;
+&lt;p&gt;If being a product owner is about delivering the best product you can, being a scrum master is about developing the best team you can.&lt;/p&gt;
+&lt;p&gt;A bad user research session can be terrible for morale and badly handled can lead to friction in the team.&lt;/p&gt;
+&lt;p&gt;But you should still do it.&lt;/p&gt;
+&lt;p&gt;User research takes a bit of getting used to, especially if you come from a requirements driven waterfall background but it has saved our service many times.&lt;/p&gt;
+&lt;p&gt;The first time I became aware of it’s power was when the team were building a payment platform.&lt;/p&gt;
+&lt;p&gt;We were using a shared platform with other services and were concerned about how the change of style would affect peoples perception.&lt;/p&gt;
+&lt;p&gt;We started worrying about how we would reconcile branding our service versus having to regression test all our current services if we did change the style.&lt;/p&gt;
+&lt;p&gt;We gritted our teeth and tested the service with the current payment platform with no style changes. We expected to get destroyed we thought they style jump looked crap, we worried that users would not trust the service, we thought it looked terrible and jarring.&lt;/p&gt;
+&lt;p&gt;Users didn’t bat an eyelid.&lt;/p&gt;
+&lt;p&gt;Most responded with comments such as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;‘Oh this uses worldpay I know that.’&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We totally misjudged reactions and as a result we saved a ton of work restyling and regression testing our payment platform.&lt;/p&gt;
+&lt;h2 id=&#34;user-research-is-a-team-sport&#34;&gt;User Research is a team sport.&lt;/h2&gt;
+&lt;p&gt;So user research makes you want run into the room screaming JUST CLICK THE BUTTON RIGHT THERE!!!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/picard-click-the-button.jpeg&#34; alt=&#34;&#34; title=&#34;Jean Luc Picard saying just click the damn button&#34;&gt;&lt;/p&gt;
+&lt;p&gt;But expose the team to it anyway, it teaches humility, it teaches us to question why we are building the things we are building, and it teaches us to think ‘what would I do in a user shoes.’&lt;/p&gt;
+&lt;p&gt;So how do you do effective research without the team breaking down in tears every lab session:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Stay respectful, User researchers are just the messengers, devs are just doing the best they can with what they know at the time. Stay respectful when things go wrong.&lt;/li&gt;
+&lt;li&gt;Take the dev team to labs as often as possible or if not get a live feed going.&lt;/li&gt;
+&lt;li&gt;Get video feedback to the team as quickly as possible. UR feedback is important but there is nothing better for investigating strange bugs or behaviours than seeing it happen (make sure a clock is visible in the video to compare events to log files).&lt;/li&gt;
+&lt;li&gt;Make the time to feedback research findings and modify the backlog as a result.&lt;/li&gt;
+&lt;li&gt;If possible test features in live, it is better to deploy a feature that can be improved than not to deploy and test in a less realistic environment. You can also reinforce UR findings with wider analytics evidence.&lt;/li&gt;
+&lt;li&gt;If you are a product owner take your stakeholders to user research, let them see the consequences of decisions, how well or badly a user responds to what can feel like a good idea in a boardroom or stakeholder workshop.&lt;/li&gt;
+&lt;li&gt;Keep testing the full service, you may want to focus on a particular feature but you always get feedback about existing features and how they all work together, does the whole flow still make sense?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
