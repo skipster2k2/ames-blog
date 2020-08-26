@@ -41,7 +41,7 @@ Its not my place to tell a team how to work, its my job to coach and mentor and 
 
 Next we tried a fairly basic kanban board with the intention of inspecting and adapting it as we identified our constraints.
 
-![](/images/kanban2.jpeg "basic kanban board with 4 columns, backlog, wip (work in progress), review and done")
+![](/images/kanban2.jpeg "basic kanban board with 4 columns, backlog, wip - work in progress, review and done")
 
 The basic kanban board had a few issues. It was easy to lose track of priority as cards moved from one column to the other. It also wasn’t always obvious when a card should move from one column to the next.
 
@@ -51,7 +51,7 @@ Crucially our team are co-located, the majority of the team are in one place but
 
 Horizontal lines were re-introduced to help keep better track of priority. Checklists above each column were also added to assist with decision making on whether the card was ready to be moved on in the flow. The board expanded physically too, a new mini board was added to the left where cards coming up for the next sprint were added to give a better heads up.
 
-![](/images/kanban3.jpeg "detailed kanban board with 5 columns, backlog, wip (work in progress), code review, review and done. To the left of the main board is a seperate column showing what is coming in the following sprint.")  
+![](/images/kanban3.jpeg "detailed kanban board with 5 columns, backlog, wip - work in progress, code review, review and done. To the left of the main board is a seperate column showing what is coming in the following sprint.")  
 ![](/images/kanban3a.jpeg "Board 3 included a clearer sprint goal to help the team judge whether they had met the overall aim of the sprint.")
 
 ![](/images/kanban3b.jpeg "Board 3 also included checklists to help decision making and stimulate conversation before moving cards on.")  

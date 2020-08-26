@@ -28,7 +28,7 @@
 &lt;li&gt;Search results were confusing because of the order of the displayed addresses.&lt;/li&gt;
 &lt;li&gt;We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_before.jpg&#34; alt=&#34;&#34; title=&#34;Search results before improvement, results were ‘titles’ rather than addresses (which the user searched for) causing confusion.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_before.jpg&#34; alt=&#34;&#34; title=&#34;Search results before improvement, results were ‘titles’ rather than addresses - which the user searched for - causing confusion.&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-did-we-improve-it&#34;&gt;How did we improve it?&lt;/h2&gt;
 &lt;p&gt;Based on feedback we’d been collecting we had a good handle on the types of problems people had, and a strong hypothesis that people would be more successful if we flipped the results. We aimed to stop showing what we have got (how we’ve documented the world), and start showing a familiar model of places (how user’s think of the world).&lt;/p&gt;
 &lt;p&gt;People are familiar with what a postcode is, and what it contains — they use this all the time, when they are getting a parcel delivered, or sending a letter, or using their satnav.
@@ -65,7 +65,7 @@ The hardest part of testing was finding a decent baseline to ‘prove our search
 &lt;p&gt;The measure of success that was most pressing was whether PROD would see the same performance issues that we saw in the test environment. It took a few days to build a sample of traffic but sure enough we did see the same problem. By then however we had given a bit more thought as to a plan for improving the performance. After the first release the refactored code went into production, drastically improving performance times.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ames.world/images/before_performance.jpg&#34; alt=&#34;&#34; title=&#34;Initial performance times, good but not excellent. Most responses within 2 seconds&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Initial performance times, good but not excellent.&lt;/p&gt;
-&lt;p&gt;![](/images/after_performance.jpg &amp;ldquo;Production responses following improvements, most responses in under 0.1 seconds!)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/after_performance.jpg&#34; alt=&#34;&#34; title=&#34;Production responses following improvements, most responses in under 0.1 seconds!&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Production responses following improvements, note the change in scale!&lt;/p&gt;
 &lt;p&gt;All of our hypotheses of what would happen in Production have so far played out to be true:&lt;/p&gt;
 &lt;ol&gt;
@@ -297,12 +297,12 @@ Finally there’s me, my role is to facilitate and guide the team toward meeting
 &lt;p&gt;Its not my place to tell a team how to work, its my job to coach and mentor and point out why changes to work methods may be worth trying. The team agreed to try a new board after a particularly difficult sprint.&lt;/p&gt;
 &lt;h2 id=&#34;board-2-the-basic-kanban-board&#34;&gt;Board 2. The basic kanban board.&lt;/h2&gt;
 &lt;p&gt;Next we tried a fairly basic kanban board with the intention of inspecting and adapting it as we identified our constraints.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/kanban2.jpeg&#34; alt=&#34;&#34; title=&#34;basic kanban board with 4 columns, backlog, wip (work in progress), review and done&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/kanban2.jpeg&#34; alt=&#34;&#34; title=&#34;basic kanban board with 4 columns, backlog, wip - work in progress, review and done&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The basic kanban board had a few issues. It was easy to lose track of priority as cards moved from one column to the other. It also wasn’t always obvious when a card should move from one column to the next.&lt;/p&gt;
 &lt;p&gt;Crucially our team are co-located, the majority of the team are in one place but not everyone. We used pivotal tracker as the source of truth of what was going on with a story. The success of the physical board and its ease of use led to its own problem, the board was updated but often we were forgetting to update pivotal, leading to confusion.&lt;/p&gt;
 &lt;h2 id=&#34;board-3-detailed-backlog-board&#34;&gt;Board 3. Detailed backlog board.&lt;/h2&gt;
 &lt;p&gt;Horizontal lines were re-introduced to help keep better track of priority. Checklists above each column were also added to assist with decision making on whether the card was ready to be moved on in the flow. The board expanded physically too, a new mini board was added to the left where cards coming up for the next sprint were added to give a better heads up.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/kanban3.jpeg&#34; alt=&#34;&#34; title=&#34;detailed kanban board with 5 columns, backlog, wip (work in progress), code review, review and done. To the left of the main board is a seperate column showing what is coming in the following sprint.&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/kanban3.jpeg&#34; alt=&#34;&#34; title=&#34;detailed kanban board with 5 columns, backlog, wip - work in progress, code review, review and done. To the left of the main board is a seperate column showing what is coming in the following sprint.&#34;&gt;&lt;br&gt;
 &lt;img src=&#34;https://ames.world/images/kanban3a.jpeg&#34; alt=&#34;&#34; title=&#34;Board 3 included a clearer sprint goal to help the team judge whether they had met the overall aim of the sprint.&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ames.world/images/kanban3b.jpeg&#34; alt=&#34;&#34; title=&#34;Board 3 also included checklists to help decision making and stimulate conversation before moving cards on.&#34;&gt;&lt;br&gt;
 Board 3 helped with the priority issues. The re-addition of horizontal priority lines did lead to some concern that we were going back to the checklist board, however once the team saw cards continued to flow as with the simpler kanban board that was cleared up.&lt;/p&gt;

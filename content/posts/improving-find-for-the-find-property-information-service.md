@@ -23,7 +23,7 @@ There was a mixture of design and technical issues with our old search:
 - Search results were confusing because of the order of the displayed addresses.
 - We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence.
 
-![](/images/search_results_before.jpg "Search results before improvement, results were ‘titles’ rather than addresses (which the user searched for) causing confusion.")
+![](/images/search_results_before.jpg "Search results before improvement, results were ‘titles’ rather than addresses - which the user searched for - causing confusion.")
 
 ## How did we improve it?
 
@@ -88,7 +88,7 @@ The measure of success that was most pressing was whether PROD would see the sam
 
 Initial performance times, good but not excellent.
 
-![](/images/after_performance.jpg "Production responses following improvements, most responses in under 0.1 seconds!)
+![](/images/after_performance.jpg "Production responses following improvements, most responses in under 0.1 seconds!")
 
 Production responses following improvements, note the change in scale!
 
