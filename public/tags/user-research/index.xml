@@ -6,10 +6,114 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Tue, 16 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/tags/user-research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>https://ames.world/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;
+&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;
+&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;
+&lt;h2 id=&#34;what-were-the-problems-with-the-old-search&#34;&gt;What were the problems with the old search?&lt;/h2&gt;
+&lt;p&gt;There was a mixture of design and technical issues with our old search:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When users come to the service they think in terms of addresses, but our search results displayed land titles. This meant the results were jarring, it was especially unclear if there was more than one ‘title’ for a given address.&lt;/li&gt;
+&lt;li&gt;We hadn’t updated the address information we get from Ordnance Survey for over a year, so new builds wouldn’t show in the service.&lt;/li&gt;
+&lt;li&gt;Search results were confusing because of the order of the displayed addresses.&lt;/li&gt;
+&lt;li&gt;We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_before.jpg&#34; alt=&#34;&#34; title=&#34;Search results before improvement, results were ‘titles’ rather than addresses (which the user searched for) causing confusion.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-did-we-improve-it&#34;&gt;How did we improve it?&lt;/h2&gt;
+&lt;p&gt;Based on feedback we’d been collecting we had a good handle on the types of problems people had, and a strong hypothesis that people would be more successful if we flipped the results. We aimed to stop showing what we have got (how we’ve documented the world), and start showing a familiar model of places (how user’s think of the world).&lt;/p&gt;
+&lt;p&gt;People are familiar with what a postcode is, and what it contains — they use this all the time, when they are getting a parcel delivered, or sending a letter, or using their satnav.
+There is a point at which we, currently, ask people to pick a particular property record.&lt;/p&gt;
+&lt;p&gt;So we now do that as a separate steps. previously we had wrapped multiple decisions into one step, which was too much.&lt;/p&gt;
+&lt;p&gt;So whilst we still need, currently, to introduce the concept of titles and tenures, we do this in one place.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_after.jpg&#34; alt=&#34;&#34; title=&#34;The new search results are much clearer and align to what our users expect to see next.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-did-we-build-it&#34;&gt;How did we build it?&lt;/h2&gt;
+&lt;p&gt;The Find Property Information team consists of 12 people from different disciplines, we sometimes struggled to communicate effectively and stay focused due to the sheer numbers of communication pathways between team members. We had a hunch that the size of the team was slowing down our delivery so we decided to use postcode search as a good opportunity to test it. We separated out 4 people to focus solely on delivering improved search.&lt;/p&gt;
+&lt;p&gt;The team came up with a number of technical approaches and chose the one that would deliver the most value. There were other potentially better solutions, but would have taken longer to implement. Building services is always a trade off between building what’s needed now, and envisioning future use cases. There are risks to both approaches, too bare bones and it can be difficult to change the solution in future, too blue sky and time and energy can be wasted on features and functions that aren’t actually needed.&lt;/p&gt;
+&lt;p&gt;On the whole we saw a lot of benefits from the small team. The small size meant that our processes could be much more lightweight, much less time was spent planning and discussing work, if a problem came up or a change needed to happen, it was much easier to solve as it was just a quick chat to discuss the problem, think of how to solve it and move on.
+The team progressed well and improved our address search component, built a title-api for retrieving titles per address, and ‘plugged into’ an audit-api for collating what was happening within the service for troubleshooting and audit needs.&lt;/p&gt;
+&lt;p&gt;But we reached a point where we needed to ‘plug-in’ what had been built back into the service. We needed to consider how we could deliver the functionality that had been built iteratively into the service without getting in the way, or breaking any of the other work being done by the rest of the team.&lt;/p&gt;
+&lt;h2 id=&#34;agile-doesnt-equal-no-planning&#34;&gt;Agile doesn’t equal No Planning&lt;/h2&gt;
+&lt;p&gt;We had a reached a point where we needed to get the team back together and consider how to move postcode into the service.&lt;/p&gt;
+&lt;p&gt;We came up with a high-level plan to deploy each of the new api’s in a way that wouldn’t impact the service or cause any downtime. It was also an iterative plan so by breaking the releases down into small chunks we could de-risk the change and rollback easily if any particular part did go wrong.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/whiteboarding.jpg&#34; alt=&#34;&#34; title=&#34;Planning agile style, team members gathered around a whiteboard&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We also wanted to assure ourselves that the search was as good as we thought it would be so we included: a comprehensive set of automated acceptance tests; manual eyeballing; and tests to verify our hypothesis of what we expected to happen when the changes were in production.
+The hardest part of testing was finding a decent baseline to ‘prove our search was good. We knew our existing search was inconsistent so it made for a very poor baseline. We had other services that also had search functionality so we did some investigation into these services to test their viability as baselines.&lt;/p&gt;
+&lt;p&gt;What we found was that whilst on the whole they were good enough as a baseline, they all had slight discrepancies or weird results mainly due to data quality either from us or from our address suppliers. The Addressbase dataset has over 28 million address points, and our register data is over 24 million titles. Both of these datasets change daily and when they are as large as that even a 1% error rate can equal hundreds of thousands of data rows.&lt;/p&gt;
+&lt;p&gt;Improving the quality of these two datasets wasn’t going to be possible so instead we attempted to understand the problems a bit better so that at least if users did encounter issues we could offer them an onward journey or understand why. We produced a ‘wall of weird’ of postcodes we knew behaved strangely in existing services and added these to our test baseline to see what happened in our service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/wall_of_weird.jpg&#34; alt=&#34;&#34; title=&#34;The wall of weird, a whiteboard where we captured all the strange search behaviour we identified, so that we could validate we had fixed them as we improved the service.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-did-we-release-it&#34;&gt;How did we release it?&lt;/h2&gt;
+&lt;p&gt;So we had a test and deploy plan that was detailed enough to give us direction, but lightweight enough to change when things inevitably changed or went wrong. And a few things did go wrong.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We hoped to release an updated address index into the service as a standalone iteration. However, when testing it, we found it had more of an impact on the user experience than we were comfortable with, so we had to bundle the change in with the ‘main’ release.&lt;/li&gt;
+&lt;li&gt;As a result the main release became bigger than expected and we had to schedule in downtime, adding a number of additional steps and approvals.&lt;/li&gt;
+&lt;li&gt;We found the title-api performed within thresholds but not as well as we would like, we found that search results had spikes of long response times. Whilst only affecting 2% of users, scaling up to actual usage volumes could equal hundreds of unsatisfied people.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That final problem was the biggest challenge we faced, we hadn’t seen it in any of our lower test environments, but then again our pre-prod environment is the one that most resembles live. At first we didn’t have a good handle on exactly how big the issue was so we created some performance scripts to allow us to monitor response times whilst under heavy load. The scripts confirmed the scale of what we were seeing, but didn’t give us any further clues as to what was causing it.&lt;/p&gt;
+&lt;p&gt;Finally we decided that the benefits of the new search functionality exceeded the risks of some users having slow performance. We came up with a plan for measuring production performance and agreed to set some time aside to improve it should we see it happening in PROD.&lt;/p&gt;
+&lt;p&gt;Finally we were in a position where we were ready to release. We had to turn the service off for an hour but pre-warned users of the downtime. The change itself went very smoothly and we were deployed and tested within 50 minutes.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-we-know-whether-it-has-been-successful&#34;&gt;How do we know whether it has been successful?&lt;/h2&gt;
+&lt;p&gt;The measure of success that was most pressing was whether PROD would see the same performance issues that we saw in the test environment. It took a few days to build a sample of traffic but sure enough we did see the same problem. By then however we had given a bit more thought as to a plan for improving the performance. After the first release the refactored code went into production, drastically improving performance times.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/before_performance.jpg&#34; alt=&#34;&#34; title=&#34;Initial performance times, good but not excellent. Most responses within 2 seconds&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Initial performance times, good but not excellent.&lt;/p&gt;
+&lt;p&gt;![](/images/after_performance.jpg &amp;ldquo;Production responses following improvements, most responses in under 0.1 seconds!)&lt;/p&gt;
+&lt;p&gt;Production responses following improvements, note the change in scale!&lt;/p&gt;
+&lt;p&gt;All of our hypotheses of what would happen in Production have so far played out to be true:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the sample we tested our search is as good as existing HMLR services.&lt;/li&gt;
+&lt;li&gt;Addresses changed in the past year now return in our search results.&lt;/li&gt;
+&lt;li&gt;Our new audit-api is collecting audit data successfully.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The most important change is that search is dropping down our ‘Top issues for our users’ chart.&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;Whats next?&lt;/h2&gt;
+&lt;p&gt;We will continue to learn more about how search is performing in the service, shipping to Production is the only true point where you really start to learn about how people use your service and how it works at scale so I’m sure we will need to make a few changes based on feedback.&lt;/p&gt;
+&lt;p&gt;We also have some work we want to do, to replace our address component with an address-api that is being built by colleagues in another team. This ‘common component’ will reduce maintenance overhead and ensure more consistency between services in the future.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How Our Digital Team Works</title>
+      <link>https://ames.world/posts/how-our-digital-team-works/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/how-our-digital-team-works/</guid>
+      <description>&lt;p&gt;I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the &lt;a href=&#34;https://hmlandregistry.blog.gov.uk/2017/6/27/working-with-gds-to-develop-our-find-property-information-service/&#34;&gt;digital service standards developed by our colleagues at the Government Digital Service (GDS)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice.
+Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished. This allows us to validate that the things we are building are delivering the value we expect and make better decisions about whether to improve a feature further, or move onto something new, based on feedback.&lt;/p&gt;
+&lt;p&gt;Recently we added the option to download a summary. User research and Live feedback was telling us that this was a feature user’s expected from the service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/what_users_were_saying.jpg&#34; alt=&#34;&#34; title=&#34;A direct quote from a user: &#39;My document didnt print! I dont know why I regularly use my printer. You should have a save button to save the document in such cases.&#39;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;minimum-viable-feature&#34;&gt;Minimum Viable Feature.&lt;/h2&gt;
+&lt;p&gt;Research told us that users wanted to keep the summary, the question was how could we deliver that functionality as quickly and simply as possible to learn more. This is the concept of Minimal Viable Product (MVP) taken down a level to each feature. Deliver a simple feature quickly to learn more about how to expand and develop it further based on feedback. When developing software it can be really easy to slip into ‘edge cases’ or ‘scope creep’.&lt;/p&gt;
+&lt;p&gt;It takes a lot of discipline to maintain focus on just the small valuable parts.
+When considering ‘keeping the summary’ we discussed logging back in; seeing previous purchases; emailing the summary to users; but ultimately we went with the simplest option, generate a pdf based on the content of the summary screen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/mvp.jpg&#34; alt=&#34;&#34; title=&#34;MVP — deliver small amounts of value early, you’ll learn more about what users actually want. Credit: Henrik Kniberg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;building-services-for-all&#34;&gt;Building services for all&lt;/h2&gt;
+&lt;p&gt;This decision wasn’t without its challenges. PDF’s are not a popular choice in government due to their closed source, in-accessible nature. As civil servants, we need to ensure our services are usable by all members of the public so we take accessibility seriously.&lt;/p&gt;
+&lt;p&gt;We discussed what we were planning to do with the Open Standards Lead for government to ensure we were meeting acceptable standards. We learnt that our pdf needed to be standalone, (i.e. didn’t depend on any 3rd party servers to generate the content) and it had to meet accessibility standards.&lt;/p&gt;
+&lt;p&gt;When testing the pdf with a screen-reader we found our recent rebranding to HM Land Registry had some unexpected results. Screen-readers read HM as hmmm. Whilst amusing it’s a good example of the effort we put into ensuring our service is clear and concise for all users. We corrected the error and have informed our other content and development colleagues to check any references are appropriately abbreviated.&lt;/p&gt;
+&lt;h2 id=&#34;t-shaping&#34;&gt;T-Shaping&lt;/h2&gt;
+&lt;p&gt;One of the core tenets of agile working is the ‘pizza team’ i.e. if you can’t feed the team with two pizza’s it&amp;rsquo;s too big. The reason for this is all about communication and our &lt;a href=&#34;https://en.wikipedia.org/wiki/Cognitive_load&#34;&gt;cognitive capacity&lt;/a&gt;. Lines of communication between team members increases exponentially, and the more lines of communication there are, the more noise and lost messages impact the team’s ability to deliver. This has been well understood in psychology for 60 years, yet many organisations assume large complex software projects require large teams to deliver.&lt;/p&gt;
+&lt;p&gt;But small teams still need to do all the roles required to deliver a successful service, that means cross-skilling, also known as T shaping.&lt;/p&gt;
+&lt;p&gt;Our team has been working hard to develop this. All of our developers test each other’s work, and for the example of download, our tester Heather took the lead in the development of the feature.&lt;/p&gt;
+&lt;p&gt;In order to deliver it, she developed new skills to build a Java based pdf generator. Delivery is a team sport and the whole team contributed to its success but it was a great example of the benefits of T-shaping and instilling the right mindset. Developers who think like testers deploy fewer defects and testers who think like developers can help identify where problems are in the code speeding up defect resolution.&lt;/p&gt;
+&lt;h2 id=&#34;starting-continuous-delivery&#34;&gt;Starting Continuous Delivery.&lt;/h2&gt;
+&lt;p&gt;Agile delivery is all about making feedback cycles between the user and the development team as small as possible. In the past, we would release every 6 weeks leading to the vicious cycle below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/releases.jpg&#34; alt=&#34;&#34; title=&#34;The big batch release conundrum. Releases go wrong, so we won’t do it often, but this results in more change being bundled into the release, increasing the likelihood of it going wrong, and the effort to test.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We are now able to deploy to production at least once a sprint, and we don’t say our work is done until it is in production delivering value. When we delivered download, we deployed it at 9 o’clock in the morning with no downtime, within a minute of it being deployed we were able to see users using the feature. The sense of satisfaction to see the work you have delivered bringing value to people immediately was immeasurable.&lt;/p&gt;
+&lt;h2 id=&#34;continuous-improvement&#34;&gt;Continuous Improvement.&lt;/h2&gt;
+&lt;p&gt;Hopefully, that gives you a little bit of an insight into how we are starting to build, deliver, and maintain services. We have come a long way on our journey delivering in an agile way, but this isn’t the end. We are always looking at how we can continuously improve our service. Initial feedback for pdf download is positive, and therefore we have moved onto delivering the next important feature in the service, moving sign-in further back in the user journey.&lt;/p&gt;
+&lt;p&gt;We don’t stand still after a feature is delivered we regularly do a ‘show and tell’ to describe how the service is performing to our product owner and we do ‘retrospective’s’ to identify where we can improve as a team, we never stop looking for ways we can improve as a team to ensure we deliver the maximum value to you our users.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>User Research Is the Most Frustrating Thing Ever</title>

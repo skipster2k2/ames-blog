@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Thu, 13 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,63 @@
     <item>
       <title>agile</title>
       <link>https://ames.world/tags/agile/</link>
-      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>government</title>
+      <link>https://ames.world/tags/government/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/government/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>product management</title>
+      <link>https://ames.world/tags/product-management/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/product-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software development</title>
+      <link>https://ames.world/tags/software-development/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user research</title>
+      <link>https://ames.world/tags/user-research/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/user-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous delivery</title>
+      <link>https://ames.world/tags/continuous-delivery/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/continuous-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous improvement</title>
+      <link>https://ames.world/tags/continuous-improvement/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/continuous-improvement/</guid>
       <description></description>
     </item>
     
@@ -75,29 +129,11 @@
     </item>
     
     <item>
-      <title>user research</title>
-      <link>https://ames.world/tags/user-research/</link>
-      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/tags/user-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>delivery</title>
       <link>https://ames.world/tags/delivery/</link>
       <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/delivery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>government</title>
-      <link>https://ames.world/tags/government/</link>
-      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/tags/government/</guid>
       <description></description>
     </item>
     

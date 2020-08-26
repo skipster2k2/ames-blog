@@ -7,7 +7,6 @@ tags:
 - continuous improvement
 - continuous delivery
 - user research
-draft: true
 ---
 
 I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the [digital service standards developed by our colleagues at the Government Digital Service (GDS)](https://hmlandregistry.blog.gov.uk/2017/6/27/working-with-gds-to-develop-our-find-property-information-service/).
