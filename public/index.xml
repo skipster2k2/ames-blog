@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bento</title>
-    <link>https://www.example.com/</link>
-    <description>Recent content on Bento</description>
+    <title>Ames World</title>
+    <link>https://www.ames.world/</link>
+    <description>Recent content on Ames World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ames.world/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>https://www.example.com/posts/</link>
+      <link>https://www.ames.world/posts/</link>
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/</guid>
+      <guid>https://www.ames.world/posts/</guid>
       <description></description>
     </item>
     

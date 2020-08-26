@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>delivery on Bento</title>
-    <link>https://www.example.com/tags/delivery/</link>
-    <description>Recent content in delivery on Bento</description>
+    <title>delivery on Ames World</title>
+    <link>https://www.ames.world/tags/delivery/</link>
+    <description>Recent content in delivery on Ames World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Wed, 11 May 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.example.com/tags/delivery/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ames.world/tags/delivery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The evolving visualisation of workflow in our team.</title>
-      <link>https://www.example.com/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <link>https://www.ames.world/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
       <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <guid>https://www.ames.world/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
       <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.&lt;/p&gt;
 &lt;p&gt;One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer. This article describes the evolution of our workflow board over the past year, the problems we have identified with different approaches and the things we have tried to resolve them.&lt;/p&gt;
 &lt;h2 id=&#34;the-team&#34;&gt;The team&lt;/h2&gt;
@@ -33,18 +33,18 @@ Finally there’s me, my role is to facilitate and guide the team toward meeting
 &lt;p&gt;A kanban board is a well established way to show flow ours has evolved as we have over the last year.&lt;/p&gt;
 &lt;h2 id=&#34;board-1-the-tick-box-board&#34;&gt;Board 1. The tick box board.&lt;/h2&gt;
 &lt;p&gt;This board was established when joined the team, personally I didn’t take to it as using ticks to represent where the story is didn’t make blockers stand out to me. It also did nothing to help the team think about limiting their work in progress. Stories further down the list were regularly being started before stories higher up were Done.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/kanban1.jpeg&#34; alt=&#34;&#34; title=&#34;tickbox board, a grid with stories on the y axis and steps to be done on the x. When each task is completed for a given story, the box is ticked&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/kanban1.jpeg&#34; alt=&#34;&#34; title=&#34;tickbox board, a grid with stories on the y axis and steps to be done on the x. When each task is completed for a given story, the box is ticked&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Its not my place to tell a team how to work, its my job to coach and mentor and point out why changes to work methods may be worth trying. The team agreed to try a new board after a particularly difficult sprint.&lt;/p&gt;
 &lt;h2 id=&#34;board-2-the-basic-kanban-board&#34;&gt;Board 2. The basic kanban board.&lt;/h2&gt;
 &lt;p&gt;Next we tried a fairly basic kanban board with the intention of inspecting and adapting it as we identified our constraints.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/kanban2.jpeg&#34; alt=&#34;&#34; title=&#34;basic kanban board with 4 columns, backlog, wip (work in progress), review and done&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/kanban2.jpeg&#34; alt=&#34;&#34; title=&#34;basic kanban board with 4 columns, backlog, wip (work in progress), review and done&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The basic kanban board had a few issues. It was easy to lose track of priority as cards moved from one column to the other. It also wasn’t always obvious when a card should move from one column to the next.&lt;/p&gt;
 &lt;p&gt;Crucially our team are co-located, the majority of the team are in one place but not everyone. We used pivotal tracker as the source of truth of what was going on with a story. The success of the physical board and its ease of use led to its own problem, the board was updated but often we were forgetting to update pivotal, leading to confusion.&lt;/p&gt;
 &lt;h2 id=&#34;board-3-detailed-backlog-board&#34;&gt;Board 3. Detailed backlog board.&lt;/h2&gt;
 &lt;p&gt;Horizontal lines were re-introduced to help keep better track of priority. Checklists above each column were also added to assist with decision making on whether the card was ready to be moved on in the flow. The board expanded physically too, a new mini board was added to the left where cards coming up for the next sprint were added to give a better heads up.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/kanban3.jpeg&#34; alt=&#34;&#34; title=&#34;detailed kanban board with 5 columns, backlog, wip (work in progress), code review, review and done. To the left of the main board is a seperate column showing what is coming in the following sprint.&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://www.example.com/images/kanban3a.jpeg&#34; alt=&#34;&#34; title=&#34;Board 3 included a clearer sprint goal to help the team judge whether they had met the overall aim of the sprint.&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/kanban3b.jpeg&#34; alt=&#34;&#34; title=&#34;Board 3 also included checklists to help decision making and stimulate conversation before moving cards on.&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/kanban3.jpeg&#34; alt=&#34;&#34; title=&#34;detailed kanban board with 5 columns, backlog, wip (work in progress), code review, review and done. To the left of the main board is a seperate column showing what is coming in the following sprint.&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://www.ames.world/images/kanban3a.jpeg&#34; alt=&#34;&#34; title=&#34;Board 3 included a clearer sprint goal to help the team judge whether they had met the overall aim of the sprint.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/kanban3b.jpeg&#34; alt=&#34;&#34; title=&#34;Board 3 also included checklists to help decision making and stimulate conversation before moving cards on.&#34;&gt;&lt;br&gt;
 Board 3 helped with the priority issues. The re-addition of horizontal priority lines did lead to some concern that we were going back to the checklist board, however once the team saw cards continued to flow as with the simpler kanban board that was cleared up.&lt;/p&gt;
 &lt;p&gt;Board 3 helped provide more clarity but the problem with pivotal falling behind remained.&lt;br&gt;
 One crucial problem that all the boards had was that they focused on technical delivery and didn’t include user research and design. This sometimes led to confusion leading to differences between prototypes and production systems.&lt;/p&gt;
@@ -56,11 +56,11 @@ One crucial problem that all the boards had was that they focused on technical d
 &lt;li&gt;A standard sprint delivery board.&lt;/li&gt;
 &lt;li&gt;A board to track production releases.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/flowmap.jpeg&#34; alt=&#34;&#34; title=&#34;Whiteboarded flow map of all the steps from idea to production.&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/flowmap.jpeg&#34; alt=&#34;&#34; title=&#34;Whiteboarded flow map of all the steps from idea to production.&#34;&gt;&lt;br&gt;
 The flow diagram wasn&amp;rsquo;t met with universal appeal. There were concerns that it was silo’ing the team, it looked to waterfall’y. But it did stimulate a lot of debate about how we deliver things and our relationship between UR/Prototyping, Delivery and Release.&lt;/p&gt;
 &lt;p&gt;Eventually we settled on two boards. A UR/Design board aimed to be a few weeks ahead of the Delivery/Release board in any given sprint. We wanted to solve the pivotal/physical board issue so we switched to trello which gave the closest physical approximation of the flexibility of a physical board in my humble opinion.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/trellour.png&#34; alt=&#34;&#34; title=&#34;Trello user research board.&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://www.example.com/images/trellodev.png&#34; alt=&#34;&#34; title=&#34;Trello delivery board&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/trellour.png&#34; alt=&#34;&#34; title=&#34;Trello user research board.&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://www.ames.world/images/trellodev.png&#34; alt=&#34;&#34; title=&#34;Trello delivery board&#34;&gt;&lt;br&gt;
 We have only been using the boards for one sprint so far, generally they have been well received but it’s early days. There have been a few issues migrating and refining stories in the move from pivotal to trello (not as easy as you might think, I recommend this tool from little blue monkey) and I’m sure some of the columns may change especially in the UR board which we haven’t really defined in this way before.&lt;/p&gt;
 &lt;p&gt;There are a few negatives to this board:&lt;/p&gt;
 &lt;ol&gt;

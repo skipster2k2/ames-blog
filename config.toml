@@ -1,9 +1,9 @@
 theme = "bento"
 languageCode = "en-us"
-baseurl = "https://www.example.com/"
-title = "Bento"
+baseurl = "https://www.ames.world/"
+title = "Ames World"
 
-author = "Leonardo Faria"
+author = "Ian Ames"
 copyright = "MIT"
 
 [taxonomies]
@@ -34,16 +34,16 @@ disqusShortname = "bento-hugo-theme"
   description = "This is my blog where I talk about all kinds of stuff."
 
   # Copyright note in the footer
-  copyright = "Copyright © 2020 Someone"
+  copyright = "Copyright © 2020 Ian Ames"
 
   # Image in the homepage. You can setup a different image for social media
   cover = "images/team.jpg"
   ogImage = "images/og_image.jpg"
 
   # Social media usernames
-  github = "XXXX"
-  twitter = "XXXX"
-  linkedin = "https://linkedin.com/in/XXXX"
+  github = "https://github.com/skipster2k2"
+  twitter = "https://twitter.com/IanAmes"
+  linkedin = "https://linkedin.com/in/ianames/"
 
   # Avatar (shown in the homepage)
   avatar = "images/ian_ames.jpg"
@@ -68,12 +68,3 @@ disqusShortname = "bento-hugo-theme"
       url = "/about"
       weight = 1
 
-  [[menu.main]]
-      name = "Archives"
-      url = "/archives"
-      weight = 1
-
-  [[menu.main]]
-      name = "Source code"
-      url = "https://github.com/leonardofaria/bento"
-      weight = 1

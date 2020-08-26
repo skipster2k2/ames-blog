@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>digital transformation on Bento</title>
-    <link>https://www.example.com/tags/digital-transformation/</link>
-    <description>Recent content in digital transformation on Bento</description>
+    <title>digital transformation on Ames World</title>
+    <link>https://www.ames.world/tags/digital-transformation/</link>
+    <description>Recent content in digital transformation on Ames World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Tue, 16 Aug 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.example.com/tags/digital-transformation/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ames.world/tags/digital-transformation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>User Research Is the Most Frustrating Thing Ever</title>
-      <link>https://www.example.com/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <link>https://www.ames.world/posts/user-research-is-the-most-frustrating-thing-ever/</link>
       <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <guid>https://www.ames.world/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
       <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.&lt;/p&gt;
 &lt;p&gt;Our team is made up of user researchers, a designer, a BA, developers and testers.&lt;/p&gt;
 &lt;p&gt;Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.&lt;/p&gt;
@@ -42,7 +42,7 @@ When a new feature is being misused, panned or worst of all ignored I can see th
 &lt;p&gt;We totally misjudged reactions and as a result we saved a ton of work restyling and regression testing our payment platform.&lt;/p&gt;
 &lt;h2 id=&#34;user-research-is-a-team-sport&#34;&gt;User Research is a team sport.&lt;/h2&gt;
 &lt;p&gt;So user research makes you want run into the room screaming JUST CLICK THE BUTTON RIGHT THERE!!!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.example.com/images/picard-click-the-button.jpeg&#34; alt=&#34;&#34; title=&#34;Jean Luc Picard saying just click the damn button&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ames.world/images/picard-click-the-button.jpeg&#34; alt=&#34;&#34; title=&#34;Jean Luc Picard saying just click the damn button&#34;&gt;&lt;/p&gt;
 &lt;p&gt;But expose the team to it anyway, it teaches humility, it teaches us to question why we are building the things we are building, and it teaches us to think ‘what would I do in a user shoes.’&lt;/p&gt;
 &lt;p&gt;So how do you do effective research without the team breaking down in tears every lab session:&lt;/p&gt;
 &lt;ol&gt;
