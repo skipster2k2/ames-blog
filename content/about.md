@@ -1,7 +1,6 @@
 ---
 title: "About Ian Ames"
 date: 2020-08-23T21:05:37+01:00
-draft: true
 ---
 
 ![](/images/ian_ames.jpg "Headshot of Ian Ames")
