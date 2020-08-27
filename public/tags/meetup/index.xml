@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meetup on Ames World</title>
+    <link>https://ames.world/tags/meetup/</link>
+    <description>Recent content in meetup on Ames World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://ames.world/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Story Crowdsourcing Game</title>
+      <link>https://ames.world/posts/story-crowdsourcing-game/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/story-crowdsourcing-game/</guid>
+      <description>&lt;p&gt;Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether remote meetup&lt;/a&gt;. (It is a very friendly meetup and well worth checking out).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/agile_ether.jpg&#34; alt=&#34;&#34; title=&#34;Screenshot of the Agile in the Ether attendees&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the detail of the game I facilitated:&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Tell a story that develops iteratively and everyone in the group contributes to.&lt;/p&gt;
+&lt;h2 id=&#34;instruction&#34;&gt;Instruction&lt;/h2&gt;
+&lt;p&gt;Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go. (It may help for the facilitator to start).&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Person 1: ‘Once upon a time there was a girl called Sam.’&lt;/em&gt;
+&lt;em&gt;Person 2: ‘Once upon a time there was a girl called Sam. She liked to ride bikes.’&lt;/em&gt;
+&lt;em&gt;Person 3: ‘Once upon a time there was a girl called Sam. She liked to ride bikes. Especially Harley Davidson’s.’&lt;/em&gt;
+etc etc.&lt;/p&gt;
+&lt;h2 id=&#34;what-this-demonstrates&#34;&gt;What this demonstrates&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;How something can change in unexpected ways when you iterate.&lt;/li&gt;
+&lt;li&gt;How continually adding can slow down and break things.&lt;/li&gt;
+&lt;li&gt;The challenge of communication in large groups.&lt;/li&gt;
+&lt;li&gt;Cognitive load (remembering all the sentences towards the end).&lt;/li&gt;
+&lt;li&gt;Writing things down (documentation) can sometimes help for complex tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;The feedback in the session was positive, attendees felt it was a good icebreaker and a good simple introduction to complexity. If you run this too, let me know how it went in the comments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

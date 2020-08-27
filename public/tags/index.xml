@@ -6,17 +6,125 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>business</title>
+      <link>https://ames.world/tags/business/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://ames.world/tags/learning/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapping</title>
+      <link>https://ames.world/tags/mapping/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strategy</title>
+      <link>https://ames.world/tags/strategy/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wardley maps</title>
+      <link>https://ames.world/tags/wardley-maps/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/wardley-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>communication</title>
+      <link>https://ames.world/tags/communication/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote working</title>
+      <link>https://ames.world/tags/remote-working/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/remote-working/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software development</title>
+      <link>https://ames.world/tags/software-development/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teamwork</title>
+      <link>https://ames.world/tags/teamwork/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/teamwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>agile</title>
       <link>https://ames.world/tags/agile/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coaching</title>
+      <link>https://ames.world/tags/coaching/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/coaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facilitation</title>
+      <link>https://ames.world/tags/facilitation/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/facilitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>https://ames.world/tags/meetup/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/meetup/</guid>
       <description></description>
     </item>
     
@@ -35,15 +143,6 @@
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/product-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software development</title>
-      <link>https://ames.world/tags/software-development/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/tags/software-development/</guid>
       <description></description>
     </item>
     
