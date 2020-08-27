@@ -31,7 +31,7 @@ disqusShortname = "bento-hugo-theme"
   # Show intro in the home page (with headline and description)
   intro = true
   headline = "Hi I'm Ian Ames"
-  description = "Thought on agile, sheds, software delivery, bikes, product management, robots, and anything else that is on my mind."
+  description = "Thoughts on agile, history, software delivery, bikes, product management, sheds, and anything else that is on my mind."
 
   # Copyright note in the footer
   copyright = "Copyright © 2020 Ian Ames"
