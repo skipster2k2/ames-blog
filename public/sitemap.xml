@@ -9,7 +9,47 @@
   
   <url>
     <loc>https://ames.world/</loc>
-    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/culture/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/interviews/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/onboarding/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/organisation-design/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/posts/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/recruitment/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/posts/what-would-a-great-onboarding-experience-look-like/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,22 +68,12 @@
   </url>
   
   <url>
-    <loc>https://ames.world/posts/</loc>
-    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ames.world/posts/reflections-on-map-camp/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ames.world/tags/strategy/</loc>
-    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ames.world/tags/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -100,6 +130,41 @@
   <url>
     <loc>https://ames.world/posts/story-crowdsourcing-game/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/posts/data-communication-fundamentals/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/data-engineering/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/messaging/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/network-design/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/network-engineering/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/posts/network-fundamentals/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/network-security/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network engineering on Ames World</title>
+    <link>https://ames.world/tags/network-engineering/</link>
+    <description>Recent content in network engineering on Ames World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://ames.world/tags/network-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Communication Fundamentals</title>
+      <link>https://ames.world/posts/data-communication-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/data-communication-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ames.world/images/data_components.jpg&#34; alt=&#34;&#34; title=&#34;Diagram showing the fundamental components of a data network, described in this article.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Concerns the basics of networking, starting with some common terminology of data transmission. This can be summarised as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A sender has some data they want to send to a receiver.&lt;/li&gt;
+&lt;li&gt;That data needs to be converted into a message for sending.&lt;/li&gt;
+&lt;li&gt;The message needs to be transmitted via some form of medium.&lt;/li&gt;
+&lt;li&gt;The receiver needs to be able to turn that signal back into the data that has been sent.&lt;/li&gt;
+&lt;li&gt;Therefore a system is needed to agree on rules between the sender and receiver about how the data will be converted into a signal, transmitted and converted back to data, this is called a &lt;em&gt;protocol&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In order for this system to be effective it needs to ensure:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Delivery&lt;/strong&gt;, to the correct destination.
+&lt;strong&gt;Accuracy&lt;/strong&gt;, to ensure the data received is the same as what was sent.
+&lt;strong&gt;Timeliness&lt;/strong&gt;, there is a minimum of delay in transmission of the signal.&lt;/p&gt;
+&lt;p&gt;This effectiveness can be hampered by:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attenuation&lt;/strong&gt;, the distance between sender and receiver is too far to be effective. (using the example of talking, if the receiver is too far away to hear the sender shouting at them, their signal is suffering from attenuation).
+&lt;strong&gt;Noise&lt;/strong&gt;, there is interference with the signal. (using the talking example, if there is a stereo on when the sender and receiver are communicating then the receiver may not hear what is being said and has to ask for the sender to repeat themselves).
+&lt;strong&gt;Delay&lt;/strong&gt;, the signal takes longer than is required to be transmitted. (the sender and receiver are trying to have a quick-fire conversation but can only use postal letters).&lt;/p&gt;
+&lt;h2 id=&#34;messaging&#34;&gt;Messaging&lt;/h2&gt;
+&lt;p&gt;For computers and other electronic devices, when messages are sent they take the form of analog or digital signals.
+Analog transmissions are broadcast as a wave and the protocol of the signal knows where each part of the wave corresponds to a particular part of data. so the peak of the wave may be an A, the trough of the wave a B.
+Digital transmission is via a series of voltage pushes, where a positive ‘push’ equals 1, and no push is 0. The sequence can then be translated to bits.
+In both scenarios, the message can be distorted by the three reasons given above resulting in degradation.&lt;/p&gt;
+&lt;h2 id=&#34;transmission&#34;&gt;Transmission&lt;/h2&gt;
+&lt;p&gt;Once we know the medium by which the message will be broadcast the next consideration is how to transmit it. There are two ways to transmit:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guided&lt;/strong&gt;. The message is sent directly to where it is supposed to go. Taking our non-computer analogy, this would be a letter. Only the receiver receives the sent data. In the case of computers. This is primarily via cables, such as Twisted Pair, Coax or Fibre Optics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unguided&lt;/strong&gt;. The message is broadcast so that anyone can receive it, For non-computer analogy, this would be talking in a crowded (but quiet room, maybe a library!) anyone within range can receive the signal. For computers, this is primarily WiFi or Bluetooth.&lt;/p&gt;
+&lt;p&gt;These transmissions can be sent in three different modes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simplex&lt;/strong&gt;, only the sender can transmit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Half duplex&lt;/strong&gt;, the sender and receiver can transmit but not at the same time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full duplex&lt;/strong&gt;, both the sender and receiver can send at the same time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network Fundamentals</title>
+      <link>https://ames.world/posts/network-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/network-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ames.world/images/network_fundamentals.jpg&#34; alt=&#34;&#34; title=&#34;An image showing a number of colourful Cat5 cables with the banner ‘Network fundamentals’&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Performance.&lt;/strong&gt; The sharing of data and resources doesn’t degrade the computers on the network.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reliability.&lt;/strong&gt; The network doesn’t fall over all the time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Security.&lt;/strong&gt; Data is only shared with those that should have access to it.&lt;/p&gt;
+&lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Peer to Peer&lt;/strong&gt; is where every node on the network has equal access to the network and each node shares data and resources. The advantages are you don’t have to fork out for servers, or administrators to manage the network. The disadvantages are that every user of the network has to ensure they have an access token for every host on the network, this doesn’t scale well and is a nightmare to manage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Client-Server&lt;/strong&gt; is where there is a centralised server managing users access tokens and credentials (in the case of a windows network via active directory). The advantages are that this scales well for large networks, users only have one set of credentials which know what roles and permissions the user has to resources on the network. Additionally, servers have more grunt so can manage multiple requests so performance is better. The disadvantages are it’s more expensive and requires administrators of the network.&lt;/p&gt;
+&lt;h2 id=&#34;network-scale&#34;&gt;Network Scale&lt;/h2&gt;
+&lt;p&gt;Depending on how big your network is, defines the best approach to designing it, there are a number of different designs:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Local Area Network.&lt;/strong&gt; LAN’s interconnect hosts within a small geographical area, usually an office. LAN’s are usually owned by the same company, and can be as big as a room, a floor, a building, or a campus of buildings. The course says data rates are faster than LAN’s. However, I’m not sure how true this is, Dark fibre networks, usually used in WAN’s can have speeds up to 10GBps, most LAN’s I have come across are rarely faster than 1Gbps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Metropolitan Area Network.&lt;/strong&gt; MAN’s interconnect hosts within a city sized area. MAN’s can be owned and utilised as public utilities or may be used to connect companies or campuses covering lots of buildings in a citywide area. They are often used to connect LAN’s in different buildings together.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wide Area Network.&lt;/strong&gt; WAN’s connect hosts that are ‘geographically dispersed, usually over 100km apart. Similar to MAN’s a WAN can be thought of as a number of LAN’s connected together via transmission lines and routers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Personal Area Network.&lt;/strong&gt; PAN’s are localised networks of a couple of metres for personal devices to communicate with one another. The devices may or may not belong to the person in question. PANs can be used for communication among the personal devices themselves (intrapersonal communication), or for connecting to a higher level network and the Internet (an uplink). PAN technology includes It can be made possible using IrDA, Bluetooth and USB.&lt;/p&gt;
+&lt;h2 id=&#34;physical-topology&#34;&gt;Physical Topology&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Physical topology&lt;/strong&gt; describes how we connect hosts together (primarily in cabled networks). There are 4 types: Star, Extended Star, Bus and Ring.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Star topology&lt;/strong&gt; is where all hosts are connected to one another via a central network device such as a hub or switch. This is a really common topology as it is easy to extend and the impact of cable failure is low as it only affects one device. However, if the hub or switch goes bang the whole network is down.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bus topology&lt;/strong&gt; is where all hosts are connected via one big pipe, all the devices can directly connect to one another with no device hops between them. However, if there is a fault in the Bus it affects all the devices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Extended Star&lt;/strong&gt; is a hybrid of star and bus topologies, where two star networks are connected to one another via a bus.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ring topology&lt;/strong&gt; is where all hosts are connected to each other directly via network cards to the hosts next to one another. The advantages are that there is no need for a central network device such as a hub or switch. If the ring network is multi-directional, it can handle cable failure. However, if a host in the network fails, the network fails, it is also difficult to extend.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

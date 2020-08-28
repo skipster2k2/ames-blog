@@ -6,10 +6,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>culture</title>
+      <link>https://ames.world/tags/culture/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interviews</title>
+      <link>https://ames.world/tags/interviews/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/interviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>onboarding</title>
+      <link>https://ames.world/tags/onboarding/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/onboarding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organisation design</title>
+      <link>https://ames.world/tags/organisation-design/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/organisation-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recruitment</title>
+      <link>https://ames.world/tags/recruitment/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/recruitment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>business</title>
@@ -125,6 +170,51 @@
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data engineering</title>
+      <link>https://ames.world/tags/data-engineering/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>messaging</title>
+      <link>https://ames.world/tags/messaging/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/messaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network design</title>
+      <link>https://ames.world/tags/network-design/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/network-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network engineering</title>
+      <link>https://ames.world/tags/network-engineering/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network security</title>
+      <link>https://ames.world/tags/network-security/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/network-security/</guid>
       <description></description>
     </item>
     
