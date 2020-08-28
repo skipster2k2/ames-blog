@@ -1,0 +1,89 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet Protocol on Ames World</title>
+    <link>https://ames.world/tags/internet-protocol/</link>
+    <description>Recent content in Internet Protocol on Ames World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://ames.world/tags/internet-protocol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPv4 Addressing</title>
+      <link>https://ames.world/posts/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/ipv4-addressing/</guid>
+      <description>&lt;p&gt;I briefly touched on IPv4 addresses in the TCP/IP suite. In summary IPv4 addresses are:
+Dot-separated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;32 bits long and represented in decimal.&lt;/li&gt;
+&lt;li&gt;There are just over 4 billion available addresses.&lt;/li&gt;
+&lt;li&gt;Therefore it is necessary to use subnetting to separate networks and duplicate IP addresses from one another.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/ipv4-binary.jpg&#34; alt=&#34;&#34; title=&#34;An IPv4 address shown in both binary and decimal dot notations&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ipv4-structure-and-what-it-represents&#34;&gt;IPv4 structure and what it represents&lt;/h3&gt;
+&lt;p&gt;So we know IP addresses are 32 bits long and that they are separated into 4 decimal numbers by dot separation (this is known as dotted decimal), therefore each number must represent 8bits.&lt;/p&gt;
+&lt;p&gt;Just as a reminder a bit is a binary digit, it can only represent a 0 or 1.
+Each 8 bit group is called an octet. If we were to look at the dotted decimal number 192.168.2.1 in binary it would be:&lt;/p&gt;
+&lt;p&gt;11000000.10101000.00000010.00000001&lt;/p&gt;
+&lt;p&gt;Wait what how did we make that leap? If you haven’t worked with binary before this can be a bit of a curveball. The best way I think of binary is to imagine how counting would have evolved if instead of 10 fingers we only had one on each hand.&lt;/p&gt;
+&lt;p&gt;So humans count in base 10 (decimal) because fingers, whereas computers, count in Base 2 (binary) because computers are basically a bucket load of on and off switches.
+So if we look at one octet that is all 1’s (and I’m pushing the limits of medium’s formatting here):&lt;/p&gt;
+&lt;p&gt;1 1 1 1 1 1 1 1&lt;/p&gt;
+&lt;p&gt;would be equal to:&lt;/p&gt;
+&lt;p&gt;2⁷ + 2⁶ + 2⁵ + 2⁴ + 2³ + 2² + 2¹ + 2⁰&lt;/p&gt;
+&lt;p&gt;in other words:&lt;/p&gt;
+&lt;p&gt;128 + 64 + 32 + 16 + 32 + 16 + 8 + 4 + 2 +1
+equals 255.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/9fe8184c907184fa23b5f1435feb6912.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;or in reverse if we took the first octet in our initial example, 192. 192 is made up of 128 + 64, therefore in 1’s and 0’s looks like:&lt;/p&gt;
+&lt;p&gt;128, 64, 32, 16, 32, 16, 8, 4, 2, 1&lt;/p&gt;
+&lt;p&gt;1 , 1 , 0 , 0 , 0 , 0 , 0 , 0&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/e268f0e0fec1abf43e9b14d3ffff0266.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;subnetting&#34;&gt;Subnetting&lt;/h2&gt;
+&lt;p&gt;As mentioned earlier IPv4 only has a puny 4 billion addresses. In order to be able to allocate more addresses, we use subnetting to divide the internet into separate sub-networks, where the same IP addresses can be used in each subnet, but cannot talk to one another directly.&lt;/p&gt;
+&lt;p&gt;Subnets are allocated via a subnet mask, this defines how many bits are to be allocated to the network, and how many for the host. A subnet tells the hosts within it that they can all talk to each other without passing through a router.&lt;/p&gt;
+&lt;h2 id=&#34;classful-networks&#34;&gt;Classful networks&lt;/h2&gt;
+&lt;p&gt;There are some standard defined subnets called Classful networks. The table below shows the three classes available for public use and the number of hosts you can allocate to them. The more observant amongst you may have noticed that the available hosts are 2 less than the total number of permutations, 2^(32-n) that’s because the .0 address is always reserved as the network address, and the highest number address is reserved as the broadcast address. Internet or Public IPs are assigned and managed by &lt;a href=&#34;https://www.iana.org/&#34;&gt;IANA&lt;/a&gt;.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/cf6ac01f1a22a290f3ba4c31edde134b.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;There are other classes but they are not publicly available and are reserved for uses such as by the military.&lt;/p&gt;
+&lt;p&gt;Sometimes you will see the subnet mask displayed after an IP address as such:
+192.168.2.1/16 this is called CIDR (Classless inter domain routing) notation and is a simple way of showing the IP and the number of bits assigned to the network. For classful networks this is always a full octet, and so will equal /8, /16 and /24 for Class A, B, and C subnets respectively.&lt;/p&gt;
+&lt;h2 id=&#34;classless-networks&#34;&gt;Classless networks.&lt;/h2&gt;
+&lt;p&gt;Classless networks are simply any subnet mask that doesn’t fit the classful pattern.
+Say for example you had a network of 157.28.0.0 with a subnet mask of 255.255.0.0 (i.e. a class B network). You want to create 4 networks for that IP address but they all need to be bigger than 254 hosts. That means making the subnet mask class C isn’t going to work as you won&amp;rsquo;t have enough hosts in each network, allocating the whole of the 3rd octet to the network is too much.&lt;/p&gt;
+&lt;p&gt;So to calculate what the 3rd octet will be we need to calculate the number of bits to dedicate to the network. As we found out earlier, the binary value of a decimal number is 2^n so if we need 4 networks we need to work out the square root of 4, which is 2. Therefore we need to change 2 bits from host (0) to network (1). In other words:&lt;/p&gt;
+&lt;p&gt;11000000&lt;/p&gt;
+&lt;p&gt;We can use our binary to decimal table to calculate the decimal value:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/e32a3fbc25e78dba8300ce702604a7b8.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;128 + 64 is 192. So our subnet mask is 255.255.192.0. We can also work out the CIDR notation is /18 as that is the number of bits we have assigned to the network (the first two octets plus the first 2 bits of the 3rd octet). Cool!&lt;/p&gt;
+&lt;p&gt;Next, we need to work out what the 4 networks within that subnet will be. Firstly we can ignore the first two octets, as they are 255.255. so we know for all 4 networks they will be 157.28.x.x&lt;/p&gt;
+&lt;p&gt;Next, we need to look at the variations of bits that we have allocated to the network (in this example the first 2 bits. The table below shows us all the permutations of bit setting we can have:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/bf627c64c7c4addcd6e228fa3d1e33d3.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;So from this, we know that our 4 networks are:&lt;/p&gt;
+&lt;p&gt;Network 1: 157.28.0.0/18&lt;/p&gt;
+&lt;p&gt;Network 2: 157.28.64.0/18&lt;/p&gt;
+&lt;p&gt;Network 3: 157.28.128.0/18&lt;/p&gt;
+&lt;p&gt;Network 4 157.28.192.0/18&lt;/p&gt;
+&lt;p&gt;Finally, now we know the 4 networks we can work out what the IP range for each one is.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s look at network 1, we now won&amp;rsquo;t change the bits assigned to the network and are instead interested in the bits assigned to the host, so the first 2 and last 2 IP addresses in binary will look like the table below:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/bca52e160c4a447bafd484d40fcd06d6.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Don&amp;rsquo;t forget that the first two bits in the 3rd octet can’t change because they are assigned to the network, not the hosts. It’s worth knowing here that the first and last IP in a network range are reserved. The first IP is the network address (in this case 157.28.0.0) and the last is the broadcast address (157.28.63. 255) the address for all hosts on the network to broadcast datagrams to one another. In which case our first network range is:&lt;/p&gt;
+&lt;p&gt;157.28.0.1 to 157.28.63.254.&lt;/p&gt;
+&lt;p&gt;Let’s work out the rest of the ranges:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/3011d0358dd89db58ad256721ea00d94.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Translated to decimal:&lt;/p&gt;
+&lt;p&gt;Network 1: 157.28.0.1 to 157.28.63.254&lt;/p&gt;
+&lt;p&gt;Network 2: 157.28.64.1 to 157.28.127.254&lt;/p&gt;
+&lt;p&gt;Network 3: 157.28.128.1 to 157.28.191.254&lt;/p&gt;
+&lt;p&gt;Network 4: 157.28.192.1 to 157.28.255.254&lt;/p&gt;
+&lt;p&gt;Ta da!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

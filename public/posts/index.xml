@@ -261,6 +261,257 @@ etc etc.&lt;/p&gt;
     </item>
     
     <item>
+      <title>IPv4 Addressing</title>
+      <link>https://ames.world/posts/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/ipv4-addressing/</guid>
+      <description>&lt;p&gt;I briefly touched on IPv4 addresses in the TCP/IP suite. In summary IPv4 addresses are:
+Dot-separated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;32 bits long and represented in decimal.&lt;/li&gt;
+&lt;li&gt;There are just over 4 billion available addresses.&lt;/li&gt;
+&lt;li&gt;Therefore it is necessary to use subnetting to separate networks and duplicate IP addresses from one another.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/ipv4-binary.jpg&#34; alt=&#34;&#34; title=&#34;An IPv4 address shown in both binary and decimal dot notations&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ipv4-structure-and-what-it-represents&#34;&gt;IPv4 structure and what it represents&lt;/h3&gt;
+&lt;p&gt;So we know IP addresses are 32 bits long and that they are separated into 4 decimal numbers by dot separation (this is known as dotted decimal), therefore each number must represent 8bits.&lt;/p&gt;
+&lt;p&gt;Just as a reminder a bit is a binary digit, it can only represent a 0 or 1.
+Each 8 bit group is called an octet. If we were to look at the dotted decimal number 192.168.2.1 in binary it would be:&lt;/p&gt;
+&lt;p&gt;11000000.10101000.00000010.00000001&lt;/p&gt;
+&lt;p&gt;Wait what how did we make that leap? If you haven’t worked with binary before this can be a bit of a curveball. The best way I think of binary is to imagine how counting would have evolved if instead of 10 fingers we only had one on each hand.&lt;/p&gt;
+&lt;p&gt;So humans count in base 10 (decimal) because fingers, whereas computers, count in Base 2 (binary) because computers are basically a bucket load of on and off switches.
+So if we look at one octet that is all 1’s (and I’m pushing the limits of medium’s formatting here):&lt;/p&gt;
+&lt;p&gt;1 1 1 1 1 1 1 1&lt;/p&gt;
+&lt;p&gt;would be equal to:&lt;/p&gt;
+&lt;p&gt;2⁷ + 2⁶ + 2⁵ + 2⁴ + 2³ + 2² + 2¹ + 2⁰&lt;/p&gt;
+&lt;p&gt;in other words:&lt;/p&gt;
+&lt;p&gt;128 + 64 + 32 + 16 + 32 + 16 + 8 + 4 + 2 +1
+equals 255.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/9fe8184c907184fa23b5f1435feb6912.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;or in reverse if we took the first octet in our initial example, 192. 192 is made up of 128 + 64, therefore in 1’s and 0’s looks like:&lt;/p&gt;
+&lt;p&gt;128, 64, 32, 16, 32, 16, 8, 4, 2, 1&lt;/p&gt;
+&lt;p&gt;1 , 1 , 0 , 0 , 0 , 0 , 0 , 0&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/e268f0e0fec1abf43e9b14d3ffff0266.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;subnetting&#34;&gt;Subnetting&lt;/h2&gt;
+&lt;p&gt;As mentioned earlier IPv4 only has a puny 4 billion addresses. In order to be able to allocate more addresses, we use subnetting to divide the internet into separate sub-networks, where the same IP addresses can be used in each subnet, but cannot talk to one another directly.&lt;/p&gt;
+&lt;p&gt;Subnets are allocated via a subnet mask, this defines how many bits are to be allocated to the network, and how many for the host. A subnet tells the hosts within it that they can all talk to each other without passing through a router.&lt;/p&gt;
+&lt;h2 id=&#34;classful-networks&#34;&gt;Classful networks&lt;/h2&gt;
+&lt;p&gt;There are some standard defined subnets called Classful networks. The table below shows the three classes available for public use and the number of hosts you can allocate to them. The more observant amongst you may have noticed that the available hosts are 2 less than the total number of permutations, 2^(32-n) that’s because the .0 address is always reserved as the network address, and the highest number address is reserved as the broadcast address. Internet or Public IPs are assigned and managed by &lt;a href=&#34;https://www.iana.org/&#34;&gt;IANA&lt;/a&gt;.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/cf6ac01f1a22a290f3ba4c31edde134b.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;There are other classes but they are not publicly available and are reserved for uses such as by the military.&lt;/p&gt;
+&lt;p&gt;Sometimes you will see the subnet mask displayed after an IP address as such:
+192.168.2.1/16 this is called CIDR (Classless inter domain routing) notation and is a simple way of showing the IP and the number of bits assigned to the network. For classful networks this is always a full octet, and so will equal /8, /16 and /24 for Class A, B, and C subnets respectively.&lt;/p&gt;
+&lt;h2 id=&#34;classless-networks&#34;&gt;Classless networks.&lt;/h2&gt;
+&lt;p&gt;Classless networks are simply any subnet mask that doesn’t fit the classful pattern.
+Say for example you had a network of 157.28.0.0 with a subnet mask of 255.255.0.0 (i.e. a class B network). You want to create 4 networks for that IP address but they all need to be bigger than 254 hosts. That means making the subnet mask class C isn’t going to work as you won&amp;rsquo;t have enough hosts in each network, allocating the whole of the 3rd octet to the network is too much.&lt;/p&gt;
+&lt;p&gt;So to calculate what the 3rd octet will be we need to calculate the number of bits to dedicate to the network. As we found out earlier, the binary value of a decimal number is 2^n so if we need 4 networks we need to work out the square root of 4, which is 2. Therefore we need to change 2 bits from host (0) to network (1). In other words:&lt;/p&gt;
+&lt;p&gt;11000000&lt;/p&gt;
+&lt;p&gt;We can use our binary to decimal table to calculate the decimal value:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/e32a3fbc25e78dba8300ce702604a7b8.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;128 + 64 is 192. So our subnet mask is 255.255.192.0. We can also work out the CIDR notation is /18 as that is the number of bits we have assigned to the network (the first two octets plus the first 2 bits of the 3rd octet). Cool!&lt;/p&gt;
+&lt;p&gt;Next, we need to work out what the 4 networks within that subnet will be. Firstly we can ignore the first two octets, as they are 255.255. so we know for all 4 networks they will be 157.28.x.x&lt;/p&gt;
+&lt;p&gt;Next, we need to look at the variations of bits that we have allocated to the network (in this example the first 2 bits. The table below shows us all the permutations of bit setting we can have:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/bf627c64c7c4addcd6e228fa3d1e33d3.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;So from this, we know that our 4 networks are:&lt;/p&gt;
+&lt;p&gt;Network 1: 157.28.0.0/18&lt;/p&gt;
+&lt;p&gt;Network 2: 157.28.64.0/18&lt;/p&gt;
+&lt;p&gt;Network 3: 157.28.128.0/18&lt;/p&gt;
+&lt;p&gt;Network 4 157.28.192.0/18&lt;/p&gt;
+&lt;p&gt;Finally, now we know the 4 networks we can work out what the IP range for each one is.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s look at network 1, we now won&amp;rsquo;t change the bits assigned to the network and are instead interested in the bits assigned to the host, so the first 2 and last 2 IP addresses in binary will look like the table below:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/bca52e160c4a447bafd484d40fcd06d6.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Don&amp;rsquo;t forget that the first two bits in the 3rd octet can’t change because they are assigned to the network, not the hosts. It’s worth knowing here that the first and last IP in a network range are reserved. The first IP is the network address (in this case 157.28.0.0) and the last is the broadcast address (157.28.63. 255) the address for all hosts on the network to broadcast datagrams to one another. In which case our first network range is:&lt;/p&gt;
+&lt;p&gt;157.28.0.1 to 157.28.63.254.&lt;/p&gt;
+&lt;p&gt;Let’s work out the rest of the ranges:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/3011d0358dd89db58ad256721ea00d94.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Translated to decimal:&lt;/p&gt;
+&lt;p&gt;Network 1: 157.28.0.1 to 157.28.63.254&lt;/p&gt;
+&lt;p&gt;Network 2: 157.28.64.1 to 157.28.127.254&lt;/p&gt;
+&lt;p&gt;Network 3: 157.28.128.1 to 157.28.191.254&lt;/p&gt;
+&lt;p&gt;Network 4: 157.28.192.1 to 157.28.255.254&lt;/p&gt;
+&lt;p&gt;Ta da!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TCP/IP Protocol Suite</title>
+      <link>https://ames.world/posts/tcp-ip-protocol-suite/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/tcp-ip-protocol-suite/</guid>
+      <description>&lt;p&gt;TCP/IP is a set of protocols that form the backbone of the internet. As I described in the &lt;a href=&#34;https://ames.world/posts/the-osi-model/&#34;&gt;OSI model post&lt;/a&gt;, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)&lt;/p&gt;
+&lt;p&gt;As with all real-world implementations TCP/IP &lt;em&gt;sort of&lt;/em&gt; follows the OSI Model.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All models are wrong but some are useful — George Box&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/tcp-vs-osi.jpg&#34; alt=&#34;&#34; title=&#34;Image showing the OSI model compared to the TCP/IP protocol suite. This is explained in detail below.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tcpip-applications&#34;&gt;TCP/IP Applications&lt;/h2&gt;
+&lt;p&gt;I won&amp;rsquo;t spend ages on TCP/IP applications but real-world context helped me make a bit more sense of the host layers in the OSI model. I had a bit of a hard time getting my head around the difference between application programs and the application layer. TCP/IP helped me suss out what was meant. For example when I open a web browser — an application program, it makes a call to HTTP — the protocol in the application layer of the OSI stack. The web browser itself is not represented in the model.&lt;/p&gt;
+&lt;p&gt;There are a whole bunch of protocols operating at this level to ensure different applications can access the network. Some common examples are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTTP (HyperText Transfer Protocol):&lt;/strong&gt; the rules for handling hypertext documents and hyperlinks, i.e. the world wide web.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SMTP (Simple Mail Transfer Protocol):&lt;/strong&gt; The rules for sending emails.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;POP3(Post Office Protocol) and IMAP (Internet Message Application Protocol):&lt;/strong&gt; The rules for receiving emails.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FTP (File Transfer Protocol):&lt;/strong&gt; The rules for sending files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SSH: (Secure Shell):&lt;/strong&gt; The rules for managing network services securely over the internet.&lt;/p&gt;
+&lt;h2 id=&#34;transmission-control-protocol-tcp&#34;&gt;Transmission Control Protocol (TCP)&lt;/h2&gt;
+&lt;p&gt;Because most communication on the internet requires a reliable connection, TCP has become the dominant protocol. It operates at the network layer of the OSI model and it establishes a reliable connection through a process called the three-way handshake:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host 1 sends a Synchronisation (SYN) Request to Host 2.&lt;/li&gt;
+&lt;li&gt;Host 2 receives the request and sends back a Synchronisation Acknowledgement (SYN/ACK) request back to Host 1.&lt;/li&gt;
+&lt;li&gt;On receipt of the SYN/ACK Host 1 sends a final Acknowledgement (ACK) back to Host 2 and the connection is established.&lt;/li&gt;
+&lt;li&gt;Data transfer (in the form of bytes) then takes place between the two hosts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This virtual circuit setup is called overhead. Additionally, the hosts don’t rely solely on the initial requests to ensure the reliability of the connection but instead will continue to check periodically to ensure it is still established and that data is flowing properly.&lt;/p&gt;
+&lt;p&gt;So that’s all great if one application is making a request but as we have seen there are loads of applications and the higher layers making requests. This can often be at a faster speed than the supporting network and can cause bottleneck issues. TCP manages this demand with a process called Flow Control. Flow control is a pull system (which as an agile delivery lead makes me very happy). The receiver is responsible for telling the sender that it has received data and it is ok to send more. Lovely!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The segments delivered are acknowledged back to the sender upon their reception.&lt;/li&gt;
+&lt;li&gt;Any segments not acknowledged are retransmitted.&lt;/li&gt;
+&lt;li&gt;Segments are sequenced back into their proper order upon arrival at their destination.&lt;/li&gt;
+&lt;li&gt;A manageable data flow is maintained in order to avoid congestion, overloading, and data loss.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This works well most of the time but it is still possible for the transmitting host to send a burst of data that is too much for the receiver to cope with. What happens then? The receiving host has a memory allocation called a buffer and it stores the burst of datagrams in this memory. (The origin of the dreaded ‘buffering’ message when viewing videos on the internet, a data-heavy process).&lt;/p&gt;
+&lt;p&gt;But what if the sender is so fast, it sends a massive stream of datagrams before the host has a chance to acknowledge it, and that is larger than the buffer? TCP has a plan for this too, in this scenario the receiving host sends a Not Ready indicator back to the sender, this is like an emergency brake and stops the sender from transmitting any more data until the host has had a chance to process the data in its buffer. Once the receiving host has done this it then transmits a Go indicator to the sender to resume data transfer.&lt;/p&gt;
+&lt;p&gt;Importantly the data is transferred in order from sender to receiver, this sequencing means that should any of the three failure scenarios mentioned above occur, both hosts know how far they have got through the transfer in order to resume after the failure is rectified.&lt;/p&gt;
+&lt;p&gt;These multiple levels of fault tolerance mean that TCP is a very reliable connection-oriented protocol because it has the following characteristics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A virtual circuit is set up (such as a three-way handshake).&lt;/li&gt;
+&lt;li&gt;It uses sequencing.&lt;/li&gt;
+&lt;li&gt;It uses acknowledgements.&lt;/li&gt;
+&lt;li&gt;It uses flow control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, it is possible to reduce the robustness of this process for the sake of throughput through a control called Windowing. As you can imagine, acknowledging every datagram received back to the host could be a hefty process for large file transfers. Windowing defines how many data segments (measured in bytes) can be sent before an acknowledgement is required back from the receiving host. For example, a window of 3 would mean that 3 bytes of data can be sent before the receiver needs to send the sender and acknowledgement. The larger the size of the window, the bigger the risk of a buffer overflow.&lt;/p&gt;
+&lt;p&gt;But how is sequencing ensured if the receiver only acknowledges every few data segments? This is done with acknowledgements. Say Host A wants to transmit the segments 123456789 with a window of 3 to Host B.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host A sends 1&lt;/li&gt;
+&lt;li&gt;Host A sends 2&lt;/li&gt;
+&lt;li&gt;Host A sends 3&lt;/li&gt;
+&lt;li&gt;Host B receives 123 and so acknowledges by requesting 4.&lt;/li&gt;
+&lt;li&gt;Host A sends 4&lt;/li&gt;
+&lt;li&gt;Host A loses connection whilst trying to send 5.&lt;/li&gt;
+&lt;li&gt;Host A sends 6&lt;/li&gt;
+&lt;li&gt;Host B now realises it is missing 5 so requests 5.&lt;/li&gt;
+&lt;li&gt;Host A sends 5&lt;/li&gt;
+&lt;li&gt;Host B now requests 7&lt;/li&gt;
+&lt;li&gt;etc etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;internet-protocol-ip&#34;&gt;Internet Protocol (IP)&lt;/h2&gt;
+&lt;p&gt;The Internet Protocol is concerned with addressing — ensuring data gets from the right source to the right destination. It sits unsurprisingly in the network layer of the OSI model.&lt;/p&gt;
+&lt;p&gt;There are currently two versions of the protocol in active use, IPv4 and IPv6.&lt;/p&gt;
+&lt;h3 id=&#34;ipv4&#34;&gt;IPv4&lt;/h3&gt;
+&lt;p&gt;IPv4 is the most well-known version. When most people talk about IP addresses they are describing an IPv4 address. They are made up of 4 dot-separated numerical values called octets. Each value is a decimal representation of a binary value. I will cover what this means (and how to calculate IP addresses and subnet masks in Week 2).&lt;/p&gt;
+&lt;p&gt;IPv4 is a 32 bit pool of addresses, this means that it is possible to have 4,294,967,296 (4 billion) addresses. This sounds like a lot but we have already nearly run out of IPv4 public addresses. Public addresses are those that are distributed by IANA (The Internet Assigned Number Authority) and are the IP representation of internet domain names. You can have many networks using the same IP addresses provided they are contained behind a subnet. A subnet is a logical subdivision of an IP network and can be described as Classful or Classless. This will be covered in more detail in Week 2.&lt;/p&gt;
+&lt;p&gt;An IPv4 address looks like this:&lt;/p&gt;
+&lt;p&gt;193.168.2.1/24&lt;/p&gt;
+&lt;p&gt;Where 192.168.2.1 is the host address and /24 is the subnet. The subnet can also be represented in dot-separated format, in the case of /24 this will be 255.255.255.0&lt;/p&gt;
+&lt;h3 id=&#34;ipv6&#34;&gt;IPv6&lt;/h3&gt;
+&lt;p&gt;IPv6 are 128-bit addresses, they are colon separated and represented in hexadecimal. The IPv6 pool of addresses is 340,282,366,920,938,463,463,374,607,431,768,211,456 or 340 billion billion billion billion addresses!! As a result, they don&amp;rsquo;t have a need for subnet’s. IPv6 headers are much smaller than IPv4 addresses, uses IPSec by default (encrypts the packets whilst being sent) it also broadcasts by default in Multicast mode.&lt;/p&gt;
+&lt;p&gt;An example IPv6 address looks like this:&lt;/p&gt;
+&lt;p&gt;2001:0DB8:0000:0000:0000:FF00:0042:8329&lt;/p&gt;
+&lt;p&gt;It is ok to remove all leading zeroes from an address:&lt;/p&gt;
+&lt;p&gt;2001:DB8:0:0:0:FF00:42:8329&lt;/p&gt;
+&lt;p&gt;And consecutive zeroes can be removed and represented by double colons. Although only once within the sequence:&lt;/p&gt;
+&lt;p&gt;2001:DB8::FF00:42:8329&lt;/p&gt;
+&lt;h2 id=&#34;network-access-or-link-layer&#34;&gt;Network Access or Link Layer&lt;/h2&gt;
+&lt;p&gt;The TCP/IP protocol suite is designed to be device agnostic and so doesnt concern itself too much with the link layer. As with the OSI model the link layer is concerned with moving packets between network hosts and includes protocols for translating logical IP addresses to physical MAC addresses such as the ARP (Address Resolution Protocol).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The OSI Model</title>
+      <link>https://ames.world/posts/the-osi-model/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/the-osi-model/</guid>
+      <description>&lt;p&gt;The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the &lt;a href=&#34;https://www.iso.org/ics/35.100/x/&#34;&gt;International Standard Organisation (ISO)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The model has seven layers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Application layer&lt;/li&gt;
+&lt;li&gt;Presentation layer&lt;/li&gt;
+&lt;li&gt;System layer&lt;/li&gt;
+&lt;li&gt;Transport layer&lt;/li&gt;
+&lt;li&gt;Network layer&lt;/li&gt;
+&lt;li&gt;Data layer&lt;/li&gt;
+&lt;li&gt;Physical layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Which can be remembered by either of two mnemonics:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All People Seem To Need Data Processing&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;or from the bottom up:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Please Do Not Throw Sausage Pizza Away&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/osi.jpg&#34; alt=&#34;&#34; title=&#34;Graphic showing the 7 OSI layers in detail, this is explained below.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-host-layers&#34;&gt;The Host Layers&lt;/h2&gt;
+&lt;p&gt;The first 4 layers of the model really work at the operating system/software level, within the host:&lt;/p&gt;
+&lt;h3 id=&#34;application-layer&#34;&gt;Application Layer&lt;/h3&gt;
+&lt;p&gt;I found the application layer a tad confusing, it doesn’t concern application programs as such but enables software to access network resources by providing the interface to the layers down the stack. It concerns itself with ensuring that other hosts in the network have the resources necessary to make a connection. It coordinates partnering applications and ensures that data integrity and error recovery procedures are in place. The application layer is only activated when it is apparent that access to the network will be needed soon.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-layer&#34;&gt;Presentation Layer&lt;/h3&gt;
+&lt;p&gt;The presentation layer presents the data to the application layer. It is responsible for encoding and decoding data ready for transmission. The standard defines how data should be formatted. Data compression, decompression, encryption, and decryption are all tasks fulfilled within this layer.&lt;/p&gt;
+&lt;h3 id=&#34;session-layer&#34;&gt;Session Layer&lt;/h3&gt;
+&lt;p&gt;The session layer is responsible for making sure that requests to the network from applications are only sent to and from that application. It ensures that data isn’t shared with other requesting applications on the host. It does this by creating, managing and removing a session for each application request to the network. It also coordinates communication between systems and defines which mode (discussed in &lt;a href=&#34;https://ames.world/posts/data-communication-fundamentals/&#34;&gt;data communication fundamentals&lt;/a&gt;) the transmission will be: simplex, half-duplex, or full-duplex.&lt;/p&gt;
+&lt;h3 id=&#34;transport-layer&#34;&gt;Transport Layer&lt;/h3&gt;
+&lt;p&gt;The transport layer is responsible for inserting data into a data stream and pushing it out from the host onto the network. This is where the Transmission Control Protocol (TCP) and the lesser-known UDP (User Datagram Protocol) do their thing. They are the rules for how to send the data from one host to another.&lt;/p&gt;
+&lt;p&gt;The key difference is that TCP provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts, whereas UDP is much more laissez-faire about data stream reliability. UDP is a connectionless protocol, it doesn&amp;rsquo;t care if the connection is broken, it values latency over reliability.&lt;/p&gt;
+&lt;h2 id=&#34;the-media-layers&#34;&gt;The Media Layers&lt;/h2&gt;
+&lt;p&gt;The next three layers are known as the media layers and are concerned with actually moving the data between hosts, starting with the:&lt;/p&gt;
+&lt;h3 id=&#34;network-layer&#34;&gt;Network Layer&lt;/h3&gt;
+&lt;p&gt;The network layer concerns itself with figuring out where devices on a network are so that it can figure out the path the data needs to take through the network to get from the sender to the receiver. The network layer manages logical device addressing (IP addresses) primarily through the use of routers.&lt;/p&gt;
+&lt;p&gt;Two types of packets are used at the Network layer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data Packets&lt;/strong&gt; are used to transport user data through the internetwork. Protocols used to support data traffic are called routed protocols. Two examples of routed protocols are Internet Protocol (IP) and Internet Protocol version 6 (IPv6), (which is next weeks topic, stay tuned folks!)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Route-Update Packets&lt;/strong&gt; are used to update neighbouring routers about the networks connected to all routers within the internetwork. Protocols that send route-update packets are called routing protocols, and some common ones are &lt;em&gt;Routing Information Protocol (RIP), RIPv2, Enhanced Interior Gateway Routing Protocol (EIGRP),&lt;/em&gt; and &lt;em&gt;Open Shortest Path First (OSPF).&lt;/em&gt; Route-update packets are used to help build and maintain routing tables on each router.&lt;/p&gt;
+&lt;p&gt;The route update packets are important as it helps ensure that data packets end up at the right network. I’m going to make up an analogy of how sending a letter would work if the postal service worked like routers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I want to send a letter to an address in Plymouth, I live in Birmingham.&lt;/li&gt;
+&lt;li&gt;So I send my letter to the Birmingham router.&lt;/li&gt;
+&lt;li&gt;The Birmingham router sends the letter to the Plymouth router.&lt;/li&gt;
+&lt;li&gt;The Plymouth router checks its network to see if it knows about the host.&lt;/li&gt;
+&lt;li&gt;If it does it acknowledges the letter (packet) and sends it out to the Plymouth network for delivery.&lt;/li&gt;
+&lt;li&gt;If it doesn’t it drops the letter (packet) and broadcasts an updated route-update packet to the Birmingham router and all adjacent routers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Routers know about where stuff is by maintaining a routing table. A routing table contains:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Network Addresses.&lt;/strong&gt; These are protocol-specific network addresses. A router must maintain a routing table for individual routing protocols because each routing protocol keeps track of a network that includes different addressing schemes, like IP and IPv6.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interface.&lt;/strong&gt; This is the exit interface a packet will take when destined for a specific network. I.e. whether the packet needs to enter the network behind the router or be forwarded onto another router.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Metric.&lt;/strong&gt; This value equals the distance to the remote network. Different routing protocols use different ways of computing this distance. Some routing protocols, namely RIP, use something called a hop count — the number of routers a packet passes through en route to a remote network. Other routing protocols alternatively use bandwidth, delay of the line, and even something known as a tick count, which equals 1/18 of a second, to make routing decisions.&lt;/p&gt;
+&lt;p&gt;Key attributes of a router are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Routers, by default, won’t forward any broadcast or multicast packets.&lt;/li&gt;
+&lt;li&gt;Routers use the logical address in a Network layer header to determine the next-hop router to forward the packet to.&lt;/li&gt;
+&lt;li&gt;Routers can use access lists, created by an administrator, to control security on the types of packets that are allowed to enter or exit an interface.&lt;/li&gt;
+&lt;li&gt;Routers can provide Layer 2 bridging functions if needed and can simultaneously route through the same interface.&lt;/li&gt;
+&lt;li&gt;Layer 3 devices (routers, in this case) provide connections between virtual LANs (VLANs).&lt;/li&gt;
+&lt;li&gt;Routers can provide quality of service (QoS) for specific types of network traffic. You can define that voice traffic takes precedence over data traffic for example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-link-layer&#34;&gt;Data Link Layer&lt;/h3&gt;
+&lt;p&gt;The Data Link layer provides the physical transmission of the data and handles error notification, network topology, and flow control. This means the Data Link layer ensures that messages are delivered to the proper device on a LAN using hardware (MAC) addresses and translates messages from the Network layer into bits for the Physical layer to transmit.&lt;/p&gt;
+&lt;p&gt;To take our letter from Birmingham to Plymouth analogy further. The router knows enough that the letter needs to go somewhere in Plymouth. Devices in the data link layer know the exact address in Plymouth to deliver the letter to.&lt;/p&gt;
+&lt;p&gt;The Data Link layer formats the message into pieces called a data frame and adds a customized header containing the destination and source hardware (MAC) address. This added information forms a sort of capsule that surrounds the original message to ensure once it has passed through the internetwork to get to a rough location, the devices in the data link layer have enough information to ensure it arrives at the exact destination.&lt;/p&gt;
+&lt;p&gt;Each time a packet is sent between routers, it’s framed with control information at the Data Link layer. However, that information is stripped off at the receiving router, and only the original packet is left completely intact. This framing of the packet continues for each hop until the packet is finally delivered to the correct receiving host. The packet itself is never altered along the route; it’s only encapsulated with the type of control information required for it to be properly passed on to its destination.&lt;/p&gt;
+&lt;p&gt;The data link layer has specifications defined by the Institute of Electrical and Electronics Engineers (IEEE). It has two sub-layers:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media Access Control (MAC)&lt;/strong&gt; Defines how packets are placed on the media. Contention media access is “first come, first served” access, where everyone shares the same bandwidth — hence the name. Physical addressing is defined here, as are logical topologies. What’s a logical topology? It’s the signal path through a physical topology.&lt;/p&gt;
+&lt;p&gt;Line discipline, error notification (not correction), ordered delivery of frames, and optional flow control can also be used at this sublayer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Logical Link Control (LLC)&lt;/strong&gt; is responsible for identifying Network layer protocols and then encapsulating them, an LLC header tells the Data Link layer what to do with a packet once a frame is received. It works like this: A host receives a frame and looks in the LLC header to find out where the packet is destined — say, the IP protocol at the Network layer. The LLC can also provide flow control and sequencing of control bits.&lt;/p&gt;
+&lt;p&gt;The IEEE work on standards is done by a number of subcomittees of a project known as 802. The 802 standards apply to different parts of the data link layer but the two most significant ones are 802.3 which defines standards for Ethernet networks and 802.11 which defines standards for wireless networks.&lt;/p&gt;
+&lt;h3 id=&#34;physical-layer&#34;&gt;Physical Layer&lt;/h3&gt;
+&lt;p&gt;The last one hooray! The Physical layer does two important things: it sends bits and receives bits and it communicates directly with the various types of actual communication media. Different kinds of media represent these bit values in different ways. Some use audio tones (bring back 56k modems yeah!), and others employ state transitions—changes in voltage from high to low and low to high. Specific protocols are needed for each type of media to describe the proper bit patterns to be used, how data is encoded into media signals, and the various qualities of the physical media&amp;rsquo;s attachment interface such as electrical, mechanical, procedural, and functional requirements for activating, maintaining, and deactivating a physical link between end systems.&lt;/p&gt;
+&lt;h2 id=&#34;encapsulation-and-headers&#34;&gt;Encapsulation and Headers&lt;/h2&gt;
+&lt;p&gt;That&amp;rsquo;s all cool but what does this all actually mean in practice? Well, the OSI layers mean that the different functions fulfilled within each layer are encapsulated from one another. Basically, each layer doesn&amp;rsquo;t need to know how something is done, just that it is done.&lt;/p&gt;
+&lt;p&gt;When a host transmits data across a network to another device, it’s wrapped with protocol information at each layer of the OSI model. This information is called the header. Each layer communicates only with its corresponding layer on the receiving device.&lt;/p&gt;
+&lt;p&gt;To communicate and exchange information, each layer uses Protocol Data Units (PDUs). These hold the control information attached to the data at each layer of the model. They’re usually attached to the header in front of the data field but can also be in the trailer, or end, of it.&lt;/p&gt;
+&lt;p&gt;At a transmitting device, the data-encapsulation method works like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User information is converted to data for transmission on the network.&lt;/li&gt;
+&lt;li&gt;Data is converted to segments, and a reliable connection is set up between the transmitting and receiving hosts.&lt;/li&gt;
+&lt;li&gt;Segments are converted to packets or datagrams, and a logical address is placed in the header so each packet can be routed through an internetwork. A packet carries a segment of data.&lt;/li&gt;
+&lt;li&gt;Packets or datagrams are converted to frames for transmission on the local network. Hardware (Ethernet) addresses are used to uniquely identify hosts on a local network segment. Frames carry packets.&lt;/li&gt;
+&lt;li&gt;Frames are converted to bits, and a digital encoding and clocking scheme is used.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And there we have it, a very large summary of how data gets from one computer to another.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Communication Fundamentals</title>
       <link>https://ames.world/posts/data-communication-fundamentals/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
@@ -532,6 +783,86 @@ So do I take a hat and gloves and a thicker jacket?&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Policies are organizational scar tissue. They are codiﬁed overreactions to unlikely-to-happen-again situations.&lt;/p&gt;&amp;mdash; Jason Fried (@jasonfried) &lt;a href=&#34;https://twitter.com/jasonfried/status/2758624714?ref_src=twsrc%5Etfw&#34;&gt;July 21, 2009&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;Eliminating all risks, even low probability, high impact ones will reduce your speed, introducing higher probabilities of things going wrong. In my experience, optimising for speed will reduce risk far more than trying to eliminate them all.&lt;/p&gt;
 &lt;p&gt;Let me know your experiences and thoughts in the comments below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hidden Plymouth, Route 1 - Stoke to Mutton Cove</title>
+      <link>https://ames.world/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</guid>
+      <description>&lt;p&gt;This route starts at &lt;a href=&#34;https://www.google.co.uk/maps/place/Stoke+Car+Park/@50.3805872,-4.1651648,15z/data=!4m5!3m4!1s0x0:0x880e5bffe7b91f5d!8m2!3d50.3805872!4d-4.1651648&#34;&gt;Stoke Village Car Park&lt;/a&gt;, which is free to park. It then climbs to what was once the highest point in Plymouth, before descending to sea level and back again.
+I have mapped the route on Strava so you can download it to a GPS, or print out the map.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/stoke-mutton-cove-route.jpg&#34; alt=&#34;&#34; title=&#34;Route map&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/stoke-mutton-cove-route-profile.jpg&#34; alt=&#34;&#34; title=&#34;Elevation Profile&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I have also run the route so you can see a fly through below:&lt;/p&gt;
+&lt;blockquote class=&#34;embedly-card&#34; data-card-controls=&#34;0&#34; data-card-key=&#34;f1631a41cb254ca5b035dc5747a5bd75&#34;&gt;&lt;h4&gt;&lt;a href=&#34;https://www.relive.cc/view/vNOPKV2J2vR?r=embed-site&#34;&gt;Relive &#39;New phone&#39;&lt;/a&gt;&lt;/h4&gt;&lt;/blockquote&gt;
+        &lt;script async src=&#34;https://cdn.embedly.com/widgets/platform.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;points-of-interest&#34;&gt;Points of interest&lt;/h2&gt;
+&lt;h3 id=&#34;blockhouse-park&#34;&gt;Blockhouse Park&lt;/h3&gt;
+&lt;p&gt;Before the city expanded toward Roborough this was the highest point in Plymouth and the 360˚ view from the Redoubt is one of the best in the city.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/blockhouse_park.jpg&#34; alt=&#34;&#34; title=&#34;The view north from Blockhouse Park redoubt, on the left is the dockyard that the fort was built to protect.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;‘Mount Pleasant &lt;a href=&#34;https://en.wikipedia.org/wiki/Redoubt&#34;&gt;Redoubt&lt;/a&gt;’ was first built in 1780 to protect the dockyard. According to a plaque at the entrance to the park it was modified in 1811 and had become obsolete by 1860.&lt;/p&gt;
+&lt;p&gt;A larger information board in the redoubt shows what it would have looked like and provides more information.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/mount_pleasant_redoubt.jpg&#34; alt=&#34;&#34; title=&#34;The information board in the redoubt.&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;clarendon-house&#34;&gt;Clarendon House&lt;/h3&gt;
+&lt;p&gt;As you leave Blockhouse park and come down Home Park, you are greeted with the imposing sight of Clarendon House.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/clarendon_house.jpg&#34; alt=&#34;&#34; title=&#34;Clarendon House&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On the right hand side of the main entrance is a plaque which states.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During the years 1940 to 1947 this building was the training centre for the Polish Navy and Headquarters of the Polish Navy Southern Command following the outbreak of World War II. This Plaque was unveiled on 20th May 2001, by the Lord Mayor of Plymouth, Councillor David Viney and Mr Stanislaw Szwabski chairman of Gydnia city council, to commemorate the 25th Anniversary of the twinning of Plymouth and Gydnia.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The building itself appears older than from the 1940’s. The excellent National Libraries of Scotland Historic maps website allows you to view old Ordnance Survey maps overlaid on modern maps. According to the 1854 to 1863 OS map, it appears that Clarendon house was previously an orphanage, the ‘Royal British Female Orphan Asylum.’&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/royal_british_female_orphan_asylum.jpg&#34; alt=&#34;&#34; title=&#34;A section of the 1854 to 1863 Ordnance Survey Map showing Clarendon House as the ‘Royal British Female Orphan Asylum.’ Image Courtesy of National Libraries of Scotland and Ordnance Survey.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This led me to &lt;a href=&#34;http://www.childrenshomes.org.uk&#34;&gt;www.childrenshomes.org.uk&lt;/a&gt; who have a detailed and fascinating page about the history of the &lt;a href=&#34;http://www.childrenshomes.org.uk/DevonportRoyal/&#34;&gt;Royal British Female Orphan Asylum&lt;/a&gt;. Clarendon House’s foundation stone was laid on April 23rd 1845 and according to the website it sounded quite the event:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The ceremony was witnessed by the Lord Lieutenant of Cornwall, the Mayors and Corporations of Plymouth and Devonport, the Magistrates of the County and Borough, the Commissioners of the town, the heads of Departments Naval and Military Officers, and many others who walked in procession to the site. It was said that the rich combination of masonic, civic naval and military uniforms, the military music, and the presence of well-dressed and beautiful females, attracted a crowd of 30,000 spectators.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;hms-doris-memorial&#34;&gt;H.M.S. Doris Memorial&lt;/h3&gt;
+&lt;p&gt;After passing Clarendon house the route takes you through the attractive cottages and town houses of Acre Place to Devonport Park, in my opinion the most beautiful park in Plymouth. Following the spherical central path offers sweeping views of the river Tamar and the dockyards below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/hms-doris-memorial.jpg&#34; alt=&#34;&#34; title=&#34;H.M.S. Doris Memorial with Higher Lodge in the background.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Eventually you come to the H.M.S. Doris Memorial. For a long time I mistakenly assumed the gun was one of the field guns used in the Boer war and commemorated in the annual Naval gun carry. The gun is actually a captured machine gun.
+The crew of H.M.S. Doris did have to drag a ships gun hundred of miles inland on an improvised carriage but it was much bigger than a field gun. The image below shows the 4.7 inch gun being fired at the &lt;a href=&#34;https://en.wikipedia.org/wiki/Battle_of_Magersfontein&#34;&gt;Battle of Magersfontein&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/4.7-inch-field-gun.jpg&#34; alt=&#34;&#34; title=&#34;Image courtesy of Imperial War Museum&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;raglan-gatehouse&#34;&gt;Raglan Gatehouse&lt;/h3&gt;
+&lt;p&gt;Just down from Devonport park on a rather long straight, and fairly bleak road is the Raglan Barracks gatehouse. The barracks are no more having been demolished in the 1970’s but the grade II listed gatehouse remains, albeit in a rather sorry state.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/raglan_gate.jpg&#34; alt=&#34;&#34; title=&#34;Raglan Barracks Gatehouse today.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The barracks were built between 1853 and 1858 during the Crimean Wars. The gate was designed by Captain Francis Fowke who also designed the Royal Albert Hall and parts of the Victoria and Albert Museum. The Devonport online website provides a comprehensive history of the barracks.&lt;/p&gt;
+&lt;p&gt;I find it hard to imagine the sheer size of the barracks parade ground. It doesn’t feel possible that such a large space existed just behind this building now that it is surrounded by flats.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/changing-of-colours.jpg&#34; alt=&#34;&#34; title=&#34;Changing of the colours on the enormous Raglan barracks parade ground in 1895. The gatehouse is in the background.&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;devonport-guildhall-column-and-egyptian-house&#34;&gt;Devonport Guildhall, Column and Egyptian House&lt;/h3&gt;
+&lt;p&gt;Devonport Guildhall is a legacy to the fact that the ‘City of Plymouth’ is a relatively recent creation. The three towns of Plymouth, Devonport and Stonehouse were merged in 1914 to become the city of Plymouth.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Correction. Wendy Andrews on Facebook has informed me that the three towns united in 1914 but didn’t become a city until 1928&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Before then the guildhall had been the administrative centre of Devonport, the largest and most prosperous of the towns.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/devonport.jpg&#34; alt=&#34;&#34; title=&#34;An engraving from circa 1825 showing Devonport Guildhall, the base of Devonport Column, the Egyptian styled library and the chapel.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Guildhall, Column and Egyptian House were designed by the architect &lt;a href=&#34;https://en.wikipedia.org/wiki/John_Foulston&#34;&gt;John Foulston&lt;/a&gt; who features heavily in Plymouth historical architecture. Originally there was also a chapel but during the extensive bombing of World War II it was destroyed. Indeed most of the surrounding area was destroyed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/bombed_devonport.jpg&#34; alt=&#34;&#34; title=&#34;Children play in the rubble left from the extensive bombing of Devonport during World War II.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A combination of the move of administrative power from the area, and the destruction of World War II led to the Guildhall falling into disuse. The column was also closed to the public in the 1950’s. The Egyptian house (one of only two buildings of this style in the country) started as a school, then a library and, would eventually become a social club which it still is today.&lt;/p&gt;
+&lt;p&gt;The surrounding area, Ker street, has been through two regenerations since the war. The first was a post-war high density set of flats which dwarfed the historic buildings. The poorly planned blocks led to social problems arising and the area of Devonport became a less desirable place to live.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/ker_st_flats.jpg&#34; alt=&#34;&#34; title=&#34;The post war flats built in Ker Street dwarf the Guildhall in 2005. Photo Courtesy Devonport Online.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In 2007 work was started in regenerating Ker Street aiming to reduce the density of the street and try to address the social issues of the area. Happily the Guildhall and Column was given a restoration grant and have been &lt;a href=&#34;https://devonportguildhall.org/history/&#34;&gt;painstakingly restored by the Real Ideas Organisation&lt;/a&gt;. The column is now a visitor attraction and the view is worth the climb up the 137 granite steps. The Guildhall is used for weddings, craft fairs and other events, it is also home to the excellent Column House bakery. The future is less certain for the Egyptian House having recently been sold by the owners of the social club after 30 years.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Correction. Mandie Leaves, the owner of the social club has informed me that it is still up and running and anyone is welcome to pop in. I for one will visit for a look inside.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/devonport_guildhall.jpg&#34; alt=&#34;&#34; title=&#34;Devonport Guildhall, Column and Egyptian House today, a very similar view to 1825.&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mutton-cove-and-mount-wise-pools&#34;&gt;Mutton Cove and Mount Wise Pools&lt;/h3&gt;
+&lt;p&gt;A short distance from the Guildhall is Mutton Cove, a charming harbour with views across the Tamar to Cornwall. I’m struggling to find any information about the history of the cove, so please comment if you have any leads.&lt;/p&gt;
+&lt;p&gt;Just to the west is Slipway Number 1 and the ‘King Billy’ figurehead. Slipway No 1 is the oldest covered slip in any Royal Navy dockyard. Built in around 1763, the roof wasn’t added until 1814.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/number-one-slip.jpg&#34; alt=&#34;&#34; title=&#34;The view from Mutton Cove, with Covered Slip No 1 and ‘King Billy’ figurehead on the right.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In front of the slip is the ‘King Billy’ figurehead, originally it was the figurehead on the 120 gun ship H.M.S. King William. When the ship was redesigned for steam power in 1859 the figurehead was replaced with a smaller one and the original was displayed in front of the slip. In the 1990’s the original figurehead was found to have significant rot and a fibreglass replica was made and now stands in its place. The original figurehead is now at home in the &lt;a href=&#34;https://devonportnhc.wordpress.com/&#34;&gt;Devonport Naval Heritage centre&lt;/a&gt;, and is being restored before being moved to &lt;a href=&#34;https://www.theboxplymouth.com/&#34;&gt;‘the Box’&lt;/a&gt;, Plymouth’s new museum, when it opens in 2020.&lt;/p&gt;
+&lt;p&gt;Along from Mutton Cove is Richmond Walk and the Mount Wise swimming pools. Richmond Walk was built in the 1790’s and 1800’s to provide local people with access to the shore as the Naval command at Mount Wise continued to expand. The swimming pools were built in 1924 and refurbished in 2000. They continue to be used today and are extremely popular in the summer months.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/mount-wise-pools.jpg&#34; alt=&#34;&#34; title=&#34;A typical queue for Mount Wise pools on a sunny summer day.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Just along from Mount Wise Pools is Blagdon’s boatyard. In 1831 this was the the site of Victoria Cottages. &lt;a href=&#34;https://en.wikipedia.org/wiki/Charles_Darwin&#34;&gt;Charles Darwin&lt;/a&gt; lodged here before embarking on H.M.S. Beagle to the Galapagos Islands.&lt;/p&gt;
+&lt;h3 id=&#34;stonehouse-creek-and-devonport-high-school-for-boys&#34;&gt;Stonehouse Creek and Devonport High School for Boys&lt;/h3&gt;
+&lt;p&gt;Richmond Walk ends at the excellent &lt;a href=&#34;http://www.jollyjacks.co.uk/&#34;&gt;Jolly Jacks restaurant&lt;/a&gt;, from there it is a short distance to Stonehouse Bridge. The bridge was designed by &lt;a href=&#34;https://en.wikipedia.org/wiki/John_Smeaton&#34;&gt;John Smeaton&lt;/a&gt;, (of Smeaton’s lighthouse fame) and opened in 1773 to join Devonport with the neighbouring town of Stonehouse. Stonehouse creek, which the bridge crosses, was filled in as far as Millbridge in 1972 to form the recreational grounds.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/stonehouse-creek.jpg&#34; alt=&#34;&#34; title=&#34;The recreation grounds behind Stonehouse Bridge, a rare piece of flat land in Plymouth!&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On the north side of the old creek is Devonport High School for boys. This imposing building was originally the Stoke Military Hospital and was built in 1797 for the British Army by Napoleonic prisoners of war. The design was based on the Naval hospital to the south of the creek, now the Millfields private estate. The Naval hospital was state of the art for its time and will be the subject of future articles.&lt;/p&gt;
+&lt;p&gt;The Stoke Military Hospital closed in 1945 after 148 years of use, initially the buildings then became two schools, Tamar High School and Devonport High School for Boys. Tamar High was closed and absorbed into DHSB in 1989.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/dhsb.jpg&#34; alt=&#34;&#34; title=&#34;Devonport High School for Boys, originally the Stoke Military Hospital&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;millbridge&#34;&gt;Millbridge&lt;/h3&gt;
+&lt;p&gt;Before the building of Stonehouse Bridge, Mill Bridge was the route across Stonehouse Creek to Stonehouse and Plymouth. Nowadays its not even obvious it was a bridge at all but originally both Stonehouse Creek and Victoria Park to the North East were open bodies of water (Victoria Park was known as the rather foreboding Deadlake). In 1813 the artist Turner sketched the view North towards Stoke Damerel showing the mill and bridge in the foreground.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/turner_millbridge.jpg&#34; alt=&#34;&#34; title=&#34;Turner’s Sketch of Millbridge and Stoke Damerel in 1813. Image courtesy of the Tate.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The first bridge was built in 1525 and was more of a dam to use the tidal power of the Deadlake to drive the mill. At its height the mill had three wheels driving 5 pairs of millstones however operation ended in the 19th century.&lt;/p&gt;
+&lt;p&gt;From Millbridge head North up Molesworth Road past Georgian and Victorian mansions to return to Stoke Village.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,10 +6,261 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/tags/network-engineering/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IPv4 Addressing</title>
+      <link>https://ames.world/posts/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/ipv4-addressing/</guid>
+      <description>&lt;p&gt;I briefly touched on IPv4 addresses in the TCP/IP suite. In summary IPv4 addresses are:
+Dot-separated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;32 bits long and represented in decimal.&lt;/li&gt;
+&lt;li&gt;There are just over 4 billion available addresses.&lt;/li&gt;
+&lt;li&gt;Therefore it is necessary to use subnetting to separate networks and duplicate IP addresses from one another.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/ipv4-binary.jpg&#34; alt=&#34;&#34; title=&#34;An IPv4 address shown in both binary and decimal dot notations&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ipv4-structure-and-what-it-represents&#34;&gt;IPv4 structure and what it represents&lt;/h3&gt;
+&lt;p&gt;So we know IP addresses are 32 bits long and that they are separated into 4 decimal numbers by dot separation (this is known as dotted decimal), therefore each number must represent 8bits.&lt;/p&gt;
+&lt;p&gt;Just as a reminder a bit is a binary digit, it can only represent a 0 or 1.
+Each 8 bit group is called an octet. If we were to look at the dotted decimal number 192.168.2.1 in binary it would be:&lt;/p&gt;
+&lt;p&gt;11000000.10101000.00000010.00000001&lt;/p&gt;
+&lt;p&gt;Wait what how did we make that leap? If you haven’t worked with binary before this can be a bit of a curveball. The best way I think of binary is to imagine how counting would have evolved if instead of 10 fingers we only had one on each hand.&lt;/p&gt;
+&lt;p&gt;So humans count in base 10 (decimal) because fingers, whereas computers, count in Base 2 (binary) because computers are basically a bucket load of on and off switches.
+So if we look at one octet that is all 1’s (and I’m pushing the limits of medium’s formatting here):&lt;/p&gt;
+&lt;p&gt;1 1 1 1 1 1 1 1&lt;/p&gt;
+&lt;p&gt;would be equal to:&lt;/p&gt;
+&lt;p&gt;2⁷ + 2⁶ + 2⁵ + 2⁴ + 2³ + 2² + 2¹ + 2⁰&lt;/p&gt;
+&lt;p&gt;in other words:&lt;/p&gt;
+&lt;p&gt;128 + 64 + 32 + 16 + 32 + 16 + 8 + 4 + 2 +1
+equals 255.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/9fe8184c907184fa23b5f1435feb6912.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;or in reverse if we took the first octet in our initial example, 192. 192 is made up of 128 + 64, therefore in 1’s and 0’s looks like:&lt;/p&gt;
+&lt;p&gt;128, 64, 32, 16, 32, 16, 8, 4, 2, 1&lt;/p&gt;
+&lt;p&gt;1 , 1 , 0 , 0 , 0 , 0 , 0 , 0&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/e268f0e0fec1abf43e9b14d3ffff0266.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;subnetting&#34;&gt;Subnetting&lt;/h2&gt;
+&lt;p&gt;As mentioned earlier IPv4 only has a puny 4 billion addresses. In order to be able to allocate more addresses, we use subnetting to divide the internet into separate sub-networks, where the same IP addresses can be used in each subnet, but cannot talk to one another directly.&lt;/p&gt;
+&lt;p&gt;Subnets are allocated via a subnet mask, this defines how many bits are to be allocated to the network, and how many for the host. A subnet tells the hosts within it that they can all talk to each other without passing through a router.&lt;/p&gt;
+&lt;h2 id=&#34;classful-networks&#34;&gt;Classful networks&lt;/h2&gt;
+&lt;p&gt;There are some standard defined subnets called Classful networks. The table below shows the three classes available for public use and the number of hosts you can allocate to them. The more observant amongst you may have noticed that the available hosts are 2 less than the total number of permutations, 2^(32-n) that’s because the .0 address is always reserved as the network address, and the highest number address is reserved as the broadcast address. Internet or Public IPs are assigned and managed by &lt;a href=&#34;https://www.iana.org/&#34;&gt;IANA&lt;/a&gt;.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/cf6ac01f1a22a290f3ba4c31edde134b.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;There are other classes but they are not publicly available and are reserved for uses such as by the military.&lt;/p&gt;
+&lt;p&gt;Sometimes you will see the subnet mask displayed after an IP address as such:
+192.168.2.1/16 this is called CIDR (Classless inter domain routing) notation and is a simple way of showing the IP and the number of bits assigned to the network. For classful networks this is always a full octet, and so will equal /8, /16 and /24 for Class A, B, and C subnets respectively.&lt;/p&gt;
+&lt;h2 id=&#34;classless-networks&#34;&gt;Classless networks.&lt;/h2&gt;
+&lt;p&gt;Classless networks are simply any subnet mask that doesn’t fit the classful pattern.
+Say for example you had a network of 157.28.0.0 with a subnet mask of 255.255.0.0 (i.e. a class B network). You want to create 4 networks for that IP address but they all need to be bigger than 254 hosts. That means making the subnet mask class C isn’t going to work as you won&amp;rsquo;t have enough hosts in each network, allocating the whole of the 3rd octet to the network is too much.&lt;/p&gt;
+&lt;p&gt;So to calculate what the 3rd octet will be we need to calculate the number of bits to dedicate to the network. As we found out earlier, the binary value of a decimal number is 2^n so if we need 4 networks we need to work out the square root of 4, which is 2. Therefore we need to change 2 bits from host (0) to network (1). In other words:&lt;/p&gt;
+&lt;p&gt;11000000&lt;/p&gt;
+&lt;p&gt;We can use our binary to decimal table to calculate the decimal value:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/e32a3fbc25e78dba8300ce702604a7b8.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;128 + 64 is 192. So our subnet mask is 255.255.192.0. We can also work out the CIDR notation is /18 as that is the number of bits we have assigned to the network (the first two octets plus the first 2 bits of the 3rd octet). Cool!&lt;/p&gt;
+&lt;p&gt;Next, we need to work out what the 4 networks within that subnet will be. Firstly we can ignore the first two octets, as they are 255.255. so we know for all 4 networks they will be 157.28.x.x&lt;/p&gt;
+&lt;p&gt;Next, we need to look at the variations of bits that we have allocated to the network (in this example the first 2 bits. The table below shows us all the permutations of bit setting we can have:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/bf627c64c7c4addcd6e228fa3d1e33d3.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;So from this, we know that our 4 networks are:&lt;/p&gt;
+&lt;p&gt;Network 1: 157.28.0.0/18&lt;/p&gt;
+&lt;p&gt;Network 2: 157.28.64.0/18&lt;/p&gt;
+&lt;p&gt;Network 3: 157.28.128.0/18&lt;/p&gt;
+&lt;p&gt;Network 4 157.28.192.0/18&lt;/p&gt;
+&lt;p&gt;Finally, now we know the 4 networks we can work out what the IP range for each one is.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s look at network 1, we now won&amp;rsquo;t change the bits assigned to the network and are instead interested in the bits assigned to the host, so the first 2 and last 2 IP addresses in binary will look like the table below:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/bca52e160c4a447bafd484d40fcd06d6.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Don&amp;rsquo;t forget that the first two bits in the 3rd octet can’t change because they are assigned to the network, not the hosts. It’s worth knowing here that the first and last IP in a network range are reserved. The first IP is the network address (in this case 157.28.0.0) and the last is the broadcast address (157.28.63. 255) the address for all hosts on the network to broadcast datagrams to one another. In which case our first network range is:&lt;/p&gt;
+&lt;p&gt;157.28.0.1 to 157.28.63.254.&lt;/p&gt;
+&lt;p&gt;Let’s work out the rest of the ranges:&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/skipster2k2/3011d0358dd89db58ad256721ea00d94.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Translated to decimal:&lt;/p&gt;
+&lt;p&gt;Network 1: 157.28.0.1 to 157.28.63.254&lt;/p&gt;
+&lt;p&gt;Network 2: 157.28.64.1 to 157.28.127.254&lt;/p&gt;
+&lt;p&gt;Network 3: 157.28.128.1 to 157.28.191.254&lt;/p&gt;
+&lt;p&gt;Network 4: 157.28.192.1 to 157.28.255.254&lt;/p&gt;
+&lt;p&gt;Ta da!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TCP/IP Protocol Suite</title>
+      <link>https://ames.world/posts/tcp-ip-protocol-suite/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/tcp-ip-protocol-suite/</guid>
+      <description>&lt;p&gt;TCP/IP is a set of protocols that form the backbone of the internet. As I described in the &lt;a href=&#34;https://ames.world/posts/the-osi-model/&#34;&gt;OSI model post&lt;/a&gt;, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)&lt;/p&gt;
+&lt;p&gt;As with all real-world implementations TCP/IP &lt;em&gt;sort of&lt;/em&gt; follows the OSI Model.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All models are wrong but some are useful — George Box&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/tcp-vs-osi.jpg&#34; alt=&#34;&#34; title=&#34;Image showing the OSI model compared to the TCP/IP protocol suite. This is explained in detail below.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tcpip-applications&#34;&gt;TCP/IP Applications&lt;/h2&gt;
+&lt;p&gt;I won&amp;rsquo;t spend ages on TCP/IP applications but real-world context helped me make a bit more sense of the host layers in the OSI model. I had a bit of a hard time getting my head around the difference between application programs and the application layer. TCP/IP helped me suss out what was meant. For example when I open a web browser — an application program, it makes a call to HTTP — the protocol in the application layer of the OSI stack. The web browser itself is not represented in the model.&lt;/p&gt;
+&lt;p&gt;There are a whole bunch of protocols operating at this level to ensure different applications can access the network. Some common examples are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTTP (HyperText Transfer Protocol):&lt;/strong&gt; the rules for handling hypertext documents and hyperlinks, i.e. the world wide web.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SMTP (Simple Mail Transfer Protocol):&lt;/strong&gt; The rules for sending emails.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;POP3(Post Office Protocol) and IMAP (Internet Message Application Protocol):&lt;/strong&gt; The rules for receiving emails.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FTP (File Transfer Protocol):&lt;/strong&gt; The rules for sending files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SSH: (Secure Shell):&lt;/strong&gt; The rules for managing network services securely over the internet.&lt;/p&gt;
+&lt;h2 id=&#34;transmission-control-protocol-tcp&#34;&gt;Transmission Control Protocol (TCP)&lt;/h2&gt;
+&lt;p&gt;Because most communication on the internet requires a reliable connection, TCP has become the dominant protocol. It operates at the network layer of the OSI model and it establishes a reliable connection through a process called the three-way handshake:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host 1 sends a Synchronisation (SYN) Request to Host 2.&lt;/li&gt;
+&lt;li&gt;Host 2 receives the request and sends back a Synchronisation Acknowledgement (SYN/ACK) request back to Host 1.&lt;/li&gt;
+&lt;li&gt;On receipt of the SYN/ACK Host 1 sends a final Acknowledgement (ACK) back to Host 2 and the connection is established.&lt;/li&gt;
+&lt;li&gt;Data transfer (in the form of bytes) then takes place between the two hosts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This virtual circuit setup is called overhead. Additionally, the hosts don’t rely solely on the initial requests to ensure the reliability of the connection but instead will continue to check periodically to ensure it is still established and that data is flowing properly.&lt;/p&gt;
+&lt;p&gt;So that’s all great if one application is making a request but as we have seen there are loads of applications and the higher layers making requests. This can often be at a faster speed than the supporting network and can cause bottleneck issues. TCP manages this demand with a process called Flow Control. Flow control is a pull system (which as an agile delivery lead makes me very happy). The receiver is responsible for telling the sender that it has received data and it is ok to send more. Lovely!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The segments delivered are acknowledged back to the sender upon their reception.&lt;/li&gt;
+&lt;li&gt;Any segments not acknowledged are retransmitted.&lt;/li&gt;
+&lt;li&gt;Segments are sequenced back into their proper order upon arrival at their destination.&lt;/li&gt;
+&lt;li&gt;A manageable data flow is maintained in order to avoid congestion, overloading, and data loss.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This works well most of the time but it is still possible for the transmitting host to send a burst of data that is too much for the receiver to cope with. What happens then? The receiving host has a memory allocation called a buffer and it stores the burst of datagrams in this memory. (The origin of the dreaded ‘buffering’ message when viewing videos on the internet, a data-heavy process).&lt;/p&gt;
+&lt;p&gt;But what if the sender is so fast, it sends a massive stream of datagrams before the host has a chance to acknowledge it, and that is larger than the buffer? TCP has a plan for this too, in this scenario the receiving host sends a Not Ready indicator back to the sender, this is like an emergency brake and stops the sender from transmitting any more data until the host has had a chance to process the data in its buffer. Once the receiving host has done this it then transmits a Go indicator to the sender to resume data transfer.&lt;/p&gt;
+&lt;p&gt;Importantly the data is transferred in order from sender to receiver, this sequencing means that should any of the three failure scenarios mentioned above occur, both hosts know how far they have got through the transfer in order to resume after the failure is rectified.&lt;/p&gt;
+&lt;p&gt;These multiple levels of fault tolerance mean that TCP is a very reliable connection-oriented protocol because it has the following characteristics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A virtual circuit is set up (such as a three-way handshake).&lt;/li&gt;
+&lt;li&gt;It uses sequencing.&lt;/li&gt;
+&lt;li&gt;It uses acknowledgements.&lt;/li&gt;
+&lt;li&gt;It uses flow control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, it is possible to reduce the robustness of this process for the sake of throughput through a control called Windowing. As you can imagine, acknowledging every datagram received back to the host could be a hefty process for large file transfers. Windowing defines how many data segments (measured in bytes) can be sent before an acknowledgement is required back from the receiving host. For example, a window of 3 would mean that 3 bytes of data can be sent before the receiver needs to send the sender and acknowledgement. The larger the size of the window, the bigger the risk of a buffer overflow.&lt;/p&gt;
+&lt;p&gt;But how is sequencing ensured if the receiver only acknowledges every few data segments? This is done with acknowledgements. Say Host A wants to transmit the segments 123456789 with a window of 3 to Host B.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host A sends 1&lt;/li&gt;
+&lt;li&gt;Host A sends 2&lt;/li&gt;
+&lt;li&gt;Host A sends 3&lt;/li&gt;
+&lt;li&gt;Host B receives 123 and so acknowledges by requesting 4.&lt;/li&gt;
+&lt;li&gt;Host A sends 4&lt;/li&gt;
+&lt;li&gt;Host A loses connection whilst trying to send 5.&lt;/li&gt;
+&lt;li&gt;Host A sends 6&lt;/li&gt;
+&lt;li&gt;Host B now realises it is missing 5 so requests 5.&lt;/li&gt;
+&lt;li&gt;Host A sends 5&lt;/li&gt;
+&lt;li&gt;Host B now requests 7&lt;/li&gt;
+&lt;li&gt;etc etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;internet-protocol-ip&#34;&gt;Internet Protocol (IP)&lt;/h2&gt;
+&lt;p&gt;The Internet Protocol is concerned with addressing — ensuring data gets from the right source to the right destination. It sits unsurprisingly in the network layer of the OSI model.&lt;/p&gt;
+&lt;p&gt;There are currently two versions of the protocol in active use, IPv4 and IPv6.&lt;/p&gt;
+&lt;h3 id=&#34;ipv4&#34;&gt;IPv4&lt;/h3&gt;
+&lt;p&gt;IPv4 is the most well-known version. When most people talk about IP addresses they are describing an IPv4 address. They are made up of 4 dot-separated numerical values called octets. Each value is a decimal representation of a binary value. I will cover what this means (and how to calculate IP addresses and subnet masks in Week 2).&lt;/p&gt;
+&lt;p&gt;IPv4 is a 32 bit pool of addresses, this means that it is possible to have 4,294,967,296 (4 billion) addresses. This sounds like a lot but we have already nearly run out of IPv4 public addresses. Public addresses are those that are distributed by IANA (The Internet Assigned Number Authority) and are the IP representation of internet domain names. You can have many networks using the same IP addresses provided they are contained behind a subnet. A subnet is a logical subdivision of an IP network and can be described as Classful or Classless. This will be covered in more detail in Week 2.&lt;/p&gt;
+&lt;p&gt;An IPv4 address looks like this:&lt;/p&gt;
+&lt;p&gt;193.168.2.1/24&lt;/p&gt;
+&lt;p&gt;Where 192.168.2.1 is the host address and /24 is the subnet. The subnet can also be represented in dot-separated format, in the case of /24 this will be 255.255.255.0&lt;/p&gt;
+&lt;h3 id=&#34;ipv6&#34;&gt;IPv6&lt;/h3&gt;
+&lt;p&gt;IPv6 are 128-bit addresses, they are colon separated and represented in hexadecimal. The IPv6 pool of addresses is 340,282,366,920,938,463,463,374,607,431,768,211,456 or 340 billion billion billion billion addresses!! As a result, they don&amp;rsquo;t have a need for subnet’s. IPv6 headers are much smaller than IPv4 addresses, uses IPSec by default (encrypts the packets whilst being sent) it also broadcasts by default in Multicast mode.&lt;/p&gt;
+&lt;p&gt;An example IPv6 address looks like this:&lt;/p&gt;
+&lt;p&gt;2001:0DB8:0000:0000:0000:FF00:0042:8329&lt;/p&gt;
+&lt;p&gt;It is ok to remove all leading zeroes from an address:&lt;/p&gt;
+&lt;p&gt;2001:DB8:0:0:0:FF00:42:8329&lt;/p&gt;
+&lt;p&gt;And consecutive zeroes can be removed and represented by double colons. Although only once within the sequence:&lt;/p&gt;
+&lt;p&gt;2001:DB8::FF00:42:8329&lt;/p&gt;
+&lt;h2 id=&#34;network-access-or-link-layer&#34;&gt;Network Access or Link Layer&lt;/h2&gt;
+&lt;p&gt;The TCP/IP protocol suite is designed to be device agnostic and so doesnt concern itself too much with the link layer. As with the OSI model the link layer is concerned with moving packets between network hosts and includes protocols for translating logical IP addresses to physical MAC addresses such as the ARP (Address Resolution Protocol).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The OSI Model</title>
+      <link>https://ames.world/posts/the-osi-model/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/the-osi-model/</guid>
+      <description>&lt;p&gt;The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the &lt;a href=&#34;https://www.iso.org/ics/35.100/x/&#34;&gt;International Standard Organisation (ISO)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The model has seven layers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Application layer&lt;/li&gt;
+&lt;li&gt;Presentation layer&lt;/li&gt;
+&lt;li&gt;System layer&lt;/li&gt;
+&lt;li&gt;Transport layer&lt;/li&gt;
+&lt;li&gt;Network layer&lt;/li&gt;
+&lt;li&gt;Data layer&lt;/li&gt;
+&lt;li&gt;Physical layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Which can be remembered by either of two mnemonics:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All People Seem To Need Data Processing&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;or from the bottom up:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Please Do Not Throw Sausage Pizza Away&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/osi.jpg&#34; alt=&#34;&#34; title=&#34;Graphic showing the 7 OSI layers in detail, this is explained below.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-host-layers&#34;&gt;The Host Layers&lt;/h2&gt;
+&lt;p&gt;The first 4 layers of the model really work at the operating system/software level, within the host:&lt;/p&gt;
+&lt;h3 id=&#34;application-layer&#34;&gt;Application Layer&lt;/h3&gt;
+&lt;p&gt;I found the application layer a tad confusing, it doesn’t concern application programs as such but enables software to access network resources by providing the interface to the layers down the stack. It concerns itself with ensuring that other hosts in the network have the resources necessary to make a connection. It coordinates partnering applications and ensures that data integrity and error recovery procedures are in place. The application layer is only activated when it is apparent that access to the network will be needed soon.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-layer&#34;&gt;Presentation Layer&lt;/h3&gt;
+&lt;p&gt;The presentation layer presents the data to the application layer. It is responsible for encoding and decoding data ready for transmission. The standard defines how data should be formatted. Data compression, decompression, encryption, and decryption are all tasks fulfilled within this layer.&lt;/p&gt;
+&lt;h3 id=&#34;session-layer&#34;&gt;Session Layer&lt;/h3&gt;
+&lt;p&gt;The session layer is responsible for making sure that requests to the network from applications are only sent to and from that application. It ensures that data isn’t shared with other requesting applications on the host. It does this by creating, managing and removing a session for each application request to the network. It also coordinates communication between systems and defines which mode (discussed in &lt;a href=&#34;https://ames.world/posts/data-communication-fundamentals/&#34;&gt;data communication fundamentals&lt;/a&gt;) the transmission will be: simplex, half-duplex, or full-duplex.&lt;/p&gt;
+&lt;h3 id=&#34;transport-layer&#34;&gt;Transport Layer&lt;/h3&gt;
+&lt;p&gt;The transport layer is responsible for inserting data into a data stream and pushing it out from the host onto the network. This is where the Transmission Control Protocol (TCP) and the lesser-known UDP (User Datagram Protocol) do their thing. They are the rules for how to send the data from one host to another.&lt;/p&gt;
+&lt;p&gt;The key difference is that TCP provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts, whereas UDP is much more laissez-faire about data stream reliability. UDP is a connectionless protocol, it doesn&amp;rsquo;t care if the connection is broken, it values latency over reliability.&lt;/p&gt;
+&lt;h2 id=&#34;the-media-layers&#34;&gt;The Media Layers&lt;/h2&gt;
+&lt;p&gt;The next three layers are known as the media layers and are concerned with actually moving the data between hosts, starting with the:&lt;/p&gt;
+&lt;h3 id=&#34;network-layer&#34;&gt;Network Layer&lt;/h3&gt;
+&lt;p&gt;The network layer concerns itself with figuring out where devices on a network are so that it can figure out the path the data needs to take through the network to get from the sender to the receiver. The network layer manages logical device addressing (IP addresses) primarily through the use of routers.&lt;/p&gt;
+&lt;p&gt;Two types of packets are used at the Network layer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data Packets&lt;/strong&gt; are used to transport user data through the internetwork. Protocols used to support data traffic are called routed protocols. Two examples of routed protocols are Internet Protocol (IP) and Internet Protocol version 6 (IPv6), (which is next weeks topic, stay tuned folks!)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Route-Update Packets&lt;/strong&gt; are used to update neighbouring routers about the networks connected to all routers within the internetwork. Protocols that send route-update packets are called routing protocols, and some common ones are &lt;em&gt;Routing Information Protocol (RIP), RIPv2, Enhanced Interior Gateway Routing Protocol (EIGRP),&lt;/em&gt; and &lt;em&gt;Open Shortest Path First (OSPF).&lt;/em&gt; Route-update packets are used to help build and maintain routing tables on each router.&lt;/p&gt;
+&lt;p&gt;The route update packets are important as it helps ensure that data packets end up at the right network. I’m going to make up an analogy of how sending a letter would work if the postal service worked like routers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I want to send a letter to an address in Plymouth, I live in Birmingham.&lt;/li&gt;
+&lt;li&gt;So I send my letter to the Birmingham router.&lt;/li&gt;
+&lt;li&gt;The Birmingham router sends the letter to the Plymouth router.&lt;/li&gt;
+&lt;li&gt;The Plymouth router checks its network to see if it knows about the host.&lt;/li&gt;
+&lt;li&gt;If it does it acknowledges the letter (packet) and sends it out to the Plymouth network for delivery.&lt;/li&gt;
+&lt;li&gt;If it doesn’t it drops the letter (packet) and broadcasts an updated route-update packet to the Birmingham router and all adjacent routers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Routers know about where stuff is by maintaining a routing table. A routing table contains:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Network Addresses.&lt;/strong&gt; These are protocol-specific network addresses. A router must maintain a routing table for individual routing protocols because each routing protocol keeps track of a network that includes different addressing schemes, like IP and IPv6.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interface.&lt;/strong&gt; This is the exit interface a packet will take when destined for a specific network. I.e. whether the packet needs to enter the network behind the router or be forwarded onto another router.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Metric.&lt;/strong&gt; This value equals the distance to the remote network. Different routing protocols use different ways of computing this distance. Some routing protocols, namely RIP, use something called a hop count — the number of routers a packet passes through en route to a remote network. Other routing protocols alternatively use bandwidth, delay of the line, and even something known as a tick count, which equals 1/18 of a second, to make routing decisions.&lt;/p&gt;
+&lt;p&gt;Key attributes of a router are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Routers, by default, won’t forward any broadcast or multicast packets.&lt;/li&gt;
+&lt;li&gt;Routers use the logical address in a Network layer header to determine the next-hop router to forward the packet to.&lt;/li&gt;
+&lt;li&gt;Routers can use access lists, created by an administrator, to control security on the types of packets that are allowed to enter or exit an interface.&lt;/li&gt;
+&lt;li&gt;Routers can provide Layer 2 bridging functions if needed and can simultaneously route through the same interface.&lt;/li&gt;
+&lt;li&gt;Layer 3 devices (routers, in this case) provide connections between virtual LANs (VLANs).&lt;/li&gt;
+&lt;li&gt;Routers can provide quality of service (QoS) for specific types of network traffic. You can define that voice traffic takes precedence over data traffic for example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-link-layer&#34;&gt;Data Link Layer&lt;/h3&gt;
+&lt;p&gt;The Data Link layer provides the physical transmission of the data and handles error notification, network topology, and flow control. This means the Data Link layer ensures that messages are delivered to the proper device on a LAN using hardware (MAC) addresses and translates messages from the Network layer into bits for the Physical layer to transmit.&lt;/p&gt;
+&lt;p&gt;To take our letter from Birmingham to Plymouth analogy further. The router knows enough that the letter needs to go somewhere in Plymouth. Devices in the data link layer know the exact address in Plymouth to deliver the letter to.&lt;/p&gt;
+&lt;p&gt;The Data Link layer formats the message into pieces called a data frame and adds a customized header containing the destination and source hardware (MAC) address. This added information forms a sort of capsule that surrounds the original message to ensure once it has passed through the internetwork to get to a rough location, the devices in the data link layer have enough information to ensure it arrives at the exact destination.&lt;/p&gt;
+&lt;p&gt;Each time a packet is sent between routers, it’s framed with control information at the Data Link layer. However, that information is stripped off at the receiving router, and only the original packet is left completely intact. This framing of the packet continues for each hop until the packet is finally delivered to the correct receiving host. The packet itself is never altered along the route; it’s only encapsulated with the type of control information required for it to be properly passed on to its destination.&lt;/p&gt;
+&lt;p&gt;The data link layer has specifications defined by the Institute of Electrical and Electronics Engineers (IEEE). It has two sub-layers:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media Access Control (MAC)&lt;/strong&gt; Defines how packets are placed on the media. Contention media access is “first come, first served” access, where everyone shares the same bandwidth — hence the name. Physical addressing is defined here, as are logical topologies. What’s a logical topology? It’s the signal path through a physical topology.&lt;/p&gt;
+&lt;p&gt;Line discipline, error notification (not correction), ordered delivery of frames, and optional flow control can also be used at this sublayer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Logical Link Control (LLC)&lt;/strong&gt; is responsible for identifying Network layer protocols and then encapsulating them, an LLC header tells the Data Link layer what to do with a packet once a frame is received. It works like this: A host receives a frame and looks in the LLC header to find out where the packet is destined — say, the IP protocol at the Network layer. The LLC can also provide flow control and sequencing of control bits.&lt;/p&gt;
+&lt;p&gt;The IEEE work on standards is done by a number of subcomittees of a project known as 802. The 802 standards apply to different parts of the data link layer but the two most significant ones are 802.3 which defines standards for Ethernet networks and 802.11 which defines standards for wireless networks.&lt;/p&gt;
+&lt;h3 id=&#34;physical-layer&#34;&gt;Physical Layer&lt;/h3&gt;
+&lt;p&gt;The last one hooray! The Physical layer does two important things: it sends bits and receives bits and it communicates directly with the various types of actual communication media. Different kinds of media represent these bit values in different ways. Some use audio tones (bring back 56k modems yeah!), and others employ state transitions—changes in voltage from high to low and low to high. Specific protocols are needed for each type of media to describe the proper bit patterns to be used, how data is encoded into media signals, and the various qualities of the physical media&amp;rsquo;s attachment interface such as electrical, mechanical, procedural, and functional requirements for activating, maintaining, and deactivating a physical link between end systems.&lt;/p&gt;
+&lt;h2 id=&#34;encapsulation-and-headers&#34;&gt;Encapsulation and Headers&lt;/h2&gt;
+&lt;p&gt;That&amp;rsquo;s all cool but what does this all actually mean in practice? Well, the OSI layers mean that the different functions fulfilled within each layer are encapsulated from one another. Basically, each layer doesn&amp;rsquo;t need to know how something is done, just that it is done.&lt;/p&gt;
+&lt;p&gt;When a host transmits data across a network to another device, it’s wrapped with protocol information at each layer of the OSI model. This information is called the header. Each layer communicates only with its corresponding layer on the receiving device.&lt;/p&gt;
+&lt;p&gt;To communicate and exchange information, each layer uses Protocol Data Units (PDUs). These hold the control information attached to the data at each layer of the model. They’re usually attached to the header in front of the data field but can also be in the trailer, or end, of it.&lt;/p&gt;
+&lt;p&gt;At a transmitting device, the data-encapsulation method works like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User information is converted to data for transmission on the network.&lt;/li&gt;
+&lt;li&gt;Data is converted to segments, and a reliable connection is set up between the transmitting and receiving hosts.&lt;/li&gt;
+&lt;li&gt;Segments are converted to packets or datagrams, and a logical address is placed in the header so each packet can be routed through an internetwork. A packet carries a segment of data.&lt;/li&gt;
+&lt;li&gt;Packets or datagrams are converted to frames for transmission on the local network. Hardware (Ethernet) addresses are used to uniquely identify hosts on a local network segment. Frames carry packets.&lt;/li&gt;
+&lt;li&gt;Frames are converted to bits, and a digital encoding and clocking scheme is used.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And there we have it, a very large summary of how data gets from one computer to another.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Data Communication Fundamentals</title>

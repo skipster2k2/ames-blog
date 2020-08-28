@@ -1,0 +1,97 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TCP/IP on Ames World</title>
+    <link>https://ames.world/tags/tcp/ip/</link>
+    <description>Recent content in TCP/IP on Ames World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    
+        <atom:link href="https://ames.world/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TCP/IP Protocol Suite</title>
+      <link>https://ames.world/posts/tcp-ip-protocol-suite/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/tcp-ip-protocol-suite/</guid>
+      <description>&lt;p&gt;TCP/IP is a set of protocols that form the backbone of the internet. As I described in the &lt;a href=&#34;https://ames.world/posts/the-osi-model/&#34;&gt;OSI model post&lt;/a&gt;, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)&lt;/p&gt;
+&lt;p&gt;As with all real-world implementations TCP/IP &lt;em&gt;sort of&lt;/em&gt; follows the OSI Model.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All models are wrong but some are useful — George Box&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/tcp-vs-osi.jpg&#34; alt=&#34;&#34; title=&#34;Image showing the OSI model compared to the TCP/IP protocol suite. This is explained in detail below.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tcpip-applications&#34;&gt;TCP/IP Applications&lt;/h2&gt;
+&lt;p&gt;I won&amp;rsquo;t spend ages on TCP/IP applications but real-world context helped me make a bit more sense of the host layers in the OSI model. I had a bit of a hard time getting my head around the difference between application programs and the application layer. TCP/IP helped me suss out what was meant. For example when I open a web browser — an application program, it makes a call to HTTP — the protocol in the application layer of the OSI stack. The web browser itself is not represented in the model.&lt;/p&gt;
+&lt;p&gt;There are a whole bunch of protocols operating at this level to ensure different applications can access the network. Some common examples are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTTP (HyperText Transfer Protocol):&lt;/strong&gt; the rules for handling hypertext documents and hyperlinks, i.e. the world wide web.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SMTP (Simple Mail Transfer Protocol):&lt;/strong&gt; The rules for sending emails.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;POP3(Post Office Protocol) and IMAP (Internet Message Application Protocol):&lt;/strong&gt; The rules for receiving emails.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FTP (File Transfer Protocol):&lt;/strong&gt; The rules for sending files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SSH: (Secure Shell):&lt;/strong&gt; The rules for managing network services securely over the internet.&lt;/p&gt;
+&lt;h2 id=&#34;transmission-control-protocol-tcp&#34;&gt;Transmission Control Protocol (TCP)&lt;/h2&gt;
+&lt;p&gt;Because most communication on the internet requires a reliable connection, TCP has become the dominant protocol. It operates at the network layer of the OSI model and it establishes a reliable connection through a process called the three-way handshake:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host 1 sends a Synchronisation (SYN) Request to Host 2.&lt;/li&gt;
+&lt;li&gt;Host 2 receives the request and sends back a Synchronisation Acknowledgement (SYN/ACK) request back to Host 1.&lt;/li&gt;
+&lt;li&gt;On receipt of the SYN/ACK Host 1 sends a final Acknowledgement (ACK) back to Host 2 and the connection is established.&lt;/li&gt;
+&lt;li&gt;Data transfer (in the form of bytes) then takes place between the two hosts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This virtual circuit setup is called overhead. Additionally, the hosts don’t rely solely on the initial requests to ensure the reliability of the connection but instead will continue to check periodically to ensure it is still established and that data is flowing properly.&lt;/p&gt;
+&lt;p&gt;So that’s all great if one application is making a request but as we have seen there are loads of applications and the higher layers making requests. This can often be at a faster speed than the supporting network and can cause bottleneck issues. TCP manages this demand with a process called Flow Control. Flow control is a pull system (which as an agile delivery lead makes me very happy). The receiver is responsible for telling the sender that it has received data and it is ok to send more. Lovely!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The segments delivered are acknowledged back to the sender upon their reception.&lt;/li&gt;
+&lt;li&gt;Any segments not acknowledged are retransmitted.&lt;/li&gt;
+&lt;li&gt;Segments are sequenced back into their proper order upon arrival at their destination.&lt;/li&gt;
+&lt;li&gt;A manageable data flow is maintained in order to avoid congestion, overloading, and data loss.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This works well most of the time but it is still possible for the transmitting host to send a burst of data that is too much for the receiver to cope with. What happens then? The receiving host has a memory allocation called a buffer and it stores the burst of datagrams in this memory. (The origin of the dreaded ‘buffering’ message when viewing videos on the internet, a data-heavy process).&lt;/p&gt;
+&lt;p&gt;But what if the sender is so fast, it sends a massive stream of datagrams before the host has a chance to acknowledge it, and that is larger than the buffer? TCP has a plan for this too, in this scenario the receiving host sends a Not Ready indicator back to the sender, this is like an emergency brake and stops the sender from transmitting any more data until the host has had a chance to process the data in its buffer. Once the receiving host has done this it then transmits a Go indicator to the sender to resume data transfer.&lt;/p&gt;
+&lt;p&gt;Importantly the data is transferred in order from sender to receiver, this sequencing means that should any of the three failure scenarios mentioned above occur, both hosts know how far they have got through the transfer in order to resume after the failure is rectified.&lt;/p&gt;
+&lt;p&gt;These multiple levels of fault tolerance mean that TCP is a very reliable connection-oriented protocol because it has the following characteristics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A virtual circuit is set up (such as a three-way handshake).&lt;/li&gt;
+&lt;li&gt;It uses sequencing.&lt;/li&gt;
+&lt;li&gt;It uses acknowledgements.&lt;/li&gt;
+&lt;li&gt;It uses flow control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, it is possible to reduce the robustness of this process for the sake of throughput through a control called Windowing. As you can imagine, acknowledging every datagram received back to the host could be a hefty process for large file transfers. Windowing defines how many data segments (measured in bytes) can be sent before an acknowledgement is required back from the receiving host. For example, a window of 3 would mean that 3 bytes of data can be sent before the receiver needs to send the sender and acknowledgement. The larger the size of the window, the bigger the risk of a buffer overflow.&lt;/p&gt;
+&lt;p&gt;But how is sequencing ensured if the receiver only acknowledges every few data segments? This is done with acknowledgements. Say Host A wants to transmit the segments 123456789 with a window of 3 to Host B.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host A sends 1&lt;/li&gt;
+&lt;li&gt;Host A sends 2&lt;/li&gt;
+&lt;li&gt;Host A sends 3&lt;/li&gt;
+&lt;li&gt;Host B receives 123 and so acknowledges by requesting 4.&lt;/li&gt;
+&lt;li&gt;Host A sends 4&lt;/li&gt;
+&lt;li&gt;Host A loses connection whilst trying to send 5.&lt;/li&gt;
+&lt;li&gt;Host A sends 6&lt;/li&gt;
+&lt;li&gt;Host B now realises it is missing 5 so requests 5.&lt;/li&gt;
+&lt;li&gt;Host A sends 5&lt;/li&gt;
+&lt;li&gt;Host B now requests 7&lt;/li&gt;
+&lt;li&gt;etc etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;internet-protocol-ip&#34;&gt;Internet Protocol (IP)&lt;/h2&gt;
+&lt;p&gt;The Internet Protocol is concerned with addressing — ensuring data gets from the right source to the right destination. It sits unsurprisingly in the network layer of the OSI model.&lt;/p&gt;
+&lt;p&gt;There are currently two versions of the protocol in active use, IPv4 and IPv6.&lt;/p&gt;
+&lt;h3 id=&#34;ipv4&#34;&gt;IPv4&lt;/h3&gt;
+&lt;p&gt;IPv4 is the most well-known version. When most people talk about IP addresses they are describing an IPv4 address. They are made up of 4 dot-separated numerical values called octets. Each value is a decimal representation of a binary value. I will cover what this means (and how to calculate IP addresses and subnet masks in Week 2).&lt;/p&gt;
+&lt;p&gt;IPv4 is a 32 bit pool of addresses, this means that it is possible to have 4,294,967,296 (4 billion) addresses. This sounds like a lot but we have already nearly run out of IPv4 public addresses. Public addresses are those that are distributed by IANA (The Internet Assigned Number Authority) and are the IP representation of internet domain names. You can have many networks using the same IP addresses provided they are contained behind a subnet. A subnet is a logical subdivision of an IP network and can be described as Classful or Classless. This will be covered in more detail in Week 2.&lt;/p&gt;
+&lt;p&gt;An IPv4 address looks like this:&lt;/p&gt;
+&lt;p&gt;193.168.2.1/24&lt;/p&gt;
+&lt;p&gt;Where 192.168.2.1 is the host address and /24 is the subnet. The subnet can also be represented in dot-separated format, in the case of /24 this will be 255.255.255.0&lt;/p&gt;
+&lt;h3 id=&#34;ipv6&#34;&gt;IPv6&lt;/h3&gt;
+&lt;p&gt;IPv6 are 128-bit addresses, they are colon separated and represented in hexadecimal. The IPv6 pool of addresses is 340,282,366,920,938,463,463,374,607,431,768,211,456 or 340 billion billion billion billion addresses!! As a result, they don&amp;rsquo;t have a need for subnet’s. IPv6 headers are much smaller than IPv4 addresses, uses IPSec by default (encrypts the packets whilst being sent) it also broadcasts by default in Multicast mode.&lt;/p&gt;
+&lt;p&gt;An example IPv6 address looks like this:&lt;/p&gt;
+&lt;p&gt;2001:0DB8:0000:0000:0000:FF00:0042:8329&lt;/p&gt;
+&lt;p&gt;It is ok to remove all leading zeroes from an address:&lt;/p&gt;
+&lt;p&gt;2001:DB8:0:0:0:FF00:42:8329&lt;/p&gt;
+&lt;p&gt;And consecutive zeroes can be removed and represented by double colons. Although only once within the sequence:&lt;/p&gt;
+&lt;p&gt;2001:DB8::FF00:42:8329&lt;/p&gt;
+&lt;h2 id=&#34;network-access-or-link-layer&#34;&gt;Network Access or Link Layer&lt;/h2&gt;
+&lt;p&gt;The TCP/IP protocol suite is designed to be device agnostic and so doesnt concern itself too much with the link layer. As with the OSI model the link layer is concerned with moving packets between network hosts and includes protocols for translating logical IP addresses to physical MAC addresses such as the ARP (Address Resolution Protocol).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
