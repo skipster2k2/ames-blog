@@ -31,7 +31,7 @@ disqusShortname = "bento-hugo-theme"
   # Show intro in the home page (with headline and description)
   intro = true
   headline = "Hi I'm Ian Ames"
-  description = "Thoughts on agile, history, software delivery, bikes, product management, sheds, and anything else that is on my mind."
+  description = "Here's my thoughts on agile, history, software delivery, bikes, product management, sheds, and anything else that is on my mind."
 
   # Copyright note in the footer
   copyright = "Copyright © 2020 Ian Ames"
@@ -51,15 +51,15 @@ disqusShortname = "bento-hugo-theme"
   authorBio = "Thanks for reading!"
 
 # If you want to use fathom (https://usefathom.com) for analytics, add this section
-[params.fathomAnalytics]
-  siteID = "XXXXX"
-  # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-  serverURL = "analytics.example.com"
+# [params.fathomAnalytics]
+#   siteID = "XXXXX"
+# Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+#  serverURL = "analytics.example.com"
 
 # If you want to use umami (https://umami.is/) for analytics, add this section
-[params.umami]
-  siteID = "XXXXX"
-  trackerScript = "//umami.example.com/umami.js"
+#[params.umami]
+#  siteID = "XXXXX"
+#  trackerScript = "//umami.example.com/umami.js"
 
 # Items in the top menu
 [menu]

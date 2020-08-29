@@ -58,75 +58,6 @@
     </item>
     
     <item>
-      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
-      <link>https://ames.world/posts/improving-find-for-the-find-property-information-service/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/posts/improving-find-for-the-find-property-information-service/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;
-&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;
-&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;
-&lt;h2 id=&#34;what-were-the-problems-with-the-old-search&#34;&gt;What were the problems with the old search?&lt;/h2&gt;
-&lt;p&gt;There was a mixture of design and technical issues with our old search:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;When users come to the service they think in terms of addresses, but our search results displayed land titles. This meant the results were jarring, it was especially unclear if there was more than one ‘title’ for a given address.&lt;/li&gt;
-&lt;li&gt;We hadn’t updated the address information we get from Ordnance Survey for over a year, so new builds wouldn’t show in the service.&lt;/li&gt;
-&lt;li&gt;Search results were confusing because of the order of the displayed addresses.&lt;/li&gt;
-&lt;li&gt;We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_before.jpg&#34; alt=&#34;&#34; title=&#34;Search results before improvement, results were ‘titles’ rather than addresses - which the user searched for - causing confusion.&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;how-did-we-improve-it&#34;&gt;How did we improve it?&lt;/h2&gt;
-&lt;p&gt;Based on feedback we’d been collecting we had a good handle on the types of problems people had, and a strong hypothesis that people would be more successful if we flipped the results. We aimed to stop showing what we have got (how we’ve documented the world), and start showing a familiar model of places (how user’s think of the world).&lt;/p&gt;
-&lt;p&gt;People are familiar with what a postcode is, and what it contains — they use this all the time, when they are getting a parcel delivered, or sending a letter, or using their satnav.
-There is a point at which we, currently, ask people to pick a particular property record.&lt;/p&gt;
-&lt;p&gt;So we now do that as a separate steps. previously we had wrapped multiple decisions into one step, which was too much.&lt;/p&gt;
-&lt;p&gt;So whilst we still need, currently, to introduce the concept of titles and tenures, we do this in one place.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_after.jpg&#34; alt=&#34;&#34; title=&#34;The new search results are much clearer and align to what our users expect to see next.&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;how-did-we-build-it&#34;&gt;How did we build it?&lt;/h2&gt;
-&lt;p&gt;The Find Property Information team consists of 12 people from different disciplines, we sometimes struggled to communicate effectively and stay focused due to the sheer numbers of communication pathways between team members. We had a hunch that the size of the team was slowing down our delivery so we decided to use postcode search as a good opportunity to test it. We separated out 4 people to focus solely on delivering improved search.&lt;/p&gt;
-&lt;p&gt;The team came up with a number of technical approaches and chose the one that would deliver the most value. There were other potentially better solutions, but would have taken longer to implement. Building services is always a trade off between building what’s needed now, and envisioning future use cases. There are risks to both approaches, too bare bones and it can be difficult to change the solution in future, too blue sky and time and energy can be wasted on features and functions that aren’t actually needed.&lt;/p&gt;
-&lt;p&gt;On the whole we saw a lot of benefits from the small team. The small size meant that our processes could be much more lightweight, much less time was spent planning and discussing work, if a problem came up or a change needed to happen, it was much easier to solve as it was just a quick chat to discuss the problem, think of how to solve it and move on.
-The team progressed well and improved our address search component, built a title-api for retrieving titles per address, and ‘plugged into’ an audit-api for collating what was happening within the service for troubleshooting and audit needs.&lt;/p&gt;
-&lt;p&gt;But we reached a point where we needed to ‘plug-in’ what had been built back into the service. We needed to consider how we could deliver the functionality that had been built iteratively into the service without getting in the way, or breaking any of the other work being done by the rest of the team.&lt;/p&gt;
-&lt;h2 id=&#34;agile-doesnt-equal-no-planning&#34;&gt;Agile doesn’t equal No Planning&lt;/h2&gt;
-&lt;p&gt;We had a reached a point where we needed to get the team back together and consider how to move postcode into the service.&lt;/p&gt;
-&lt;p&gt;We came up with a high-level plan to deploy each of the new api’s in a way that wouldn’t impact the service or cause any downtime. It was also an iterative plan so by breaking the releases down into small chunks we could de-risk the change and rollback easily if any particular part did go wrong.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/whiteboarding.jpg&#34; alt=&#34;&#34; title=&#34;Planning agile style, team members gathered around a whiteboard&#34;&gt;&lt;/p&gt;
-&lt;p&gt;We also wanted to assure ourselves that the search was as good as we thought it would be so we included: a comprehensive set of automated acceptance tests; manual eyeballing; and tests to verify our hypothesis of what we expected to happen when the changes were in production.
-The hardest part of testing was finding a decent baseline to ‘prove our search was good. We knew our existing search was inconsistent so it made for a very poor baseline. We had other services that also had search functionality so we did some investigation into these services to test their viability as baselines.&lt;/p&gt;
-&lt;p&gt;What we found was that whilst on the whole they were good enough as a baseline, they all had slight discrepancies or weird results mainly due to data quality either from us or from our address suppliers. The Addressbase dataset has over 28 million address points, and our register data is over 24 million titles. Both of these datasets change daily and when they are as large as that even a 1% error rate can equal hundreds of thousands of data rows.&lt;/p&gt;
-&lt;p&gt;Improving the quality of these two datasets wasn’t going to be possible so instead we attempted to understand the problems a bit better so that at least if users did encounter issues we could offer them an onward journey or understand why. We produced a ‘wall of weird’ of postcodes we knew behaved strangely in existing services and added these to our test baseline to see what happened in our service.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/wall_of_weird.jpg&#34; alt=&#34;&#34; title=&#34;The wall of weird, a whiteboard where we captured all the strange search behaviour we identified, so that we could validate we had fixed them as we improved the service.&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;how-did-we-release-it&#34;&gt;How did we release it?&lt;/h2&gt;
-&lt;p&gt;So we had a test and deploy plan that was detailed enough to give us direction, but lightweight enough to change when things inevitably changed or went wrong. And a few things did go wrong.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;We hoped to release an updated address index into the service as a standalone iteration. However, when testing it, we found it had more of an impact on the user experience than we were comfortable with, so we had to bundle the change in with the ‘main’ release.&lt;/li&gt;
-&lt;li&gt;As a result the main release became bigger than expected and we had to schedule in downtime, adding a number of additional steps and approvals.&lt;/li&gt;
-&lt;li&gt;We found the title-api performed within thresholds but not as well as we would like, we found that search results had spikes of long response times. Whilst only affecting 2% of users, scaling up to actual usage volumes could equal hundreds of unsatisfied people.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;That final problem was the biggest challenge we faced, we hadn’t seen it in any of our lower test environments, but then again our pre-prod environment is the one that most resembles live. At first we didn’t have a good handle on exactly how big the issue was so we created some performance scripts to allow us to monitor response times whilst under heavy load. The scripts confirmed the scale of what we were seeing, but didn’t give us any further clues as to what was causing it.&lt;/p&gt;
-&lt;p&gt;Finally we decided that the benefits of the new search functionality exceeded the risks of some users having slow performance. We came up with a plan for measuring production performance and agreed to set some time aside to improve it should we see it happening in PROD.&lt;/p&gt;
-&lt;p&gt;Finally we were in a position where we were ready to release. We had to turn the service off for an hour but pre-warned users of the downtime. The change itself went very smoothly and we were deployed and tested within 50 minutes.&lt;/p&gt;
-&lt;h2 id=&#34;how-do-we-know-whether-it-has-been-successful&#34;&gt;How do we know whether it has been successful?&lt;/h2&gt;
-&lt;p&gt;The measure of success that was most pressing was whether PROD would see the same performance issues that we saw in the test environment. It took a few days to build a sample of traffic but sure enough we did see the same problem. By then however we had given a bit more thought as to a plan for improving the performance. After the first release the refactored code went into production, drastically improving performance times.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/before_performance.jpg&#34; alt=&#34;&#34; title=&#34;Initial performance times, good but not excellent. Most responses within 2 seconds&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Initial performance times, good but not excellent.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ames.world/images/after_performance.jpg&#34; alt=&#34;&#34; title=&#34;Production responses following improvements, most responses in under 0.1 seconds!&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Production responses following improvements, note the change in scale!&lt;/p&gt;
-&lt;p&gt;All of our hypotheses of what would happen in Production have so far played out to be true:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;From the sample we tested our search is as good as existing HMLR services.&lt;/li&gt;
-&lt;li&gt;Addresses changed in the past year now return in our search results.&lt;/li&gt;
-&lt;li&gt;Our new audit-api is collecting audit data successfully.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The most important change is that search is dropping down our ‘Top issues for our users’ chart.&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;Whats next?&lt;/h2&gt;
-&lt;p&gt;We will continue to learn more about how search is performing in the service, shipping to Production is the only true point where you really start to learn about how people use your service and how it works at scale so I’m sure we will need to make a few changes based on feedback.&lt;/p&gt;
-&lt;p&gt;We also have some work we want to do, to replace our address component with an address-api that is being built by colleagues in another team. This ‘common component’ will reduce maintenance overhead and ensure more consistency between services in the future.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Mountaineering and a Rant About Risk Management</title>
       <link>https://ames.world/posts/mountaineering-and-a-rant-about-risk-management/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
@@ -191,6 +122,75 @@ So do I take a hat and gloves and a thicker jacket?&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Policies are organizational scar tissue. They are codiﬁed overreactions to unlikely-to-happen-again situations.&lt;/p&gt;&amp;mdash; Jason Fried (@jasonfried) &lt;a href=&#34;https://twitter.com/jasonfried/status/2758624714?ref_src=twsrc%5Etfw&#34;&gt;July 21, 2009&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;Eliminating all risks, even low probability, high impact ones will reduce your speed, introducing higher probabilities of things going wrong. In my experience, optimising for speed will reduce risk far more than trying to eliminate them all.&lt;/p&gt;
 &lt;p&gt;Let me know your experiences and thoughts in the comments below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>https://ames.world/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;
+&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;
+&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;
+&lt;h2 id=&#34;what-were-the-problems-with-the-old-search&#34;&gt;What were the problems with the old search?&lt;/h2&gt;
+&lt;p&gt;There was a mixture of design and technical issues with our old search:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When users come to the service they think in terms of addresses, but our search results displayed land titles. This meant the results were jarring, it was especially unclear if there was more than one ‘title’ for a given address.&lt;/li&gt;
+&lt;li&gt;We hadn’t updated the address information we get from Ordnance Survey for over a year, so new builds wouldn’t show in the service.&lt;/li&gt;
+&lt;li&gt;Search results were confusing because of the order of the displayed addresses.&lt;/li&gt;
+&lt;li&gt;We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_before.jpg&#34; alt=&#34;&#34; title=&#34;Search results before improvement, results were ‘titles’ rather than addresses - which the user searched for - causing confusion.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-did-we-improve-it&#34;&gt;How did we improve it?&lt;/h2&gt;
+&lt;p&gt;Based on feedback we’d been collecting we had a good handle on the types of problems people had, and a strong hypothesis that people would be more successful if we flipped the results. We aimed to stop showing what we have got (how we’ve documented the world), and start showing a familiar model of places (how user’s think of the world).&lt;/p&gt;
+&lt;p&gt;People are familiar with what a postcode is, and what it contains — they use this all the time, when they are getting a parcel delivered, or sending a letter, or using their satnav.
+There is a point at which we, currently, ask people to pick a particular property record.&lt;/p&gt;
+&lt;p&gt;So we now do that as a separate steps. previously we had wrapped multiple decisions into one step, which was too much.&lt;/p&gt;
+&lt;p&gt;So whilst we still need, currently, to introduce the concept of titles and tenures, we do this in one place.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/search_results_after.jpg&#34; alt=&#34;&#34; title=&#34;The new search results are much clearer and align to what our users expect to see next.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-did-we-build-it&#34;&gt;How did we build it?&lt;/h2&gt;
+&lt;p&gt;The Find Property Information team consists of 12 people from different disciplines, we sometimes struggled to communicate effectively and stay focused due to the sheer numbers of communication pathways between team members. We had a hunch that the size of the team was slowing down our delivery so we decided to use postcode search as a good opportunity to test it. We separated out 4 people to focus solely on delivering improved search.&lt;/p&gt;
+&lt;p&gt;The team came up with a number of technical approaches and chose the one that would deliver the most value. There were other potentially better solutions, but would have taken longer to implement. Building services is always a trade off between building what’s needed now, and envisioning future use cases. There are risks to both approaches, too bare bones and it can be difficult to change the solution in future, too blue sky and time and energy can be wasted on features and functions that aren’t actually needed.&lt;/p&gt;
+&lt;p&gt;On the whole we saw a lot of benefits from the small team. The small size meant that our processes could be much more lightweight, much less time was spent planning and discussing work, if a problem came up or a change needed to happen, it was much easier to solve as it was just a quick chat to discuss the problem, think of how to solve it and move on.
+The team progressed well and improved our address search component, built a title-api for retrieving titles per address, and ‘plugged into’ an audit-api for collating what was happening within the service for troubleshooting and audit needs.&lt;/p&gt;
+&lt;p&gt;But we reached a point where we needed to ‘plug-in’ what had been built back into the service. We needed to consider how we could deliver the functionality that had been built iteratively into the service without getting in the way, or breaking any of the other work being done by the rest of the team.&lt;/p&gt;
+&lt;h2 id=&#34;agile-doesnt-equal-no-planning&#34;&gt;Agile doesn’t equal No Planning&lt;/h2&gt;
+&lt;p&gt;We had a reached a point where we needed to get the team back together and consider how to move postcode into the service.&lt;/p&gt;
+&lt;p&gt;We came up with a high-level plan to deploy each of the new api’s in a way that wouldn’t impact the service or cause any downtime. It was also an iterative plan so by breaking the releases down into small chunks we could de-risk the change and rollback easily if any particular part did go wrong.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/whiteboarding.jpg&#34; alt=&#34;&#34; title=&#34;Planning agile style, team members gathered around a whiteboard&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We also wanted to assure ourselves that the search was as good as we thought it would be so we included: a comprehensive set of automated acceptance tests; manual eyeballing; and tests to verify our hypothesis of what we expected to happen when the changes were in production.
+The hardest part of testing was finding a decent baseline to ‘prove our search was good. We knew our existing search was inconsistent so it made for a very poor baseline. We had other services that also had search functionality so we did some investigation into these services to test their viability as baselines.&lt;/p&gt;
+&lt;p&gt;What we found was that whilst on the whole they were good enough as a baseline, they all had slight discrepancies or weird results mainly due to data quality either from us or from our address suppliers. The Addressbase dataset has over 28 million address points, and our register data is over 24 million titles. Both of these datasets change daily and when they are as large as that even a 1% error rate can equal hundreds of thousands of data rows.&lt;/p&gt;
+&lt;p&gt;Improving the quality of these two datasets wasn’t going to be possible so instead we attempted to understand the problems a bit better so that at least if users did encounter issues we could offer them an onward journey or understand why. We produced a ‘wall of weird’ of postcodes we knew behaved strangely in existing services and added these to our test baseline to see what happened in our service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/wall_of_weird.jpg&#34; alt=&#34;&#34; title=&#34;The wall of weird, a whiteboard where we captured all the strange search behaviour we identified, so that we could validate we had fixed them as we improved the service.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-did-we-release-it&#34;&gt;How did we release it?&lt;/h2&gt;
+&lt;p&gt;So we had a test and deploy plan that was detailed enough to give us direction, but lightweight enough to change when things inevitably changed or went wrong. And a few things did go wrong.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We hoped to release an updated address index into the service as a standalone iteration. However, when testing it, we found it had more of an impact on the user experience than we were comfortable with, so we had to bundle the change in with the ‘main’ release.&lt;/li&gt;
+&lt;li&gt;As a result the main release became bigger than expected and we had to schedule in downtime, adding a number of additional steps and approvals.&lt;/li&gt;
+&lt;li&gt;We found the title-api performed within thresholds but not as well as we would like, we found that search results had spikes of long response times. Whilst only affecting 2% of users, scaling up to actual usage volumes could equal hundreds of unsatisfied people.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That final problem was the biggest challenge we faced, we hadn’t seen it in any of our lower test environments, but then again our pre-prod environment is the one that most resembles live. At first we didn’t have a good handle on exactly how big the issue was so we created some performance scripts to allow us to monitor response times whilst under heavy load. The scripts confirmed the scale of what we were seeing, but didn’t give us any further clues as to what was causing it.&lt;/p&gt;
+&lt;p&gt;Finally we decided that the benefits of the new search functionality exceeded the risks of some users having slow performance. We came up with a plan for measuring production performance and agreed to set some time aside to improve it should we see it happening in PROD.&lt;/p&gt;
+&lt;p&gt;Finally we were in a position where we were ready to release. We had to turn the service off for an hour but pre-warned users of the downtime. The change itself went very smoothly and we were deployed and tested within 50 minutes.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-we-know-whether-it-has-been-successful&#34;&gt;How do we know whether it has been successful?&lt;/h2&gt;
+&lt;p&gt;The measure of success that was most pressing was whether PROD would see the same performance issues that we saw in the test environment. It took a few days to build a sample of traffic but sure enough we did see the same problem. By then however we had given a bit more thought as to a plan for improving the performance. After the first release the refactored code went into production, drastically improving performance times.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/before_performance.jpg&#34; alt=&#34;&#34; title=&#34;Initial performance times, good but not excellent. Most responses within 2 seconds&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Initial performance times, good but not excellent.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ames.world/images/after_performance.jpg&#34; alt=&#34;&#34; title=&#34;Production responses following improvements, most responses in under 0.1 seconds!&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Production responses following improvements, note the change in scale!&lt;/p&gt;
+&lt;p&gt;All of our hypotheses of what would happen in Production have so far played out to be true:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the sample we tested our search is as good as existing HMLR services.&lt;/li&gt;
+&lt;li&gt;Addresses changed in the past year now return in our search results.&lt;/li&gt;
+&lt;li&gt;Our new audit-api is collecting audit data successfully.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The most important change is that search is dropping down our ‘Top issues for our users’ chart.&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;Whats next?&lt;/h2&gt;
+&lt;p&gt;We will continue to learn more about how search is performing in the service, shipping to Production is the only true point where you really start to learn about how people use your service and how it works at scale so I’m sure we will need to make a few changes based on feedback.&lt;/p&gt;
+&lt;p&gt;We also have some work we want to do, to replace our address component with an address-api that is being built by colleagues in another team. This ‘common component’ will reduce maintenance overhead and ensure more consistency between services in the future.&lt;/p&gt;
 </description>
     </item>
     

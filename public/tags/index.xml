@@ -255,38 +255,20 @@
     </item>
     
     <item>
-      <title>government</title>
-      <link>https://ames.world/tags/government/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/tags/government/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>product management</title>
-      <link>https://ames.world/tags/product-management/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/tags/product-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>user research</title>
-      <link>https://ames.world/tags/user-research/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/tags/user-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>digital</title>
       <link>https://ames.world/tags/digital/</link>
       <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>government</title>
+      <link>https://ames.world/tags/government/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/government/</guid>
       <description></description>
     </item>
     
@@ -332,6 +314,24 @@
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ames.world/tags/risk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>product management</title>
+      <link>https://ames.world/tags/product-management/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/product-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user research</title>
+      <link>https://ames.world/tags/user-research/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/user-research/</guid>
       <description></description>
     </item>
     

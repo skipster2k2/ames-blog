@@ -367,26 +367,7 @@ Say for example you had a network of 157.28.0.0 with a subnet mask of 255.255.0.
 
 
 
-<script>
-  (function(f, a, t, h, o, m){
-    a[h]=a[h]||function(){
-      (a[h].q=a[h].q||[]).push(arguments)
-    };
-    o=f.createElement('script'),
-    m=f.getElementsByTagName('script')[0];
-    o.async=1; o.src=t; o.id='fathom-script';
-    m.parentNode.insertBefore(o,m)
-  })(document, window, '//analytics.example.com/tracker.js', 'fathom');
-  fathom('set', 'siteId', 'XXXXX');
-  fathom('trackPageview');
-
-  document.addEventListener('turbolinks:load', (e) => {
-    if (typeof window.fathom === 'function') {
-      window.fathom('trackPageview');
-    }
-  });
-</script>
 
 
-<script async defer data-website-id="XXXXX" src="//umami.example.com/umami.js"></script></body>
+</body>
 </html>
