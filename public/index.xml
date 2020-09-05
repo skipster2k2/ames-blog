@@ -6,10 +6,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Posts</title>
+      <link>https://ames.world/posts/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/posts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>About Ian Ames</title>
@@ -28,15 +37,6 @@ business analysts. I encourage new ideas and new thinking to learn quickly and c
 &lt;p&gt;I am a mainstay of Plymouth&amp;rsquo;s digital community. I have organised and spoken at Agile Southwest
 meetups, and have presented at the FutureSync. TechExeter, and Agile on the Beach conferences. I have also helped facilitate the excellent Agile in the Ether meetups and conference.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://ames.world/posts/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/posts/</guid>
-      <description></description>
     </item>
     
   </channel>

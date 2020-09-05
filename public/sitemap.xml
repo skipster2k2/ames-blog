@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ames.world/about/</loc>
-    <lastmod>2020-08-23T21:05:37+01:00</lastmod>
+    <loc>https://ames.world/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ames.world/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <loc>https://ames.world/tags/home-office/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/lockdown/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/posts/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/remote-work/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/posts/shedlife/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/tags/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ames.world/about/</loc>
+    <lastmod>2020-08-23T21:05:37+01:00</lastmod>
   </url>
   
   <url>
@@ -33,17 +63,7 @@
   </url>
   
   <url>
-    <loc>https://ames.world/posts/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ames.world/tags/recruitment/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ames.world/tags/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
   
