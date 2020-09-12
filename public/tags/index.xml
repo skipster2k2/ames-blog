@@ -6,10 +6,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ames.world/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>how I work</title>
+      <link>https://ames.world/tags/how-i-work/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/how-i-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user manual</title>
+      <link>https://ames.world/tags/user-manual/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/tags/user-manual/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>home office</title>
