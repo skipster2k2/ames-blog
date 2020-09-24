@@ -1,5 +1,5 @@
 ---
-title: "What Would a Great Onboarding Experience Look Like?"
+title: What Would a Great Onboarding Experience Look Like?
 date: 2020-05-05
 tags:
 - recruitment
@@ -7,8 +7,8 @@ tags:
 - organisation design
 - culture
 - onboarding
----
 
+---
 When I joined Surevine my onboarding experience was fantastic, but I wanted to see if there was anything more we could do to make it even better, so back in June I asked twitter what would a great onboarding experience look like?
 
 As always the responses were great. This post summarises what I learned:
