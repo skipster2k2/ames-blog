@@ -55,7 +55,7 @@ It's another example or cost saving across councils by pooling resources, the in
 
 ## London Office of Technology and Innovation (LOTI).
 
-LOTI have been around since June 2019 to _support a coalition of 18 London boroughs who want to work together, bringing the best of digital, data and innovation to improve public services for Londoners._
+[LOTI](https://loti.london/) have been around since June 2019 to _support a coalition of 18 London boroughs who want to work together, bringing the best of digital, data and innovation to improve public services for Londoners._
 
 Again LOTI work in the open and have a handy [resources](https://loti.london/resources/) section with guidance for common technology projects which any council can take advantage of!
 
