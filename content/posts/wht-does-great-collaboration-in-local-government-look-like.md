@@ -1,6 +1,5 @@
 +++
 date = 2020-09-22T23:00:00Z
-draft = true
 tags = ["collaboration", "local government"]
 title = "What does great collaboration in local government look like?"
 
