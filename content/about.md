@@ -72,9 +72,9 @@ smooth transition of services to production. I was Subject Matter Expert for cro
 
 ## Projects
 
-### Surevine projects, 2019/2020
+### Surevine projects, 2019, 2020
 
-A number of projects for varying government departments, which due to the nature of surevines work I can't provide details about. I led the delivery of Surevines largest project to date.
+A number of projects for varying government departments, which due to the nature of Surevine's work I can't provide details about. I led the delivery of Surevine's largest project to date.
 
 ### Protect Alpha, 2018
 
