@@ -27,7 +27,7 @@ I had won the bike and needed to get 350 miles to Harrogate, it was the end of J
 
 I travelled up in our campervan so I could save money by parking overnight in a truck stop (and to be honest I was a little Covid paranoid about staying in a hotel or b&b). I planned to transport the Pino back on my rear mounted bike rack but I was worried about the width. The maximum vehicle width in the UK is 2.55 metres, and the Pino is 2.1 metres when the front boom is at its shortest. The van is only 1.9 metres wide, I was worried about the overhang on such a long journey.
 
-I got to Harrogate and picked the bike up from a lovely family, the bike was immaculate, but I chickened out of loading on the rear rack and instead put down the rock-and-roll bed in the van and loaded the bike on top.
+I got to Harrogate and picked the bike up from a lovely family, the bike was immaculate, but I chickened out of loading on the rear rack and instead put down the rock-and-roll bed in the van and loaded the bike on top, it just about fitted but it was a good job I travelled up on my own.
 
 ![The Pino loaded into the back of the van, it was a good job I travelled up on my own!](/images/img_20200705_110240.jpg "The Pino loaded into the back of the van, it was a good job I travelled up on my own!")
 
@@ -39,4 +39,42 @@ It is possible to split the Pino in half to aid transport, I haven't done this y
 
 ## What's it like to ride?
 
-I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it. The only issue I found with the handlebars was that on long rides my shoulders ached from my arms being so wide, it is possible to change the angle of the handlebars, and bringing them in slightly improved this enormously and didn't affect stability.
+I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it, even at high speed. 
+
+The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us and have been able to stop easily, when we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace]() they've been fine and are still stopping us easily with no sticking 300 miles later.
+
+A lot of Pino's have hub gears, but ours has a whopping 29 speed derailleur. The rear derailleur is indexed, and the front isn't, this works well given the amount of movement between bottom and top gear you can adjust the front derailleur slightly to prevent annoying rubbing noises. Both are controlled by bar end shifters mounted facing upwards on the pilot handlebars. The gearing is arguably not quite set right, we find ourself in granny gear fairly often, however we do most of our riding in Plymouth or on Dartmoor, both of which are steep! My daughter calls the top gear the stig gear, and when on the flat or downhill you can really get up a head of steam. Tandems are great for disrupting Strava segments!
+
+My daughter has never made any complaints about being uncomfortable on the recumbent seat, its a mesh design which dries quickly when it has rained, we have been on all day rides with no problems. To help keep her feet in the pedals, we have [special recumbent pedals](https://www.getcycling.org.uk/product/hase-recumbent-pedals/) that attach her feet to the pedals by use of a bungee cord behind her heels, these work fairly effectively, although its necessary to adjust the elastic after a while, we will probably replace these with SPD clips when her feet stop growing.
+
+![Cycling down the Camel trail from Bodmin to Wadebridge. You can see the recumbent pedals that keep Phoebe's feet on the pedals.](/images/img_20200826_113502.jpg "Cycling down the Camel trail from Bodmin to Wadebridge. You can see the recumbent pedals that keep Phoebe's feet on the pedals.")
+
+One of the best features is that the stoker can free-wheel independently, and the pilot can keep riding. This means if Phoebe gets tired she can take a break, whilst I can still ride.
+
+We've only had a couple of issues:
+
+I found with the handlebars were too far apart for long rides. My shoulders ached from my arms being so wide, it is possible to change the angle of the handlebars, and bringing them in slightly improved this enormously and didn't affect stability.
+
+The front boom is adjustable which means the bike will still be usable as Phoebe grows. However it is currently on the lowest setting, and when making tight turns the wheel catches the pedals, I have to warn Phoebe I'm going to make a tight turn and she levels her feet out. Over time it wont be an issue but its pretty sketchy when you forget and catch the wheel. It hasn't caused us to crash, yet.
+
+## Maintenance and repairs.
+
+The Pino is reasonably simple to keep in good repair, the use of standard derailleurs definitely helps. It has the excellent Schwalbe Marathon tyres, which are claimed to be puncture proof, so far that has been the case. The front chain is difficult to clean, but it is enclosed in a plastic tube for most of its length so it doesn't get too dirty.
+
+I'm not brave enough to muck around with the hydraulic disc brakes and I was worried about finding a bike mechanic that would be comfortable servicing it. I'm lucky that bikespace, my local mechanics sell cargo bikes that use much the same components as the Pino, they did a great job servicing it in the summer. Unfortunately they don't stock Pino parts, and I wanted to get the lowrider front pannier rack. I contacted [Get Cycling](https://www.getcycling.org.uk/) in York, where the bike originally came from and they were able to ship it with no problems. This was reassuring as there are some specialist parts you can only get from Hase that will wear out eventually, such as the stokers crankset.
+
+## Accessories and adjustments.
+
+As I mentioned at the beginning of the post, Hase accessories aren't cheap, but there is one that I would say is an absolute necessity, that is the double kickstand. It is really sturdy, and can support up to 100kg, it makes getting in and out of the recumbent seat so much simpler, and makes parking up easy.
+
+The only other official Hase accessory we have bought is the lowrider front pannier rack, it works with the kickstand to support a whopping 4 pannier bags. I got it to better distribute weight from the back of the bike to the centre, and to give Phoebe the means to easily access stuff whilst we're on the move.
+
+![The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack](/images/img_20201129_130107.jpg "The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack")
+
+We have made a few other amendments with non-Hase parts. It surprising that there are only mount points for 1 water bottle on the bike, my touring bike has 3! we worked around this using [topeak cage mounts](https://www.topeak.com/global/en/products/accessories/332-cagemount) attached to the upright bars of the seat, there is just enough room to fit 2 additional water bottles and not hit my knees.
+
+![Rear view of the tandem, you can see the waterbottles attacked the seat upright posts.](/images/img_20200826_130812.jpg "Rear view of the tandem, you can see the waterbottles attacked the seat upright posts.")
+
+We have had a lot of fun mounting a GoPro on the front boom, I used a simple velcro strap to do it, I was worried it wouldn't be very sturdy and would shake off, but its testament to the Pino's stability (and front suspension forks) that this hasn't been a problem at all.
+
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/j2sO1YK-100](https://www.youtube.com/embed/j2sO1YK-100 "https://www.youtube.com/embed/j2sO1YK-100")" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
