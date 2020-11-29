@@ -39,7 +39,7 @@ It is possible to split the Pino in half to aid transport, I haven't done this y
 
 ## What's it like to ride?
 
-I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it, even at high speed. 
+I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it, even at high speed.
 
 The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us and have been able to stop easily, when we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace]() they've been fine and are still stopping us easily with no sticking 300 miles later.
 
@@ -67,14 +67,14 @@ I'm not brave enough to muck around with the hydraulic disc brakes and I was wor
 
 As I mentioned at the beginning of the post, Hase accessories aren't cheap, but there is one that I would say is an absolute necessity, that is the double kickstand. It is really sturdy, and can support up to 100kg, it makes getting in and out of the recumbent seat so much simpler, and makes parking up easy.
 
+![The Pino double stand is super sturdy, even when you're towing another bike!](/images/img_20200818_141746.jpg "The Pino double stand is super sturdy, even when you're towing another bike!")
+
+The only other accessory we have bought is the lowrider pannier rack, I wanted to distribute the weight a little more evenly, and give Phoebe easy access to stuff in the panniers whilst we were on the move.
+
 The only other official Hase accessory we have bought is the lowrider front pannier rack, it works with the kickstand to support a whopping 4 pannier bags. I got it to better distribute weight from the back of the bike to the centre, and to give Phoebe the means to easily access stuff whilst we're on the move.
 
-![The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack](/images/img_20201129_130107.jpg "The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack")
-
-We have made a few other amendments with non-Hase parts. It surprising that there are only mount points for 1 water bottle on the bike, my touring bike has 3! we worked around this using [topeak cage mounts](https://www.topeak.com/global/en/products/accessories/332-cagemount) attached to the upright bars of the seat, there is just enough room to fit 2 additional water bottles and not hit my knees.
+![The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack](/images/img_20201129_130107.jpg "The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack")We have also made some non-proprietory adjustments, the bike only has mount points for one waterbootle, which is frankly ridiculous, my touring bike has three! We have worked around this by using [Topeak cage mounts](https://www.topeak.com/global/en/products/accessories/332-cagemount) attached to the upright bars of the seat, there is just enough room to fit 2 additional water bottles and not hit my knees.
 
 ![Rear view of the tandem, you can see the waterbottles attacked the seat upright posts.](/images/img_20200826_130812.jpg "Rear view of the tandem, you can see the waterbottles attacked the seat upright posts.")
 
 We have had a lot of fun mounting a GoPro on the front boom, I used a simple velcro strap to do it, I was worried it wouldn't be very sturdy and would shake off, but its testament to the Pino's stability (and front suspension forks) that this hasn't been a problem at all.
-
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/j2sO1YK-100](https://www.youtube.com/embed/j2sO1YK-100 "https://www.youtube.com/embed/j2sO1YK-100")" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
