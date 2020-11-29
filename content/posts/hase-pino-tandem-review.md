@@ -57,7 +57,7 @@ I found with the handlebars were too far apart for long rides. My shoulders ache
 
 The front boom is adjustable which means the bike will still be usable as Phoebe grows. However it is currently on the lowest setting, and when making tight turns the wheel catches the pedals, I have to warn Phoebe I'm going to make a tight turn and she levels her feet out. Over time it wont be an issue but its pretty sketchy when you forget and catch the wheel. It hasn't caused us to crash, yet.
 
-## Maintenance and repairs.
+## Maintenance and repair.
 
 The Pino is reasonably simple to keep in good repair, the use of standard derailleurs definitely helps. It has the excellent Schwalbe Marathon tyres, which are claimed to be puncture proof, so far that has been the case. The front chain is difficult to clean, but it is enclosed in a plastic tube for most of its length so it doesn't get too dirty.
 
@@ -78,3 +78,5 @@ The only other official Hase accessory we have bought is the lowrider front pann
 ![Rear view of the tandem, you can see the waterbottles attacked the seat upright posts.](/images/img_20200826_130812.jpg "Rear view of the tandem, you can see the waterbottles attacked the seat upright posts.")
 
 We have had a lot of fun mounting a GoPro on the front boom, I used a simple velcro strap to do it, I was worried it wouldn't be very sturdy and would shake off, but its testament to the Pino's stability (and front suspension forks) that this hasn't been a problem at all.
+
+We have also added a squeezy horn, to the recumbent chair handle, this allows Phoebe to give pedestrians a headsup we're coming.
