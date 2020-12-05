@@ -1,6 +1,5 @@
 +++
 date = 2020-09-18T23:00:00Z
-draft = true
 tags = ["review", "bike"]
 title = "Hase Pino tandem review"
 
@@ -95,7 +94,7 @@ We have also added a squeezy horn, to the recumbent chair handle, this allows Ph
 
 I'm hoping Father Christmas will bring me a leather saddle this year. The stock saddle on the Pino is ok but not overly comfortable. Originally I looked at a classic [Brooks saddle](), but after some help from the awesome [@cyclechat](https://twitter.com/UKCycleChat) community on Twitter I have directed Santa to [Spa Cycles]() who make leather saddles at a significantly lower cost.
 
-I also need to get some lights, the biggest challenge will be where to mount them, there is a mount point on the front boom, but all the lights I have found so far that would fit it are dynamo driven. This is leading me down the path of temptation to get a dynamo (it will be handy for keeping phones and bike computers charged too, but they are not cheap.
+I also need to get some lights, the biggest challenge will be where to mount them, there is a mount point on the front boom, but all the lights I have found so far that would fit it are dynamo driven. This is leading me down the path of temptation to get a dynamo (it will be handy for keeping phones and bike computers charged, but they are not cheap.
 
 Finally, we are thinking of doing a big tour on it next year, either Land's End to John O'Groats or Le Tour de Manche, we will no doubt need a cycle computer for navigation, I've got my beady eye on a [Garmin Edge Explore](https://buy.garmin.com/en-GB/GB/p/611996). again mounting it will be a challenge.
 
