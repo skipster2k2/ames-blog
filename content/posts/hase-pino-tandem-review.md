@@ -39,7 +39,9 @@ It is possible to split the Pino in half to aid transport, I haven't done this y
 
 ## What's it like to ride?
 
-I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it, even at high speed.
+I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it, even at high speed. I have ridden it a few times with no one in the stoker seat and that makes the steering a little twitchy as there is less weight over the front wheel, it is still manageable though.
+
+![Me and my daughter on the recumbent tandem in a car park](/images/img_20200705_173829.jpg "Our maiden voyage on the Pino")
 
 The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us and have been able to stop easily, when we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace]() they've been fine and are still stopping us easily with no sticking 300 miles later.
 
