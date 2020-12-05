@@ -9,7 +9,7 @@ I've never really seen the appeal of tandems, the poor old stoker sat at the bac
 
 The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent seat, whilst the pilot is just behind in a standard bike configuration, the beauty of this design is that you share the same view, and your heads are close together, its easy to have a conversation even at speed.
 
-We got our Pino second-hand this year for my daughter and me to ride, there are lots of great reviews already out there which I've listed at the end of the post. They are mainly aimed at long-distance touring. I haven't seen any reviews for people buying the bike primarily for family recreation so here it is.
+We got our Pino second-hand this year for my daughter and I to ride, there are lots of great reviews already out there which I've listed at the end of the post. They are mainly aimed at long-distance touring. I haven't seen any reviews for people buying the bike primarily for family recreation so here it is.
 
 ![Tandem parked in a wooded field](/images/img_20200711_113033.jpg "Parked up for lunch")
 
