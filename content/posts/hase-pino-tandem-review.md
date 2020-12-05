@@ -5,27 +5,27 @@ tags = ["review", "bike"]
 title = "Hase Pino tandem review"
 
 +++
-I've never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot's back, that was until we got a Hase Pino, quite possibly the strangest looking but most well designed tandem there is.
+I've never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot's back, that was until we got a Hase Pino, quite possibly the strangest looking but most well-designed tandem there is.
 
 The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent seat, whilst the pilot is just behind in a standard bike configuration, the beauty of this design is that you share the same view, and your heads are close together, its easy to have a conversation even at speed on the Pino.
 
-We got our Pino second-hand this year for my daughter and I to ride, this is our review.
+We got our Pino second-hand this year for my daughter and me to ride, there are lots of great reviews already out there which I've listed at the end of the post. They are mainly aimed at long-distance touring. I haven't seen any reviews for people buying the bike primarily for family recreation so here it is.
 
 ## The cost.
 
-The biggest issue with the Pino is the cost, [a new Pino]() has a comparable cost to a small family car. At todays prices the non-electric motor version will set you back around £5000 for the base model, and the accessories aren't cheap either. Initially we started looking at the [Circe Morpheus](https://www.circecycles.com/products/morpheus/) instead, an equivalent bike for around £3000, again this was for the base model and accessories soon started to ramp the price up beyond my budget.
+The biggest issue with the Pino is the cost, [a new Pino]() has a comparable cost to a small family car. At today's prices, the non-electric motor version will set you back around £5000 for the base model, and the accessories aren't cheap either. Initially, we started looking at the [Circe Morpheus](https://www.circecycles.com/products/morpheus/) instead, an equivalent bike for around £3000, again this was for the base model and accessories soon started to ramp the price up beyond my budget.
 
-So we turned to the second hand market without much hope, these bikes are pretty niche and I didn't expect there to be much of a second hand market. I setup eBay alerts for the both the Pino and the Morpheus. I haven't had a single alert for the Morpheus, but Pino's appeared at a fairly steady rhythm during the summer of 2020, maybe the lockdown convinced owners they didn't need them anymore?
+So we turned to the second-hand market without much hope, these bikes are pretty niche and I didn't expect there to be much of a second-hand market. I set up eBay alerts for both the Pino and the Morpheus. I haven't had a single alert for the Morpheus, but Pino's appeared at a fairly steady rhythm during the summer of 2020, maybe the lockdown convinced owners they didn't need them anymore?
 
-What was clear from the second hand market was that the bikes kept their value, I saw a 20 year old Pino go for £2500, I didn't feel confident this was going to be any better for my wallet. The big advantage however was that nearly all the second hand bikes had already been accessorised with the things I considered to have to have to be viable, especially the kickstand, which was an additional £200 accessory. Many came with other extras that would be beneficial such as the front lowrider pannier rack, or kids cranks for the front seat.
+What was clear from the second-hand market was that the bikes kept their value, I saw a 20-year-old Pino go for £2500, I didn't feel confident this was going to be any better for my wallet. The big advantage, however, was that nearly all the second-hand bikes had already been accessorised with the things I considered to have to have to be viable, especially the kickstand, which was an additional £200 accessory. Many came with other extras that would be beneficial such as the front lowrider pannier rack, or kids cranks for the front seat.
 
-After bidding unsuccessfully on a few, I finally got lucky with winning a bid on a 2 year old Pino with stand and seatbelt for the recumbent seat. I couldn't believe I won, it went for much the same price as the 20 year old Pino mentioned earlier. I was very happy to get such a new bike in such good condition, the only problem was it was in Harrogate and I lived in Plymouth!
+After bidding unsuccessfully on a few, I finally got lucky with winning a bid on a 2-year-old Pino with stand and seatbelt for the recumbent seat. I couldn't believe I won, it went for much the same price as the 20-year-old Pino mentioned earlier. I was very happy to get such a new bike in such good condition, the only problem was it was in Harrogate and I lived in Plymouth!
 
 ## Transporting the Pino.
 
-I had won the bike and needed to get 350 miles to Harrogate, it was the end of July 2020, Britain had just come out of lockdown, luckily that meant the roads were pretty quite!
+I had won the bike and needed to get 350 miles to Harrogate, it was the end of July 2020, Britain had just come out of lockdown, luckily that meant the roads were pretty quiet!
 
-I travelled up in our campervan so I could save money by parking overnight in a truck stop (and to be honest I was a little Covid paranoid about staying in a hotel or b&b). I planned to transport the Pino back on my rear mounted bike rack but I was worried about the width. The maximum vehicle width in the UK is 2.55 metres, and the Pino is 2.1 metres when the front boom is at its shortest. The van is only 1.9 metres wide, I was worried about the overhang on such a long journey.
+I travelled up in our campervan so I could save money by parking overnight in a truck stop (and to be honest I was a little Covid paranoid about staying in a hotel or b&b). I planned to transport the Pino back on my rear-mounted bike rack but I was worried about the width. The maximum vehicle width in the UK is 2.55 metres, and the Pino is 2.1 metres when the front boom is at its shortest. The van is only 1.9 metres wide, I was worried about the overhang on such a long journey.
 
 I got to Harrogate and picked the bike up from a lovely family, the bike was immaculate, but I chickened out of loading on the rear rack and instead put down the rock-and-roll bed in the van and loaded the bike on top, it just about fitted but it was a good job I travelled up on my own.
 
@@ -39,7 +39,9 @@ It is possible to split the Pino in half to aid transport, I haven't done this y
 
 ## What's it like to ride?
 
-I'd read in a few articles that it could take a bit of getting used to riding the Pino, the handlebars are quite wide apart, but I didn't find this the case at all, in fact I was amazed at how stable the Pino was, it always feels well grounded when both of use are on it, even at high speed. I have ridden it a few times with no one in the stoker seat and that makes the steering a little twitchy as there is less weight over the front wheel, it is still manageable though.
+The biggest thing you'll notice when riding the Pino is the number of comments you get, it's impossible to go out for a ride without hearing "Oh look at that", "That's cool" or "Who does all the pedalling?" its almost impossible to stop without ending up chatting to someone about it. On the whole, this is lovely but can get tiresome for Phoebe being the centre of attention all the time.
+
+I'd read in a few articles that riding the Pino could take a bit of getting used to. the handlebars are quite wide apart, but I didn't find this the case at all, in fact, I was amazed at how stable the Pino was, it always feels well-grounded when both of use are on it, even at high speed. I have ridden it a few times with no one in the stoker seat and that makes the steering a little twitchy as there is less weight over the front wheel, it is still manageable though.
 
 ![Me and my daughter on the recumbent tandem in a car park](/images/img_20200705_173829.jpg "Our maiden voyage on the Pino")
 
@@ -57,13 +59,13 @@ We've only had a couple of issues:
 
 I found with the handlebars were too far apart for long rides. My shoulders ached from my arms being so wide, it is possible to change the angle of the handlebars, and bringing them in slightly improved this enormously and didn't affect stability.
 
-The front boom is adjustable which means the bike will still be usable as Phoebe grows. However it is currently on the lowest setting, and when making tight turns the wheel catches the pedals, I have to warn Phoebe I'm going to make a tight turn and she levels her feet out. Over time it wont be an issue but its pretty sketchy when you forget and catch the wheel. It hasn't caused us to crash, yet.
+The front boom is adjustable which means the bike will still be usable as Phoebe grows. However it is currently on the lowest setting, and when making tight turns the wheel catches the pedals, I have to warn Phoebe I'm going to make a tight turn and she levels her feet out. Over time it won't be an issue but its pretty sketchy when you forget and catch the wheel. It hasn't caused us to crash, yet.
 
 ## Maintenance and repair.
 
-The Pino is reasonably simple to keep in good repair, the use of standard derailleurs definitely helps. It has the excellent Schwalbe Marathon tyres, which are claimed to be puncture proof, so far that has been the case. The front chain is difficult to clean, but it is enclosed in a plastic tube for most of its length so it doesn't get too dirty.
+The Pino is reasonably simple to keep in good repair, the use of standard derailleurs definitely helps. It has the excellent Schwalbe Marathon tyres, which are claimed to be puncture-proof, so far that has been the case. The front chain is difficult to clean, but it is enclosed in a plastic tube for most of its length so it doesn't get too dirty.
 
-I'm not brave enough to muck around with the hydraulic disc brakes and I was worried about finding a bike mechanic that would be comfortable servicing it. I'm lucky that bikespace, my local mechanics sell cargo bikes that use much the same components as the Pino, they did a great job servicing it in the summer. Unfortunately they don't stock Pino parts, and I wanted to get the lowrider front pannier rack. I contacted [Get Cycling](https://www.getcycling.org.uk/) in York, where the bike originally came from and they were able to ship it with no problems. This was reassuring as there are some specialist parts you can only get from Hase that will wear out eventually, such as the stokers crankset.
+I'm not brave enough to muck around with the hydraulic disc brakes and I was worried about finding a bike mechanic that would be comfortable servicing it. I'm lucky that bikespace, my local mechanics sell cargo bikes that use much the same components as the Pino, they did a great job servicing it in the summer. Unfortunately, they don't stock Pino parts, and I wanted to get the lowrider front pannier rack. I contacted [Get Cycling](https://www.getcycling.org.uk/) in York, where the bike originally came from and they were able to ship it with no problems. This was reassuring as there are some specialist parts you can only get from Hase that will wear out eventually, such as the stoker's crankset.
 
 ## Accessories and adjustments.
 
@@ -89,4 +91,4 @@ I'm hoping Father Christmas will bring me a leather saddle this year (I've been 
 
 I also need to get some lights, the biggest challenge will be wear to mount them, there is a mount point on the front boom, but all the lights I have found so far that would fit it are dynamo driven. This is leading me down the path of temptation to get a dynamo (it will be handy for keeping phones and bike computers charged too, but they are not cheap.
 
-Finally we are thinking of doing a big tour on it next year, either Land's End to John O'Groats or Le Tour de Manche, we will no doubt need a cycle computer for navigation, I've got my beady eye on a [Garmin Edge Explore](https://buy.garmin.com/en-GB/GB/p/611996). again mounting it will be a challenge
+Finally, we are thinking of doing a big tour on it next year, either Land's End to John O'Groats or Le Tour de Manche, we will no doubt need a cycle computer for navigation, I've got my beady eye on a [Garmin Edge Explore](https://buy.garmin.com/en-GB/GB/p/611996). again mounting it will be a challenge
