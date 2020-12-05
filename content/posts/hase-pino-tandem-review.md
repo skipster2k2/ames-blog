@@ -43,17 +43,17 @@ It is possible to split the Pino in half to aid transport, I haven't done this y
 
 The biggest thing you'll notice when riding the Pino is the number of comments you get, it's impossible to go out for a ride without hearing "Oh look at that", "That's cool" or "Who does all the pedalling?" its almost impossible to stop without ending up chatting to someone about it. On the whole, this is lovely but can get tiresome for Phoebe being the centre of attention all the time.
 
-I'd read in a few articles that riding the Pino could take a bit of getting used to. the handlebars are quite wide apart, but I didn't find this the case at all, in fact, I was amazed at how stable the Pino was, it always feels well-grounded when both of use are on it, even at high speed. I have ridden it a few times with no one in the stoker seat and that makes the steering a little twitchy as there is less weight over the front wheel, it is still manageable though.
+I'd read in a few articles that riding the Pino could take a bit of getting used to. the handlebars are quite wide apart, but I didn't find this the case at all, in fact, I was amazed at how stable the Pino was, it always feels well-grounded when both of us are on it, even at high speed. I have ridden it a few times with no one in the stoker seat and that makes the steering a little twitchy as there is less weight over the front wheel, it is still manageable though.
 
 ![Me and my daughter on the recumbent tandem in a car park](/images/img_20200705_173829.jpg "Our maiden voyage on the Pino")
 
-The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us and have been able to stop easily, when we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace]() they've been fine and are still stopping us easily with no sticking 300 miles later.
+The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us and have been able to stop easily when we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace]() they've been fine and are still stopping us easily with no sticking 300 miles later.
 
-A lot of Pino's have hub gears, but ours has a whopping 29 speed derailleur. The rear derailleur is indexed, and the front isn't, this works well given the amount of movement between bottom and top gear you can adjust the front derailleur slightly to prevent annoying rubbing noises. Both are controlled by bar end shifters mounted facing upwards on the pilot handlebars. The gearing is arguably not quite set right, we find ourselves in granny gear fairly often, however we do most of our riding in Plymouth or on Dartmoor, both of which are steep! My daughter calls the top gear the stig gear, and when on the flat or downhill you can really get up a head of steam. Tandems are great for disrupting Strava segments!
+A lot of Pino's have hub gears, but ours has a whopping 29-speed derailleur. The rear derailleur is indexed, and the front isn't, this works well given the amount of movement between the bottom and top gear you can adjust the front derailleur slightly to prevent annoying rubbing noises. Both are controlled by bar-end shifters mounted facing upwards on the pilot handlebars. The gearing is arguably not quite set right, we find ourselves in granny gear fairly often, however, we do most of our riding in Plymouth or on Dartmoor, both of which are steep! My daughter calls the top gear the stig gear, and when on the flat or downhill you can really get up a head of steam. Tandems are great for disrupting Strava segments!
 
 ![straight cycle path with cyclists in the foreground of the shot](/images/img_20200826_113502.jpg "Family ride on the Camel trail from Bodmin to Wadebridge")
 
-My daughter has never made any complaints about being uncomfortable on the recumbent seat, its a mesh design which dries quickly when it has rained, we have been on all day rides with no problems. To help keep her feet in the pedals, we have [special recumbent pedals](https://www.getcycling.org.uk/product/hase-recumbent-pedals/) that attach her feet to the pedals by use of a bungee cord behind her heels, these work fairly effectively, although it's necessary to adjust the elastic after a while, we will probably replace these with SPD clips when her feet stop growing.
+My daughter has never made any complaints about being uncomfortable on the recumbent seat, its a mesh design which dries quickly when it has rained, we have been on all-day rides with no problems. To help keep her feet in the pedals, we have [special recumbent pedals](https://www.getcycling.org.uk/product/hase-recumbent-pedals/) that attach her feet to the pedals by use of a bungee cord behind her heels, these work fairly effectively, although it's necessary to adjust the elastic after a while, we will probably replace these with SPD clips when her feet stop growing.
 
 Another additional feature was the seat harness, whilst it's not essential it gives Phoebe some confidence that she isn't going to fall off, once again its an added extra accessory if buying new but we were fortunate that our's came with it.
 
@@ -63,7 +63,7 @@ One of the best features is that the stoker can free-wheel independently, and th
 
 We've only had a couple of issues:
 
-I found with the handlebars were too far apart for long rides. My shoulders ached from my arms being so wide, it is possible to change the angle of the handlebars, and bringing them in slightly improved this enormously and didn't affect stability.
+I found with the handlebars were too far apart for long rides. My shoulders ached from my arms being so wide, it is possible to change the angle of the handlebars and bringing them in slightly improved this enormously and didn't affect stability.
 
 The front boom is adjustable which means the bike will still be usable as Phoebe grows. However it is currently on the lowest setting, and when making tight turns the wheel catches the pedals, I have to warn Phoebe I'm going to make a tight turn and she levels her feet out. Over time it won't be an issue but its pretty sketchy when you forget and catch the wheel. It hasn't caused us to crash, yet.
 
@@ -77,13 +77,13 @@ I'm not brave enough to muck around with the hydraulic disc brakes and I was wor
 
 ## Accessories and adjustments.
 
-As I mentioned at the beginning of the post, Hase accessories aren't cheap, but there is one that I would say is an absolute necessity, that is the double kickstand. It is really sturdy, and can support up to 100kg, it makes getting in and out of the recumbent seat so much simpler, and makes parking up easy.
+As I mentioned at the beginning of the post, Hase accessories aren't cheap, but there is one that I would say is an absolute necessity, that is the double kickstand. It is really sturdy and can support up to 100kg, it makes getting in and out of the recumbent seat so much simpler, and makes parking up easy.
 
 ![The Pino double stand is super sturdy, even when you're towing another bike!](/images/img_20200818_141746.jpg "The Pino double stand is super sturdy, even when you're towing another bike!")
 
 The only other accessory we have bought is the lowrider pannier rack, I wanted to distribute the weight a little more evenly, and give Phoebe easy access to stuff in the panniers whilst we were on the move.
 
-The only other official Hase accessory we have bought is the lowrider front pannier rack, it works with the kickstand to support a whopping 4 pannier bags. I got it to better distribute weight from the back of the bike to the centre, and to give Phoebe the means to easily access stuff whilst we're on the move.
+The only other official Hase accessory we have bought is the lowrider front pannier rack, it works with the kickstand to support a whopping 4 pannier bags. I got it to better distribute the weight from the back of the bike to the centre, and to give Phoebe the means to easily access stuff whilst we're on the move.
 
 ![The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack](/images/img_20201129_130107.jpg "The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack")We have also made some non-proprietory adjustments, the bike only has mount points for one waterbottle, which is frankly ridiculous, my touring bike has three! We have worked around this by using [Topeak cage mounts](https://www.topeak.com/global/en/products/accessories/332-cagemount) attached to the upright bars of the seat, there is just enough room to fit 2 additional water bottles and not hit my knees.
 
@@ -95,7 +95,7 @@ We have also added a squeezy horn, to the recumbent chair handle, this allows Ph
 
 ### Future changes
 
-I'm hoping Father Christmas will bring me a leather saddle this year (I've been a good boy). The stock saddle on the Pino is ok but not overly comfortable. Originally I looked at a classic [Brooks saddle](), but after some help from the awesome [@cyclechat](https://twitter.com/UKCycleChat) community on twitter I have directed Santa to [Spa Cycles]() who make leather saddles at a significantly lower cost.
+I'm hoping Father Christmas will bring me a leather saddle this year (I've been a good boy). The stock saddle on the Pino is ok but not overly comfortable. Originally I looked at a classic [Brooks saddle](), but after some help from the awesome [@cyclechat](https://twitter.com/UKCycleChat) community on Twitter I have directed Santa to [Spa Cycles]() who make leather saddles at a significantly lower cost.
 
 I also need to get some lights, the biggest challenge will be wear to mount them, there is a mount point on the front boom, but all the lights I have found so far that would fit it are dynamo driven. This is leading me down the path of temptation to get a dynamo (it will be handy for keeping phones and bike computers charged too, but they are not cheap.
 
@@ -103,6 +103,12 @@ Finally, we are thinking of doing a big tour on it next year, either Land's End 
 
 ## Further Reading.
 
-I hope this post is useful, we found these blog posts useful when researching the Pino too:
+I hope this post is useful, we found these blog posts helped us when researching the Pino:
 
-Totally tandem review.
+[Totally tandem review.](https://totallytandem.com/gear-reviews/hase-pino/)
+
+[Three wheeling review.](http://threewheeling.net/hase-pino-tour/)
+
+[Crazy guy on a bike review.](https://www.crazyguyonabike.com/doc/page/?page_id=310031)
+
+[Seven League boots review.](https://sevenleagueboots.wordpress.com/2009/05/10/thinking-about-the-hase-pino/)
