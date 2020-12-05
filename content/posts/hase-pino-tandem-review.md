@@ -11,6 +11,8 @@ The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent
 
 We got our Pino second-hand this year for my daughter and me to ride, there are lots of great reviews already out there which I've listed at the end of the post. They are mainly aimed at long-distance touring. I haven't seen any reviews for people buying the bike primarily for family recreation so here it is.
 
+![Tandem parked in a wooded field](/images/img_20200711_113033.jpg "Parked up for lunch")
+
 ## The cost.
 
 The biggest issue with the Pino is the cost, [a new Pino]() has a comparable cost to a small family car. At today's prices, the non-electric motor version will set you back around £5000 for the base model, and the accessories aren't cheap either. Initially, we started looking at the [Circe Morpheus](https://www.circecycles.com/products/morpheus/) instead, an equivalent bike for around £3000, again this was for the base model and accessories soon started to ramp the price up beyond my budget.
@@ -49,9 +51,13 @@ The Pino has hydraulic brakes which are phenomenal for stopping, we've had more 
 
 A lot of Pino's have hub gears, but ours has a whopping 29 speed derailleur. The rear derailleur is indexed, and the front isn't, this works well given the amount of movement between bottom and top gear you can adjust the front derailleur slightly to prevent annoying rubbing noises. Both are controlled by bar end shifters mounted facing upwards on the pilot handlebars. The gearing is arguably not quite set right, we find ourselves in granny gear fairly often, however we do most of our riding in Plymouth or on Dartmoor, both of which are steep! My daughter calls the top gear the stig gear, and when on the flat or downhill you can really get up a head of steam. Tandems are great for disrupting Strava segments!
 
-My daughter has never made any complaints about being uncomfortable on the recumbent seat, its a mesh design which dries quickly when it has rained, we have been on all day rides with no problems. To help keep her feet in the pedals, we have [special recumbent pedals](https://www.getcycling.org.uk/product/hase-recumbent-pedals/) that attach her feet to the pedals by use of a bungee cord behind her heels, these work fairly effectively, although its necessary to adjust the elastic after a while, we will probably replace these with SPD clips when her feet stop growing.
+![straight cycle path with cyclists in the foreground of the shot](/images/img_20200826_113502.jpg "Family ride on the Camel trail from Bodmin to Wadebridge")
 
-![Cycling down the Camel trail from Bodmin to Wadebridge. You can see the recumbent pedals that keep Phoebe's feet on the pedals.](/images/img_20200826_113502.jpg "Cycling down the Camel trail from Bodmin to Wadebridge. You can see the recumbent pedals that keep Phoebe's feet on the pedals.")
+My daughter has never made any complaints about being uncomfortable on the recumbent seat, its a mesh design which dries quickly when it has rained, we have been on all day rides with no problems. To help keep her feet in the pedals, we have [special recumbent pedals](https://www.getcycling.org.uk/product/hase-recumbent-pedals/) that attach her feet to the pedals by use of a bungee cord behind her heels, these work fairly effectively, although it's necessary to adjust the elastic after a while, we will probably replace these with SPD clips when her feet stop growing.
+
+Another additional feature was the seat harness, whilst it's not essential it gives Phoebe some confidence that she isn't going to fall off, once again its an added extra accessory if buying new but we were fortunate that our's came with it.
+
+![Picture taken of Phoebe in the front seat of the tandem from behind, she is twisting round to smile at the camera](/images/img_20200710_112725.jpg "Phoebe having fun at the front.")
 
 One of the best features is that the stoker can free-wheel independently, and the pilot can keep riding. This means if Phoebe gets tired she can take a break, whilst I can still ride.
 
@@ -60,6 +66,8 @@ We've only had a couple of issues:
 I found with the handlebars were too far apart for long rides. My shoulders ached from my arms being so wide, it is possible to change the angle of the handlebars, and bringing them in slightly improved this enormously and didn't affect stability.
 
 The front boom is adjustable which means the bike will still be usable as Phoebe grows. However it is currently on the lowest setting, and when making tight turns the wheel catches the pedals, I have to warn Phoebe I'm going to make a tight turn and she levels her feet out. Over time it won't be an issue but its pretty sketchy when you forget and catch the wheel. It hasn't caused us to crash, yet.
+
+![Recumbent bike in front of a pasty shop, the best reason for riding a bike!](/images/img_20200826_121445.jpg "Picture of the front boom on the pino, you can see how close the pedals are to the front wheel when its fully retracted")
 
 ## Maintenance and repair.
 
@@ -91,4 +99,10 @@ I'm hoping Father Christmas will bring me a leather saddle this year (I've been 
 
 I also need to get some lights, the biggest challenge will be wear to mount them, there is a mount point on the front boom, but all the lights I have found so far that would fit it are dynamo driven. This is leading me down the path of temptation to get a dynamo (it will be handy for keeping phones and bike computers charged too, but they are not cheap.
 
-Finally, we are thinking of doing a big tour on it next year, either Land's End to John O'Groats or Le Tour de Manche, we will no doubt need a cycle computer for navigation, I've got my beady eye on a [Garmin Edge Explore](https://buy.garmin.com/en-GB/GB/p/611996). again mounting it will be a challenge
+Finally, we are thinking of doing a big tour on it next year, either Land's End to John O'Groats or Le Tour de Manche, we will no doubt need a cycle computer for navigation, I've got my beady eye on a [Garmin Edge Explore](https://buy.garmin.com/en-GB/GB/p/611996). again mounting it will be a challenge.
+
+## Further Reading.
+
+I hope this post is useful, we found these blog posts useful when researching the Pino too:
+
+Totally tandem review.
