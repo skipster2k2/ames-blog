@@ -81,8 +81,6 @@ As I mentioned at the beginning of the post, Hase accessories aren't cheap, but 
 
 ![The Pino double stand is super sturdy, even when you're towing another bike!](/images/img_20200818_141746.jpg "The Pino double stand is super sturdy, even when you're towing another bike!")
 
-The only other accessory we have bought is the lowrider pannier rack, I wanted to distribute the weight a little more evenly, and give Phoebe easy access to stuff in the panniers whilst we were on the move.
-
 The only other official Hase accessory we have bought is the lowrider front pannier rack, it works with the kickstand to support a whopping 4 pannier bags. I got it to better distribute the weight from the back of the bike to the centre, and to give Phoebe the means to easily access stuff whilst we're on the move.
 
 ![The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack](/images/img_20201129_130107.jpg "The lowrider pannier rack, with panniers loaded on. It's possible to get another two panniers onto the rack")We have also made some non-proprietory adjustments, the bike only has mount points for one waterbottle, which is frankly ridiculous, my touring bike has three! We have worked around this by using [Topeak cage mounts](https://www.topeak.com/global/en/products/accessories/332-cagemount) attached to the upright bars of the seat, there is just enough room to fit 2 additional water bottles and not hit my knees.
