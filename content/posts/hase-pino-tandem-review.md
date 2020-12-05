@@ -19,9 +19,9 @@ The biggest issue with the Pino is the cost, [a new Pino]() has a comparable cos
 
 So we turned to the second-hand market without much hope, these bikes are pretty niche and I didn't expect there to be much available. I set up eBay alerts for both the Pino and the Morpheus. I haven't had a single alert for the Morpheus, but Pino's appeared at a fairly steady rhythm during the spring/summer of 2020, maybe the lockdown convinced owners they didn't need them anymore?
 
-What was clear from the second-hand market was that the bikes kept their value, I saw a 20-year-old Pino go for £2500, I didn't feel confident this was going to be any better for my wallet. The big advantage, however, was that nearly all the second-hand bikes had already been accessorised with the things I considered to have to have to be viable, especially the kickstand, which was an additional £200 accessory. Many came with other extras that would be beneficial such as the front lowrider pannier rack, or kids cranks for the front seat.
+What was clear from the second-hand market was that the bikes kept their value, I saw a 20-year-old Pino go for £2500, I didn't feel confident this was going to be any better for my wallet. The big advantage, however, was that nearly all the second-hand bikes had already been accessorised with the things I considered essential, especially the kickstand, which was an additional £200 accessory when new. Many came with other extras that would be beneficial such as the front lowrider pannier rack, or kids cranks for the front seat.
 
-After bidding unsuccessfully on a few, I finally got lucky with winning a bid on a 2-year-old Pino with stand and seatbelt for the recumbent seat. I couldn't believe I won, it went for much the same price as the 20-year-old Pino mentioned earlier. I was very happy to get such a new bike in such good condition, the only problem was it was in Harrogate and I lived in Plymouth!
+After bidding unsuccessfully on a few, I finally got lucky with winning a bid on a 2-year-old Pino with stand and seatbelt for the recumbent seat. I couldn't believe I won, it went for much the same price as the 20-year-old Pino mentioned earlier. I was very happy to get a relatively new bike in such good condition. The only problem was it was in Harrogate and I lived in Plymouth!
 
 ## Transporting the Pino.
 
@@ -29,11 +29,11 @@ I had won the bike and needed to get 350 miles to Harrogate, it was the end of J
 
 I travelled up in our campervan so I could save money by parking overnight in a truck stop (and to be honest I was a little Covid paranoid about staying in a hotel or b&b). I planned to transport the Pino back on my rear-mounted bike rack but I was worried about the width. The maximum vehicle width in the UK is 2.55 metres, and the Pino is 2.1 metres when the front boom is at its shortest. The van is only 1.9 metres wide, I was worried about the overhang on such a long journey.
 
-I got to Harrogate and picked the bike up from a lovely family, the bike was immaculate, but I chickened out of loading on the rear rack and instead put down the rock-and-roll bed in the van and loaded the bike on top, it just about fitted but it was a good job I travelled up on my own.
+I got to Harrogate and picked the bike up from a lovely family, the bike was immaculate, but I chickened out of loading it on the rear rack and instead put down the rock-and-roll bed in the van and loaded the bike on top, it just about fitted but it was a good job I travelled up on my own.
 
 ![The Pino loaded into the back of the van, it was a good job I travelled up on my own!](/images/img_20200705_110240.jpg "The Pino loaded into the back of the van, it was a good job I travelled up on my own!")
 
-I have since summoned up the courage to transport the Pino on the rear rack, the furthest it has been is about 40 miles to Bodmin and it does overhang a lot, but taking it easy and with judicious width given on the left side on Cornish country lanes, we haven't had any issues so far.
+I have since summoned up the courage to transport the Pino on the rear rack, the furthest it has been is about 40 miles to Bodmin and it does overhang a lot! By taking it easy and with judicious width given on the left side on Cornish country lanes, we haven't had any issues so far.
 
 ![The Pino (and Hannah's bike) loaded on the back of the van, it does overhang quite a lot!](/images/img_20200826_094602.jpg "The Pino (and Hannah's bike) loaded on the back of the van, it does overhang quite a lot!")
 
