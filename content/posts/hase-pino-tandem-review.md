@@ -1,5 +1,5 @@
 +++
-date = 2020-09-18T23:00:00Z
+date = 2020-12-12T00:00:00Z
 tags = ["review", "bike"]
 title = "Hase Pino tandem review"
 
