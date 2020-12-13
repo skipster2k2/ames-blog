@@ -14,7 +14,7 @@ We got our Pino second-hand this year for my daughter and I to ride, there are l
 
 ## The cost.
 
-The biggest issue with the Pino is the cost, [a new Pino]() has a comparable cost to a small family car. At today's prices, the non-electric motor version will set you back around £5000 for the base model, and the accessories aren't cheap either. Initially, we started looking at the [Circe Morpheus](https://www.circecycles.com/products/morpheus/) instead, an equivalent bike for around £3000, again this was for the base model and accessories soon started to ramp the price up beyond my budget.
+The biggest issue with the Pino is the cost, [a new Pino](https://hasebikes.com/222-1-Tandem-PINO-2021.html) has a comparable cost to a small family car. At today's prices, the non-electric motor version will set you back around £5000 for the base model, and the accessories aren't cheap either. Initially, we started looking at the [Circe Morpheus](https://www.circecycles.com/products/morpheus/) instead, an equivalent bike for around £3000, again this was for the base model and accessories soon started to ramp the price up beyond my budget.
 
 So we turned to the second-hand market without much hope, these bikes are pretty niche and I didn't expect there to be much available. I set up eBay alerts for both the Pino and the Morpheus. I haven't had a single alert for the Morpheus, but Pino's appeared at a fairly steady rhythm during the spring/summer of 2020, maybe the lockdown convinced owners they didn't need them anymore?
 
@@ -46,7 +46,7 @@ I'd read in a few articles that riding the Pino could take a bit of getting used
 
 ![Me and my daughter on the recumbent tandem in a car park](/images/img_20200705_173829.jpg "Our maiden voyage on the Pino")
 
-The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us at the last minute and have been able to stop easily. When we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace]() they've been fine and are still stopping us easily with no sticking 300 miles later.
+The Pino has hydraulic brakes which are phenomenal for stopping, we've had more than one small dog run in front of us at the last minute and have been able to stop easily. When we first got it, the front brake was sticking on which made cycling it really hard. After a service at [Bikespace](http://www.bikespace.org.uk/) they've been fine and are still stopping us easily with no sticking 300 miles later.
 
 A lot of Pino's have hub gears, but ours has a whopping 29-speed derailleur. The rear derailleur is indexed, and the front isn't, this works well given the amount of movement between the bottom and top gear you can adjust the front derailleur slightly to prevent annoying rubbing noises. Both are controlled by bar-end shifters mounted facing upwards on the pilot handlebars. The gearing is arguably not quite set right, we find ourselves in granny gear fairly often, however, we do most of our riding in Plymouth or on Dartmoor, both of which are steep! My daughter calls the top gear the stig gear, and when on the flat or downhill you can really get up a head of steam. Tandems are great for disrupting Strava segments!
 
@@ -92,7 +92,7 @@ We have also added a squeezy horn, to the recumbent chair handle, this allows Ph
 
 ### Future changes
 
-I'm hoping Father Christmas will bring me a leather saddle this year. The stock saddle on the Pino is ok but not overly comfortable. Originally I looked at a classic [Brooks saddle](), but after some help from the awesome [@cyclechat](https://twitter.com/UKCycleChat) community on Twitter I have directed Santa to [Spa Cycles]() who make leather saddles at a significantly lower cost.
+I'm hoping Father Christmas will bring me a leather saddle this year. The stock saddle on the Pino is ok but not overly comfortable. Originally I looked at a classic [Brooks saddle](https://www.brooksengland.com/en_uk/saddles.html), but after some help from the awesome [@cyclechat](https://twitter.com/UKCycleChat) community on Twitter I have directed Santa to [Spa Cycles](https://www.spacycles.co.uk/m18b0s0p0/Saddles) who make leather saddles at a significantly lower cost.
 
 I also need to get some lights, the biggest challenge will be where to mount them, there is a mount point on the front boom, but all the lights I have found so far that would fit it are dynamo driven. This is leading me down the path of temptation to get a dynamo (it will be handy for keeping phones and bike computers charged, but they are not cheap.
 
