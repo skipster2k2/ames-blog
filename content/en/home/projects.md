@@ -2,7 +2,7 @@
 title: "Previous Projects"
 weight: 30
 ---
-### GPintheCloud, 2020/21
+### GPintheCloud, 2020 - 21
 
 Led the development of a product to enable GP Locums to access clinical systems for multiple surgeries from one device securely. The service was developed based on user feedback and enabled Locums to support GP surgeries from anywhere in the country, crucial during the coronavirus pandemic, but a solution to the challenge of GP distribution across the country.
 
@@ -30,7 +30,7 @@ A citizen focused service to allow citizens to easily protect their property int
 
 ***
 
-### Find Property Information, 2016, 2017
+### Find Property Information, 2016 - 17
 
 A citizen focused service aimed at presenting basic land information for a number of user needs. Built on an entirely new infrastructure stack, including accounts, payment, audit, address API's.
 Migrated 24 million titles of land ownership data to a new database platform.
@@ -59,5 +59,3 @@ Delivered a support forum/twitter feed, corresponding proces ses and training to
 ### iPad and BYOD solution, 2013.
 
 Rapid delivery of iPads to senior leaders and a corresponding system to access corporate information securely within 6 weeks, this enabled BYOD capabilities for HM Land Registry.
-
-***

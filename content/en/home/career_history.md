@@ -56,4 +56,3 @@ smooth transition of services to production. I was Subject Matter Expert for cro
 
 #### Systems Administrator, 2001 - 2003
 
-***
