@@ -4,9 +4,9 @@
   "description": "my blog",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/skipster2k2/ames-blog/issues"
   },
-  "homepage": "https://github.com/skipster2k2/ames-blog#readme"
+  "homepage": "https://github.com/skipster2k2/ames-blog#readme",
+  "devDependencies": {}
 }
