@@ -16,4 +16,6 @@ business analysts. I encourage new ideas and new thinking to learn quickly and c
 
 I am a mainstay of Plymouth's digital community. I have organised and spoken at Agile Southwest meetups, and have presented at the FutureSync. [TechExeter](https://www.slideshare.net/IanAmes/practical-agile-tech-exeter-v2), and [Agile on the Beach](https://agileonthebeach.com/sessions/2017/thats-not-my-agile/) conferences. I have also helped facilitate the excellent [Agile in the Ether](https://agileintheether.co.uk/) meetups and conference.
 
-My current contract is: `NHS Digital Delivery Manager` until: `September 2021`
+> #### Current contract
+> __NHS Digital Delivery Manager__
+> until: __September 2021__
