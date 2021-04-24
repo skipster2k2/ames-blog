@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss-cli": "^7.1.1"
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

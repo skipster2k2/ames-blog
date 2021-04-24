@@ -31,7 +31,7 @@ Responsible for developing a high performing remote team of software developers 
 
 #### Delivery Lead, 2014 - 2019.
 
-I led a multidisciplinary team to develop the [Find Property Information service.](https://www.gov.uk/search-property-information-land-registry) in a user-centric way using agile techniques based on the [Government Service Design Manual](https://www.gov.uk/service-manua). My team successfully passed the beta assessment of the [Government Digital Service Standard.](https://www.gov.uk/service-manual/service-standard) I advocated and acted as the voice of agile practice to the rest of the organisation.
+I led a multidisciplinary team to develop the [Find Property Information service.](https://www.gov.uk/search-property-information-land-registry) in a user-centric way using agile techniques based on the [Government Service Design Manual](https://www.gov.uk/service-manual). My team successfully passed the beta assessment of the [Government Digital Service Standard.](https://www.gov.uk/service-manual/service-standard) I advocated and acted as the voice of agile practice to the rest of the organisation.
 
 #### New Services Manager, 2011 - 2014.
 

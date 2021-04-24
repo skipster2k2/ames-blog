@@ -6,7 +6,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
-    favicon                      = "/static/favicon.ico"          # Path to favicon file
+    favicon                      = "/favicon.ico"          # Path to favicon file
     showRSSButton                = true                   # Show rss button in navigation
     fadeIn                       = true                   # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
@@ -32,6 +32,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     # Share buttons on blog post pages
     [params.share]
         twitter                  = true
+        linkedin                 = true
         facebook                 = false
         pinterest                = false
 
