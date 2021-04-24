@@ -1,6 +1,6 @@
 ---
 title: "User Manual of Me"
-date: 2020-09-12
+date: 2021-04-21
 tags:
 - user manual
 - how I work
