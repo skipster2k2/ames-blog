@@ -8,7 +8,7 @@ tags:
 - plymouth
 - devon
 ---
-I’m slightly overwhelmed by how well [Route 1]("/hidden-plymouth-route1-stoke-to-mutton-cove.md") has been received I have had some lovely feedback and suggestions for future routes. One such suggestion is to do something shorter that children can take part in, so where better than around Millbay. I can test it with my own kids as they go to Plymouth School of Creative Arts which is the starting point for this route.
+I’m slightly overwhelmed by how well [Route 1](/blog/hidden-plymouth-route1-stoke-to-mutton-cove) has been received I have had some lovely feedback and suggestions for future routes. One such suggestion is to do something shorter that children can take part in, so where better than around Millbay. I can test it with my own kids as they go to Plymouth School of Creative Arts which is the starting point for this route.
 
 <iframe src="https://www.google.com/maps/d/embed?mid=16cgN0xxCOX9BJIeOksILtykuBDKNyCk_&hl=en" width="640" height="480"></iframe>
 

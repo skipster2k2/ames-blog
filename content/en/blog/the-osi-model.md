@@ -43,7 +43,7 @@ The presentation layer presents the data to the application layer. It is respons
 
 ### Session Layer
 
-The session layer is responsible for making sure that requests to the network from applications are only sent to and from that application. It ensures that data isn’t shared with other requesting applications on the host. It does this by creating, managing and removing a session for each application request to the network. It also coordinates communication between systems and defines which mode (discussed in [data communication fundamentals]("/data-communication-fundamentals.md") the transmission will be: simplex, half-duplex, or full-duplex.
+The session layer is responsible for making sure that requests to the network from applications are only sent to and from that application. It ensures that data isn’t shared with other requesting applications on the host. It does this by creating, managing and removing a session for each application request to the network. It also coordinates communication between systems and defines which mode (discussed in [data communication fundamentals](/blog/data-communication-fundamentals) the transmission will be: simplex, half-duplex, or full-duplex.
 
 ### Transport Layer
 
