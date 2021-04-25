@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>remote working on Ian Ames, Freelance Delivery Manager</title>
+    <link>http://ames.world/tags/remote-working/</link>
+    <description>Recent content in remote working on Ian Ames, Freelance Delivery Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://ames.world/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Things I Learned From Remote Working</title>
+      <link>http://ames.world/blog/10-things-i-learned-from-remote-working/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://ames.world/blog/10-things-i-learned-from-remote-working/</guid>
+      <description>This post was originally published on the surevine blog.
+3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.
+Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth.</description>
+    </item>
+    
+    <item>
+      <title>Story Crowdsourcing Game</title>
+      <link>http://ames.world/blog/story-crowdsourcing-game/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://ames.world/blog/story-crowdsourcing-game/</guid>
+      <description>Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular Agile in the Ether remote meetup. (It is a very friendly meetup and well worth checking out).
+This is the detail of the game I facilitated:
+Objective Tell a story that develops iteratively and everyone in the group contributes to.
+Instruction Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go.</description>
+    </item>
+    
+  </channel>
+</rss>

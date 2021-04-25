@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>delivery on Ian Ames, Freelance Delivery Manager</title>
+    <link>http://ames.world/tags/delivery/</link>
+    <description>Recent content in delivery on Ian Ames, Freelance Delivery Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 11 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://ames.world/tags/delivery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The evolving visualisation of workflow in our team.</title>
+      <link>http://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.
+One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer.</description>
+    </item>
+    
+  </channel>
+</rss>

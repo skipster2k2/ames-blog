@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scrum on Ian Ames, Freelance Delivery Manager</title>
+    <link>http://ames.world/tags/scrum/</link>
+    <description>Recent content in scrum on Ian Ames, Freelance Delivery Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://ames.world/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are Sprints Sustainable?</title>
+      <link>http://ames.world/blog/are-sprints-sustainable/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ames.world/blog/are-sprints-sustainable/</guid>
+      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.
+Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.
+We use Scrum as our methodology for delivering software.</description>
+    </item>
+    
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>http://ames.world/blog/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ames.world/blog/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.
+Our team is made up of user researchers, a designer, a BA, developers and testers.
+Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.</description>
+    </item>
+    
+  </channel>
+</rss>

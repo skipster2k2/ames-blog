@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>product management on Ian Ames, Freelance Delivery Manager</title>
+    <link>http://ames.world/tags/product-management/</link>
+    <description>Recent content in product management on Ian Ames, Freelance Delivery Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://ames.world/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>http://ames.world/blog/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://ames.world/blog/improving-find-for-the-find-property-information-service/</guid>
+      <description>Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
+Why did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features.</description>
+    </item>
+    
+  </channel>
+</rss>
