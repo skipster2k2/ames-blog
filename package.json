@@ -1,22 +1,26 @@
 {
-  "name": "ames-blog",
-  "version": "1.0.0",
-  "description": "blog",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/skipster2k2/ames-blog.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/skipster2k2/ames-blog/issues"
-  },
-  "homepage": "https://github.com/skipster2k2/ames-blog#readme"
+    "name": "ames-blog",
+    "version": "1.0.0",
+    "description": "blog",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skipster2k2/ames-blog.git"
+    },
+    "author": "Ian Ames",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/skipster2k2/ames-blog/issues"
+    },
+    "homepage": "https://github.com/skipster2k2/ames-blog#readme",
+    "dependencies": {
+        "postcss-cli": "7.1.1",
+        "autoprefixer": "9.8.4"
+    }
 }
