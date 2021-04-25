@@ -92,7 +92,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-gb"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Ian Ames, freelance delivery manager"
         [languages.en.params]
             description  = "Ian Ames, freelance delivery manager"   # Max 160 characters show in search results
             footerText   = " "                      # Text to override default footer text (markdown allowed)
