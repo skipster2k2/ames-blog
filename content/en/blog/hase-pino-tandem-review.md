@@ -34,7 +34,7 @@ I got to Harrogate and picked the bike up from a lovely family, the bike was imm
 
 I have since summoned up the courage to transport the Pino on the rear rack, the furthest it has been is about 40 miles to Bodmin and it does overhang a lot! By taking it easy and with judicious width given on the left side on Cornish country lanes, we haven't had any issues so far.
 
-![The Pino (and Hannah's bike) loaded on the back of the van, it does overhang quite a lot!](/images/img_20200826_094602.jpg "The Pino (and Hannah's bike) loaded on the back of the van, it does overhang quite a lot!")
+![The Pino and Hannah's bike loaded on the back of the van, it does overhang quite a lot!](/images/img_20200826_094602.jpg "The Pino (and Hannah's bike) loaded on the back of the van, it does overhang quite a lot!")
 
 It is possible to split the Pino in half to aid transport, I haven't done this yet, I'm not sure how much of a faff disconnecting the front chain and brakes would be.
 

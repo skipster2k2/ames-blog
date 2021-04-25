@@ -49,7 +49,7 @@ There are two kinds of players:
 
 So play a different game based on the type of person.
 
-![](/images/andrew_clay_shafer.jpg "Andrew Clay Shafer highlighting factors that determine peoples (and organisations) individual motivations")
+![](/images/andrew_clay_shafer.jpg "Andrew Clay Shafer highlighting factors that determine peoples and organisations individual motivations")
 
 Aha! Went my little brain, of course! I have a tendency to naively assume everyone wants things to be better (most people do in my experience) but thats not always the case. Also, my idea of better may not be the same as someone else's. Find out about who you are playing with before deciding how to play with them.
 
