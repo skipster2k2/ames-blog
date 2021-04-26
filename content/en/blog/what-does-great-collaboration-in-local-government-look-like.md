@@ -1,6 +1,8 @@
 ---
 date : 2020-09-22T23:00:00Z
-tags: "collaboration", "local government"
+tags: 
+- collaboration
+- local government
 title: "What does great collaboration in local government look like?"
 description: "Some examples of great collaboration from accross local government in the UK."
 ---

@@ -1,6 +1,9 @@
 ---
 title: "Shedlife"
 date: 2020-08-31
+tags:
+- home office
+- remote work
 description: "A post about my home office, the humble shed."
 ---
 
