@@ -6,9 +6,9 @@ tags:
 - delivery
 - agile
 - kanban
-description: 'An overview of how our teams workflow evolved whilst at HM Land Registry."
-
+description: "An overview of how our teams workflow evolved whilst at HM Land Registry."
 ---
+
 I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.
 
 One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer. This article describes the evolution of our workflow board over the past year, the problems we have identified with different approaches and the things we have tried to resolve them.
