@@ -1,9 +1,9 @@
 ---
 title: "Shedlife"
 date: 2020-08-31
-tags: "remote work", "home office", "lockdown"
 description: "A post about my home office, the humble shed."
 ---
+
 It's been just over a year since building my office shed so I'm finally getting round to writing this post about #shedlife.
 
 Last May I joined Surevine, a remote software company. It was my first remote role, we didn't have any spare space in the house so I needed somewhere to be able to work. Because of the nature of our clients it needed to be somewhere where I could have conversations without being overheard.
