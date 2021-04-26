@@ -1,10 +1,10 @@
-+++
-date = 2020-12-04T00:00:00Z
-tags = ["review", "bike"]
-title = "Hase Pino tandem review"
+---
+date: 2020-12-04T00:00:00Z
+tags: "review", "bike"
+title: "Hase Pino tandem review"
 description: "The Hase Pino is a semi-recumbent tandem."
+---
 
-+++
 I've never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot's back, that was until we got a Hase Pino, quite possibly the strangest looking but most well-designed tandem there is.
 
 The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent seat, whilst the pilot is just behind in a standard bike configuration, the beauty of this design is that you share the same view, and your heads are close together, its easy to have a conversation even at speed.
