@@ -1,6 +1,8 @@
 ---
 date: 2020-12-04T00:00:00Z
-tags: "review", "bike"
+tags: 
+- review
+- bike
 title: "Hase Pino tandem review"
 description: "The Hase Pino is a semi-recumbent tandem."
 ---
