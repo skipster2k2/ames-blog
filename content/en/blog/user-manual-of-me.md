@@ -4,6 +4,7 @@ date: 2021-04-21
 tags:
 - user manual
 - how I work
+description: "A user manual describing the conditions I like to work in, I use this format when starting new teams so everyone knows how everyone else likes to work and we can work out our ways of working to suit."
 ---
 ## User Manual of Ian Ames
 
