@@ -6,6 +6,7 @@ tags:
 - data engineering
 - network engineering
 - network security
+description: "An overview of the basics of data communication concepts"
 ---
 ![](/images/data_components.jpg "Diagram showing the fundamental components of a data network, described in this article.")
 

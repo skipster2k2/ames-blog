@@ -7,6 +7,7 @@ tags:
 - agile
 - software development
 - black swan
+description: "A post about how overly-burdensome risk mitigation strategies can increase your risk profile."
 ---
 
 I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:

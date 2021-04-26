@@ -1,9 +1,9 @@
-+++
-date = 2020-09-22T23:00:00Z
-tags = ["collaboration", "local government"]
-title = "What does great collaboration in local government look like?"
-
-+++
+---
+date : 2020-09-22T23:00:00Z
+tags: "collaboration", "local government"
+title: "What does great collaboration in local government look like?"
+description: "Some examples of great collaboration from accross local government in the UK."
+---
 I have a soft spot for local government, it's where most people's interactions with government happen, and yet it is also one of the most underfunded parts. Arguably constraint is the mother of invention and local government doesn't get enough credit for the work they do to to deliver services for citizens effectively and cheaply. So I asked twitter to share with me some examples of great collaboration in local gov, here's some great examples that were shared:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/hashtag/LocalGov?src=hash&amp;ref_src=twsrc%5Etfw">#LocalGov</a> peeps, what&#39;s your best examples of cross-council/authority collaboration? Inspire me!</p>&mdash; Ian Ames (@IanAmes) <a href="https://twitter.com/IanAmes/status/1305868967332974596?ref_src=twsrc%5Etfw">September 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

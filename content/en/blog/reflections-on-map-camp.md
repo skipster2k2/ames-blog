@@ -7,6 +7,7 @@ tags:
 - mapping
 - learning
 - business
+description: "Reflections on what I saw and learnt at Mapcamp 2019."
 ---
 This year I was finally able to attend [MapCamp 2019](https://www.map-camp.com/_pages/2019-10-15_London/) with ~600 other people at Sadlers Wells Theatre, London. MapCamp is a conference introducing and describing the technique of [Wardley Mapping](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec), a tool for mapping strategy.
 

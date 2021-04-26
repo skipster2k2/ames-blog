@@ -5,6 +5,7 @@ tags:
 - network security
 - network design
 - network engineering
+description: "Overview of the fundamental features of a computer network."
 ---
 ![](/images/network_fundamentals.jpg "An image showing a number of colourful Cat5 cables with the banner ‘Network fundamentals’")
 

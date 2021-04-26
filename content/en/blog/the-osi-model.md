@@ -6,6 +6,7 @@ tags:
 - network security
 - network engineering
 - network fundamentals
+description: "An overviw of the Open Systems Interconnection model used for computer networking."
 ---
 The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the [International Standard Organisation (ISO)](https://www.iso.org/ics/35.100/x/).
 

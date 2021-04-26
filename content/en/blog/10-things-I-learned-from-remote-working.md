@@ -6,6 +6,7 @@ tags:
 - communication
 - software development
 - teamwork
+description: "The most useful things I learnt in my first fully remote job."
 ---
 _This post was originally published on the [surevine blog](https://www.surevine.com/10-things-learnt-remote-working/)._
 

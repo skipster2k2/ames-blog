@@ -5,6 +5,7 @@ tags:
 - TCP/IP
 - Network Security
 - Network Engineering
+description: "A technical overview of the TCP/IP network protocols."
 ---
 TCP/IP is a set of protocols that form the backbone of the internet. As I described in the [OSI model post](/blog/the-osi-model), TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)
 

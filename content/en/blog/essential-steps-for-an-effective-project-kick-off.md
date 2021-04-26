@@ -7,6 +7,7 @@ tags:
 - government
 - lean startup
 - digital
+description: "A walkthrough of the phases of an effective project kick off."
 ---
 Kick-off’s are a great way of bringing a new team together at the start of a new project or phase of a project. The aim is to allow the team to get to know one another and to allow all the team members to understand the goals and objectives.
 

@@ -5,6 +5,7 @@ tags:
 - network engineering
 - IPv4
 - Internet Protocol
+description: "A technical overview of how ipv4 addressing works."
 ---
 I briefly touched on IPv4 addresses in the TCP/IP suite. In summary IPv4 addresses are:
 Dot-separated.

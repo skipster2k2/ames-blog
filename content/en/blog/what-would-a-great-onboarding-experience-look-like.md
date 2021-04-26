@@ -7,7 +7,7 @@ tags:
 - organisation design
 - culture
 - onboarding
-
+description: "How to make onboarding awesome."
 ---
 When I joined Surevine my onboarding experience was fantastic, but I wanted to see if there was anything more we could do to make it even better, so back in June I asked twitter what would a great onboarding experience look like?
 

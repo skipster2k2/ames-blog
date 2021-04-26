@@ -7,6 +7,7 @@ tags:
 - facilitation
 - remote working
 - meetup
+description: "An icebreaker game I ran at Agile in the Ether, designed to demonstrate cognitive load."
 ---
 Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular [Agile in the Ether remote meetup](https://agileintheether.co.uk/). (It is a very friendly meetup and well worth checking out).
 

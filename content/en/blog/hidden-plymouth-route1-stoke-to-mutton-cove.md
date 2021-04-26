@@ -6,6 +6,7 @@ tags:
 - history
 - heritage
 - plymouth
+description: "A walking route in Plymouth, UK taking in some of its histrorical sites."
 ---
 This route starts at [Stoke Village Car Park](https://www.google.co.uk/maps/place/Stoke+Car+Park/@50.3805872,-4.1651648,15z/data=!4m5!3m4!1s0x0:0x880e5bffe7b91f5d!8m2!3d50.3805872!4d-4.1651648), which is free to park. It then climbs to what was once the highest point in Plymouth, before descending to sea level and back again.
 I have mapped the route on Strava so you can download it to a GPS, or print out the map.

@@ -2,6 +2,7 @@
 date = 2020-12-04T00:00:00Z
 tags = ["review", "bike"]
 title = "Hase Pino tandem review"
+description: "The Hase Pino is a semi-recumbent tandem."
 
 +++
 I've never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot's back, that was until we got a Hase Pino, quite possibly the strangest looking but most well-designed tandem there is.

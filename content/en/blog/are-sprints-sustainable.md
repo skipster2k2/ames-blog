@@ -5,6 +5,7 @@ tags:
 - agile
 - scrum
 - kanban
+description: "Some reflections on the limitations of agile sprints."
 ---
 
 I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.

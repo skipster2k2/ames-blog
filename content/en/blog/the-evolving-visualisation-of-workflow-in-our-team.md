@@ -6,6 +6,7 @@ tags:
 - delivery
 - agile
 - kanban
+description: 'An overview of how our teams workflow evolved whilst at HM Land Registry."
 
 ---
 I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.

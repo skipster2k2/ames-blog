@@ -6,6 +6,7 @@ tags:
 - scrum
 - user research
 - digital transformation
+description: "A tongue in cheek post about how user research can make your team feel, but you should do it anyway."
 ---
 
 I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.

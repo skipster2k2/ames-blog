@@ -5,6 +5,7 @@ tags:
  - remote work
  - home office
  - lockdown
+ description: "A post about my home office, the humble shed."
 ---
 It's been just over a year since building my office shed so I'm finally getting round to writing this post about #shedlife.
 

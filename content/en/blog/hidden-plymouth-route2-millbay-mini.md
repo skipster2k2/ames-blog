@@ -7,6 +7,7 @@ tags:
 - heritage
 - plymouth
 - devon
+description: "A walking route in Plymouth, UK taking in some of its histrorical sites."
 ---
 I’m slightly overwhelmed by how well [Route 1](/blog/hidden-plymouth-route1-stoke-to-mutton-cove) has been received I have had some lovely feedback and suggestions for future routes. One such suggestion is to do something shorter that children can take part in, so where better than around Millbay. I can test it with my own kids as they go to Plymouth School of Creative Arts which is the starting point for this route.
 

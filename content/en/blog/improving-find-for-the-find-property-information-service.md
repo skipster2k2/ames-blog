@@ -7,6 +7,7 @@ tags:
 - government
 - product management
 - user research
+description: "How my team identified an improved our address based search at HM Land Registry."
 ---
 [Find Property Information](https://search-property-information.service.gov.uk/) is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
 
