@@ -1,7 +1,7 @@
 baseURL                          = "https://ames.world/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
-# disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
+disqusshortname                  = "https-ames-world"                     # https://gohugo.io/content-management/comments
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
