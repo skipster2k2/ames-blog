@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>product management on Ian Ames, freelance delivery manager</title>
+    <link>https://ames.world/tags/product-management/</link>
+    <description>Recent content in product management on Ian Ames, freelance delivery manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product Prioritisation is triage</title>
+      <link>https://ames.world/blog/product-prioritisation-is-triage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/blog/product-prioritisation-is-triage/</guid>
+      <description>Triage is used in medicine when acute care cannot be provided for lack of resources. The process rations care towards those who are most in need of immediate care, and who benefit most from it. More generally it refers to prioritisation of medical care as a whole. I have some personal experience of using triage from my time as a mountain rescue volunteer.
+We would often train for scenarios where the number of casualties was more than our capacity to treat them all.</description>
+    </item>
+    
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>https://ames.world/blog/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/blog/improving-find-for-the-find-property-information-service/</guid>
+      <description>Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
+Why did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features.</description>
+    </item>
+    
+  </channel>
+</rss>

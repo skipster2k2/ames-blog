@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on Ian Ames, freelance delivery manager</title>
+    <link>https://ames.world/tags/design/</link>
+    <description>Recent content in design on Ian Ames, freelance delivery manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 13 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Reasons Open Plan Offices Suck for Agile Teams</title>
+      <link>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
+      <description>I recently gave a presentation at the inaugural Tech Exeter conference called Practical agile: Lessons learned the hard way on our journey delivering digital products. In that presentation I claimed open plan offices are terrible team spaces, but didn&amp;rsquo;t really elaborate on why. Since then Neil Parker asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!</description>
+    </item>
+    
+  </channel>
+</rss>

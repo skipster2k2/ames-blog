@@ -8970,9 +8970,14 @@ pre {
 
 .navbar-item {
   text-transform: uppercase;
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+  color: #dbdbdb;
+  background-color: #ffffff; }
   .navbar-item:hover {
     background-color: #ffffff !important; }
+
+.navbar-menu {
+  background-color: #ffffff; }
 
 .owl-nav {
   height: 50px; }
@@ -9100,7 +9105,7 @@ pre {
 .markdown blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #00b8d4;
   border-left: .25rem solid #e5e5e5; }
   .markdown blockquote blockquote p:last-child {
     margin-bottom: 0; }
@@ -9134,7 +9139,8 @@ pre {
 .markdown img {
   display: block;
   margin: 2rem auto;
-  max-width: 100%; }
+  max-width: 100%;
+  filter: contrast(1) brightness(1); }
 
 .modal-background {
   background-color: rgba(255, 255, 255, 0.9); }
@@ -12285,24 +12291,24 @@ readers do not read off random characters that represent icons */
     .fade-in.three {
       animation-delay: 1.8s; }
   a {
-    color: #ed6a5a; }
+    color: #8fb860; }
     a:hover {
-      color: #f4f1bb;
+      color: #8eddd1;
       font-style: none; }
     a:active {
-      color: #ed6a5a; }
+      color: #8fb860; }
   h1, h2, .title, .subtitle {
-    color: #75b8c8; }
+    color: #8eddd1; }
   .title {
     font-weight: 300; }
   ul {
     padding: 0; }
   img {
     border-radius: 5px;
-    border: 1px solid #f4f1bb;
+    border: 1px solid #8eddd1;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
   hr {
-    background-color: #f4f1bb;
+    background-color: #8eddd1;
     height: 1px; }
   details {
     padding: .5em .5em 0; }
@@ -12381,14 +12387,18 @@ readers do not read off random characters that represent icons */
     background-color: #121212; }
   .navbar-burger {
     margin-right: auto;
-    color: #ed6a5a; }
+    color: #8fb860; }
   .navbar-burger:hover {
     background-color: #121212; }
   .navbar-item {
     text-transform: uppercase;
-    font-size: 0.875rem; }
+    font-size: 0.875rem;
+    color: #8eddd1;
+    background-color: #121212; }
     .navbar-item:hover {
       background-color: #121212 !important; }
+  .navbar-menu {
+    background-color: #121212; }
   .owl-nav {
     height: 50px; }
   .owl-next, .owl-prev {
@@ -12399,7 +12409,7 @@ readers do not read off random characters that represent icons */
   .footer-text {
     font-size: 0.8em; }
     .footer-text a {
-      color: #dfdfdf; }
+      color: #f1d788; }
     .footer-text .fab {
       font-size: 0.8em;
       vertical-align: baseline; }
@@ -12461,7 +12471,7 @@ readers do not read off random characters that represent icons */
   .markdown h6 {
     font-size: 1rem; }
   .markdown a:hover {
-    color: #f4f1bb; }
+    color: #8eddd1; }
   .markdown ul {
     margin-bottom: 1.25rem;
     margin-left: 1.5em;
@@ -12488,7 +12498,7 @@ readers do not read off random characters that represent icons */
     position: relative;
     margin: 1.75rem 0;
     border: 0;
-    border-top: 1px solid #f4f1bb; }
+    border-top: 1px solid #8eddd1; }
   .markdown abbr {
     font-size: 0.8rem;
     font-weight: bold;
@@ -12500,7 +12510,7 @@ readers do not read off random characters that represent icons */
   .markdown blockquote {
     padding: .5rem 1rem;
     margin: .8rem 0;
-    color: #7a7a7a;
+    color: #8fb860;
     border-left: .25rem solid #e5e5e5; }
     .markdown blockquote blockquote p:last-child {
       margin-bottom: 0; }
@@ -12527,16 +12537,19 @@ readers do not read off random characters that represent icons */
   .markdown img {
     display: block;
     margin: 2rem auto;
-    max-width: 100%; }
+    max-width: 100%;
+    filter: contrast(1.2) brightness(0.8); }
   .modal-card-title {
-    color: #ed6a5a; }
+    color: #8fb860; }
   .modal-card-body {
     background-color: #121212; }
-  .markdown strong {
-    color: #dfdfdf; }
+  .markdown {
+    color: #f1d788; }
+    .markdown strong {
+      color: #f1d788; }
   .modal-background {
     background-color: rgba(0, 0, 0, 0.8); }
   .modal-close {
-    background-color: #ed6a5a; } }
+    background-color: #8fb860; } }
 
 /*# sourceMappingURL=main.css.map */

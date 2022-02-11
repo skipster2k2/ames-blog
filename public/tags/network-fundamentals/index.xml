@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network fundamentals on Ian Ames, freelance delivery manager</title>
+    <link>https://ames.world/tags/network-fundamentals/</link>
+    <description>Recent content in network fundamentals on Ian Ames, freelance delivery manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/network-fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The OSI Model</title>
+      <link>https://ames.world/blog/the-osi-model/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/blog/the-osi-model/</guid>
+      <description>The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the International Standard Organisation (ISO).
+The model has seven layers:
+ Application layer Presentation layer System layer Transport layer Network layer Data layer Physical layer  Which can be remembered by either of two mnemonics:
+ All People Seem To Need Data Processing</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Ian Ames, freelance delivery manager">
+<title>
+Tcp IP Protocol Suite - Ian Ames, freelance delivery manager
+</title>
+
+
+
+        
+        <meta property="og:title" content="TCP/IP Protocol Suite - Ian Ames, freelance delivery manager" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="A technical overview of the TCP/IP network protocols."/>
+<meta property="og:url" content="https://ames.world/blog/tcp-ip-protocol-suite/"/>
+<meta property="og:site_name" content="Ian Ames, freelance delivery manager"/>
+
+
+
+
+<meta property="og:image" content="https://ames.world/home/ian_ames.jpg"/>
+
+
+
+
+        
+<link rel="shortcut icon" href="/img/favicon.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.19a3270419663feb490cb0fbb873d7f84654e1d1e8b49f8ded8038643588ded0.css" integrity="sha256-GaMnBBlmP&#43;tJDLD7uHPX&#43;EZU4dHotJ&#43;N7YA4ZDWI3tA=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">main</a>
+            
+
+            
+            
+
+            
+                
+            
+
+            
+
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/#about">About</a>
+            
+            
+            
+            
+            
+                
+                
+                
+                
+                  <a class="navbar-item" href="https://ames.world/blog/">
+                  
+                  Back to Blog
+                  
+                  </a>
+                
+                
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/#projects">Previous Projects</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/#career_history">Career History</a>
+            
+            
+            
+            
+
+            
+            
+            <a class="navbar-item" href="/#contact">Contact</a>
+            
+            
+
+            
+
+            
+            <a class="navbar-item" href="https://ames.world/index.xml"><i class="fas fa-rss"></i></a>
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://ames.world/blog/tcp-ip-protocol-suite/">TCP/IP Protocol Suite</a>
+    </h2>
+    <div class="post-data">
+        1 February, 2019 |
+        7 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=TCP%2fIP%20Protocol%20Suite%20https%3a%2f%2fames.world%2fblog%2ftcp-ip-protocol-suite%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fames.world%2fblog%2ftcp-ip-protocol-suite%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fames.world%2fblog%2ftcp-ip-protocol-suite%2f&amp;description=TCP%2fIP%20Protocol%20Suite" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+    </div>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      
+     <p>
+         Tags: 
+          
+           <a href="/tags/tcp/ip">
+             TCP/IP</a>,
+         
+           <a href="/tags/network-security">
+             Network Security</a>,
+         
+           <a href="/tags/network-engineering">
+             Network Engineering</a>
+         
+        </p>
+      
+    
+      
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p>TCP/IP is a set of protocols that form the backbone of the internet. As I described in the <a href="/blog/the-osi-model">OSI model post</a>, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)</p>
+<p>As with all real-world implementations TCP/IP <em>sort of</em> follows the OSI Model.</p>
+<blockquote>
+<p>All models are wrong but some are useful — George Box</p>
+</blockquote>
+<p><img src="/images/tcp-vs-osi.jpg" alt="" title="Image showing the OSI model compared to the TCP/IP protocol suite. This is explained in detail below."></p>
+
+<h2 id="tcpip-applications" class="anchor-link"><a href="#tcpip-applications">TCP/IP Applications</a></h2>
+<p>I won&rsquo;t spend ages on TCP/IP applications but real-world context helped me make a bit more sense of the host layers in the OSI model. I had a bit of a hard time getting my head around the difference between application programs and the application layer. TCP/IP helped me suss out what was meant. For example when I open a web browser — an application program, it makes a call to HTTP — the protocol in the application layer of the OSI stack. The web browser itself is not represented in the model.</p>
+<p>There are a whole bunch of protocols operating at this level to ensure different applications can access the network. Some common examples are:</p>
+<p><strong>HTTP (HyperText Transfer Protocol):</strong> the rules for handling hypertext documents and hyperlinks, i.e. the world wide web.</p>
+<p><strong>SMTP (Simple Mail Transfer Protocol):</strong> The rules for sending emails.</p>
+<p><strong>POP3(Post Office Protocol) and IMAP (Internet Message Application Protocol):</strong> The rules for receiving emails.</p>
+<p><strong>FTP (File Transfer Protocol):</strong> The rules for sending files.</p>
+<p><strong>SSH: (Secure Shell):</strong> The rules for managing network services securely over the internet.</p>
+
+<h2 id="transmission-control-protocol-tcp" class="anchor-link"><a href="#transmission-control-protocol-tcp">Transmission Control Protocol (TCP)</a></h2>
+<p>Because most communication on the internet requires a reliable connection, TCP has become the dominant protocol. It operates at the network layer of the OSI model and it establishes a reliable connection through a process called the three-way handshake:</p>
+<ul>
+<li>Host 1 sends a Synchronisation (SYN) Request to Host 2.</li>
+<li>Host 2 receives the request and sends back a Synchronisation Acknowledgement (SYN/ACK) request back to Host 1.</li>
+<li>On receipt of the SYN/ACK Host 1 sends a final Acknowledgement (ACK) back to Host 2 and the connection is established.</li>
+<li>Data transfer (in the form of bytes) then takes place between the two hosts.</li>
+</ul>
+<p>This virtual circuit setup is called overhead. Additionally, the hosts don’t rely solely on the initial requests to ensure the reliability of the connection but instead will continue to check periodically to ensure it is still established and that data is flowing properly.</p>
+<p>So that’s all great if one application is making a request but as we have seen there are loads of applications and the higher layers making requests. This can often be at a faster speed than the supporting network and can cause bottleneck issues. TCP manages this demand with a process called Flow Control. Flow control is a pull system (which as an agile delivery lead makes me very happy). The receiver is responsible for telling the sender that it has received data and it is ok to send more. Lovely!</p>
+<ol>
+<li>The segments delivered are acknowledged back to the sender upon their reception.</li>
+<li>Any segments not acknowledged are retransmitted.</li>
+<li>Segments are sequenced back into their proper order upon arrival at their destination.</li>
+<li>A manageable data flow is maintained in order to avoid congestion, overloading, and data loss.</li>
+</ol>
+<p>This works well most of the time but it is still possible for the transmitting host to send a burst of data that is too much for the receiver to cope with. What happens then? The receiving host has a memory allocation called a buffer and it stores the burst of datagrams in this memory. (The origin of the dreaded ‘buffering’ message when viewing videos on the internet, a data-heavy process).</p>
+<p>But what if the sender is so fast, it sends a massive stream of datagrams before the host has a chance to acknowledge it, and that is larger than the buffer? TCP has a plan for this too, in this scenario the receiving host sends a Not Ready indicator back to the sender, this is like an emergency brake and stops the sender from transmitting any more data until the host has had a chance to process the data in its buffer. Once the receiving host has done this it then transmits a Go indicator to the sender to resume data transfer.</p>
+<p>Importantly the data is transferred in order from sender to receiver, this sequencing means that should any of the three failure scenarios mentioned above occur, both hosts know how far they have got through the transfer in order to resume after the failure is rectified.</p>
+<p>These multiple levels of fault tolerance mean that TCP is a very reliable connection-oriented protocol because it has the following characteristics:</p>
+<ul>
+<li>A virtual circuit is set up (such as a three-way handshake).</li>
+<li>It uses sequencing.</li>
+<li>It uses acknowledgements.</li>
+<li>It uses flow control.</li>
+</ul>
+<p>Finally, it is possible to reduce the robustness of this process for the sake of throughput through a control called Windowing. As you can imagine, acknowledging every datagram received back to the host could be a hefty process for large file transfers. Windowing defines how many data segments (measured in bytes) can be sent before an acknowledgement is required back from the receiving host. For example, a window of 3 would mean that 3 bytes of data can be sent before the receiver needs to send the sender and acknowledgement. The larger the size of the window, the bigger the risk of a buffer overflow.</p>
+<p>But how is sequencing ensured if the receiver only acknowledges every few data segments? This is done with acknowledgements. Say Host A wants to transmit the segments 123456789 with a window of 3 to Host B.</p>
+<ul>
+<li>Host A sends 1</li>
+<li>Host A sends 2</li>
+<li>Host A sends 3</li>
+<li>Host B receives 123 and so acknowledges by requesting 4.</li>
+<li>Host A sends 4</li>
+<li>Host A loses connection whilst trying to send 5.</li>
+<li>Host A sends 6</li>
+<li>Host B now realises it is missing 5 so requests 5.</li>
+<li>Host A sends 5</li>
+<li>Host B now requests 7</li>
+<li>etc etc</li>
+</ul>
+
+<h2 id="internet-protocol-ip" class="anchor-link"><a href="#internet-protocol-ip">Internet Protocol (IP)</a></h2>
+<p>The Internet Protocol is concerned with addressing — ensuring data gets from the right source to the right destination. It sits unsurprisingly in the network layer of the OSI model.</p>
+<p>There are currently two versions of the protocol in active use, IPv4 and IPv6.</p>
+
+<h3 id="ipv4" class="anchor-link"><a href="#ipv4">IPv4</a></h3>
+<p>IPv4 is the most well-known version. When most people talk about IP addresses they are describing an IPv4 address. They are made up of 4 dot-separated numerical values called octets. Each value is a decimal representation of a binary value. I will cover what this means (and how to calculate IP addresses and subnet masks in Week 2).</p>
+<p>IPv4 is a 32 bit pool of addresses, this means that it is possible to have 4,294,967,296 (4 billion) addresses. This sounds like a lot but we have already nearly run out of IPv4 public addresses. Public addresses are those that are distributed by IANA (The Internet Assigned Number Authority) and are the IP representation of internet domain names. You can have many networks using the same IP addresses provided they are contained behind a subnet. A subnet is a logical subdivision of an IP network and can be described as Classful or Classless. This will be covered in more detail in Week 2.</p>
+<p>An IPv4 address looks like this:</p>
+<p>193.168.2.1/24</p>
+<p>Where 192.168.2.1 is the host address and /24 is the subnet. The subnet can also be represented in dot-separated format, in the case of /24 this will be 255.255.255.0</p>
+
+<h3 id="ipv6" class="anchor-link"><a href="#ipv6">IPv6</a></h3>
+<p>IPv6 are 128-bit addresses, they are colon separated and represented in hexadecimal. The IPv6 pool of addresses is 340,282,366,920,938,463,463,374,607,431,768,211,456 or 340 billion billion billion billion addresses!! As a result, they don&rsquo;t have a need for subnet’s. IPv6 headers are much smaller than IPv4 addresses, uses IPSec by default (encrypts the packets whilst being sent) it also broadcasts by default in Multicast mode.</p>
+<p>An example IPv6 address looks like this:</p>
+<p>2001:0DB8:0000:0000:0000:FF00:0042:8329</p>
+<p>It is ok to remove all leading zeroes from an address:</p>
+<p>2001:DB8:0:0:0:FF00:42:8329</p>
+<p>And consecutive zeroes can be removed and represented by double colons. Although only once within the sequence:</p>
+<p>2001:DB8::FF00:42:8329</p>
+
+<h2 id="network-access-or-link-layer" class="anchor-link"><a href="#network-access-or-link-layer">Network Access or Link Layer</a></h2>
+<p>The TCP/IP protocol suite is designed to be device agnostic and so doesnt concern itself too much with the link layer. As with the OSI model the link layer is concerned with moving packets between network hosts and includes protocols for translating logical IP addresses to physical MAC addresses such as the ARP (Address Resolution Protocol).</p>
+
+</div>
+
+
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://ames.world/js/bundle.f1741e9868b2f697e71cf8fccfcc12166540999b3d36f8fb9edd0882ba425d55.js" integrity="sha256-8XQemGiy9pfnHPj8z8wSFmVAmZs9Nvj7nt0IgrpCXVU="></script>
+
+
+
+
+
+
+        
+        
+        
+        
+    </body>
+</html>

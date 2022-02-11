@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet Protocol on Ian Ames, freelance delivery manager</title>
+    <link>https://ames.world/tags/internet-protocol/</link>
+    <description>Recent content in Internet Protocol on Ian Ames, freelance delivery manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/internet-protocol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPv4 Addressing</title>
+      <link>https://ames.world/blog/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ames.world/blog/ipv4-addressing/</guid>
+      <description>I briefly touched on IPv4 addresses in the TCP/IP suite. In summary IPv4 addresses are: Dot-separated.
+ 32 bits long and represented in decimal. There are just over 4 billion available addresses. Therefore it is necessary to use subnetting to separate networks and duplicate IP addresses from one another.  IPv4 structure and what it represents So we know IP addresses are 32 bits long and that they are separated into 4 decimal numbers by dot separation (this is known as dotted decimal), therefore each number must represent 8bits.</description>
+    </item>
+    
+  </channel>
+</rss>
