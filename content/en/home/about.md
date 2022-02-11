@@ -18,4 +18,4 @@ I am a mainstay of Plymouth's digital community. I have organised and spoken at 
 
 > #### Current contract
 > __NHS Digital Delivery Manager__
-> until: __September 2021__
+> until: __March 2022__

@@ -12,7 +12,7 @@ disqusshortname                  = ""                     # https://gohugo.io/co
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "2 January, 2006"
     email                        = "plymames@gmail.com"   # E-mail address for contact section
-    # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
+    # customCSS                  = ["foo.css"]            # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = false                    # Use Plausible analytics (requires an account at Plausible.io)
 
