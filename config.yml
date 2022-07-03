@@ -16,8 +16,8 @@ minify:
     disableXML: true
     disableJS: true
     disableCSS: true
-    # minifyOutput: true
-
+    minifyOutput: false
+    
 languages:
     en:
         languageName: "English"
