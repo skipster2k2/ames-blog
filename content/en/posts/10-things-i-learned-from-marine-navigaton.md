@@ -8,11 +8,11 @@ tags:
 - product management
 ---
 
-22 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.
+25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.
 
 After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:
 
-![I cant write a post about marine navigation without featuring a shot of the Evergiven. This image shows her at port](/images/headphones.jpg)
+![I cant write a post about marine navigation without featuring a shot of the Evergiven. This image shows her at port](/images/evergiven.jpg)
 
 ## Know your destination
 
@@ -70,8 +70,6 @@ and
 
 ECDIS (Electronic Chart Display Information System) for overlaying this information onto the passage plan to allow you to change the plan based on realtime information.
 
-![](/images/ecdis.jpg "An ECDIS system being used by two mariners in a simulator")
-
 Instrumentation helps greatly, with decision making, but there are limits:
 
 Whilst GPS has made positional accuracy easier, there are still factors which mean the position is not a certainty:
@@ -82,6 +80,8 @@ Whilst GPS has made positional accuracy easier, there are still factors which me
 AIS isn’t on all vessels, and radar can’t always pick up small craft.
 
 Understanding these limitations is key to making effective decisions, if you use tools that aid making product decisions, such as analytics, make sure you take the time to understand their limitations. Use a variety of methods, and don’t become dependent on just one tool before you make a decision.
+
+![An ECDIS system being used by two mariners in a simulator](/images/ecdis.jpg)
 
 ### Show your dangers
 
@@ -95,7 +95,7 @@ A 1 degree error in direction on an ocean scale passage plan can result in makin
 
 Product plans are no different, they should adapt to the events that happen on the journey of delivery, there’s nothing more disheartening (and ineffective) than to blindly follow a plan that was agreed weeks or months ago and not adjusting it to the reality emerging from the process of doing, yet so many roadmaps stick with fixed goals that don’t need to. Often this is due to stakeholders liking false certainty. Find narratives that highlight real world examples where this is a bad idea that they can relate to, use a shipping analogy if it helps!
 
-![](/images/Navigation_System_on_a_merchant_ship.jpg "Modern passage plans are plotted onto computer systems making adjustment easier. This shows a plan overlaid on a chart.")
+![Modern passage plans are plotted onto computer systems making adjustment easier. This shows a plan overlaid on a chart.](/images/Navigation_system_on_a_merchant_ship.jpg)
 
 ## Dial down the noise
 
