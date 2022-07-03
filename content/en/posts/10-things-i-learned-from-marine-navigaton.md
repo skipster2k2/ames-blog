@@ -83,7 +83,7 @@ Understanding these limitations is key to making effective decisions, if you use
 
 ![An ECDIS system being used by two mariners in a simulator](/images/ecdis.jpg)
 
-### Show your dangers
+## Show your dangers
 
 A passage plan will make known dangers very visible, areas of danger are overlaid onto the route to ensure they are extremely visible, marking things like shallow water, rocks or bridges. Often plans will hatch out large amounts of space around them to provide time and space to manoeuvre if the vessel ends up in the ‘danger zone.’ 
 
