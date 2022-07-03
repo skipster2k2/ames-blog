@@ -1,5 +1,6 @@
 ---
 date : 2020-09-22T23:00:00Z
+categories: opinion
 tags: 
 - collaboration
 - local government

@@ -1,6 +1,7 @@
 ---
 date: 2016-05-11
 title: The evolving visualisation of workflow in our team.
+categories: ways of working
 tags:
 - government
 - delivery

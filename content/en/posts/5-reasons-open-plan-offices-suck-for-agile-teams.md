@@ -1,12 +1,15 @@
 ---
 title: "5 Reasons Open Plan Offices Suck for Agile Teams"
 date: 2016-10-13
+categories:
+- ways of working
 tags:
 - agile
 - workspace
 - productivity
 - design
 description: "A list of reasons why open plan offices are terrible for agile teams."
+
 ---
 
 I recently gave a presentation at the inaugural [Tech Exeter](https://techexeter.uk/) conference called [Practical agile: Lessons learned the hard way on our journey delivering digital products.](https://www.slideshare.net/IanAmes/practical-agile-tech-exeter-v2) In that presentation I claimed open plan offices are terrible team spaces, but didn't really elaborate on why. Since then [Neil Parker](https://twitter.com/_NeilParker) asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!

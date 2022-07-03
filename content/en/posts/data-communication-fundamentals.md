@@ -1,6 +1,7 @@
 ---
 title: "Data Communication Fundamentals"
 date: 2019-01-28
+categories: computer networks
 tags:
 - messaging
 - data engineering

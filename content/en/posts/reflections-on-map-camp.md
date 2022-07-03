@@ -1,6 +1,7 @@
 ---
 title: "Reflections on Map Camp"
 date: 2019-10-28
+categories: opinion
 tags:
 - strategy
 - wardley maps

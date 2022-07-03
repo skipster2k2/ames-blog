@@ -1,6 +1,7 @@
 ---
 title: "User Research Is the Most Frustrating Thing Ever"
 date: 2016-08-16
+categories: opinion
 tags:
 - agile
 - scrum

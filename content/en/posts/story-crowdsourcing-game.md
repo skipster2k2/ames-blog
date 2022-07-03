@@ -1,6 +1,7 @@
 ---
 title: "Story Crowdsourcing Game"
 date: 2019-02-26
+categories: ways of working
 tags:
 - agile
 - coaching

@@ -1,6 +1,7 @@
 ---
 title: "IPv4 Addressing"
 date: 2019-02-05
+categories: computer networks
 tags: 
 - network engineering
 - IPv4

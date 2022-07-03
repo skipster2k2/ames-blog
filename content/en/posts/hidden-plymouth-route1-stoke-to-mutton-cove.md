@@ -1,6 +1,7 @@
 ---
 title: "Hidden Plymouth, Route 1 - Stoke to Mutton Cove"
 date: 2018-01-15
+categories: lifestyle
 tags:
 - travel
 - history

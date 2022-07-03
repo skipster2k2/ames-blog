@@ -1,6 +1,7 @@
 ---
 title: "User Manual of Me"
 date: 2021-04-21
+categories: ways of working
 tags:
 - user manual
 - how I work

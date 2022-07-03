@@ -1,6 +1,7 @@
 ---
 title: "Network Fundamentals"
 date: 2019-01-28
+categories: computer networks
 tags:
 - network security
 - network design

@@ -1,6 +1,7 @@
 ---
 title: "How Our Digital Team Works"
 date: 2017-10-06
+categories: ways of working
 tags:
 - agile
 - government

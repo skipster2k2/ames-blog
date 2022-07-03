@@ -1,5 +1,6 @@
 ---
 date: 2020-12-04T00:00:00Z
+categories: lifestyle
 tags: 
 - review
 - bike

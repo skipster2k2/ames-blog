@@ -1,6 +1,7 @@
 ---
 title: What Would a Great Onboarding Experience Look Like?
 date: 2020-05-05
+categories: opinion
 tags:
 - recruitment
 - interviews

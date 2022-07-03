@@ -1,6 +1,7 @@
 ---
 title: "Weeknotes NHS Digital Episode 1"
 date: 2021-05-08T12:12:52+01:00
+categories: weeknotes
 description: "Weeknotes for the first two weeks at NHS Digital"
 tags: 
 - weeknotes

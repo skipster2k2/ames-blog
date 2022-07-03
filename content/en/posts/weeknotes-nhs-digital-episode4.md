@@ -2,6 +2,7 @@
 title: "Weeknotes NHS Digital Episode 4"
 date: 2021-07-02
 description: "Weeknotes whilst at NHS Digital"
+categories: weeknotes
 tags: 
 - weeknotes
 - discovery

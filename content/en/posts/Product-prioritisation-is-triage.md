@@ -1,6 +1,7 @@
 ---
 title: "Product Prioritisation is triage"
 date: 2022-02-09
+categories: opinion
 tags:
 - product management
 - agile

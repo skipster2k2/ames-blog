@@ -1,6 +1,7 @@
 ---
 title: "Essential Steps for an Effective Project Kick Off"
 date: 2018-06-22
+categories: opinion
 tags:
 - ux
 - agile

@@ -1,6 +1,7 @@
 ---
 title: "Shedlife"
 date: 2020-08-31
+categories: lifestyle
 tags:
 - home office
 - remote work

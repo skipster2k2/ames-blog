@@ -1,6 +1,7 @@
 ---
 title: "The OSI Model"
 date: 2019-01-29
+categories: computer networks
 tags:
 - internet
 - network security

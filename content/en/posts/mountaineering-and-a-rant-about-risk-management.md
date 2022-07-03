@@ -1,6 +1,7 @@
 ---
 title: "Mountaineering and a Rant About Risk Management"
 date: 2018-02-23
+categories: opinion
 tags:
 - mountaineering
 - risk

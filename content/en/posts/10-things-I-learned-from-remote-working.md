@@ -1,12 +1,15 @@
 ---
 title: "10 Things I Learned From Remote Working"
 date: 2019-10-16
+categories:
+- ways of working
 tags:
 - remote working
 - communication
 - software development
 - teamwork
 description: "The most useful things I learnt in my first fully remote job."
+
 ---
 _This post was originally published on the [surevine blog](https://www.surevine.com/10-things-learnt-remote-working/)._
 

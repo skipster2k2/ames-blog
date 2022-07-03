@@ -1,6 +1,7 @@
 ---
 title: "Hidden Plymouth, Route 2 - Millbay Mini"
 date: 2018-01-26
+categories: lifestyle
 tags:
 - travel
 - history

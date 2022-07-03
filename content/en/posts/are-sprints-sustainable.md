@@ -1,6 +1,7 @@
 ---
 title: "Are Sprints Sustainable?"
 date: 2016-09-15
+categories: ways of working
 tags:
 - agile
 - scrum

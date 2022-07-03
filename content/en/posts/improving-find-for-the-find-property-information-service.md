@@ -1,6 +1,7 @@
 ---
 title: "Improving 'Find' for the Find Property Information Service"
 date: 2018-01-31
+categories: ways of working
 tags:
 - software development
 - agile

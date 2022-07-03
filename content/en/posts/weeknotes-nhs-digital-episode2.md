@@ -2,6 +2,7 @@
 title: "Weeknotes NHS Digital Episode 2"
 date: 2021-05-26
 description: "Weeknotes whilst at NHS Digital"
+categories: weeknotes
 tags: 
 - weeknotes
 ---
