@@ -17,7 +17,7 @@ minify:
     disableJS: true
     disableCSS: true
     minifyOutput: false
-    
+
 languages:
     en:
         languageName: "English"
@@ -103,7 +103,7 @@ params:
           url: "index.xml"
 
     editPost:
-        URL: "https://github.com/skipster2k2/ames-blog/content"
+        URL: "https://github.com/skipster2k2/ames-blog/tree/master/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
