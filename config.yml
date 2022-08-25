@@ -37,12 +37,9 @@ languages:
                 - name: Categories
                   url: categories
                   weight: 15
-                - name: Projects
-                  url: /projects/
+                - name: CV
+                  url: /CV/
                   weight: 20
-                - name: Career
-                  url: /career/
-                  weight: 35
 
 
 #search engine
