@@ -32,12 +32,12 @@ I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice an
 
 #### Contract Product Manager, June 2022 to present
 
-Working with stakeholders and comissioners to understand strategy intent and goals. Understanding user needs to ensure our product meets them. Setting team priorities and ensuring value is delivered. Being the 'voice of the product' to the wider organisation.
+Working with stakeholders and commissioners to understand strategy intent and goals. Understanding user needs to ensure our product meets them. Setting team priorities and ensuring value is delivered. Being the 'voice of the product' to the wider organisation.
 
 
 #### Contract Delivery Manager, April 2021 - June 2022
 
-Responsible for the delivery of designated products and services by one or more multi-disciplinary user-centred or software delivery teams.google
+Responsible for the delivery of designated products and services by one or more multi-disciplinary user-centred or software delivery teams.
 
 
 <br />
@@ -95,17 +95,16 @@ smooth transition of services to production. I was Subject Matter Expert for cro
 ### Patient Encounter History - 2021-22
 Led the development of a product to enable clincians from different parts of Urgent and Emergency Care to view information about patient encounters in other care settings in order to help diagnose complex cases, reassure patients and build rapport, and to identify worsening conditions. This was developed in a user centred way using Discovery to understand patient and clincial needs and Alpha to iteratively prototype and explore technical options.
 
+
 ### GPintheCloud, 2020 - 21
 
 Led the development of a product to enable GP Locums to access clinical systems for multiple surgeries from one device securely. The service was developed based on user feedback and enabled Locums to support GP surgeries from anywhere in the country, crucial during the coronavirus pandemic, but a solution to the challenge of GP distribution across the country.
-
 
 
 ### Cyber Exchange, 2020
 
 Project Lead for the delivery of Cyber-Exchange, a platform for UK Cyber Security businesses to
 connect, find funding opportunities and events . Sponsored by DCMS and Tech UK.
-
 
 
 ### Future Vetting Service, 2019
@@ -116,11 +115,9 @@ of User Researchers , Designers , Developers , and Testers and supporting and co
 Product Managers in Agile ways of working.
 
 
-
 ### Protect Alpha, 2018
 
 A citizen focused service to allow citizens to easily protect their property interests. Keep their information on the register up to date, and to raise awareness of what Land Registry is and how we protect most people's largest asset, their home.
-
 
 
 ### Find Property Information, 2016 - 17
@@ -128,7 +125,6 @@ A citizen focused service to allow citizens to easily protect their property int
 A citizen focused service aimed at presenting basic land information for a number of user needs. Built on an entirely new infrastructure stack, including accounts, payment, audit, address API's.
 Migrated 24 million titles of land ownership data to a new database platform.
 Developed our emerging agile practices and increased our deployment frequency from once a month to on-demand, completing 76 production deploys in 2017.
-
 
 
 ### Network transformation, 2015
@@ -141,11 +137,9 @@ Led the design and procurement of new multi-zoned and geographically dispersed n
 Delivered new laptops to 500 remote users , distributed throughout the country, along with a new remote working solution which simplified and expanded access to corporate services remotely. All within the time/cost/quality specs of the project.
 
 
-
 ### Support Forum , 2013
 
 Delivered a support forum/twitter feed, corresponding processes and training to provide users with the ability to search for solutions, report issues, ideas, or praise and allow Land Registry to gain valuable customer insight.
-
 
 
 ### iPad and BYOD solution, 2013.
