@@ -1,6 +1,6 @@
 ---
 title: "Delivery Tactics - Slicing thin or deep?"
-date: 2022-07-03
+date: 2023-01-31
 categories: opinion
 tags: 
 - Delivery tactics
