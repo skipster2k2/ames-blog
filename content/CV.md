@@ -34,7 +34,7 @@ I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice an
 
 Working with dxw to deliver an discovery/alpha for Ministry of Justice. Working closely with Product Manager to understand stakeholder needs. Supporting, enabling and advocating for User Reasearch to ensure we understand the end user perspective. Coordrinating with other delivery managers at MOJ and sharing good practices. Identifying team improvmeents to ways of working and team health and happiness. Liasing with Delivery Lead to forecast team shape and spend.
 
-
+<br />
 
 ### [NHS Digital](https://digital.nhs.uk/about-nhs-digital)
 
