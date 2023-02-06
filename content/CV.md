@@ -10,7 +10,7 @@ weight: 40
 
 **I help multidisciplinary teams deliver services in a user centred way.**
 
-I have delivered projects to a range of Government organisations including the Cabinet Office, Dept for Culture Media and Sport, NHS Digital and TechUK. 
+I have delivered projects to a range of Government organisations including the Cabinet Office, Dept for Culture Media and Sport, NHS Digital, Ministry of Justice and TechUK. 
 
 At Land Registry I delivered their first user-centred Digital services meeting the [Service Standard](https://www.gov.uk/service-manual/service-standard), as well as internal projects for 4000 distributed staff.
 
@@ -28,9 +28,13 @@ I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice an
 
 ## Career
 
+### [Ministry of Justice](https://www.gov.uk/government/organisations/ministry-of-justice)/[DXW](https://www.dxw.com/)
+
+#### Contract Delivery Manager, December 2022 to present
+
 ### [NHS Digital](https://digital.nhs.uk/about-nhs-digital)
 
-#### Contract Product Manager, June 2022 to present
+#### Contract Product Manager, June 2022 to December 2022
 
 Working with stakeholders and commissioners to understand strategy intent and goals. Understanding user needs to ensure our product meets them. Setting team priorities and ensuring value is delivered. Being the 'voice of the product' to the wider organisation.
 
@@ -92,7 +96,16 @@ smooth transition of services to production. I was Subject Matter Expert for cro
 
 ## Projects
 
+### Refer and Monitor and accredited Programme - 2023
+
+Leading a discovery/alpha into the identification, referal and monitoring of accredited programmes in custody. Accredited programmes are behavioural programmes designed to give people in prisoners the tools they need to reintegrate with society and reduce reoffending.
+
+### NHS Urgent and Emergency Care Directory of Services (DoS) integration team - 2022
+
+Product Managed the directory of services integration team who were respeonsible for retriving information from other data sources such as NHS.UK to ensure the DoS was as up to date as possible. Managed multiple competing priorities and worked witht he team to provide clear guidance on what to work on next. Nurtured a culture of continuous delivery and experimentation to increase our delivery rate. Worked with stakeholders to provide a vision of how the tem could deliver relevant information regardles of dta source, reducing the need for data duplication, balanced against stringent performance requirmeents for data in urgent care settings.
+
 ### Patient Encounter History - 2021-22
+
 Led the development of a product to enable clincians from different parts of Urgent and Emergency Care to view information about patient encounters in other care settings in order to help diagnose complex cases, reassure patients and build rapport, and to identify worsening conditions. This was developed in a user centred way using Discovery to understand patient and clincial needs and Alpha to iteratively prototype and explore technical options.
 
 
@@ -167,9 +180,9 @@ I have BPSS clearance
 ***
 
 ## Contact Details
-plymames@gmail.com
+ian@discover-deliver.co.uk
 
-[07944876831](tel:07944876831)
+[07944876831](tel:07939340716)
 
 https://ames.world
 
