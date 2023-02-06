@@ -30,9 +30,11 @@ I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice an
 
 ### [Ministry of Justice](https://www.gov.uk/government/organisations/ministry-of-justice)/[DXW](https://www.dxw.com/)
 
+#### Contract Delivery Manager, December 2022 to present
+
 Working with dxw to deliver an discovery/alpha for Ministry of Justice. Working closely with Product Manager to understand stakeholder needs. Supporting, enabling and advocating for User Reasearch to ensure we understand the end user perspective. Coordrinating with other delivery managers at MOJ and sharing good practices. Identifying team improvmeents to ways of working and team health and happiness. Liasing with Delivery Lead to forecast team shape and spend.
 
-#### Contract Delivery Manager, December 2022 to present
+
 
 ### [NHS Digital](https://digital.nhs.uk/about-nhs-digital)
 
