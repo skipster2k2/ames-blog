@@ -34,7 +34,8 @@ _a circle with the heading 'behold' at the top. In the center there is a group o
 
 
 _a circle split into 3 the first third contains the raised hands emoji with the word 'behold' the second third contains a peeled banana skin that is dizzy. The third third contains a venn diagram_
-![A round image spit into 5 sections each containing a banana, one of the bananas looks like an orange segment, the other bananas also look a bit like a slice of melon, but yellow. At the bottom is the words SELD B OULD](/images/banana-orange.jpg)
+![A round image spit into 5 sections each containing a banana, one of the bananas looks like an orange segment, the other bananas also look a bit like a slice of melon, but yellow. At the bottom is the words SELD B OULD](/images/banana-orange.png
+)
 
 _sticker with the word behold in the centre, surrounded by disco lights_
 ![A mishapen circle with BOLD written and inlaid with coloured lights, behind the word are lines of sunburst, there are other nonsensical words at the top and bottom.](/images/bold.png)
