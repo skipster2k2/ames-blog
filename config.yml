@@ -87,10 +87,10 @@ params:
         Content: >
             I help multidisciplinary teams deliver services in a user centred way.
             <br>
-            I'm currently contracted at [NHS Digital](https://digital.nhs.uk/) until *March 2023*
+            I'm currently contracted at [Defra](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/) until *June 2024*
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/ianames"
+        - name: bluesky
+          url: "https://bsky.app/profile/ames.world"
         - name: linkedin
           url: "https://www.linkedin.com/in/ianames/"
         - name: email
