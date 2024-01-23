@@ -59,7 +59,7 @@ The coffee stopped around 14:00 just as I was starting to flag.
 Lots of old hands seemed to hang out in the corridor, I had a bit of a moan about this on bluesky, partly driven by FOMO, I dunno if all the old hands are having conversations in the corridor then all the new folks arent benefitting from their experience. Then again, some of the topics felt very samey so I can understand why people may not want to have the same conversations again. I dunno just feels like a disconnect between old hands and enthusiastic newbies, maybe that’s ok?
 
 ## Bluesky codes didnt really go.
-I collected 260 blusky codes to try and rebuild the tattered remains of xgov twitter on a new platform, only about 3 codes went, not sure if bluesky is just not where people want to go, or I didnt do enough to make it clear (I just kind of left them on the sticker table) anyway if you would like one, you can grab one here.
+I collected 260 blusky codes to try and rebuild the tattered remains of xgov twitter on a new platform, only about 3 codes went, not sure if bluesky is just not where people want to go, or I didnt do enough to make it clear (I just kind of left them on the sticker table) anyway if you would like one, you can grab one [here](https://docs.google.com/spreadsheets/d/1JUMNsEKGGub8r456t22nZVpuSgAANdJODw_QoorrjPI/edit#gid=0).
 
 
 # In conclusion
