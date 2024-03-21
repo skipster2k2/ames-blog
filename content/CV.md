@@ -10,17 +10,12 @@ weight: 40
 
 **I help multidisciplinary teams deliver services in a user centred way.**
 
-I have delivered projects to a range of Government organisations including the Cabinet Office, Dept for Culture Media and Sport, NHS Digital, Ministry of Justice and TechUK. 
+I have over 20 years experience delivering projects to a range of Government organisations including the Ministry of Justice, Cabinet Office, DEFRA, Dept for Culture Media and Sport, NHS Digital and TechUK.
 
-At Land Registry I delivered their first user-centred Digital services meeting the [Service Standard](https://www.gov.uk/service-manual/service-standard), as well as internal projects for 4000 distributed staff.
+I have experience of a number of agile practices such as Scrum, Kanban, Cynefin, Lean and DevOps. In recent years I have tended to specialise in discoveries, I enjoy taking nebulous ideas, or solution focused objectives and shaping them to outcomes based on user needs to get at what is really required and achievable.
+I have experience of leading co-located, distributed and fully remote teams. Clear communication and a shared understanding of goals is key, regardless of where your team is. I work hard to ensure teams are pulling in the same direction and are focused on the project outcomes.
 
-I have experience of a number of agile ways of working such as Scrum, Kanban, Cynefin, Lean and DevOps.
-
-I have experience of leading co-located, distributed and fully remote teams. Clear communication and a shared understanding of goals is key, regardless
-of where your team is. I work hard to ensure teams are pulling in the same direction and are focused on the project outcomes.
-
-I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice and Co-Op digital communities, and have presented at the FutureSync, [TechExeter](https://www.slideshare.net/techexeter/practical-agile-lessons-learned-the-hard-way-on-our-journey-building-digital-products), and [Agile on the Beach](https://www.youtube.com/watch?v=HFFoI9lI-zY) conferences. I have also helped facilitate the excellent [Agile in the Ether](https://agileintheether.co.uk/)
- and [Product in the (A)ether](https://www.pita.social/) meetups and conference.
+I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice and Co-Op digital communities, and have presented at the FutureSync, [TechExeter](https://www.slideshare.net/techexeter/practical-agile-lessons-learned-the-hard-way-on-our-journey-building-digital-products), and [Agile on the Beach](https://www.youtube.com/watch?v=HFFoI9lI-zY) conferences. I have also helped facilitate the excellent [Agile in the Ether](https://agileintheether.co.uk/) and [Product in the (A)ether](https://www.pita.social/) meetups and conference.
 
 
 ***
@@ -28,15 +23,21 @@ I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice an
 
 ## Career
 
-### [Ministry of Justice](https://www.gov.uk/government/organisations/ministry-of-justice)/[DXW](https://www.dxw.com/)
+### [Department for environment, food and rural affairs](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs)
 
-#### Contract Delivery Manager, December 2022 to present
+#### Contract Delivery Manager, December 2023 to present
 
-Working with dxw to deliver an discovery/alpha for Ministry of Justice. Working closely with Product Manager to understand stakeholder needs. Supporting, enabling and advocating for User Reasearch to ensure we understand the end user perspective. Coordrinating with other delivery managers at MOJ and sharing good practices. Identifying team improvmeents to ways of working and team health and happiness. Liasing with Delivery Lead to forecast team shape and spend.
+Leading a delivery team in the flood digital programme. Doing a discovery into how to introduce more methods for flood hydrology into working practice. Advocating for user centred design practices in a team new to agile practices. Constructively challenging scope to ensure we consider the whole end to end service. Mapping service journeys based on user research.
+
+### [Ministry of justice](https://www.gov.uk/government/organisations/ministry-of-justice)/[DXW](https://www.dxw.com/)
+
+#### Contract Delivery Manager, December 2022 to October 2024
+
+Working with dxw to deliver an discovery/alpha for Ministry of Justice. Working closely with the Product Manager to understand stakeholder needs. Supporting, enabling and advocating for User Reasearch to ensure we understand the end user perspective. Coordrinating with other delivery managers at MOJ and sharing good practices. Identifying team improvements to ways of working and team health and happiness. Liasing with Delivery Lead to forecast team shape and spend.
 
 <br />
 
-### [NHS Digital](https://digital.nhs.uk/about-nhs-digital)
+### [NHS digital](https://digital.nhs.uk/about-nhs-digital)
 
 #### Contract Product Manager, June 2022 to December 2022
 
@@ -50,7 +51,7 @@ Responsible for the delivery of designated products and services by one or more 
 
 <br />
 
-### [Delt Shared Services](https://deltservices.com/)
+### [Delt shared services](https://deltservices.com/)
 
 #### Innovation Specialist, September 2020 to April 2021.
 
@@ -66,7 +67,7 @@ Responsible for developing a high performing remote team of software developers 
 
 <br />
 
-### [HM Land Registry](https://www.gov.uk/government/organisations/land-registry)
+### [HM land registry](https://www.gov.uk/government/organisations/land-registry)
 
 #### Delivery Lead, 2014 - 2019.
 
@@ -99,6 +100,10 @@ smooth transition of services to production. I was Subject Matter Expert for cro
 
 
 ## Projects
+
+### Benchmark system for flood hydrology discovery.
+
+A discovery that had a very firm idea of the solution before understanding the problems to be solved. This required me to advocate for user centred practices and to frame discovery as due-diligence, providing assurance that a benchmark system is what is needed. Through a combination of research and service mapping and lots of conversations and coaching, I was able to reframe the objectives to 3 much clearer problems to explore. Whilst a digital solution feels unfeasible on cost grounds, there are problems to be solved and an opportunity to test the service standard and ucd practices in a more relational setting than most transactional services. The reccomendations for alpha have been well received and ther ehas been lots of praise and appreciation for the conclusions we reached and the direction we have set.
 
 ### Refer and Monitor and accredited Programme - 2023
 
