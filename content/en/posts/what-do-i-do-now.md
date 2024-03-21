@@ -10,13 +10,13 @@ tags:
 description: "Self reflection and career planning for 2024 with bonus earworm title!"
 
 ---
-![Sleeper+What+Do+I+Do+Now-186188-3772282995.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/658cfab2-426f-4333-aa07-e468c912eac2/fdb453b1-869c-4368-8b93-27baac926fe5/SleeperWhatDoIDoNow-186188-3772282995.jpg)
+![The album art of sleeper's 90's hit, what do I do now. It shows an androgenous man's head staring, the colour is washed out](/images/what-do-i-do-now.jpg)
 
 I’ve never been much of a one for career planning, from reading the ‘[5 minutes with](https://www.linkedin.com/pulse/list-all-5-minutes-articles-jon-rhodes/)’ series from Jon Rhodes that seems to be a common trait of delivery people, lots of us kind of fall into it and enjoy it, that’s [certainly been my situation.](https://www.linkedin.com/pulse/5-minutes-ian-ames-jon-rhodes/) 
 
 **The Amesy method of career development:**
 
-![20240321_130849.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/658cfab2-426f-4333-aa07-e468c912eac2/bb241084-ee35-4abe-9e66-c7bee10e2ded/20240321_130849.jpg)
+![A sketch of my career development loop. 1. Get frustrated. 2. Find a different approach. 3.do it. 4. Advocate for it. 5. Repeat](/images/amesy-method.jpg)
 
 For the last few years I have been contracting,  this has been a great experience seeing how different organisations work, learning about lots of new problem domains, and hopefully making things just a bit better; I’ve kind of just taken the contracts that were available at the time and haven’t been overly deliberate when selecting work, I find myself getting frustrated by common patterns and want to address them.
 
@@ -26,9 +26,9 @@ I’m acutely aware that actually my lot in life isn’t too bad at the moment. 
 
 # Where to start?
 
-A few years back I came across [ikigiai](https://www.bbc.com/worklife/article/20170807-ikigai-a-japanese-concept-to-improve-work-and-life), a frame for thinking about what you want from life, a kind of 4d-chess venn diagram:
+A few years back I came across [ikigai](https://www.bbc.com/worklife/article/20170807-ikigai-a-japanese-concept-to-improve-work-and-life), a frame for thinking about what you want from life, a kind of 4d-chess venn diagram:
 
-![ikigai-1024x968-1641244088.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/658cfab2-426f-4333-aa07-e468c912eac2/696d92eb-972c-4ac1-82f3-62e879269ffc/ikigai-1024x968-1641244088.jpg)
+![Ikigia diagram showing the overlapping circles of what do i love, what am i good at, what can i get paid for, and what does the world need. Where all 4 overlap is where fulfilment - or ikigai - lies.](/images/ikigai.jpg)
 
 The idea is that if you can find a space where all four of these needs are met you will be fulfilled. I’m not sure whether I totally buy into this, but nevertheless its a useful framing to consider where I am and where to go.
 
