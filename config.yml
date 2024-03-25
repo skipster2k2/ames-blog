@@ -84,17 +84,34 @@ params:
 
     homeInfoParams:
         Title: "Hi I'm Ian Ames"
-        Content: >
-            I help multidisciplinary teams deliver services in a user centred way.
-            <br>
-            I'm currently contracted at [Defra](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/) until *June 2024*
+        Content: 
+            <p>I have over 20 years experience delivering projects to a range of Government organisations including 
+            the Ministry of Justice, Cabinet Office, DEFRA, Dept for Culture Media and Sport, NHS Digital and TechUK.</p>
+
+            <p>I have experience of a number of agile practices such as Scrum, Kanban, Cynefin, Lean and DevOps. 
+            In recent years I have tended to specialise in the early phases of a service lifecycle. 
+            I enjoy working in small teams; being at the intersection of product, tech, and UX; and taking the seed 
+            of an idea and shaping it to achievable outcomes.</p>
+
+            <p>I have experience of leading co-located, distributed and fully remote teams. Clear communication and a shared
+             understanding of goals is key, regardless of where your team is. I work hard to ensure teams are pulling in 
+             the same direction and are focused on the project outcomes.</p>
+
+            <p>I have spoken at meetups for Agile Southwest, Product Makers, Citizens Advice and Co-Op digital communities,
+             and have presented at a number of conferences including 
+             [Agile on the Beach](https://www.youtube.com/watch?v=HFFoI9lI-zY&ab_channel=AgileontheBeach). 
+             I was one of the founding members of [DeliverCon](https://medium.com/@IanAmes/delivercon-what-to-expect-on-the-day-65433460ecf1),
+              an unconference for delivery managers in the public sector, I have also helped facilitate the excellent 
+              Agile in the Ether and Product in the (A)ether meetups and conferences.</p>
+            <p>I'm currently contracted at [Defra](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/) 
+            until *June 2024*</p>
     socialIcons:
         - name: bluesky
           url: "https://bsky.app/profile/ames.world"
         - name: linkedin
           url: "https://www.linkedin.com/in/ianames/"
         - name: email
-          url: "mailto:plymames@gmail.com"
+          url: "ian@discover-deliver.co.uk"
         - name: github
           url: "https://github.com/skipster2k2"
         - name: RsS
