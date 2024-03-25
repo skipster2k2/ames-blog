@@ -2,9 +2,6 @@
 title: "CV"
 weight: 40
 ---
-
-[Download a PDF of my CV](/images/IanAmes-CV.pdf)
-
 #Ian Ames. 
 
 I help multidisciplinary teams deliver services in a user centred way.
