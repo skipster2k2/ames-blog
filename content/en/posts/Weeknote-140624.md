@@ -45,7 +45,7 @@ We decided to walk into Utrecht to stretch the legs in different ways, [Cate](ht
 
 ![Utrecht city centre, the canal is lower with a bank full of cafe tables and umbrellas, there is then a higher street level with old buildings](/images/utrecht.jpg)
 
-![A large crowd at the Utrecht jazz festival, there red ribbons threaded across the lamp posts](images/jazz_festival.jpg)
+![A large crowd at the Utrecht jazz festival, there red ribbons threaded across the lamp posts](/images/jazz_festival.jpg)
 
 ![A DJ set being played out of the top of an old red car](/images/DJ_car.jpg)
 
@@ -58,7 +58,7 @@ The festival wrapped up around 11ish and we shuffled off back to the hotel more 
 
 We woke up around 8ish to torrential rain and decided to lie in until checkout, this was a trick I learned from interailing, usually hotel check-in’s aren't open until 3 so there's no need to rush to the next place, we hoped setting off later would mean we missed the rain. We did not.
 
-![Mark and I taking a selfie in wet gear, looking very damp](images/wet_idiots.jpg)
+![Mark and I taking a selfie in wet gear, looking very damp](/images/wet_idiots.jpg)
 
 We had a lovely long brunch at [Kushiin](https://kushiin.nl/) (another Cate recommendation, thanks Cate!) before finally setting off, it didn't take long until we had reached the outskirts of Utrecht and were thoroughly soaked. We then cycled in awful conditions on busy roads. After cycling on dedicated bike roads the whole day before, this was not a happy experience. We got to Oudewater after a couple of hours of being soaked. My hire bike was starting to struggle, the gears seized up in the rain and I got a puncture on the back tyre pulling into the village. We decided to stop for lunch at [Eetcafe Lumiere](https://eetcafe-lumiere.nl/) to dry out and fix the tyre. The waiter even helped me fix the tyre!
 
