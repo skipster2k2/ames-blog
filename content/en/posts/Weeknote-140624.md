@@ -6,8 +6,6 @@ tags:
 - weeknotes
 description: "Dutch cycling mega post"
 ---
-# Weeknotes 10/06/24
-
 This week my brother [Mark](https://www.linkedin.com/in/amesmark/) and I cycled around the Netherlands. Mark lives in Australia and we've kind of formed this little tradition of going on cycling holidays when he's back over. This is our third one, our first was 12 years ago where we [cycled over Dartmoor](https://photos.app.goo.gl/7LaRRdEFLGnCEFf69). 2 years ago we picked the [Somerset levels](https://photos.app.goo.gl/Hdn2ECYyhKyFFRhp8). We both enjoyed the lack of hills last time and Mark is an [active travel consultant](https://www.strategic-cities.com/), so of course we picked the Netherlands.
 
 ## Saturday
