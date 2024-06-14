@@ -1,5 +1,5 @@
 ---
-title: "Weeknote 14/06/24 Funemployment"
+title: "Weeknote 14/06/24 Bikes"
 date: 2024-06-14
 categories: weeknotes
 tags:
@@ -34,7 +34,7 @@ Got up and had a great breakfast at the hotel, then set off south towards Utrech
 
 ![A windmill. The sails are furled, the sides are made of thatch](/images/windmill1.jpg)
 
-![A very posh looking river home in front of the river. In the river is a very posh looking river cruiser with very posh looking people looking like they are having a good time](images/posh_river_home.jpg)
+![A very posh looking river home in front of the river. In the river is a very posh looking river cruiser with very posh looking people looking like they are having a good time](/images/posh_river_home.jpg)
 
 ![A lift bridge open with a boat going through](/images/lift_bridge.jpg)
 
@@ -104,7 +104,7 @@ Along the front we stopped to check the menu at an Italian restaurant. An old la
 
 ![The North sea, there is a river trench heading to the sea, Mark is in the foreground on his bike](/images/north_sea.jpg)
 
-![The beach at Nordwijk, it is a fine white sand beach, it was very windy](images/nordwijk_beach.jpg)
+![The beach at Nordwijk, it is a fine white sand beach, it was very windy](/images/nordwijk_beach.jpg)
 
 ![Nordwijk sea front, this is as rough as the Netherlands got, thats to say theres a gaudy romanesque hotel and some 70's style flats, in the background is a ferris wheel. The paved road surface is immaculate](/images/nordwijk_seafront.jpg)
 
@@ -119,7 +119,7 @@ The final day of cycling, the first half was in the dunes and the second took us
 
 ![Panoramic shot of sandunes, they go all the way into the distance and have dense foliage](/images/sand_dunes.jpg)
 
-![The square at Haarlem, there is a large townhall and other old buildings, the square is decorative brick](images/haarlem.jpg)
+![The square at Haarlem, there is a large townhall and other old buildings, the square is decorative brick](/images/haarlem.jpg)
 
 ![A large ship sailing down the Ij canal, the car ferry we used to cross it is to the right of the image moored on the opposite bank](/images/big_ship.jpg)
 
@@ -139,7 +139,7 @@ We got the train back to Zaandijk and had a lovely stroll around the windmills i
 
 ![Wooden houses at Zaan Schaans, very beautiful but it has an air of Disneyland preservation about it](/images/zan_schaans_houses.jpg)
 
-![The orginal Albert Heijn shop, a wooden building. Albert Heijn is a bit like a tesco extra in the UK](/images/albert_heijn.jpg)
+![The original Albert Heijn shop, a wooden building. Albert Heijn is a bit like a tesco extra in the UK](/images/albert_heijn.jpg)
 
 ![4 windmills in a row at Zan schaans](/images/windmill4.jpg)
 
