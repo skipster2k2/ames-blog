@@ -52,13 +52,13 @@ Still ploughing through Rubicon, learnt about [Sulla](https://en.m.wikipedia.org
 Haven't really gone back to crucial conversations or radical candour this week.
 
 These posts caught my eye this week:
-[An excellent AI rant](https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/)
-[Clear eyed guidance on AI from US Federal Trade Commission, with a title that goes hard](https://www.ftc.gov/business-guidance/blog/2024/06/succor-borne-every-minute)
-[US Digital Response talent toolkit, the US government are smashing the posts this week!](https://usdr.gitbook.io/talent-toolkit/~/changes/4WmQFWLFh3RGONA0TB4Q)
-[Discover blindspots](https://herd.consulting/discovery-blind-spots)
-[Did we kill the disco?](https://medium.com/@angelahilton/did-we-kill-the-disco-d4bbd4a17815)
-[A great post from Audree about working the endless desire for certainty](https://www.audreefletcher.co.uk/blog/2024/6/21/demanding-predictable-solutions-for-uncertain-and-complex-problems)
-[A timely post from Steph, I suspect this will be extremely useful advice in the next gig](https://stephgray.com/2024/06/monkey-tennis-syndrome/)
+[An excellent AI rant](https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/)<br />
+[Clear eyed guidance on AI from US Federal Trade Commission, with a title that goes hard](https://www.ftc.gov/business-guidance/blog/2024/06/succor-borne-every-minute)<br />
+[US Digital Response talent toolkit, the US government are smashing the posts this week!](https://usdr.gitbook.io/talent-toolkit/~/changes/4WmQFWLFh3RGONA0TB4Q)<br />
+[Discover blindspots](https://herd.consulting/discovery-blind-spots)<br />
+[Did we kill the disco?](https://medium.com/@angelahilton/did-we-kill-the-disco-d4bbd4a17815)<br />
+[A great post from Audree about working the endless desire for certainty](https://www.audreefletcher.co.uk/blog/2024/6/21/demanding-predictable-solutions-for-uncertain-and-complex-problems)<br />
+[A timely post from Steph, I suspect this will be extremely useful advice in the next gig](https://stephgray.com/2024/06/monkey-tennis-syndrome/)<br />
 
 
 ## Watching
