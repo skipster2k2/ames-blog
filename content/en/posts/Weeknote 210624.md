@@ -6,9 +6,6 @@ tags:
 - weeknotes
 description: "More funemployment shenanigans this week."
 ---
-
-More funemployment shenanigans this week.
-
 ## Monday
 Dropped Phoebe off later into school, her condition means she tires easily so she has a reduced timetable on certain days. After that I headed to Wickes to get paint stuff to paint the dining room. Han needs a bigger space to demonstrate larger exercises for her [nurse tutoring YouTube channel](https://www.youtube.com/channel/UCuAYbWUsnnLbBTyq-_1V8bA). The wall is kind of a meh beige so I've painted it white for now. I really hate painting, any job that takes longer to prepare for than to do won't float my boat. I'm not very good at it too, I suspect these two facts are related!
 
