@@ -21,7 +21,7 @@ The mechanic gave an absolute masterclass in stakeholder management. He had an i
 
 ![Mechanic underneath my van, the bonnet is up](/images/broken_van.jpg)
 
-I ended up spending a couple of hours mooching around Bodmin, getting quite bored, luckily Steven Amor offered me a coffee, we had a lovely catch-up. We talked about the challenge of giving teams autonomy in large orgs and running and he told me about how he has been busy setting up services for the Euros and Olympics, very exciting!
+I ended up spending a couple of hours mooching around Bodmin, getting quite bored, luckily [Stephen Amor](https://www.linkedin.com/in/stephen-amor-562764/) offered me a coffee, we had a lovely catch-up. We talked about the challenge of giving teams autonomy in large orgs and running and he told me about how he has been busy setting up services for the Euros and Olympics, very exciting!
 
 ![Selfie with Stephen in costa](/images/Stephen.jpg)
 
