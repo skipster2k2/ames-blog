@@ -1,6 +1,6 @@
 ---
 title: "Weeknote 28/06/24"
-date: 2024-06-21
+date: 2024-06-28
 categories: weeknotes
 tags:
 - weeknotes
