@@ -61,7 +61,7 @@ The big news is Freya’s birthday, the big 10, no more single digit children in
 
 [A great post from Vicky about the lost art of Information Architecture, a real challenge of agile ways of working is getting the balance between short useful deliveries and a more long term strategic direction right](https://www.vickyteinaki.com/blog/a-plea-for-the-lost-practice-of-information-architecture/)
 
-Nail Vass shared this guide to napping from the BBC, needed this on Friday, now thats public service!](https://www.bbc.co.uk/news/articles/c047gr9mgxxo)
+[Neil Vass shared this guide to napping from the BBC, needed this on Friday, now thats public service!](https://www.bbc.co.uk/news/articles/c047gr9mgxxo)
 
 [James Timpson’s appointment to the new UK cabinet reminded me to take another look at upside down management, it’s still great, wish this was more prevalent](https://www.timpson-group.co.uk/about-timpson/upside-down-management/)
 
