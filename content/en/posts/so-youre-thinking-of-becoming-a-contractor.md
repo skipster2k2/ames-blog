@@ -242,12 +242,12 @@ It’s worthwhile reviewing your budget as you take new contracts on, if you’v
 
 Contracting is a great way to gain loads of experience, and being your own boss is fun, but it’s a big jump, hopefully this post helps you make a clear eyed decision. Good luck!
 
-Thanks to everyone who contributed to this post:
-[Emily Webber](https://www.linkedin.com/in/emilywebber/)
-[Neil Vass](https://www.linkedin.com/in/neilvass/)
-[Sam Villis](https://www.linkedin.com/in/samvillis/)
-[Sandeep Chahal](https://www.linkedin.com/in/hellosandeepchahal/)
-[Leanne Griffith-McHugh](https://www.linkedin.com/in/leannemariegriffin/)
+Thanks to everyone who contributed to this post:<br />
+[Emily Webber](https://www.linkedin.com/in/emilywebber/)<br />
+[Neil Vass](https://www.linkedin.com/in/neilvass/)<br />
+[Sam Villis](https://www.linkedin.com/in/samvillis/)<br />
+[Sandeep Chahal](https://www.linkedin.com/in/hellosandeepchahal/)<br />
+[Leanne Griffith-McHugh](https://www.linkedin.com/in/leannemariegriffin/)<br />
 
 
 
