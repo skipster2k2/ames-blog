@@ -13,7 +13,7 @@ A bitty week this week, one of those that feels like it's been busy but nothing 
 
 Monday started well, [Priyanca](https://www.linkedin.com/in/priyanca-ux/) and I had a great chat with some product folks from [Scott Colfer’s](https://www.linkedin.com/in/scottcolfer/) Product whatsapp community about discoveries. This is in preparation for our talk at [SDinGov](https://govservicedesign.net/) in September, we wanted to practise what we preach and validate some of our own experiences. The talk was productive and has led to some interesting further conversations about how we might improve the visibility of discovery practices, warts and all, looking forward to seeing how that develops.
 
-Caught up with [Sam](https://www.linkedin.com/in/samvillis/) in the afternoon and we talked about contracting. It’s an overwhelming world to step into and I remember how it felt when I started. It’s prompted me to write a ‘so you’re thinking about contracting’ blogpost, I’ve shared a few drafts with folks and I’m hoping to publish next week after catching up with fellow Janner [Mark Cradddock](https://www.linkedin.com/in/markcraddock/) and absorbing his 30 odd years of contract experience. Watch this space.
+Caught up with [Sam](https://www.linkedin.com/in/samvillis/) in the afternoon and we talked about contracting. It’s an overwhelming world to step into and I remember how it felt when I started. It’s prompted me to write a ‘so you’re thinking about contracting’ blogpost, I’ve shared a few drafts with folks and I’m planning to publish next week, watch this space.
 
 ## Tuesday.
 
@@ -57,7 +57,7 @@ The big news is Freya’s birthday, the big 10, no more single digit children in
 
 [Richard Pope is writing a book about platforms, can’t wait to read it!](https://anatomyofpublicservices.com/)
 
-[Ear trust by proving what you say](https://medium.com/writing-by-if/earn-trust-by-proving-what-you-say-d1958d2e9623)
+[Earn trust by proving what you say](https://medium.com/writing-by-if/earn-trust-by-proving-what-you-say-d1958d2e9623)
 
 [A great post from Vicky about the lost art of Information Architecture, a real challenge of agile ways of working is getting the balance between short useful deliveries and a more long term strategic direction right](https://www.vickyteinaki.com/blog/a-plea-for-the-lost-practice-of-information-architecture/)
 
