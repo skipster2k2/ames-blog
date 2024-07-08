@@ -7,9 +7,16 @@ tags:
 description: "A mega post of contracting advice"
 ---
 
-# So you’re thinking of becoming a contractor?
-
 Over the last couple of weeks, I’ve had lots of chats with people thinking about contracting, so I thought I would try to distil some of that advice into a blog post.
+
+It's a chunky post so here's an index:
+[First of all some context](#first-of-all-some-context)
+[Pro's of contracting](#pros-of-contracting)
+[Con's of contracting](#cons-of-contracting)
+[Getting started](#getting-started)
+[Finding contracts](#finding-contracts)
+[Budgeting](#budgeting)
+[Conclusion](#in-conclusion)
 
 
 ## First of all, some context.
