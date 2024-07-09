@@ -195,19 +195,21 @@ There’s not a lot to say about umbrella companies; hey sort out all your pay a
 
 Make sure you read the contract and don’t be shy if there are clauses you aren’t comfortable agreeing to. Often things are added as boilerplate templates, such as ownership of any IP or materials produced during the contract, if you value owning your own content then challenge the clause, often they will be removed or an agreement can be reached.
 
-### Setting up a public limited company.
+Check the notice periods too, sometimes they can be setup for the customer to terminate the contract on a shorter notice period than the supplier (you).
 
-If you’re taking on an outside IR35 contract you’ll need to set up a public limited company. Whilst this is more daunting, it isn’t too difficult and is quick to do. [GOV.UK has an excellent step by step guide](https://www.gov.uk/set-up-limited-company). You can usually get a company setup in under a week so there's no need to go to the expense of setting one up in advance. 
+## Setting up a private limited company.
+
+If you’re taking on an outside IR35 contract you’ll need to set up a private limited company. Whilst this is more daunting, it isn’t too difficult and is quick to do. [GOV.UK has an excellent step by step guide](https://www.gov.uk/set-up-limited-company). You can usually get a company setup in under a week so there's no need to go to the expense of setting one up in advance. 
 
 Get a password manager, you’ll be setting up accounts with companies house and HMRC at the very least. Saving credentials early on will save you a world of pain down the track.
 
 Be mindful that setting up a plc will require some upfront costs (another reason inside IR35 contracts can be useful if you're starting out with not much capital)
 
-Company setup costs
-Business bank account
-Professional indemnity
-Hiring an accountant
-Purchasing equipment, such as a laptop and software
+- Company setup costs
+- Business bank account
+- Professional indemnity
+- Hiring an accountant or financial advisor
+- Purchasing equipment, such as a laptop and software
 
 Plus you won’t get paid until your first invoice payment date, this can be 2 months after you start (invoice sent end of first month, with a month to pay) so make sure you have enough money to cover this.
 
@@ -215,7 +217,11 @@ It’s worth reiterating that a good accountant is worth their weight in gold, i
 
 For example when I was starting out, my accountant spotted I was paying PAYE to HMRC twice and sorted it out for me. HMRC’s website is _very_ confusing it's now a kind of a mish-mash of gov.uk styles and some god awful 90’s CMS, it can be very hard to navigate around, paying an accountant helps massively.
 
-Investing in bookkeeping software is worth it too, your accountant will probably recommend one. If your accountant doesn’t do financial advice, it’s worthwhile getting a financial advisor too. 
+If your accountant doesn’t do financial advice, it’s worthwhile getting a financial advisor too. 
+
+Investing in bookkeeping software is worth it too, especially if you are going to go without an accountant, a lot of products these days link directly to HMRC services allowing you to submit your taxes directly through them.
+
+*edit* the first version of this post had public and private limited companies mixed up. On the whole as a contractor, you'll be setting up as a private limited company, usually you will be the sole shareholder rather than allowing others to invest in shares in your company. For more information check out [this article on the differences between ltd and plc.](https://www.freshbooks.com/en-gb/hub/other/ltd-vs-plc#:~:text=With%20an%20LTD%20company%2C%20it,members%20of%20the%20general%20public)
 
 
 ##  Budgeting
@@ -248,6 +254,8 @@ Thanks to everyone who contributed to this post:<br />
 [Sam Villis](https://www.linkedin.com/in/samvillis/)<br />
 [Sandeep Chahal](https://www.linkedin.com/in/hellosandeepchahal/)<br />
 [Leanne Griffith-McHugh](https://www.linkedin.com/in/leannemariegriffin/)<br />
+[Steph Grey](https://www.linkedin.com/in/stephgray/)<br />
+[Chris Oldwood](https://www.linkedin.com/in/chrisoldwood/)
 
 
 
