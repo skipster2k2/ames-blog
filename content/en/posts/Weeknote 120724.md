@@ -45,7 +45,9 @@ Had two great open interactions, the kind you used to get on twitter, on LinkedI
 
 [Roger musing on components of good strategy](https://www.linkedin.com/posts/rogerswannell_ive-been-trying-to-think-of-simple-ways-activity-7217223254782980096-aWBN?utm_source=share&utm_medium=member_desktop)
 
-[Alistair framing how to communicate the value of prototypes](​​https://www.linkedin.com/posts/activity-7217508346122092545-op5J?utm_source=share&utm_medium=member_desktop)
+<br />
+
+[Alistair framing how to communicate the value of prototypes](https://www.linkedin.com/posts/activity-7217202268440305664-VMSS?utm_source=share&utm_medium=member_desktop)
 
 Took Phoebe to her first tennis lesson after she tried it at Stoke Mandeville. She loved it but struggled with cramp overnight, must remember to stretch!
 
