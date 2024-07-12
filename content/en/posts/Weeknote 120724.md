@@ -74,17 +74,17 @@ We’ve had 29 responses to our [state of discovery survey](https://forms.gle/G2
 
 Still working through [Rubicon](https://en.wikipedia.org/wiki/Rubicon:_The_Last_Years_of_the_Roman_Republic). Learning more about Roman politics is pretty enlightening. If this is the basis of a classical education, it explains a lot!!
 
-Various AI is a planet-killing bubble articles:
-https://www.wired.com/story/ai-energy-demands-water-impact-internet-hyper-consumption-era/
+Various AI is a planet-killing bubble articles:<br />
+https://www.wired.com/story/ai-energy-demands-water-impact-internet-hyper-consumption-era/<br />
 https://www.wheresyoured.at/pop-culture/
 
 
-https://verraes.net/2022/05/conways-law-vs-rigid-designs/ via [Quiet Stories newsletter](https://mailchi.mp/57b4f2765e0e/quiet-stories-173) the whole newsletter is great, recommend
-https://medium.com/writing-by-if/earn-trust-by-proving-what-you-say-d1958d2e9623
-[Nice to see Matt back after the pre-election period](https://blog.mattedgar.com/2024/07/08/weeknote-1-to-5-july-2024/)
-https://lisacrispin.com/2024/07/10/how-to-reduce-physical-and-digital-waste/
-https://markdalgarno.medium.com/whats-your-blue-light-852fdd287a3f
-https://www.checklyhq.com/blog/300ms-from-every-pod-startup-with-a-single-grafana-query/
+https://verraes.net/2022/05/conways-law-vs-rigid-designs/ via [Quiet Stories newsletter](https://mailchi.mp/57b4f2765e0e/quiet-stories-173) the whole newsletter is great, recommend<br />
+https://medium.com/writing-by-if/earn-trust-by-proving-what-you-say-d1958d2e9623<br />
+[Nice to see Matt back after the pre-election period](https://blog.mattedgar.com/2024/07/08/>weeknote-1-to-5-july-2024/)<br />
+https://lisacrispin.com/2024/07/10/how-to-reduce-physical-and-digital-waste/<br />
+https://markdalgarno.medium.com/whats-your-blue-light-852fdd287a3f<br />
+https://www.checklyhq.com/blog/300ms-from-every-pod-startup-with-a-single-grafana-query/<br />
 
 ### Watching
 
