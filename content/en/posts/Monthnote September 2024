@@ -5,6 +5,7 @@ categories: weeknotes
 tags:
 - weeknotes
 description: "September Monthnote"
+---
 
 I've been a bit naff keeping up the weeknotes cadence in September so attempting a Month note. PD has a bibliography of common phrases, one of them is "laptop in the pond" that feeling when you get to the end of the week and just want to not look at a screen for a while. That's partially why my cadence has dropped off,publishing to my blog is a bit of a faff. It's a static site, all the content is in GitHub and pushed to netlify for hosting, the publishing process is a little esoteric and very dependent on me editing the file on my Mac and invoking terminal git commands to push the content. It's the last thing I want to do at the end of a week, it also doesn't really support a busy life well. So I'm trying something different today, I'm typing this directly in a file via the GitHub browser that means I can do it on my phone whilst Phoebe is at the gym. 
 
