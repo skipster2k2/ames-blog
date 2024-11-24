@@ -1,5 +1,5 @@
 ---
-title: "So you're thinking of becoming a delivery"
+title: "So you're thinking of becoming a delivery manager"
 date: 2024-11-22
 categories: ways of working
 tags:
