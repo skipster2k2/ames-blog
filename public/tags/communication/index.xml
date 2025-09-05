@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>communication on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/communication/</link>
-    <description>Recent content in communication on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Communication on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/communication/</link>
+    <description>Recent content in Communication on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 things I learned about Delivery Management from learning to navigate very large Ships.</title>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</guid>
+      <description>&lt;p&gt;25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.&lt;/p&gt;&#xA;&lt;p&gt;After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>10 Things I Learned From Remote Working</title>
-      <link>https://ames.world/blog/10-things-i-learned-from-remote-working/</link>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/10-things-i-learned-from-remote-working/</guid>
-      <description>This post was originally published on the surevine blog.
-3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.
-Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth.</description>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post was originally published on the &lt;a href=&#34;https://www.surevine.com/10-things-learnt-remote-working/&#34;&gt;surevine blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.&lt;/p&gt;&#xA;&lt;p&gt;Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth. Although I’m only 3 months in, you learn pretty quickly what works and doesn’t when it comes to remote work. Here’s what I have discovered:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

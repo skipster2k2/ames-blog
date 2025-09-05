@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>review on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/review/</link>
-    <description>Recent content in review on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <title>Review on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/review/</link>
+    <description>Recent content in Review on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hase Pino tandem review</title>
-      <link>https://ames.world/blog/hase-pino-tandem-review/</link>
+      <link>http://localhost:1313/en/posts/hase-pino-tandem-review/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/hase-pino-tandem-review/</guid>
-      <description>I&amp;rsquo;ve never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot&amp;rsquo;s back, that was until we got a Hase Pino, quite possibly the strangest looking but most well-designed tandem there is.
-The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent seat, whilst the pilot is just behind in a standard bike configuration, the beauty of this design is that you share the same view, and your heads are close together, its easy to have a conversation even at speed.</description>
+      <guid>http://localhost:1313/en/posts/hase-pino-tandem-review/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot&amp;rsquo;s back, that was until we got a Hase Pino, quite possibly the strangest looking but most well-designed tandem there is.&lt;/p&gt;&#xA;&lt;p&gt;The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent seat, whilst the pilot is just behind in a standard bike configuration, the beauty of this design is that you share the same view, and your heads are close together, its easy to have a conversation even at speed.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

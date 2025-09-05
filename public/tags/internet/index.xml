@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>internet on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/internet/</link>
-    <description>Recent content in internet on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <title>Internet on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/internet/</link>
+    <description>Recent content in Internet on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The OSI Model</title>
-      <link>https://ames.world/blog/the-osi-model/</link>
+      <link>http://localhost:1313/en/posts/the-osi-model/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/the-osi-model/</guid>
-      <description>The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the International Standard Organisation (ISO).
-The model has seven layers:
- Application layer Presentation layer System layer Transport layer Network layer Data layer Physical layer  Which can be remembered by either of two mnemonics:
- All People Seem To Need Data Processing</description>
+      <guid>http://localhost:1313/en/posts/the-osi-model/</guid>
+      <description>&lt;p&gt;The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the &lt;a href=&#34;https://www.iso.org/ics/35.100/x/&#34;&gt;International Standard Organisation (ISO)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The model has seven layers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Application layer&lt;/li&gt;&#xA;&lt;li&gt;Presentation layer&lt;/li&gt;&#xA;&lt;li&gt;System layer&lt;/li&gt;&#xA;&lt;li&gt;Transport layer&lt;/li&gt;&#xA;&lt;li&gt;Network layer&lt;/li&gt;&#xA;&lt;li&gt;Data layer&lt;/li&gt;&#xA;&lt;li&gt;Physical layer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Which can be remembered by either of two mnemonics:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;All People Seem To Need Data Processing&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;or from the bottom up:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

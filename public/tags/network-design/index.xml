@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>network design on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/network-design/</link>
-    <description>Recent content in network design on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/network-design/index.xml" rel="self" type="application/rss+xml" />
+    <title>Network Design on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/network-design/</link>
+    <description>Recent content in Network Design on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/network-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Fundamentals</title>
-      <link>https://ames.world/blog/network-fundamentals/</link>
+      <link>http://localhost:1313/en/posts/network-fundamentals/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/network-fundamentals/</guid>
-      <description>Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:
-Performance. The sharing of data and resources doesn’t degrade the computers on the network.
-Reliability. The network doesn’t fall over all the time.
-Security. Data is only shared with those that should have access to it.
-Types Peer to Peer is where every node on the network has equal access to the network and each node shares data and resources.</description>
+      <guid>http://localhost:1313/en/posts/network-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/network_fundamentals.jpg&#34; alt=&#34;&#34; title=&#34;An image showing a number of colourful Cat5 cables with the banner ‘Network fundamentals’&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Performance.&lt;/strong&gt; The sharing of data and resources doesn’t degrade the computers on the network.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reliability.&lt;/strong&gt; The network doesn’t fall over all the time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Security.&lt;/strong&gt; Data is only shared with those that should have access to it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

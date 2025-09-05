@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icebreaker on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/icebreaker/</link>
+    <description>Recent content in Icebreaker on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/icebreaker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A team icebreaker using Midjourney AI.</title>
+      <link>http://localhost:1313/en/posts/a-team-icebreaker-using-midjourney-ai/</link>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/a-team-icebreaker-using-midjourney-ai/</guid>
+      <description>&lt;p&gt;Yesterday the team got together to workshop how we move into the next phase of our project. Up until now we have mainly been in Discovery/Alpha mode, exploring the problem space and sketching out potential solutions. As we move to beta we’re onboarding devs into the team and so it was worth us think about our ways of working an how we communicate effectively between design/research and dev.&lt;/p&gt;&#xA;&lt;p&gt;At the beginning of the day I tried out a new icebreaker for the team. There’s a long standing tradition in digital gov teams to have a mission patch at the end of a phase, its a nice way to build a team identity and celebrate success, given we had just finished alpha we were all keen to get a sticker created. This is what we did…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>workspace on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/workspace/</link>
-    <description>Recent content in workspace on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Thu, 13 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/workspace/index.xml" rel="self" type="application/rss+xml" />
+    <title>Workspace on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/workspace/</link>
+    <description>Recent content in Workspace on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/workspace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Responding to Change</title>
+      <link>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</guid>
+      <description>&lt;p&gt;I love the agile manifesto, one of the things that most drew me to it was &amp;ldquo;Responding to change over following a plan&amp;rdquo;. I&amp;rsquo;ve worked on enough projects to see the benefit in changing direction when it&amp;rsquo;s clear that your plan isnt going to help you hit your goal and the sheer grinding death march expereince for teams when that doesn&amp;rsquo;t happen. However the manifesto doesnt say much about different types of change and how best to respond to them, I have 3 metal models of change that I&amp;rsquo;ve seen in teams. I thought I would share as this is fairly early thinking (for me). I&amp;rsquo;m interested if others have seen these patterns, and what other models I&amp;rsquo;ve missed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>5 Reasons Open Plan Offices Suck for Agile Teams</title>
-      <link>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
+      <link>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
       <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
-      <description>I recently gave a presentation at the inaugural Tech Exeter conference called Practical agile: Lessons learned the hard way on our journey delivering digital products. In that presentation I claimed open plan offices are terrible team spaces, but didn&amp;rsquo;t really elaborate on why. Since then Neil Parker asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!</description>
+      <guid>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
+      <description>&lt;p&gt;I recently gave a presentation at the inaugural &lt;a href=&#34;https://techexeter.uk/&#34;&gt;Tech Exeter&lt;/a&gt; conference called &lt;a href=&#34;https://www.slideshare.net/IanAmes/practical-agile-tech-exeter-v2&#34;&gt;Practical agile: Lessons learned the hard way on our journey delivering digital products.&lt;/a&gt; In that presentation I claimed open plan offices are terrible team spaces, but didn&amp;rsquo;t really elaborate on why. Since then &lt;a href=&#34;https://twitter.com/_NeilParker&#34;&gt;Neil Parker&lt;/a&gt; asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

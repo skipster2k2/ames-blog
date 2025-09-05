@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devon on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/devon/</link>
-    <description>Recent content in devon on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 26 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/devon/index.xml" rel="self" type="application/rss+xml" />
+    <title>Devon on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/devon/</link>
+    <description>Recent content in Devon on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/devon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hidden Plymouth, Route 2 - Millbay Mini</title>
-      <link>https://ames.world/blog/hidden-plymouth-route2-millbay-mini/</link>
+      <link>http://localhost:1313/en/posts/hidden-plymouth-route2-millbay-mini/</link>
       <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/hidden-plymouth-route2-millbay-mini/</guid>
-      <description>I’m slightly overwhelmed by how well Route 1 has been received I have had some lovely feedback and suggestions for future routes. One such suggestion is to do something shorter that children can take part in, so where better than around Millbay. I can test it with my own kids as they go to Plymouth School of Creative Arts which is the starting point for this route.
- There are loads of quirky little features in and around Millbay, its relatively flat and the route is only 2km.</description>
+      <guid>http://localhost:1313/en/posts/hidden-plymouth-route2-millbay-mini/</guid>
+      <description>&lt;p&gt;I’m slightly overwhelmed by how well &lt;a href=&#34;http://localhost:1313/blog/hidden-plymouth-route1-stoke-to-mutton-cove&#34;&gt;Route 1&lt;/a&gt; has been received I have had some lovely feedback and suggestions for future routes. One such suggestion is to do something shorter that children can take part in, so where better than around Millbay. I can test it with my own kids as they go to Plymouth School of Creative Arts which is the starting point for this route.&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://www.google.com/maps/d/embed?mid=16cgN0xxCOX9BJIeOksILtykuBDKNyCk_&amp;hl=en&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;There are loads of quirky little features in and around Millbay, its relatively flat and the route is only 2km. If the walk doesn’t wear the little ones out, &lt;a href=&#34;https://www.plymouth.gov.uk/parksnatureandgreenspaces/findpark/westhoepark&#34;&gt;West Hoe park&lt;/a&gt; is within walking distance too. The route starts outside the school and if you are driving there are three car parks nearby, &lt;a href=&#34;https://www.google.co.uk/maps/@50.3689901,-4.1520366,3a,75y,115.98h,93.85t/data=!3m6!1e1!3m4!1stpjtGYcS0qblHYZvv3xgww!2e0!7i16384!8i8192&#34;&gt;Martin Street&lt;/a&gt;, the &lt;a href=&#34;https://www.plymouth.gov.uk/parkingandtravel/findsomewherepark/pavilionscarpark&#34;&gt;Pavilions&lt;/a&gt; and &lt;a href=&#34;https://www.myringgo.co.uk/parkinglocator/2320&#34;&gt;Brunel Way&lt;/a&gt;. Unfortunately they are all Pay and Display.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

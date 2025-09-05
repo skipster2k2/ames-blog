@@ -2,284 +2,414 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ames.world/blog/</loc>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/agile/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/change/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ways-of-working/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/workspace/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/delivery-management/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/leading-teams/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lean/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/projects/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/monthnote-september2024/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/weeknotes/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/weeknotes/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-020824/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-260724/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-190724/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-120724/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/contracting/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/contracting/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-050724/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-280624/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-210624/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-140624/</loc>
+    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/weeknote-070624/</loc>
+    <lastmod>2024-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/design/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/governance/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/reflection/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/what-do-i-do-now/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/government-digital/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2024/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/a-team-icebreaker-using-midjourney-ai/</loc>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/icebreaker/</loc>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/team-building/</loc>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/delivery-tactics/</loc>
+    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/shaping-your-discovery/</loc>
+    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/discovery/</loc>
+    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/slicing-thin-or-deep/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mvp/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/opinion/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/communication/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/marine-navigation/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/product-management/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/product-prioritisation-is-triage/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/agile/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/tags/product-management/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/blog/product-prioritisation-is-triage/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/tags/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/tags/discovery/</loc>
+    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode5/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/weeknotes/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/blog/weeknotes-nhs-digital-episode5/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/blog/weeknotes-nhs-digital-episode4/</loc>
+    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode4/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/weeknotes-nhs-digital-episode3/</loc>
+    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode3/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/weeknotes-nhs-digital-episode2/</loc>
+    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode2/</loc>
     <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/weeknotes-nhs-digital-episode1/</loc>
+    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode1/</loc>
     <lastmod>2021-05-08T12:12:52+01:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/how-i-work/</loc>
+    <loc>http://localhost:1313/tags/how-i-work/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/user-manual/</loc>
+    <loc>http://localhost:1313/tags/user-manual/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/user-manual-of-me/</loc>
+    <loc>http://localhost:1313/en/posts/user-manual-of-me/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/bike/</loc>
+    <loc>http://localhost:1313/tags/bike/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/hase-pino-tandem-review/</loc>
+    <loc>http://localhost:1313/en/posts/hase-pino-tandem-review/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/review/</loc>
+    <loc>http://localhost:1313/categories/lifestyle/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/collaboration/</loc>
+    <loc>http://localhost:1313/tags/review/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/collaboration/</loc>
     <lastmod>2020-09-22T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/local-government/</loc>
+    <loc>http://localhost:1313/tags/local-government/</loc>
     <lastmod>2020-09-22T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/what-does-great-collaboration-in-local-government-look-like/</loc>
+    <loc>http://localhost:1313/en/posts/what-does-great-collaboration-in-local-government-look-like/</loc>
     <lastmod>2020-09-22T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/home-office/</loc>
+    <loc>http://localhost:1313/tags/home-office/</loc>
     <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/remote-work/</loc>
+    <loc>http://localhost:1313/tags/remote-work/</loc>
     <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/shedlife/</loc>
+    <loc>http://localhost:1313/en/posts/shedlife/</loc>
     <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/culture/</loc>
+    <loc>http://localhost:1313/tags/culture/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/interviews/</loc>
+    <loc>http://localhost:1313/tags/interviews/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/onboarding/</loc>
+    <loc>http://localhost:1313/tags/onboarding/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/organisation-design/</loc>
+    <loc>http://localhost:1313/tags/organisation-design/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/recruitment/</loc>
+    <loc>http://localhost:1313/tags/recruitment/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/what-would-a-great-onboarding-experience-look-like/</loc>
+    <loc>http://localhost:1313/en/posts/what-would-a-great-onboarding-experience-look-like/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/business/</loc>
+    <loc>http://localhost:1313/tags/business/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/learning/</loc>
+    <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/mapping/</loc>
+    <loc>http://localhost:1313/tags/mapping/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/reflections-on-map-camp/</loc>
+    <loc>http://localhost:1313/en/posts/reflections-on-map-camp/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/strategy/</loc>
+    <loc>http://localhost:1313/tags/strategy/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/wardley-maps/</loc>
+    <loc>http://localhost:1313/tags/wardley-maps/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/10-things-i-learned-from-remote-working/</loc>
+    <loc>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</loc>
     <lastmod>2019-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/communication/</loc>
+    <loc>http://localhost:1313/tags/remote-working/</loc>
     <lastmod>2019-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/remote-working/</loc>
+    <loc>http://localhost:1313/tags/software-development/</loc>
     <lastmod>2019-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/software-development/</loc>
+    <loc>http://localhost:1313/tags/teamwork/</loc>
     <lastmod>2019-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/teamwork/</loc>
-    <lastmod>2019-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/tags/coaching/</loc>
+    <loc>http://localhost:1313/tags/coaching/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/facilitation/</loc>
+    <loc>http://localhost:1313/tags/facilitation/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/meetup/</loc>
+    <loc>http://localhost:1313/tags/meetup/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/story-crowdsourcing-game/</loc>
+    <loc>http://localhost:1313/en/posts/story-crowdsourcing-game/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/internet-protocol/</loc>
+    <loc>http://localhost:1313/categories/computer-networks/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/ipv4/</loc>
+    <loc>http://localhost:1313/tags/internet-protocol/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/ipv4-addressing/</loc>
+    <loc>http://localhost:1313/tags/ipv4/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/network-engineering/</loc>
+    <loc>http://localhost:1313/en/posts/ipv4-addressing/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/network-security/</loc>
+    <loc>http://localhost:1313/tags/network-engineering/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/network-security/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/tcp-ip-protocol-suite/</loc>
+    <loc>http://localhost:1313/tags/tcp/ip/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/internet/</loc>
+    <loc>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/internet/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/network-fundamentals/</loc>
+    <loc>http://localhost:1313/tags/network-fundamentals/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/the-osi-model/</loc>
+    <loc>http://localhost:1313/en/posts/the-osi-model/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/data-communication-fundamentals/</loc>
+    <loc>http://localhost:1313/en/posts/data-communication-fundamentals/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/data-engineering/</loc>
+    <loc>http://localhost:1313/tags/data-engineering/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/messaging/</loc>
+    <loc>http://localhost:1313/tags/messaging/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/network-design/</loc>
+    <loc>http://localhost:1313/tags/network-design/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/network-fundamentals/</loc>
+    <loc>http://localhost:1313/en/posts/network-fundamentals/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/digital/</loc>
+    <loc>http://localhost:1313/tags/digital/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/essential-steps-for-an-effective-project-kick-off/</loc>
+    <loc>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/government/</loc>
+    <loc>http://localhost:1313/tags/government/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/lean-startup/</loc>
+    <loc>http://localhost:1313/tags/lean-startup/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/ux/</loc>
+    <loc>http://localhost:1313/tags/ux/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/black-swan/</loc>
+    <loc>http://localhost:1313/tags/black-swan/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/mountaineering/</loc>
+    <loc>http://localhost:1313/tags/mountaineering/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</loc>
+    <loc>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/risk/</loc>
+    <loc>http://localhost:1313/tags/risk/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/improving-find-for-the-find-property-information-service/</loc>
+    <loc>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/user-research/</loc>
+    <loc>http://localhost:1313/tags/user-research/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/devon/</loc>
+    <loc>http://localhost:1313/tags/devon/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/heritage/</loc>
+    <loc>http://localhost:1313/tags/heritage/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/hidden-plymouth-route2-millbay-mini/</loc>
+    <loc>http://localhost:1313/en/posts/hidden-plymouth-route2-millbay-mini/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/history/</loc>
+    <loc>http://localhost:1313/tags/history/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/plymouth/</loc>
+    <loc>http://localhost:1313/tags/plymouth/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/travel/</loc>
+    <loc>http://localhost:1313/tags/travel/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/hidden-plymouth-route1-stoke-to-mutton-cove/</loc>
+    <loc>http://localhost:1313/en/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/continuous-delivery/</loc>
+    <loc>http://localhost:1313/tags/continuous-delivery/</loc>
     <lastmod>2017-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/continuous-improvement/</loc>
+    <loc>http://localhost:1313/tags/continuous-improvement/</loc>
     <lastmod>2017-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/how-our-digital-team-works/</loc>
+    <loc>http://localhost:1313/en/posts/how-our-digital-team-works/</loc>
     <lastmod>2017-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</loc>
+    <loc>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</loc>
     <lastmod>2016-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/design/</loc>
+    <loc>http://localhost:1313/tags/productivity/</loc>
     <lastmod>2016-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/productivity/</loc>
-    <lastmod>2016-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/tags/workspace/</loc>
-    <lastmod>2016-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ames.world/blog/are-sprints-sustainable/</loc>
+    <loc>http://localhost:1313/en/posts/are-sprints-sustainable/</loc>
     <lastmod>2016-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/kanban/</loc>
+    <loc>http://localhost:1313/tags/kanban/</loc>
     <lastmod>2016-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/scrum/</loc>
+    <loc>http://localhost:1313/tags/scrum/</loc>
     <lastmod>2016-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/digital-transformation/</loc>
+    <loc>http://localhost:1313/tags/digital-transformation/</loc>
     <lastmod>2016-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/user-research-is-the-most-frustrating-thing-ever/</loc>
+    <loc>http://localhost:1313/en/posts/user-research-is-the-most-frustrating-thing-ever/</loc>
     <lastmod>2016-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/tags/delivery/</loc>
+    <loc>http://localhost:1313/tags/delivery/</loc>
     <lastmod>2016-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</loc>
+    <loc>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</loc>
     <lastmod>2016-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ames.world/series/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://ames.world/tags/tcp/ip/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

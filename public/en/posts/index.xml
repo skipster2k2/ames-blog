@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/en/posts/</link>
+    <description>Recent content in Blog on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Responding to Change</title>
+      <link>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</guid>
+      <description>&lt;p&gt;I love the agile manifesto, one of the things that most drew me to it was &amp;ldquo;Responding to change over following a plan&amp;rdquo;. I&amp;rsquo;ve worked on enough projects to see the benefit in changing direction when it&amp;rsquo;s clear that your plan isnt going to help you hit your goal and the sheer grinding death march expereince for teams when that doesn&amp;rsquo;t happen. However the manifesto doesnt say much about different types of change and how best to respond to them, I have 3 metal models of change that I&amp;rsquo;ve seen in teams. I thought I would share as this is fairly early thinking (for me). I&amp;rsquo;m interested if others have seen these patterns, and what other models I&amp;rsquo;ve missed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you&#39;re thinking of becoming a delivery manager</title>
+      <link>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</guid>
+      <description>&lt;p&gt;A few months back &lt;a href=&#34;https://www.linkedin.com/in/neilvass/&#34;&gt;Neil Vass&lt;/a&gt; asked in the &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether&lt;/a&gt; slack channel for advice for people looking to move into Delivery Management roles. I posted a bunch of replies, others did too. Before slack deletes all the replies I thought I would turn them into a blog post.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-a-delivery-manager&#34;&gt;What is a delivery manager?&lt;/h1&gt;&#xA;&lt;p&gt;When I first started working as a delivery manager in 2015, job searches for the role mainly returned delivery driver and pizza delivery type roles, over the last 9 years the role has become much more established in both the public and private sector. For me Emily Webber’s post, &lt;a href=&#34;https://emilywebber.co.uk/what-is-an-agile-delivery-manager/&#34;&gt;Explaining the role of a delivery manager&lt;/a&gt; still holds true. It’s the person in the team responsible for ways of working, team health and happiness, and delivery support (especially in large orgs).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monthnote September 24</title>
+      <link>http://localhost:1313/en/posts/monthnote-september2024/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/monthnote-september2024/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a bit naff keeping up the weeknotes cadence in September so attempting a Month note. PD has a bibliography of common phrases, one of them is &amp;ldquo;laptop in the pond&amp;rdquo; that feeling when you get to the end of the week and just want to not look at a screen for a while. That&amp;rsquo;s partially why my cadence has dropped off,publishing to my blog is a bit of a faff. It&amp;rsquo;s a static site, all the content is in GitHub and pushed to netlify for hosting, the publishing process is a little esoteric and very dependent on me editing the file on my Mac and invoking terminal git commands to push the content. It&amp;rsquo;s the last thing I want to do at the end of a week, it also doesn&amp;rsquo;t really support a busy life well. So I&amp;rsquo;m trying something different today, I&amp;rsquo;m typing this directly in a file via the GitHub browser that means I can do it on my phone whilst Phoebe is at the gym.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 02/08/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-020824/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-020824/</guid>
+      <description>&lt;p&gt;So funemployment is over. I&amp;rsquo;m back doing work and it&amp;rsquo;s straight in at the deep end as the client engagement kicked off this week too. This week has been all the usual things of getting a large project moving, meeting people, establishing ways of working, chasing accounts, setting up how we’re going to track all the things we need to do.&lt;/p&gt;&#xA;&lt;p&gt;My role is delivery lead (not engagement manager) as I stated last week, so I’m working out how to balance myself to support the 4 teams that are merging on the project, help them to be successful, and keep track of deliverables we’ve signed up to. I’m aiming to take a very ‘Governance as a service’ approach, but working with such a large organisation balancing that with existing governance structures will need to happen, at least in the short term.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 26/07/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-260724/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-260724/</guid>
+      <description>&lt;h1 id=&#34;monday&#34;&gt;Monday&lt;/h1&gt;&#xA;&lt;p&gt;My z fold 4 has been playing up for weeks. Since upgrading to the latest version of android, wifi hasn’t worked, on Monday it stopped charging and is pretty much now a brick, just when I need a phone as contract conversations heat up. I dug out my old oneplus 6t, a 6 year old phone and it worked well, and is noticeably quicker than the Samsung with all its bloatware. I’ve now ordered a oneplus open as a replacement. I should have trusted my better judgement and not got a Samsung in the first place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 19/07/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-190724/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-190724/</guid>
+      <description>&lt;h2 id=&#34;monday&#34;&gt;Monday&lt;/h2&gt;&#xA;&lt;p&gt;Freya had an inset day, Han and I couldn’t figure out the logic of having an inset day on the Monday of the last week of term. On Sunday night as we sat down to watch the Euro’s final with the kids it dawned on us. Well played Mr West, well played!&lt;/p&gt;&#xA;&lt;p&gt;I was looking after Freya’s friend Martha too, I had planned to drive up to Bude to meet Darwin and go surfing (well mainly pushing the girls on their boards) It was a 3 hour round trip for around 40 minutes of surfing in the rain, but it was fun nonetheless and good to catchup with Darwin. The van survived with no problems!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 12/07/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-120724/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-120724/</guid>
+      <description>&lt;p&gt;Another week that’s felt like I haven’t done that much, but on reflection I’ve done quite a bit, I think it’s more of a case that I’m doing lots of disjointed things wily-nily rather than having a coherent purpose to anything. I dunno, probably overthinking it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;monday&#34;&gt;Monday.&lt;/h2&gt;&#xA;&lt;p&gt;Wet and horrible day, I didn&amp;rsquo;t do a great deal, polished up my contracting post, went out for lunch with Han, that was about it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you&#39;re thinking of becoming a contractor</title>
+      <link>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/</guid>
+      <description>&lt;p&gt;Over the last couple of weeks, I’ve had lots of chats with people thinking about contracting, so I thought I would try to distil some of that advice into a blog post.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a chunky post so here&amp;rsquo;s an index:&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#first-of-all-some-context&#34;&gt;First of all some context&lt;/a&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#pros-of-contracting&#34;&gt;Pro&amp;rsquo;s of contracting&lt;/a&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#cons-of-contracting&#34;&gt;Con&amp;rsquo;s of contracting&lt;/a&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#finding-contracts&#34;&gt;Finding contracts&lt;/a&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#budgeting&#34;&gt;Budgeting&lt;/a&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/#in-conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;first-of-all-some-context&#34;&gt;First of all, some context.&lt;/h2&gt;&#xA;&lt;p&gt;There are many different types of contracts and contractors, so advice may vary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 05/07/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-050724/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-050724/</guid>
+      <description>&lt;p&gt;A bitty week this week, one of those that feels like it&amp;rsquo;s been busy but nothing really done.&lt;/p&gt;&#xA;&lt;h2 id=&#34;monday&#34;&gt;Monday&lt;/h2&gt;&#xA;&lt;p&gt;Monday started well, &lt;a href=&#34;https://www.linkedin.com/in/priyanca-ux/&#34;&gt;Priyanca&lt;/a&gt; and I had a great chat with some product folks from &lt;a href=&#34;https://www.linkedin.com/in/scottcolfer/&#34;&gt;Scott Colfer’s&lt;/a&gt; Product whatsapp community about discoveries. This is in preparation for our talk at &lt;a href=&#34;https://govservicedesign.net/&#34;&gt;SDinGov&lt;/a&gt; in September, we wanted to practise what we preach and validate some of our own experiences. The talk was productive and has led to some interesting further conversations about how we might improve the visibility of discovery practices, warts and all, looking forward to seeing how that develops.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 28/06/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-280624/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-280624/</guid>
+      <description>&lt;p&gt;This week has been mainly catching up with lots of folks so I thought I would structure the weeknote by who I have talked to:&lt;/p&gt;&#xA;&lt;h2 id=&#34;olihttpswwwlinkedincominoli-l-670a22254&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/oli-l-670a22254/&#34;&gt;Oli&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Oli and I are both based in the south west and both part of the &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;agile in the ether community&lt;/a&gt; but we’ve never met face to face before. On Monday we righted that wrong and met for lunch at Double Locks in Exeter. Oli has just joined &lt;a href=&#34;https://public.digital/&#34;&gt;Public Digital&lt;/a&gt; after 20+ years in the civil service. We had a lot of experiences in common (I was a civil servant for 14 years) and have worked with similar people or the same/adjacent organisations we even sussed out we were at Plymouth University at the same time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 21/06/24</title>
+      <link>http://localhost:1313/en/posts/weeknote-210624/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-210624/</guid>
+      <description>&lt;h2 id=&#34;monday&#34;&gt;Monday&lt;/h2&gt;&#xA;&lt;p&gt;Dropped Phoebe off later into school, her condition means she tires easily so she has a reduced timetable on certain days. After that I headed to Wickes to get paint stuff to paint the dining room. Han needs a bigger space to demonstrate larger exercises for her &lt;a href=&#34;https://www.youtube.com/channel/UCuAYbWUsnnLbBTyq-_1V8bA&#34;&gt;nurse tutoring YouTube channel&lt;/a&gt;. The wall is kind of a meh beige so I&amp;rsquo;ve painted it white for now. I really hate painting, any job that takes longer to prepare for than to do won&amp;rsquo;t float my boat. I&amp;rsquo;m not very good at it too, I suspect these two facts are related!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 14/06/24 Bikes</title>
+      <link>http://localhost:1313/en/posts/weeknote-140624/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-140624/</guid>
+      <description>&lt;p&gt;This week my brother &lt;a href=&#34;https://www.linkedin.com/in/amesmark/&#34;&gt;Mark&lt;/a&gt; and I cycled around the Netherlands. Mark lives in Australia and we&amp;rsquo;ve kind of formed this little tradition of going on cycling holidays when he&amp;rsquo;s back over. This is our third one, our first was 12 years ago where we &lt;a href=&#34;https://photos.app.goo.gl/7LaRRdEFLGnCEFf69&#34;&gt;cycled over Dartmoor&lt;/a&gt;. 2 years ago we picked the &lt;a href=&#34;https://photos.app.goo.gl/Hdn2ECYyhKyFFRhp8&#34;&gt;Somerset levels&lt;/a&gt;. We both enjoyed the lack of hills last time and Mark is an &lt;a href=&#34;https://www.strategic-cities.com/&#34;&gt;active travel consultant&lt;/a&gt;, so of course we picked the Netherlands.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknote 07/06/24 Funemployment</title>
+      <link>http://localhost:1313/en/posts/weeknote-070624/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknote-070624/</guid>
+      <description>&lt;p&gt;Hello its been a while, so long in fact I&amp;rsquo;ve moved platforms since the last time I weeknoted. I never bothered to port my old notes over from medium, I&amp;rsquo;m not sure why but I wont bother now. I had a quick look, my last &lt;a href=&#34;https://weeknot.es/weeknotes-wb-16-08-19-3918539f3152&#34;&gt;weeknote was 2019&lt;/a&gt;, the before times, so much has changed, and perhaps not that much at all.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve found it hard weeknoting as a contractor, I&amp;rsquo;m never really sure what I can and can&amp;rsquo;t say, when I was a fulltime civil servant I was always pretty honest about how work made me feel as well as what we were doing, that feels more high stakes as a contractor, it probably isn&amp;rsquo;t, it probably just the fear of the unknown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What do I do now?</title>
+      <link>http://localhost:1313/en/posts/what-do-i-do-now/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/what-do-i-do-now/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/what-do-i-do-now.jpg&#34; alt=&#34;The album art of sleeper&amp;rsquo;s 90&amp;rsquo;s hit, what do I do now. It shows an androgenous man&amp;rsquo;s head staring, the colour is washed out&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve never been much of a one for career planning, from reading the ‘&lt;a href=&#34;https://www.linkedin.com/pulse/list-all-5-minutes-articles-jon-rhodes/&#34;&gt;5 minutes with&lt;/a&gt;’ series from Jon Rhodes that seems to be a common trait of delivery people, lots of us kind of fall into it and enjoy it, that’s &lt;a href=&#34;https://www.linkedin.com/pulse/5-minutes-ian-ames-jon-rhodes/&#34;&gt;certainly been my situation.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Amesy method of career development:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflections on UKGovCamp 2024.</title>
+      <link>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2024/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2024/</guid>
+      <description>&lt;p&gt;Despite a pretty awful journey home from UKGovCamp I&amp;rsquo;m still buzzing from it and thinking about it. I&amp;rsquo;m also horribly out of my blogging flow so you&amp;rsquo;ll have to put up with yet another ‘reflections on UKGovCamp’ post I&amp;rsquo;m afraid.&lt;/p&gt;&#xA;&lt;h1 id=&#34;before-i-went&#34;&gt;Before I went.&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been thinking about my reflections (meta) and understanding the headspace I was in before I went is important to give context.&lt;/p&gt;&#xA;&lt;p&gt;To summarise it in one word: &lt;em&gt;jaded.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A team icebreaker using Midjourney AI.</title>
+      <link>http://localhost:1313/en/posts/a-team-icebreaker-using-midjourney-ai/</link>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/a-team-icebreaker-using-midjourney-ai/</guid>
+      <description>&lt;p&gt;Yesterday the team got together to workshop how we move into the next phase of our project. Up until now we have mainly been in Discovery/Alpha mode, exploring the problem space and sketching out potential solutions. As we move to beta we’re onboarding devs into the team and so it was worth us think about our ways of working an how we communicate effectively between design/research and dev.&lt;/p&gt;&#xA;&lt;p&gt;At the beginning of the day I tried out a new icebreaker for the team. There’s a long standing tradition in digital gov teams to have a mission patch at the end of a phase, its a nice way to build a team identity and celebrate success, given we had just finished alpha we were all keen to get a sticker created. This is what we did…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delivery tactics - Shaping Your Discovery</title>
+      <link>http://localhost:1313/en/posts/shaping-your-discovery/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/shaping-your-discovery/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/SaturdayNightFever.jpg&#34; alt=&#34;The album artwork of Saturday Night Fever. John Travolta is doing his Saturday night fever pose on a disco dance floor in the background is the begees in very tight white suits&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the delivery of a digital service, a discovery is a short period right at the beginning of the project to determine what the problem is and whether it is worth solving. Discoveries should be short, usually no more than a few weeks and should seek to provide &lt;em&gt;just enough&lt;/em&gt; confidence to proceed or not. Discoveries are intense and its important that they focus on the right things to help the team progress. Below are some tactics I use when in Discovery mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delivery Tactics - Slicing thin or deep?</title>
+      <link>http://localhost:1313/en/posts/slicing-thin-or-deep/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/slicing-thin-or-deep/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/shedlife_mug.jpg&#34; alt=&#34;A mug of tea in my #shedlife mug&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A key part of agile delivery is working out what small changes can deliver the most value. It can be hard to get agreement on what is small enough to be valuable, getting this balance right is extremely difficult and context specific, hence why MVP’s (minimum viable products) are much maligned.&lt;/p&gt;&#xA;&lt;p&gt;There are two main approaches that can be used, you can either ‘slice thin’ deliver a small part of every step of the user journey; or ‘slice deep’ focus your effort on improving one part of the end to end service journey. Deciding which way to go depends on context, below are some things I try and consider with teams and stakeholders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10 things I learned about Delivery Management from learning to navigate very large Ships.</title>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</guid>
+      <description>&lt;p&gt;25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.&lt;/p&gt;&#xA;&lt;p&gt;After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product Prioritisation is triage</title>
+      <link>http://localhost:1313/en/posts/product-prioritisation-is-triage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/product-prioritisation-is-triage/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Triage&#34;&gt;Triage&lt;/a&gt; is used in medicine when acute care cannot be provided for lack of resources. The process rations care towards those who are most in need of immediate care, and who&#xA;benefit most from it. More generally it refers to prioritisation of medical care as a whole. I have some personal experience of using triage from my time as a mountain rescue volunteer.&lt;/p&gt;&#xA;&lt;p&gt;We would often train for scenarios where the number of casualties was more than our capacity to treat them all. Most of the volunteers weren&amp;rsquo;t medical professionals (myself included) so our processes were simple. Our priority was to stabilise casualties and transport them to medical care as quickly and safely as possible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 5</title>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode5/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode5/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m on the train back from Leeds after kicking off Patient Encounter History with the team. My brain is a bit mushy and so this weeknote may be incoherent and full of typos, apologies!&lt;/p&gt;&#xA;&lt;p&gt;It was lovely to meet everyone in person for the first time, build relationships, work through our understanding of the project and what we hope to acheive in the next 8 weeks. I still haven&amp;rsquo;t found a better way to start new peices of work (or anything with high levels of uncertainty) than face to face workshops to be honest, for me its the last remaining part of remote work that isn&amp;rsquo;t quite as good as face to face.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 4</title>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode4/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode4/</guid>
+      <description>&lt;p&gt;This week has been a good one, our discovery team is starting to form with one of our user researchers joining, and the other one due to start on Monday we are starting to get our plans together for discovery. In some ways the slight delay in starting has been useful as its given me and the PM (who&amp;rsquo;s also new to this space) the opportunity to really start to understand the context of the area we are exploring.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 3</title>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode3/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode3/</guid>
+      <description>&lt;p&gt;Been a while since the last weeknotes, its been pretty busy we&amp;rsquo;ve been getting going on a new Discovery which has been filling my brain up as Disco&amp;rsquo;s always do. I&amp;rsquo;m going to use this weeknotes to capture what I understand so far, quick reminder that weeknotes are for me to reflect what I know, this doesn&amp;rsquo;t mean that this is exactly correct, there are holes in my knowledge, the NHS is a vast complex system, I probably understand about 1% of it, writing stuff down helps my understanding though.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 2</title>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode2/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode2/</guid>
+      <description>&lt;p&gt;Time is really flying, I found myself introducing myself and saying I was on my 3rd week last week (I was on my 4th) I&amp;rsquo;m genuinely not sure where those 4 weeks have gone, thats a good sign! Writing these weeknotes is taking longer too as I&amp;rsquo;m not in a space where I fully know what I&amp;rsquo;m talking about yet, the act of doing it is helping me understand where I don&amp;rsquo;t know stuff yet and I go and find out more to add detail, but its making publishing slow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 1</title>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode1/</link>
+      <pubDate>Sat, 08 May 2021 12:12:52 +0100</pubDate>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode1/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t weeknoted in public for a couple of years now for various reasons but starting a new phase of my work-life feels like a good time to get back into it. I have recently taken the plunge into contracting and have started at NHS Digital with the 111 online teams.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always done weeknotes primarily for myself to reflect on what I&amp;rsquo;ve learnt and I am learning LOADS at the moment, not just about how NHS digital works but what contracting life involves and how that differs from being a full time member of staff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>User Manual of Me</title>
+      <link>http://localhost:1313/en/posts/user-manual-of-me/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/user-manual-of-me/</guid>
+      <description>&lt;h2 id=&#34;user-manual-of-ian-ames&#34;&gt;User Manual of Ian Ames&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve used &lt;a href=&#34;https://medium.com/@cassierobinson&#34;&gt;Cassie Robinson&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://medium.com/@cassierobinson/a-user-manual-for-me-d3a851fbc694&#34;&gt;User Manual of me&lt;/a&gt; template a number of times when starting projects with new teams, its a great way to quickly introduce a team to how everyone likes to work and to discuss how best to work together. It also works well in remote organisations as a way to quickly learn about colleagues you may not see on a day to day basis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hase Pino tandem review</title>
+      <link>http://localhost:1313/en/posts/hase-pino-tandem-review/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hase-pino-tandem-review/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve never really seen the appeal of tandems, the poor old stoker sat at the back not able to see anything other than the pilot&amp;rsquo;s back, that was until we got a Hase Pino, quite possibly the strangest looking but most well-designed tandem there is.&lt;/p&gt;&#xA;&lt;p&gt;The Pino is a semi-recumbent tandem, the stoker sits at the front on a recumbent seat, whilst the pilot is just behind in a standard bike configuration, the beauty of this design is that you share the same view, and your heads are close together, its easy to have a conversation even at speed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What does great collaboration in local government look like?</title>
+      <link>http://localhost:1313/en/posts/what-does-great-collaboration-in-local-government-look-like/</link>
+      <pubDate>Tue, 22 Sep 2020 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/what-does-great-collaboration-in-local-government-look-like/</guid>
+      <description>&lt;p&gt;I have a soft spot for local government, it&amp;rsquo;s where most people&amp;rsquo;s interactions with government happen, and yet it is also one of the most underfunded parts. Arguably constraint is the mother of invention and local government doesn&amp;rsquo;t get enough credit for the work they do to to deliver services for citizens effectively and cheaply. So I asked twitter to share with me some examples of great collaboration in local gov, here&amp;rsquo;s some great examples that were shared:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shedlife</title>
+      <link>http://localhost:1313/en/posts/shedlife/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/shedlife/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been just over a year since building my office shed so I&amp;rsquo;m finally getting round to writing this post about #shedlife.&lt;/p&gt;&#xA;&lt;p&gt;Last May I joined Surevine, a remote software company. It was my first remote role, we didn&amp;rsquo;t have any spare space in the house so I needed somewhere to be able to work. Because of the nature of our clients it needed to be somewhere where I could have conversations without being overheard.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Would a Great Onboarding Experience Look Like?</title>
+      <link>http://localhost:1313/en/posts/what-would-a-great-onboarding-experience-look-like/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/what-would-a-great-onboarding-experience-look-like/</guid>
+      <description>&lt;p&gt;When I joined Surevine my onboarding experience was fantastic, but I wanted to see if there was anything more we could do to make it even better, so back in June I asked twitter what would a great onboarding experience look like?&lt;/p&gt;&#xA;&lt;p&gt;As always the responses were great. This post summarises what I learned:&lt;/p&gt;&#xA;&lt;h2 id=&#34;onboarding-starts-way-before-a-person-joins-a-company&#34;&gt;Onboarding starts way before a person joins a company&lt;/h2&gt;&#xA;&lt;p&gt;If someone wants to work with you, they will be thinking about it way before onboarding starts. When people are looking for a new job, they want to know what a company is like to work for, almost as much as the salary and perks. No one wants to work somewhere that&amp;rsquo;s not going to motivate them or make them miserable. Sharing how you work as a company gives candidates an insight into the sort of organisation you are, and whether they might want to work there. Blogs and videos about how you work and publishing your company handbook on the web are great ways to provide that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflections on Map Camp</title>
+      <link>http://localhost:1313/en/posts/reflections-on-map-camp/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/reflections-on-map-camp/</guid>
+      <description>&lt;p&gt;This year I was finally able to attend &lt;a href=&#34;https://www.map-camp.com/_pages/2019-10-15_London/&#34;&gt;MapCamp 2019&lt;/a&gt; with ~600 other people at Sadlers Wells Theatre, London. MapCamp is a conference introducing and describing the technique of &lt;a href=&#34;https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec&#34;&gt;Wardley Mapping&lt;/a&gt;, a tool for mapping strategy.&lt;/p&gt;&#xA;&lt;p&gt;I first came across Wardley Maps a couple of years ago through the medium book. I found it compelling, Simon Wardley has a lovely humble style of writing. He described how he went from ‘bumbling CEO’ to ‘having a vague idea of what I was doing’. That self-deprecating style just drew me in, and I found a lot I could relate to in my work. However, I could never get the hang of mapping and I hoped going to MapCamp would help me have that aha! moment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10 Things I Learned From Remote Working</title>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post was originally published on the &lt;a href=&#34;https://www.surevine.com/10-things-learnt-remote-working/&#34;&gt;surevine blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.&lt;/p&gt;&#xA;&lt;p&gt;Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth. Although I’m only 3 months in, you learn pretty quickly what works and doesn’t when it comes to remote work. Here’s what I have discovered:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Story Crowdsourcing Game</title>
+      <link>http://localhost:1313/en/posts/story-crowdsourcing-game/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/story-crowdsourcing-game/</guid>
+      <description>&lt;p&gt;Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether remote meetup&lt;/a&gt;. (It is a very friendly meetup and well worth checking out).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/agile_ether.jpg&#34; alt=&#34;&#34; title=&#34;Screenshot of the Agile in the Ether attendees&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the detail of the game I facilitated:&lt;/p&gt;&#xA;&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;&#xA;&lt;p&gt;Tell a story that develops iteratively and everyone in the group contributes to.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instruction&#34;&gt;Instruction&lt;/h2&gt;&#xA;&lt;p&gt;Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go. (It may help for the facilitator to start).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IPv4 Addressing</title>
+      <link>http://localhost:1313/en/posts/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/ipv4-addressing/</guid>
+      <description>&lt;p&gt;I briefly touched on IPv4 addresses in the TCP/IP suite. In summary IPv4 addresses are:&#xA;Dot-separated.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;32 bits long and represented in decimal.&lt;/li&gt;&#xA;&lt;li&gt;There are just over 4 billion available addresses.&lt;/li&gt;&#xA;&lt;li&gt;Therefore it is necessary to use subnetting to separate networks and duplicate IP addresses from one another.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/ipv4-binary.jpg&#34; alt=&#34;&#34; title=&#34;An IPv4 address shown in both binary and decimal dot notations&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ipv4-structure-and-what-it-represents&#34;&gt;IPv4 structure and what it represents&lt;/h3&gt;&#xA;&lt;p&gt;So we know IP addresses are 32 bits long and that they are separated into 4 decimal numbers by dot separation (this is known as dotted decimal), therefore each number must represent 8bits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TCP/IP Protocol Suite</title>
+      <link>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</guid>
+      <description>&lt;p&gt;TCP/IP is a set of protocols that form the backbone of the internet. As I described in the &lt;a href=&#34;http://localhost:1313/blog/the-osi-model&#34;&gt;OSI model post&lt;/a&gt;, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The OSI Model</title>
+      <link>http://localhost:1313/en/posts/the-osi-model/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/the-osi-model/</guid>
+      <description>&lt;p&gt;The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the &lt;a href=&#34;https://www.iso.org/ics/35.100/x/&#34;&gt;International Standard Organisation (ISO)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The model has seven layers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Application layer&lt;/li&gt;&#xA;&lt;li&gt;Presentation layer&lt;/li&gt;&#xA;&lt;li&gt;System layer&lt;/li&gt;&#xA;&lt;li&gt;Transport layer&lt;/li&gt;&#xA;&lt;li&gt;Network layer&lt;/li&gt;&#xA;&lt;li&gt;Data layer&lt;/li&gt;&#xA;&lt;li&gt;Physical layer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Which can be remembered by either of two mnemonics:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;All People Seem To Need Data Processing&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;or from the bottom up:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Communication Fundamentals</title>
+      <link>http://localhost:1313/en/posts/data-communication-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/data-communication-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/data_components.jpg&#34; alt=&#34;&#34; title=&#34;Diagram showing the fundamental components of a data network, described in this article.&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Concerns the basics of networking, starting with some common terminology of data transmission. This can be summarised as:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A sender has some data they want to send to a receiver.&lt;/li&gt;&#xA;&lt;li&gt;That data needs to be converted into a message for sending.&lt;/li&gt;&#xA;&lt;li&gt;The message needs to be transmitted via some form of medium.&lt;/li&gt;&#xA;&lt;li&gt;The receiver needs to be able to turn that signal back into the data that has been sent.&lt;/li&gt;&#xA;&lt;li&gt;Therefore a system is needed to agree on rules between the sender and receiver about how the data will be converted into a signal, transmitted and converted back to data, this is called a &lt;em&gt;protocol&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;In order for this system to be effective it needs to ensure:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Network Fundamentals</title>
+      <link>http://localhost:1313/en/posts/network-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/network-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/network_fundamentals.jpg&#34; alt=&#34;&#34; title=&#34;An image showing a number of colourful Cat5 cables with the banner ‘Network fundamentals’&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Performance.&lt;/strong&gt; The sharing of data and resources doesn’t degrade the computers on the network.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reliability.&lt;/strong&gt; The network doesn’t fall over all the time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Security.&lt;/strong&gt; Data is only shared with those that should have access to it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Essential Steps for an Effective Project Kick Off</title>
+      <link>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>&lt;p&gt;Kick-off’s are a great way of bringing a new team together at the start of a new project or phase of a project. The aim is to allow the team to get to know one another and to allow all the team members to understand the goals and objectives.&lt;/p&gt;&#xA;&lt;p&gt;I recently helped facilitate a kick-off for the &lt;a href=&#34;https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works&#34;&gt;alpha phase&lt;/a&gt; of the ‘Protect’ service (working title). Although Protect had been through a &lt;a href=&#34;https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works&#34;&gt;discovery phase&lt;/a&gt;, circumstances meant that the Alpha team was quite different to the Discovery team. This meant that we needed to spend more time than perhaps usual bringing everyone up to speed. Our kick-off lasted 3.5 days. the structure was:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mountaineering and a Rant About Risk Management</title>
+      <link>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>&lt;p&gt;I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else? &lt;a href=&#34;https://twitter.com/hashtag/modernAgile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#modernAgile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/agile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#agile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/NoEstimates?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#NoEstimates&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/lean?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lean&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/kanban?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#kanban&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;&#xA;&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hidden Plymouth, Route 2 - Millbay Mini</title>
+      <link>http://localhost:1313/en/posts/hidden-plymouth-route2-millbay-mini/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hidden-plymouth-route2-millbay-mini/</guid>
+      <description>&lt;p&gt;I’m slightly overwhelmed by how well &lt;a href=&#34;http://localhost:1313/blog/hidden-plymouth-route1-stoke-to-mutton-cove&#34;&gt;Route 1&lt;/a&gt; has been received I have had some lovely feedback and suggestions for future routes. One such suggestion is to do something shorter that children can take part in, so where better than around Millbay. I can test it with my own kids as they go to Plymouth School of Creative Arts which is the starting point for this route.&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://www.google.com/maps/d/embed?mid=16cgN0xxCOX9BJIeOksILtykuBDKNyCk_&amp;hl=en&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;There are loads of quirky little features in and around Millbay, its relatively flat and the route is only 2km. If the walk doesn’t wear the little ones out, &lt;a href=&#34;https://www.plymouth.gov.uk/parksnatureandgreenspaces/findpark/westhoepark&#34;&gt;West Hoe park&lt;/a&gt; is within walking distance too. The route starts outside the school and if you are driving there are three car parks nearby, &lt;a href=&#34;https://www.google.co.uk/maps/@50.3689901,-4.1520366,3a,75y,115.98h,93.85t/data=!3m6!1e1!3m4!1stpjtGYcS0qblHYZvv3xgww!2e0!7i16384!8i8192&#34;&gt;Martin Street&lt;/a&gt;, the &lt;a href=&#34;https://www.plymouth.gov.uk/parkingandtravel/findsomewherepark/pavilionscarpark&#34;&gt;Pavilions&lt;/a&gt; and &lt;a href=&#34;https://www.myringgo.co.uk/parkinglocator/2320&#34;&gt;Brunel Way&lt;/a&gt;. Unfortunately they are all Pay and Display.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hidden Plymouth, Route 1 - Stoke to Mutton Cove</title>
+      <link>http://localhost:1313/en/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</guid>
+      <description>&lt;p&gt;This route starts at &lt;a href=&#34;https://www.google.co.uk/maps/place/Stoke&amp;#43;Car&amp;#43;Park/@50.3805872,-4.1651648,15z/data=!4m5!3m4!1s0x0:0x880e5bffe7b91f5d!8m2!3d50.3805872!4d-4.1651648&#34;&gt;Stoke Village Car Park&lt;/a&gt;, which is free to park. It then climbs to what was once the highest point in Plymouth, before descending to sea level and back again.&#xA;I have mapped the route on Strava so you can download it to a GPS, or print out the map.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/stoke-mutton-cove-route.jpg&#34; alt=&#34;&#34; title=&#34;Route map&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/stoke-mutton-cove-route-profile.jpg&#34; alt=&#34;&#34; title=&#34;Elevation Profile&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have also run the route so you can see a fly through below:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Our Digital Team Works</title>
+      <link>http://localhost:1313/en/posts/how-our-digital-team-works/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/how-our-digital-team-works/</guid>
+      <description>&lt;p&gt;I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the &lt;a href=&#34;https://hmlandregistry.blog.gov.uk/2017/6/27/working-with-gds-to-develop-our-find-property-information-service/&#34;&gt;digital service standards developed by our colleagues at the Government Digital Service (GDS)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice.&#xA;Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished. This allows us to validate that the things we are building are delivering the value we expect and make better decisions about whether to improve a feature further, or move onto something new, based on feedback.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Reasons Open Plan Offices Suck for Agile Teams</title>
+      <link>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
+      <description>&lt;p&gt;I recently gave a presentation at the inaugural &lt;a href=&#34;https://techexeter.uk/&#34;&gt;Tech Exeter&lt;/a&gt; conference called &lt;a href=&#34;https://www.slideshare.net/IanAmes/practical-agile-tech-exeter-v2&#34;&gt;Practical agile: Lessons learned the hard way on our journey delivering digital products.&lt;/a&gt; In that presentation I claimed open plan offices are terrible team spaces, but didn&amp;rsquo;t really elaborate on why. Since then &lt;a href=&#34;https://twitter.com/_NeilParker&#34;&gt;Neil Parker&lt;/a&gt; asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Are Sprints Sustainable?</title>
+      <link>http://localhost:1313/en/posts/are-sprints-sustainable/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/are-sprints-sustainable/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.&lt;/p&gt;&#xA;&lt;p&gt;Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.&lt;/p&gt;&#xA;&lt;p&gt;We use Scrum as our methodology for delivering software. Scrum at its simplest level defines a way of working to deliver small incremental changes at frequent intervals.&#xA;These intervals are called sprints, and the team makes a commitment to deliver a certain amount of work based on how much they have delivered in the past. This commitment is then tracked during the sprint and progress good or bad is reported at the end of the sprint to stakeholders in a ‘show and tell’&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>http://localhost:1313/en/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.&lt;/p&gt;&#xA;&lt;p&gt;Our team is made up of user researchers, a designer, a BA, developers and testers.&lt;/p&gt;&#xA;&lt;p&gt;Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The evolving visualisation of workflow in our team.</title>
+      <link>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.&lt;/p&gt;&#xA;&lt;p&gt;One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer. This article describes the evolution of our workflow board over the past year, the problems we have identified with different approaches and the things we have tried to resolve them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

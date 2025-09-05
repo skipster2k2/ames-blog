@@ -30,7 +30,7 @@ In order for this type of change to work of course you need to have a clear goal
 
 You know the comedy pirate ship track of a dotted line that does a loop the loop, meets a shark, passes a shipwreck, and eventually arrives upon an island. That's a common patterns for teams that don't have a clear desitination. Sometimes that can be viewed as a negative, especially if the team or stakeholders are expecting the team to be aiming for a 'north star' however it's a perfectly valid type of change where you may be playing in a space thats not well understood yet. Exploratory techniques like rapid prototyping, work best here. You're not building a final solution, your building to learn. Similarly if teams aren't explicit that's the case this can cause friction, people can view the prototypes as the final solution. The team can be asked to clarify operational processes they don't yet know becuase they don't know if this thing is even worth becoming operational. Often people haven't worked in this way so look for certainty before there is any.
 
-![A sketch of a pirate ship track towards an unknown island full of treasure, the course goes back on its self and loops the loop, and the destination is different than expected because it was inherently unknown](/images/pirate-ship.jpg)
+![A sketch of a pirate ship track towards an unknown island full of treasure, the course goes back on its self and loops the loop, and the destination is different than expected because it was inherently unknown](/images/pirate_ship.jpg)
 
 ## 3. The Indiana Jones aeroplane montage change.
 

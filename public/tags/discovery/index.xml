@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>discovery on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/discovery/</link>
-    <description>Recent content in discovery on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/discovery/index.xml" rel="self" type="application/rss+xml" />
+    <title>Discovery on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/discovery/</link>
+    <description>Recent content in Discovery on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/discovery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delivery tactics - Shaping Your Discovery</title>
+      <link>http://localhost:1313/en/posts/shaping-your-discovery/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/shaping-your-discovery/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/SaturdayNightFever.jpg&#34; alt=&#34;The album artwork of Saturday Night Fever. John Travolta is doing his Saturday night fever pose on a disco dance floor in the background is the begees in very tight white suits&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the delivery of a digital service, a discovery is a short period right at the beginning of the project to determine what the problem is and whether it is worth solving. Discoveries should be short, usually no more than a few weeks and should seek to provide &lt;em&gt;just enough&lt;/em&gt; confidence to proceed or not. Discoveries are intense and its important that they focus on the right things to help the team progress. Below are some tactics I use when in Discovery mode.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Weeknotes NHS Digital Episode 5</title>
-      <link>https://ames.world/blog/weeknotes-nhs-digital-episode5/</link>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode5/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/weeknotes-nhs-digital-episode5/</guid>
-      <description>I&amp;rsquo;m on the train back from Leeds after kicking off Patient Encounter History with the team. My brain is a bit mushy and so this weeknote may be incoherent and full of typos, apologies!
-It was lovely to meet everyone in person for the first time, build relationships, work through our understanding of the project and what we hope to acheive in the next 8 weeks. I still haven&amp;rsquo;t found a better way to start new peices of work (or anything with high levels of uncertainty) than face to face workshops to be honest, for me its the last remaining part of remote work that isn&amp;rsquo;t quite as good as face to face.</description>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode5/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m on the train back from Leeds after kicking off Patient Encounter History with the team. My brain is a bit mushy and so this weeknote may be incoherent and full of typos, apologies!&lt;/p&gt;&#xA;&lt;p&gt;It was lovely to meet everyone in person for the first time, build relationships, work through our understanding of the project and what we hope to acheive in the next 8 weeks. I still haven&amp;rsquo;t found a better way to start new peices of work (or anything with high levels of uncertainty) than face to face workshops to be honest, for me its the last remaining part of remote work that isn&amp;rsquo;t quite as good as face to face.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Weeknotes NHS Digital Episode 4</title>
-      <link>https://ames.world/blog/weeknotes-nhs-digital-episode4/</link>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode4/</link>
       <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/weeknotes-nhs-digital-episode4/</guid>
-      <description>This week has been a good one, our discovery team is starting to form with one of our user researchers joining, and the other one due to start on Monday we are starting to get our plans together for discovery. In some ways the slight delay in starting has been useful as its given me and the PM (who&amp;rsquo;s also new to this space) the opportunity to really start to understand the context of the area we are exploring.</description>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode4/</guid>
+      <description>&lt;p&gt;This week has been a good one, our discovery team is starting to form with one of our user researchers joining, and the other one due to start on Monday we are starting to get our plans together for discovery. In some ways the slight delay in starting has been useful as its given me and the PM (who&amp;rsquo;s also new to this space) the opportunity to really start to understand the context of the area we are exploring.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Weeknotes NHS Digital Episode 3</title>
-      <link>https://ames.world/blog/weeknotes-nhs-digital-episode3/</link>
+      <link>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode3/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/weeknotes-nhs-digital-episode3/</guid>
-      <description>Been a while since the last weeknotes, its been pretty busy we&amp;rsquo;ve been getting going on a new Discovery which has been filling my brain up as Disco&amp;rsquo;s always do. I&amp;rsquo;m going to use this weeknotes to capture what I understand so far, quick reminder that weeknotes are for me to reflect what I know, this doesn&amp;rsquo;t mean that this is exactly correct, there are holes in my knowledge, the NHS is a vast complex system, I probably understand about 1% of it, writing stuff down helps my understanding though.</description>
+      <guid>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode3/</guid>
+      <description>&lt;p&gt;Been a while since the last weeknotes, its been pretty busy we&amp;rsquo;ve been getting going on a new Discovery which has been filling my brain up as Disco&amp;rsquo;s always do. I&amp;rsquo;m going to use this weeknotes to capture what I understand so far, quick reminder that weeknotes are for me to reflect what I know, this doesn&amp;rsquo;t mean that this is exactly correct, there are holes in my knowledge, the NHS is a vast complex system, I probably understand about 1% of it, writing stuff down helps my understanding though.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

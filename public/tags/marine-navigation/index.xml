@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marine Navigation on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/marine-navigation/</link>
+    <description>Recent content in Marine Navigation on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/marine-navigation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 things I learned about Delivery Management from learning to navigate very large Ships.</title>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</guid>
+      <description>&lt;p&gt;25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.&lt;/p&gt;&#xA;&lt;p&gt;After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

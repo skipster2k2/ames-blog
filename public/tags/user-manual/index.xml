@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>user manual on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/user-manual/</link>
-    <description>Recent content in user manual on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/user-manual/index.xml" rel="self" type="application/rss+xml" />
+    <title>User Manual on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/user-manual/</link>
+    <description>Recent content in User Manual on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/user-manual/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>User Manual of Me</title>
-      <link>https://ames.world/blog/user-manual-of-me/</link>
+      <link>http://localhost:1313/en/posts/user-manual-of-me/</link>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/user-manual-of-me/</guid>
-      <description>User Manual of Ian Ames I&amp;rsquo;ve used Cassie Robinson&amp;rsquo;s User Manual of me template a number of times when starting projects with new teams, its a great way to quickly introduce a team to how everyone likes to work and to discuss how best to work together. It also works well in remote organisations as a way to quickly learn about colleagues you may not see on a day to day basis.</description>
+      <guid>http://localhost:1313/en/posts/user-manual-of-me/</guid>
+      <description>&lt;h2 id=&#34;user-manual-of-ian-ames&#34;&gt;User Manual of Ian Ames&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve used &lt;a href=&#34;https://medium.com/@cassierobinson&#34;&gt;Cassie Robinson&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://medium.com/@cassierobinson/a-user-manual-for-me-d3a851fbc694&#34;&gt;User Manual of me&lt;/a&gt; template a number of times when starting projects with new teams, its a great way to quickly introduce a team to how everyone likes to work and to discuss how best to work together. It also works well in remote organisations as a way to quickly learn about colleagues you may not see on a day to day basis.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

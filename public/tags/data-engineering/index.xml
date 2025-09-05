@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data engineering on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/data-engineering/</link>
-    <description>Recent content in data engineering on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <title>Data Engineering on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/data-engineering/</link>
+    <description>Recent content in Data Engineering on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Communication Fundamentals</title>
-      <link>https://ames.world/blog/data-communication-fundamentals/</link>
+      <link>http://localhost:1313/en/posts/data-communication-fundamentals/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/data-communication-fundamentals/</guid>
-      <description>Concerns the basics of networking, starting with some common terminology of data transmission. This can be summarised as:
- A sender has some data they want to send to a receiver. That data needs to be converted into a message for sending. The message needs to be transmitted via some form of medium. The receiver needs to be able to turn that signal back into the data that has been sent.</description>
+      <guid>http://localhost:1313/en/posts/data-communication-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/data_components.jpg&#34; alt=&#34;&#34; title=&#34;Diagram showing the fundamental components of a data network, described in this article.&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Concerns the basics of networking, starting with some common terminology of data transmission. This can be summarised as:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A sender has some data they want to send to a receiver.&lt;/li&gt;&#xA;&lt;li&gt;That data needs to be converted into a message for sending.&lt;/li&gt;&#xA;&lt;li&gt;The message needs to be transmitted via some form of medium.&lt;/li&gt;&#xA;&lt;li&gt;The receiver needs to be able to turn that signal back into the data that has been sent.&lt;/li&gt;&#xA;&lt;li&gt;Therefore a system is needed to agree on rules between the sender and receiver about how the data will be converted into a signal, transmitted and converted back to data, this is called a &lt;em&gt;protocol&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;In order for this system to be effective it needs to ensure:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

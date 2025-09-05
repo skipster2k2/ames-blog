@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>product management on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/product-management/</link>
-    <description>Recent content in product management on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <title>Product Management on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/product-management/</link>
+    <description>Recent content in Product Management on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 things I learned about Delivery Management from learning to navigate very large Ships.</title>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</guid>
+      <description>&lt;p&gt;25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.&lt;/p&gt;&#xA;&lt;p&gt;After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Product Prioritisation is triage</title>
-      <link>https://ames.world/blog/product-prioritisation-is-triage/</link>
+      <link>http://localhost:1313/en/posts/product-prioritisation-is-triage/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/product-prioritisation-is-triage/</guid>
-      <description>Triage is used in medicine when acute care cannot be provided for lack of resources. The process rations care towards those who are most in need of immediate care, and who benefit most from it. More generally it refers to prioritisation of medical care as a whole. I have some personal experience of using triage from my time as a mountain rescue volunteer.
-We would often train for scenarios where the number of casualties was more than our capacity to treat them all.</description>
+      <guid>http://localhost:1313/en/posts/product-prioritisation-is-triage/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Triage&#34;&gt;Triage&lt;/a&gt; is used in medicine when acute care cannot be provided for lack of resources. The process rations care towards those who are most in need of immediate care, and who&#xA;benefit most from it. More generally it refers to prioritisation of medical care as a whole. I have some personal experience of using triage from my time as a mountain rescue volunteer.&lt;/p&gt;&#xA;&lt;p&gt;We would often train for scenarios where the number of casualties was more than our capacity to treat them all. Most of the volunteers weren&amp;rsquo;t medical professionals (myself included) so our processes were simple. Our priority was to stabilise casualties and transport them to medical care as quickly and safely as possible.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
-      <link>https://ames.world/blog/improving-find-for-the-find-property-information-service/</link>
+      <link>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/improving-find-for-the-find-property-information-service/</guid>
-      <description>Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
-Why did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features.</description>
+      <guid>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;&#xA;&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

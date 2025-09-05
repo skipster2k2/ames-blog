@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kanban on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/kanban/</link>
-    <description>Recent content in kanban on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/kanban/index.xml" rel="self" type="application/rss+xml" />
+    <title>Kanban on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/kanban/</link>
+    <description>Recent content in Kanban on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kanban/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are Sprints Sustainable?</title>
-      <link>https://ames.world/blog/are-sprints-sustainable/</link>
+      <link>http://localhost:1313/en/posts/are-sprints-sustainable/</link>
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/are-sprints-sustainable/</guid>
-      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.
-Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.
-We use Scrum as our methodology for delivering software.</description>
+      <guid>http://localhost:1313/en/posts/are-sprints-sustainable/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.&lt;/p&gt;&#xA;&lt;p&gt;Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.&lt;/p&gt;&#xA;&lt;p&gt;We use Scrum as our methodology for delivering software. Scrum at its simplest level defines a way of working to deliver small incremental changes at frequent intervals.&#xA;These intervals are called sprints, and the team makes a commitment to deliver a certain amount of work based on how much they have delivered in the past. This commitment is then tracked during the sprint and progress good or bad is reported at the end of the sprint to stakeholders in a ‘show and tell’&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The evolving visualisation of workflow in our team.</title>
-      <link>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <link>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
       <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</guid>
-      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.
-One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer.</description>
+      <guid>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.&lt;/p&gt;&#xA;&lt;p&gt;One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer. This article describes the evolution of our workflow board over the past year, the problems we have identified with different approaches and the things we have tried to resolve them.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

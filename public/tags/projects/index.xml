@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/projects/</link>
+    <description>Recent content in Projects on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So you&#39;re thinking of becoming a delivery manager</title>
+      <link>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</guid>
+      <description>&lt;p&gt;A few months back &lt;a href=&#34;https://www.linkedin.com/in/neilvass/&#34;&gt;Neil Vass&lt;/a&gt; asked in the &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether&lt;/a&gt; slack channel for advice for people looking to move into Delivery Management roles. I posted a bunch of replies, others did too. Before slack deletes all the replies I thought I would turn them into a blog post.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-a-delivery-manager&#34;&gt;What is a delivery manager?&lt;/h1&gt;&#xA;&lt;p&gt;When I first started working as a delivery manager in 2015, job searches for the role mainly returned delivery driver and pizza delivery type roles, over the last 9 years the role has become much more established in both the public and private sector. For me Emily Webber’s post, &lt;a href=&#34;https://emilywebber.co.uk/what-is-an-agile-delivery-manager/&#34;&gt;Explaining the role of a delivery manager&lt;/a&gt; still holds true. It’s the person in the team responsible for ways of working, team health and happiness, and delivery support (especially in large orgs).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

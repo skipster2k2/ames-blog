@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TCP/IP on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/tcp/ip/</link>
-    <description>Recent content in TCP/IP on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://ames.world/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml" />
+    <title>TCP/IP on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/tcp/ip/</link>
+    <description>Recent content in TCP/IP on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP/IP Protocol Suite</title>
-      <link>https://ames.world/blog/tcp-ip-protocol-suite/</link>
+      <link>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/tcp-ip-protocol-suite/</guid>
-      <description>TCP/IP is a set of protocols that form the backbone of the internet. As I described in the OSI model post, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts.</description>
+      <guid>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</guid>
+      <description>&lt;p&gt;TCP/IP is a set of protocols that form the backbone of the internet. As I described in the &lt;a href=&#34;http://localhost:1313/blog/the-osi-model&#34;&gt;OSI model post&lt;/a&gt;, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

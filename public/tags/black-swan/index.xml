@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>black swan on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/black-swan/</link>
-    <description>Recent content in black swan on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/black-swan/index.xml" rel="self" type="application/rss+xml" />
+    <title>Black Swan on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/black-swan/</link>
+    <description>Recent content in Black Swan on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/black-swan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mountaineering and a Rant About Risk Management</title>
-      <link>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</link>
+      <link>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</guid>
-      <description>I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:
-Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else?</description>
+      <guid>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>&lt;p&gt;I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else? &lt;a href=&#34;https://twitter.com/hashtag/modernAgile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#modernAgile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/agile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#agile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/NoEstimates?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#NoEstimates&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/lean?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lean&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/kanban?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#kanban&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

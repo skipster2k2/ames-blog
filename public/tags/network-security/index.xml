@@ -1,55 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>network security on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/network-security/</link>
-    <description>Recent content in network security on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/network-security/index.xml" rel="self" type="application/rss+xml" />
+    <title>Network Security on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/network-security/</link>
+    <description>Recent content in Network Security on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/network-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP/IP Protocol Suite</title>
-      <link>https://ames.world/blog/tcp-ip-protocol-suite/</link>
+      <link>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/tcp-ip-protocol-suite/</guid>
-      <description>TCP/IP is a set of protocols that form the backbone of the internet. As I described in the OSI model post, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts.</description>
+      <guid>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</guid>
+      <description>&lt;p&gt;TCP/IP is a set of protocols that form the backbone of the internet. As I described in the &lt;a href=&#34;http://localhost:1313/blog/the-osi-model&#34;&gt;OSI model post&lt;/a&gt;, TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts. IP (Internet Protocol) is the protocol for shifting packets around between hosts in the network layer. The TCP/IP suite, however, contains a whole bunch of protocols beyond these two. (Fun fact: If to devices are communicating in a network with TCP/IP they are called network hosts. If they are using anything else they are called network nodes.)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The OSI Model</title>
-      <link>https://ames.world/blog/the-osi-model/</link>
+      <link>http://localhost:1313/en/posts/the-osi-model/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/the-osi-model/</guid>
-      <description>The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the International Standard Organisation (ISO).
-The model has seven layers:
- Application layer Presentation layer System layer Transport layer Network layer Data layer Physical layer  Which can be remembered by either of two mnemonics:
- All People Seem To Need Data Processing</description>
+      <guid>http://localhost:1313/en/posts/the-osi-model/</guid>
+      <description>&lt;p&gt;The OSI model is designed to ensure compatibility of network devices (and their operating systems) regardless of manufacturer. OSI stands for Open Systems Interconnection and is defined by the &lt;a href=&#34;https://www.iso.org/ics/35.100/x/&#34;&gt;International Standard Organisation (ISO)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The model has seven layers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Application layer&lt;/li&gt;&#xA;&lt;li&gt;Presentation layer&lt;/li&gt;&#xA;&lt;li&gt;System layer&lt;/li&gt;&#xA;&lt;li&gt;Transport layer&lt;/li&gt;&#xA;&lt;li&gt;Network layer&lt;/li&gt;&#xA;&lt;li&gt;Data layer&lt;/li&gt;&#xA;&lt;li&gt;Physical layer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Which can be remembered by either of two mnemonics:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;All People Seem To Need Data Processing&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;or from the bottom up:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data Communication Fundamentals</title>
-      <link>https://ames.world/blog/data-communication-fundamentals/</link>
+      <link>http://localhost:1313/en/posts/data-communication-fundamentals/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/data-communication-fundamentals/</guid>
-      <description>Concerns the basics of networking, starting with some common terminology of data transmission. This can be summarised as:
- A sender has some data they want to send to a receiver. That data needs to be converted into a message for sending. The message needs to be transmitted via some form of medium. The receiver needs to be able to turn that signal back into the data that has been sent.</description>
+      <guid>http://localhost:1313/en/posts/data-communication-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/data_components.jpg&#34; alt=&#34;&#34; title=&#34;Diagram showing the fundamental components of a data network, described in this article.&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Concerns the basics of networking, starting with some common terminology of data transmission. This can be summarised as:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A sender has some data they want to send to a receiver.&lt;/li&gt;&#xA;&lt;li&gt;That data needs to be converted into a message for sending.&lt;/li&gt;&#xA;&lt;li&gt;The message needs to be transmitted via some form of medium.&lt;/li&gt;&#xA;&lt;li&gt;The receiver needs to be able to turn that signal back into the data that has been sent.&lt;/li&gt;&#xA;&lt;li&gt;Therefore a system is needed to agree on rules between the sender and receiver about how the data will be converted into a signal, transmitted and converted back to data, this is called a &lt;em&gt;protocol&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;In order for this system to be effective it needs to ensure:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Network Fundamentals</title>
-      <link>https://ames.world/blog/network-fundamentals/</link>
+      <link>http://localhost:1313/en/posts/network-fundamentals/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/network-fundamentals/</guid>
-      <description>Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:
-Performance. The sharing of data and resources doesn’t degrade the computers on the network.
-Reliability. The network doesn’t fall over all the time.
-Security. Data is only shared with those that should have access to it.
-Types Peer to Peer is where every node on the network has equal access to the network and each node shares data and resources.</description>
+      <guid>http://localhost:1313/en/posts/network-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/network_fundamentals.jpg&#34; alt=&#34;&#34; title=&#34;An image showing a number of colourful Cat5 cables with the banner ‘Network fundamentals’&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Performance.&lt;/strong&gt; The sharing of data and resources doesn’t degrade the computers on the network.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reliability.&lt;/strong&gt; The network doesn’t fall over all the time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Security.&lt;/strong&gt; Data is only shared with those that should have access to it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

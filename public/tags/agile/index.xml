@@ -1,114 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>agile on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/agile/</link>
-    <description>Recent content in agile on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <title>Agile on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/agile/</link>
+    <description>Recent content in Agile on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Responding to Change</title>
+      <link>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</guid>
+      <description>&lt;p&gt;I love the agile manifesto, one of the things that most drew me to it was &amp;ldquo;Responding to change over following a plan&amp;rdquo;. I&amp;rsquo;ve worked on enough projects to see the benefit in changing direction when it&amp;rsquo;s clear that your plan isnt going to help you hit your goal and the sheer grinding death march expereince for teams when that doesn&amp;rsquo;t happen. However the manifesto doesnt say much about different types of change and how best to respond to them, I have 3 metal models of change that I&amp;rsquo;ve seen in teams. I thought I would share as this is fairly early thinking (for me). I&amp;rsquo;m interested if others have seen these patterns, and what other models I&amp;rsquo;ve missed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you&#39;re thinking of becoming a delivery manager</title>
+      <link>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</guid>
+      <description>&lt;p&gt;A few months back &lt;a href=&#34;https://www.linkedin.com/in/neilvass/&#34;&gt;Neil Vass&lt;/a&gt; asked in the &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether&lt;/a&gt; slack channel for advice for people looking to move into Delivery Management roles. I posted a bunch of replies, others did too. Before slack deletes all the replies I thought I would turn them into a blog post.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-a-delivery-manager&#34;&gt;What is a delivery manager?&lt;/h1&gt;&#xA;&lt;p&gt;When I first started working as a delivery manager in 2015, job searches for the role mainly returned delivery driver and pizza delivery type roles, over the last 9 years the role has become much more established in both the public and private sector. For me Emily Webber’s post, &lt;a href=&#34;https://emilywebber.co.uk/what-is-an-agile-delivery-manager/&#34;&gt;Explaining the role of a delivery manager&lt;/a&gt; still holds true. It’s the person in the team responsible for ways of working, team health and happiness, and delivery support (especially in large orgs).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What do I do now?</title>
+      <link>http://localhost:1313/en/posts/what-do-i-do-now/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/what-do-i-do-now/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/what-do-i-do-now.jpg&#34; alt=&#34;The album art of sleeper&amp;rsquo;s 90&amp;rsquo;s hit, what do I do now. It shows an androgenous man&amp;rsquo;s head staring, the colour is washed out&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve never been much of a one for career planning, from reading the ‘&lt;a href=&#34;https://www.linkedin.com/pulse/list-all-5-minutes-articles-jon-rhodes/&#34;&gt;5 minutes with&lt;/a&gt;’ series from Jon Rhodes that seems to be a common trait of delivery people, lots of us kind of fall into it and enjoy it, that’s &lt;a href=&#34;https://www.linkedin.com/pulse/5-minutes-ian-ames-jon-rhodes/&#34;&gt;certainly been my situation.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Amesy method of career development:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Product Prioritisation is triage</title>
-      <link>https://ames.world/blog/product-prioritisation-is-triage/</link>
+      <link>http://localhost:1313/en/posts/product-prioritisation-is-triage/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/product-prioritisation-is-triage/</guid>
-      <description>Triage is used in medicine when acute care cannot be provided for lack of resources. The process rations care towards those who are most in need of immediate care, and who benefit most from it. More generally it refers to prioritisation of medical care as a whole. I have some personal experience of using triage from my time as a mountain rescue volunteer.
-We would often train for scenarios where the number of casualties was more than our capacity to treat them all.</description>
+      <guid>http://localhost:1313/en/posts/product-prioritisation-is-triage/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Triage&#34;&gt;Triage&lt;/a&gt; is used in medicine when acute care cannot be provided for lack of resources. The process rations care towards those who are most in need of immediate care, and who&#xA;benefit most from it. More generally it refers to prioritisation of medical care as a whole. I have some personal experience of using triage from my time as a mountain rescue volunteer.&lt;/p&gt;&#xA;&lt;p&gt;We would often train for scenarios where the number of casualties was more than our capacity to treat them all. Most of the volunteers weren&amp;rsquo;t medical professionals (myself included) so our processes were simple. Our priority was to stabilise casualties and transport them to medical care as quickly and safely as possible.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Story Crowdsourcing Game</title>
-      <link>https://ames.world/blog/story-crowdsourcing-game/</link>
+      <link>http://localhost:1313/en/posts/story-crowdsourcing-game/</link>
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/story-crowdsourcing-game/</guid>
-      <description>Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular Agile in the Ether remote meetup. (It is a very friendly meetup and well worth checking out).
-This is the detail of the game I facilitated:
-Objective Tell a story that develops iteratively and everyone in the group contributes to.
-Instruction Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go.</description>
+      <guid>http://localhost:1313/en/posts/story-crowdsourcing-game/</guid>
+      <description>&lt;p&gt;Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether remote meetup&lt;/a&gt;. (It is a very friendly meetup and well worth checking out).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/agile_ether.jpg&#34; alt=&#34;&#34; title=&#34;Screenshot of the Agile in the Ether attendees&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the detail of the game I facilitated:&lt;/p&gt;&#xA;&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;&#xA;&lt;p&gt;Tell a story that develops iteratively and everyone in the group contributes to.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instruction&#34;&gt;Instruction&lt;/h2&gt;&#xA;&lt;p&gt;Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go. (It may help for the facilitator to start).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Essential Steps for an Effective Project Kick Off</title>
-      <link>https://ames.world/blog/essential-steps-for-an-effective-project-kick-off/</link>
+      <link>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</link>
       <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/essential-steps-for-an-effective-project-kick-off/</guid>
-      <description>Kick-off’s are a great way of bringing a new team together at the start of a new project or phase of a project. The aim is to allow the team to get to know one another and to allow all the team members to understand the goals and objectives.
-I recently helped facilitate a kick-off for the alpha phase of the ‘Protect’ service (working title). Although Protect had been through a discovery phase, circumstances meant that the Alpha team was quite different to the Discovery team.</description>
+      <guid>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>&lt;p&gt;Kick-off’s are a great way of bringing a new team together at the start of a new project or phase of a project. The aim is to allow the team to get to know one another and to allow all the team members to understand the goals and objectives.&lt;/p&gt;&#xA;&lt;p&gt;I recently helped facilitate a kick-off for the &lt;a href=&#34;https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works&#34;&gt;alpha phase&lt;/a&gt; of the ‘Protect’ service (working title). Although Protect had been through a &lt;a href=&#34;https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works&#34;&gt;discovery phase&lt;/a&gt;, circumstances meant that the Alpha team was quite different to the Discovery team. This meant that we needed to spend more time than perhaps usual bringing everyone up to speed. Our kick-off lasted 3.5 days. the structure was:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mountaineering and a Rant About Risk Management</title>
-      <link>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</link>
+      <link>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</guid>
-      <description>I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:
-Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else?</description>
+      <guid>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>&lt;p&gt;I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else? &lt;a href=&#34;https://twitter.com/hashtag/modernAgile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#modernAgile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/agile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#agile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/NoEstimates?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#NoEstimates&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/lean?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lean&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/kanban?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#kanban&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
-      <link>https://ames.world/blog/improving-find-for-the-find-property-information-service/</link>
+      <link>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/improving-find-for-the-find-property-information-service/</guid>
-      <description>Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
-Why did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features.</description>
+      <guid>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;&#xA;&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How Our Digital Team Works</title>
-      <link>https://ames.world/blog/how-our-digital-team-works/</link>
+      <link>http://localhost:1313/en/posts/how-our-digital-team-works/</link>
       <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/how-our-digital-team-works/</guid>
-      <description>I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the digital service standards developed by our colleagues at the Government Digital Service (GDS).
-We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice. Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished.</description>
+      <guid>http://localhost:1313/en/posts/how-our-digital-team-works/</guid>
+      <description>&lt;p&gt;I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the &lt;a href=&#34;https://hmlandregistry.blog.gov.uk/2017/6/27/working-with-gds-to-develop-our-find-property-information-service/&#34;&gt;digital service standards developed by our colleagues at the Government Digital Service (GDS)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice.&#xA;Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished. This allows us to validate that the things we are building are delivering the value we expect and make better decisions about whether to improve a feature further, or move onto something new, based on feedback.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>5 Reasons Open Plan Offices Suck for Agile Teams</title>
-      <link>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
+      <link>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
       <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
-      <description>I recently gave a presentation at the inaugural Tech Exeter conference called Practical agile: Lessons learned the hard way on our journey delivering digital products. In that presentation I claimed open plan offices are terrible team spaces, but didn&amp;rsquo;t really elaborate on why. Since then Neil Parker asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!</description>
+      <guid>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
+      <description>&lt;p&gt;I recently gave a presentation at the inaugural &lt;a href=&#34;https://techexeter.uk/&#34;&gt;Tech Exeter&lt;/a&gt; conference called &lt;a href=&#34;https://www.slideshare.net/IanAmes/practical-agile-tech-exeter-v2&#34;&gt;Practical agile: Lessons learned the hard way on our journey delivering digital products.&lt;/a&gt; In that presentation I claimed open plan offices are terrible team spaces, but didn&amp;rsquo;t really elaborate on why. Since then &lt;a href=&#34;https://twitter.com/_NeilParker&#34;&gt;Neil Parker&lt;/a&gt; asked on twitter to explain why I thought open plan offices are bad team environments. So here is my totally unscientific personal listicle to explain why!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Are Sprints Sustainable?</title>
-      <link>https://ames.world/blog/are-sprints-sustainable/</link>
+      <link>http://localhost:1313/en/posts/are-sprints-sustainable/</link>
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/are-sprints-sustainable/</guid>
-      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.
-Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.
-We use Scrum as our methodology for delivering software.</description>
+      <guid>http://localhost:1313/en/posts/are-sprints-sustainable/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 21 months. I have been with them for 16 of those months.&lt;/p&gt;&#xA;&lt;p&gt;Over the last few months I have been feeling more and more anxious about the sustainability of sprints as we enter a new phase for our service.&lt;/p&gt;&#xA;&lt;p&gt;We use Scrum as our methodology for delivering software. Scrum at its simplest level defines a way of working to deliver small incremental changes at frequent intervals.&#xA;These intervals are called sprints, and the team makes a commitment to deliver a certain amount of work based on how much they have delivered in the past. This commitment is then tracked during the sprint and progress good or bad is reported at the end of the sprint to stakeholders in a ‘show and tell’&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>User Research Is the Most Frustrating Thing Ever</title>
-      <link>https://ames.world/blog/user-research-is-the-most-frustrating-thing-ever/</link>
+      <link>http://localhost:1313/en/posts/user-research-is-the-most-frustrating-thing-ever/</link>
       <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/user-research-is-the-most-frustrating-thing-ever/</guid>
-      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.
-Our team is made up of user researchers, a designer, a BA, developers and testers.
-Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.</description>
+      <guid>http://localhost:1313/en/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 20 months. I have been with them for 15 of those months.&lt;/p&gt;&#xA;&lt;p&gt;Our team is made up of user researchers, a designer, a BA, developers and testers.&lt;/p&gt;&#xA;&lt;p&gt;Dealing with users isn’t new to me, before joining my current team I worked in IT operations and service management, dealing with angry and frustrated users was a day to day part of the role.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The evolving visualisation of workflow in our team.</title>
-      <link>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <link>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
       <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</guid>
-      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.
-One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer.</description>
+      <guid>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.&lt;/p&gt;&#xA;&lt;p&gt;One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer. This article describes the evolution of our workflow board over the past year, the problems we have identified with different approaches and the things we have tried to resolve them.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

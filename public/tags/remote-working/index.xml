@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>remote working on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/remote-working/</link>
-    <description>Recent content in remote working on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
+    <title>Remote Working on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/remote-working/</link>
+    <description>Recent content in Remote Working on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 Things I Learned From Remote Working</title>
-      <link>https://ames.world/blog/10-things-i-learned-from-remote-working/</link>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/10-things-i-learned-from-remote-working/</guid>
-      <description>This post was originally published on the surevine blog.
-3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.
-Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth.</description>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post was originally published on the &lt;a href=&#34;https://www.surevine.com/10-things-learnt-remote-working/&#34;&gt;surevine blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.&lt;/p&gt;&#xA;&lt;p&gt;Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth. Although I’m only 3 months in, you learn pretty quickly what works and doesn’t when it comes to remote work. Here’s what I have discovered:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Story Crowdsourcing Game</title>
-      <link>https://ames.world/blog/story-crowdsourcing-game/</link>
+      <link>http://localhost:1313/en/posts/story-crowdsourcing-game/</link>
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/story-crowdsourcing-game/</guid>
-      <description>Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular Agile in the Ether remote meetup. (It is a very friendly meetup and well worth checking out).
-This is the detail of the game I facilitated:
-Objective Tell a story that develops iteratively and everyone in the group contributes to.
-Instruction Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go.</description>
+      <guid>http://localhost:1313/en/posts/story-crowdsourcing-game/</guid>
+      <description>&lt;p&gt;Emily Webber recently asked if I could run an 8-minute workshop to energise people at the beginning of her regular &lt;a href=&#34;https://agileintheether.co.uk/&#34;&gt;Agile in the Ether remote meetup&lt;/a&gt;. (It is a very friendly meetup and well worth checking out).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/agile_ether.jpg&#34; alt=&#34;&#34; title=&#34;Screenshot of the Agile in the Ether attendees&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the detail of the game I facilitated:&lt;/p&gt;&#xA;&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;&#xA;&lt;p&gt;Tell a story that develops iteratively and everyone in the group contributes to.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instruction&#34;&gt;Instruction&lt;/h2&gt;&#xA;&lt;p&gt;Each person adds a sentence to a story, but has to repeat the preceding sentences first, then nominates the next person to go. (It may help for the facilitator to start).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

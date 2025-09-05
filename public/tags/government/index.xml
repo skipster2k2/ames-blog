@@ -1,51 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>government on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/government/</link>
-    <description>Recent content in government on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 22 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/government/index.xml" rel="self" type="application/rss+xml" />
+    <title>Government on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/government/</link>
+    <description>Recent content in Government on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/government/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Essential Steps for an Effective Project Kick Off</title>
-      <link>https://ames.world/blog/essential-steps-for-an-effective-project-kick-off/</link>
+      <link>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</link>
       <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/essential-steps-for-an-effective-project-kick-off/</guid>
-      <description>Kick-off’s are a great way of bringing a new team together at the start of a new project or phase of a project. The aim is to allow the team to get to know one another and to allow all the team members to understand the goals and objectives.
-I recently helped facilitate a kick-off for the alpha phase of the ‘Protect’ service (working title). Although Protect had been through a discovery phase, circumstances meant that the Alpha team was quite different to the Discovery team.</description>
+      <guid>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>&lt;p&gt;Kick-off’s are a great way of bringing a new team together at the start of a new project or phase of a project. The aim is to allow the team to get to know one another and to allow all the team members to understand the goals and objectives.&lt;/p&gt;&#xA;&lt;p&gt;I recently helped facilitate a kick-off for the &lt;a href=&#34;https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works&#34;&gt;alpha phase&lt;/a&gt; of the ‘Protect’ service (working title). Although Protect had been through a &lt;a href=&#34;https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works&#34;&gt;discovery phase&lt;/a&gt;, circumstances meant that the Alpha team was quite different to the Discovery team. This meant that we needed to spend more time than perhaps usual bringing everyone up to speed. Our kick-off lasted 3.5 days. the structure was:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
-      <link>https://ames.world/blog/improving-find-for-the-find-property-information-service/</link>
+      <link>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/improving-find-for-the-find-property-information-service/</guid>
-      <description>Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
-Why did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features.</description>
+      <guid>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;&#xA;&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How Our Digital Team Works</title>
-      <link>https://ames.world/blog/how-our-digital-team-works/</link>
+      <link>http://localhost:1313/en/posts/how-our-digital-team-works/</link>
       <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/how-our-digital-team-works/</guid>
-      <description>I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the digital service standards developed by our colleagues at the Government Digital Service (GDS).
-We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice. Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished.</description>
+      <guid>http://localhost:1313/en/posts/how-our-digital-team-works/</guid>
+      <description>&lt;p&gt;I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the &lt;a href=&#34;https://hmlandregistry.blog.gov.uk/2017/6/27/working-with-gds-to-develop-our-find-property-information-service/&#34;&gt;digital service standards developed by our colleagues at the Government Digital Service (GDS)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice.&#xA;Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished. This allows us to validate that the things we are building are delivering the value we expect and make better decisions about whether to improve a feature further, or move onto something new, based on feedback.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The evolving visualisation of workflow in our team.</title>
-      <link>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <link>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
       <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/the-evolving-visualisation-of-workflow-in-our-team/</guid>
-      <description>I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.
-One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer.</description>
+      <guid>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>&lt;p&gt;I’m the scrum master for a small team developing a new service for a government agency. The team has been working in an agile way for 17 months. I have been with them for 12 of those months.&lt;/p&gt;&#xA;&lt;p&gt;One of the main parts of my role is to help the team visualise the flow of work from idea to delivered. If we can see where work is (and how long it is there), we can see where it is getting blocked and I can go to work with my big unblocking hammer. This article describes the evolution of our workflow board over the past year, the problems we have identified with different approaches and the things we have tried to resolve them.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

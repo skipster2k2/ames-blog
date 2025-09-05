@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>continuous improvement on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/continuous-improvement/</link>
-    <description>Recent content in continuous improvement on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 06 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/continuous-improvement/index.xml" rel="self" type="application/rss+xml" />
+    <title>Continuous Improvement on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/continuous-improvement/</link>
+    <description>Recent content in Continuous Improvement on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/continuous-improvement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Our Digital Team Works</title>
-      <link>https://ames.world/blog/how-our-digital-team-works/</link>
+      <link>http://localhost:1313/en/posts/how-our-digital-team-works/</link>
       <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/how-our-digital-team-works/</guid>
-      <description>I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the digital service standards developed by our colleagues at the Government Digital Service (GDS).
-We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice. Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished.</description>
+      <guid>http://localhost:1313/en/posts/how-our-digital-team-works/</guid>
+      <description>&lt;p&gt;I’m the Delivery Team Lead for a small multi-disciplinary team in government. We are developing the service in an agile way following the &lt;a href=&#34;https://hmlandregistry.blog.gov.uk/2017/6/27/working-with-gds-to-develop-our-find-property-information-service/&#34;&gt;digital service standards developed by our colleagues at the Government Digital Service (GDS)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We recently added the ability to keep a copy of the title summary (basic information about a property). It’s a great example of what this way of working looks like in practice.&#xA;Because we can continually develop the service, we aim to deliver the features that deliver most value quickly, rather than waiting for the whole service to be finished. This allows us to validate that the things we are building are delivering the value we expect and make better decisions about whether to improve a feature further, or move onto something new, based on feedback.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

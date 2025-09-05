@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Delivery Tactics on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/delivery-tactics/</link>
+    <description>Recent content in Delivery Tactics on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/delivery-tactics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delivery tactics - Shaping Your Discovery</title>
+      <link>http://localhost:1313/en/posts/shaping-your-discovery/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/shaping-your-discovery/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/SaturdayNightFever.jpg&#34; alt=&#34;The album artwork of Saturday Night Fever. John Travolta is doing his Saturday night fever pose on a disco dance floor in the background is the begees in very tight white suits&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the delivery of a digital service, a discovery is a short period right at the beginning of the project to determine what the problem is and whether it is worth solving. Discoveries should be short, usually no more than a few weeks and should seek to provide &lt;em&gt;just enough&lt;/em&gt; confidence to proceed or not. Discoveries are intense and its important that they focus on the right things to help the team progress. Below are some tactics I use when in Discovery mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delivery Tactics - Slicing thin or deep?</title>
+      <link>http://localhost:1313/en/posts/slicing-thin-or-deep/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/slicing-thin-or-deep/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/shedlife_mug.jpg&#34; alt=&#34;A mug of tea in my #shedlife mug&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A key part of agile delivery is working out what small changes can deliver the most value. It can be hard to get agreement on what is small enough to be valuable, getting this balance right is extremely difficult and context specific, hence why MVP’s (minimum viable products) are much maligned.&lt;/p&gt;&#xA;&lt;p&gt;There are two main approaches that can be used, you can either ‘slice thin’ deliver a small part of every step of the user journey; or ‘slice deep’ focus your effort on improving one part of the end to end service journey. Deciding which way to go depends on context, below are some things I try and consider with teams and stakeholders.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

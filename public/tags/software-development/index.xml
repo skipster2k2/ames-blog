@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software development on Ian Ames, freelance delivery manager</title>
-    <link>https://ames.world/tags/software-development/</link>
-    <description>Recent content in software development on Ian Ames, freelance delivery manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ames.world/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <title>Software Development on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</title>
+    <link>http://localhost:1313/tags/software-development/</link>
+    <description>Recent content in Software Development on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 Things I Learned From Remote Working</title>
-      <link>https://ames.world/blog/10-things-i-learned-from-remote-working/</link>
+      <link>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/10-things-i-learned-from-remote-working/</guid>
-      <description>This post was originally published on the surevine blog.
-3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.
-Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth.</description>
+      <guid>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post was originally published on the &lt;a href=&#34;https://www.surevine.com/10-things-learnt-remote-working/&#34;&gt;surevine blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;3 months ago, I took the next step in my career and joined Surevine as a Team Lead. There were many things that first attracted me to the company, but one major benefit was that it’s totally remote, and so learning how to work collaboratively whilst remote was a challenge that really interested me.&lt;/p&gt;&#xA;&lt;p&gt;Sureviner’s are spread all over the country, and my team alone covers a geographical area that stretches from Durham to Plymouth. Although I’m only 3 months in, you learn pretty quickly what works and doesn’t when it comes to remote work. Here’s what I have discovered:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mountaineering and a Rant About Risk Management</title>
-      <link>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</link>
+      <link>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/mountaineering-and-a-rant-about-risk-management/</guid>
-      <description>I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:
-Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else?</description>
+      <guid>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>&lt;p&gt;I love hill climbing and mountaineering, ever since I was dragged up Pen-Y-Fan and got mild hypothermia in the scouts at about the age of 13. One of the best things yomping up hills has taught me is the nature of risk. So I was a bit surprised when I saw this tweet from Vasco Duarte:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Friends, let&amp;#39;s collect a list of domains where Risk ELIMINATION is priority #1: Climbing; Air travel industry; what else? &lt;a href=&#34;https://twitter.com/hashtag/modernAgile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#modernAgile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/agile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#agile&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/NoEstimates?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#NoEstimates&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/lean?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lean&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/kanban?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#kanban&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
-      <link>https://ames.world/blog/improving-find-for-the-find-property-information-service/</link>
+      <link>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ames.world/blog/improving-find-for-the-find-property-information-service/</guid>
-      <description>Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.
-Why did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features.</description>
+      <guid>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://search-property-information.service.gov.uk/&#34;&gt;Find Property Information&lt;/a&gt; is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-did-we-do-this&#34;&gt;Why did we do this?&lt;/h2&gt;&#xA;&lt;p&gt;Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
