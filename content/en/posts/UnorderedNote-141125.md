@@ -1,7 +1,8 @@
 ---
-title: "Unordered Note 14/11/25
+title: "Unordered Note 14/11/25"
 date: 2025-11-14
-categories: weeknotes
+categories: 
+- weeknotes
 tags:
 - weeknotes
 description: "A new attempt at weekly reflection."
