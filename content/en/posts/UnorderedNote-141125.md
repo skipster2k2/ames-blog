@@ -38,7 +38,7 @@ I've been coworking whilst we build a bathroom extension on the back of the hous
 
 ![Home Park, Plymouth Argyles ground, with the sun rising behind it.](/images/211125_argyle.jpg)
 
-![Coronation Ave, a tree lined pedestrian path in Central Park, Plymouth. All the leaves have fallen off the trees](/images/211125_coronation_avenue.jpg)
+![Coronation Ave, a tree lined pedestrian path in Central Park, Plymouth. All the leaves have fallen off the trees](/images/211125_coronation_ave.jpg)
 
 
 
