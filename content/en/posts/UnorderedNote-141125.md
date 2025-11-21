@@ -1,36 +1,46 @@
 ---
-title: "Unordered Note 14/11/25"
-date: 2025-11-14
+title: "Unordered Note 21/11/25"
+date: 2025-11-21
 categories: 
 - weeknotes
 tags:
 - weeknotes
-description: "A new attempt at weekly reflection."
+description: "2 week streak of stream of consciousness notes!"
 ---
 
-I’m back at work this month, I’ve found weeknoting this year difficult due to balancing clients comfort with open notes. The situation is unlikely to change in the near future. The thing I miss the most about the process is getting things that are looping around my brain down on paper and in public, this is because:
-1. It gets it out of my brain before the weekend!
-2. Writing helps me order swirly thoughts
-3. People more intelligent than me usually chip in with ideas and answers I haven’t thought of!
+Continuing the effort of chucking down end of the week thoughts, as an attempt to keep up the weeknote habit, without talking about specifics of the day job. Week 2, go me!
 
-So with that in mind I’m going to try ‘Unordered thoughts notes’ (nowhere near as catchy!) A list of things I’m grappling with, in more abstract terms to see if that scratches the weeknotes itch. Here’s this week’s unordered thoughts…
+# Things on my mind at the end of this week:
 
-# Cynefin and zoom levels
-I’m a big fan of [Cynefin](https://thecynefin.co/about-us/about-cynefin-framework/) as a framework to get shared understanding of the type of problem space your team is operating in. But this week I’ve found us zooming in and out of a [complex](https://en.wikipedia.org/wiki/Cynefin_framework#Complex) problem space. I’ve noticed that when you zoom in, often the proposition is [clear](https://en.wikipedia.org/wiki/Cynefin_framework#Clear), but when you zoom out and see how the part interacts with other parts of a system, it quickly moves to complexity.
+## Future of delivery management
+Heard this week that the BBC are getting rid of their entire delivery management function, which pissed me right off. But after a few days of feeling angry, I became more reflective:
+-  is delivery management viewed as value-less in other orgs, or is it evolving
+- are we actually getting to the stage where the long held ambition of scrum masters, self organising teams, actually starting to happen (I see very little evidence thats true in the large orgs I work with)? 
 
-It’s reminded me of api’s. The aspiration is to have an api ‘do one thing well’; a clear problem in cynefin speak; but zoom out and look at any modern system map, you quickly find a complex ecosystem of api’s that can be difficult to navigate and understand. The line of when something goes from simple, to complicated, to complex feels like _a thing_ I’m not sure what yet.
+These are questions worth pursuing and understanding in the longer term, for now its about helping people who's jobs are on the line. Public sector hero [Matt Jukes](https://www.linkedin.com/in/jukesie/) has offered to do a DM special of his [Internet of Public Service Jobs newsletter](https://newsletter.digitalbydefault.jobs/) this week, so if your affected, make sure to subscribe and take a look. I'm also up for a chat, if its helpful, give me a shout #HugOps
 
-Of course the problem with complexity in cynefin speak is that a complex problem is by its nature impossible to map, you can only learn about its behaviour through observation, I feel like we’re plotting our ways of working for this but need to be mindful of expectations of clarity.
-Of course it also raises the question (Self doubt) are we in a complex space or just an _incredibly_ complicated one (Cause and effect are knowable with expertise).
- Anyway looking forward to [Randy Silvers talk on using cynefin to map AI initiatives](https://www.linkedin.com/events/frommagicpixiedusttostrategicde7391483294560976897/) next week, it might unblock my brain.
+## Communicating complexity
+Been wrestling with the age old challenge of communicating complex problems to a fresh audience this week. Wondering is this complex, because we're not doing enough hard work to make it simple? There's only so much you can do on your own, before you need to start talking to others, to expand your understanding to make things simpler. This takes time and trust and is hard to do in an environment that needs answers right now.
 
- _EDIT_ I shared an early draft of this post with a few people I blog with regularly. [Neil Vass](https://www.linkedin.com/in/neilvass/) pointed me at [What I learned from complexity](https://commoncog.com/learning-from-waldrop-complexity/)
+Talking of trust, submitted my talk idea to the [Agile in the Ether](https://agileintheether.co.uk/) in real life meetup. It's based on [Jimmy Wales new book on trust](https://en.wikipedia.org/wiki/The_Seven_Rules_of_Trust). I better get on a read it!
 
-# Team contribution to a problem versus too many lines of communication.
-The age old balance of what’s the right level of engagement to rapidly define a problem space, versus getting a richness of views of opinions. This is a constant balancing act and I’m never sure if I’m getting it right.
+## Blog maintenance club
+A few of us try to get together on Fridays to blog together. Today we realised we all had things we wanted to do to maintain our blogs (I say wanted to, the overarching feeling was, I dont want to think about maintenance!) so we got together and did a bunch of maintenance together. Moved this blog from netlify to github pages. Broke the css, this [post](https://namanattri.dev/posts/issue-with-css-not-loading-hugo-website-github-pages/) fixed it. Hooray for the internet, its easy to get disheartened about the state of the web, things like this remind me why I love it.
 
-Anyway thats whats been on my mind this week, I'm off to Wales to ride a motorbike up a mountain, if I survive I'll keep this up!
+## Coworking
+I've been coworking whilst we build a bathroom extension on the back of the house. I'm enjoying being around other people, being warm, and walking to 'work' the coworking space is in Devonport a square mile loaded with history, its making me want to go back to a [side project](https://skipster2k2.github.io/history-map/prototype/), lots to add to it, major learning to needed to make it api driven.
 
-_EDIT_ I did survive dear reader and I would highly recommend riding up a mountain on a motorbike with [Mick Extance](https://mickextanceexperience.com/) if you're that way inclined!
+![A big chunky chapel looks like its squatting on the street](/images/211125_church.jpg)
 
-![A bunch of middle age dudes grinning like idiots after hooning around on dirt bikes in the Welsh rain](/images/motorbikes.jpg)
+![Egyptian House designed by John Foulston, one of only two houses like this in the country - its not as nice as the one in Penzance mind!](/images/211125_egyptian_house.jpg)
+
+![Mutton Cove, a small bay thats always full of old men tinkering with boats](/images/211125_mutton_cove.jpg)
+
+![Home Park, Plymouth Argyles ground, with the sun rising behind it.](/images/211125_argyle.jpg)
+
+![Coronation Ave, a tree lined pedestrian path in Central Park, Plymouth. All the leaves have fallen off the trees](/images/211125_coronation_avenue.jpg)
+
+
+
+That'll do, pizza beckons.
+
