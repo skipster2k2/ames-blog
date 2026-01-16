@@ -3,28 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/unorderednote-160126/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/weeknotes/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/weeknotes/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/unorderednote-281125/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/unorderednote-141125/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/unorderednote-211125/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/agile/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/change/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</loc>
@@ -52,12 +70,6 @@
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/monthnote-september2024/</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/weeknotes/</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/weeknotes/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/weeknote-020824/</loc>
