@@ -34,7 +34,7 @@ Right at the end I caught up with Richard Rollinson who I haven't seen since agi
 
 ## Meeting new friends.
 
-Almost too many good encounters to list! On Friday I met Jo and she offered to put me in touch with some folks at Natural Resourcves Wales. I spoke to a couple of guys from 
+Almost too many good encounters to list! On Friday I met Jo and she offered to put me in touch with some folks at Natural Resources Wales. I spoke to a couple of guys from 
 Newspeak house who were doing some interesting work with election data but trying not to be all Cambridge analytica about it. (Sorry guys I've forgotten your names, awks!). 
 
 On the day I had a good chat with Priyanca, James and another researcher about one login challenges and how login (and demographic information) on the NHS app works. 

@@ -6,7 +6,7 @@
     <description>Recent content on Ian Ames - I help multidisciplinary teams deliver services in a user centred way.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Previous Projects</title>
@@ -21,6 +21,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
       <description>&lt;h1 id=&#34;ian-ames&#34;&gt;Ian Ames.&lt;/h1&gt;&#xA;&lt;p&gt;I help multidisciplinary teams deliver services in a user centred way.&lt;/p&gt;&#xA;&lt;h1 id=&#34;profile&#34;&gt;Profile&lt;/h1&gt;&#xA;&lt;p&gt;I have over 20 years experience delivering projects to a range of Government organisations and companies, including the Ministry of Justice, Cabinet Office, DEFRA, Dept for Culture Media and Sport, NHS Digital and BT.&lt;/p&gt;&#xA;&lt;p&gt;I have experience of a number of agile practices such as Scrum, Kanban, Cynefin, Lean and DevOps. In recent years I have tended to specialise in the early phases of a service lifecycle. I enjoy working in small teams; being at the intersection of product, tech, and UX; and taking the seed of an idea and shaping it to achievable outcomes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflections on UKGovCamp 2024.</title>
+      <link>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2026/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2026/</guid>
+      <description>&lt;p&gt;Alright Babs, I&amp;rsquo;m on the train back from UK Govcamp. This year hosted in Birmingham for the first time, bostin! As usual its been an energising event in the dark depths of January. Birmingham city council offices we&amp;rsquo;re &lt;em&gt;beautiful&lt;/em&gt; the sort of place that inflates you with civic pride that just don&amp;rsquo;t get built anymore. I was mildly amazed at how well maintained the building was, given Brum&amp;rsquo;s well publicised financial challenges, its a credit to them they&amp;rsquo;ve managed to maintain the space, and haven&amp;rsquo;t sold it for a £1 as so often happens in crisis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unordered Note 16/01/26</title>
@@ -262,9 +269,9 @@
     </item>
     <item>
       <title>Reflections on Map Camp</title>
-      <link>http://localhost:1313/en/posts/reflections-on-map-camp/</link>
+      <link>http://localhost:1313/en/posts/reflections-on-map-camp-2019/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/reflections-on-map-camp/</guid>
+      <guid>http://localhost:1313/en/posts/reflections-on-map-camp-2019/</guid>
       <description>&lt;p&gt;This year I was finally able to attend &lt;a href=&#34;https://www.map-camp.com/_pages/2019-10-15_London/&#34;&gt;MapCamp 2019&lt;/a&gt; with ~600 other people at Sadlers Wells Theatre, London. MapCamp is a conference introducing and describing the technique of &lt;a href=&#34;https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec&#34;&gt;Wardley Mapping&lt;/a&gt;, a tool for mapping strategy.&lt;/p&gt;&#xA;&lt;p&gt;I first came across Wardley Maps a couple of years ago through the medium book. I found it compelling, Simon Wardley has a lovely humble style of writing. He described how he went from ‘bumbling CEO’ to ‘having a vague idea of what I was doing’. That self-deprecating style just drew me in, and I found a lot I could relate to in my work. However, I could never get the hang of mapping and I hoped going to MapCamp would help me have that aha! moment.&lt;/p&gt;</description>
     </item>
     <item>

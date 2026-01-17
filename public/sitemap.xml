@@ -3,22 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/government-digital/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2026/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/unorderednote-160126/</loc>
@@ -119,9 +125,6 @@
   </url><url>
     <loc>http://localhost:1313/en/posts/what-do-i-do-now/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/government-digital/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2024/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
@@ -249,7 +252,7 @@
     <loc>http://localhost:1313/tags/mapping/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/reflections-on-map-camp/</loc>
+    <loc>http://localhost:1313/en/posts/reflections-on-map-camp-2019/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/strategy/</loc>
