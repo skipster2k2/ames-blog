@@ -29,4 +29,4 @@ The next two sessions were on AI, I mainly listened, this is not a space I know 
 
 Perhaps the loveliest but incredibly random part of the day was as I was leaving, a group of friends asked me to take some photos of them, they were incredibly lovely and we had a lot of fun taking loads of photos of them all together. They told me they were friends who didn't get to catchup often and so they wanted to make a collage of photos together, we got loads of snaps in various poses on the grand stairs at the entrance to the city hall. They looked great and it occurred to me that these random small moments of incredibly human interactions are exactly what govcamp is about. A great event as usual, thank you organisers.
 
-![Me snapping the three friends](/images/random_photographer.jpg)
+![Me snapping the three friends](/images/random-photographer.jpg)
