@@ -1,0 +1,113 @@
+baseURL: https://ames.world/
+languageCode: en-us
+title: Ames World
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Search
+          url: search/
+          weight: 5      
+        - name: Posts
+          url: /posts
+          weight: 10
+        - name: CV
+          url: /CV
+          weight: 20
+        - name: Tags
+          url: tags/
+          weight: 30
+
+outputFormats:
+  llms:
+    mediaType: "text/plain"
+    baseName: "llms"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+    - llms
+
+params:
+  env: production
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Ian Ames
+
+  homeInfoParams:
+    Title: Hi there I'm Ian Ames
+    Content: >
+      - I help multidisciplinary teams deliver services in a user-centred way.
+      
+      - This is my personal blog.
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+
+  socialIcons: # optional
+    - name: "website"
+      url: "https://discover-deliver.co.uk"
+    - name: "RSS"
+      url: "index.xml"
+    - name: "Email"
+      url: "mailto:ian@discover-deliver.co.uk"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/ianames/"
+    - name: "Bluesky"
+      url: "https://bsky.app/profile/ames.world"
+    - name: "Github"
+      url: "https://github.com/skipster2k2"
+
+  editPost:
+    URL: "https://github.com/skipster2k2/ames-blog/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

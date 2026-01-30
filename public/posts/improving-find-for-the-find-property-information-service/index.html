@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Improving &#39;Find&#39; for the Find Property Information Service | Ames World</title>
+<meta name="keywords" content="software development, agile, government, product management, user research">
+<meta name="description" content="How my team identified an improved our address based search at HM Land Registry.">
+<meta name="author" content="Ian Ames">
+<link rel="canonical" href="http://localhost:1313/posts/improving-find-for-the-find-property-information-service/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/improving-find-for-the-find-property-information-service/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/posts/improving-find-for-the-find-property-information-service/">
+  <meta property="og:site_name" content="Ames World">
+  <meta property="og:title" content="Improving &#39;Find&#39; for the Find Property Information Service">
+  <meta property="og:description" content="How my team identified an improved our address based search at HM Land Registry.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-01-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-01-31T00:00:00+00:00">
+    <meta property="article:tag" content="Software Development">
+    <meta property="article:tag" content="Agile">
+    <meta property="article:tag" content="Government">
+    <meta property="article:tag" content="Product Management">
+    <meta property="article:tag" content="User Research">
+      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
+<meta name="twitter:title" content="Improving &#39;Find&#39; for the Find Property Information Service">
+<meta name="twitter:description" content="How my team identified an improved our address based search at HM Land Registry.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Improving 'Find' for the Find Property Information Service",
+      "item": "http://localhost:1313/posts/improving-find-for-the-find-property-information-service/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Improving 'Find' for the Find Property Information Service",
+  "name": "Improving \u0027Find\u0027 for the Find Property Information Service",
+  "description": "How my team identified an improved our address based search at HM Land Registry.",
+  "keywords": [
+    "software development", "agile", "government", "product management", "user research"
+  ],
+  "articleBody": "Find Property Information is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.\nWhy did we do this? Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.\nWhat were the problems with the old search? There was a mixture of design and technical issues with our old search:\nWhen users come to the service they think in terms of addresses, but our search results displayed land titles. This meant the results were jarring, it was especially unclear if there was more than one ‘title’ for a given address. We hadn’t updated the address information we get from Ordnance Survey for over a year, so new builds wouldn’t show in the service. Search results were confusing because of the order of the displayed addresses. We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence. How did we improve it? Based on feedback we’d been collecting we had a good handle on the types of problems people had, and a strong hypothesis that people would be more successful if we flipped the results. We aimed to stop showing what we have got (how we’ve documented the world), and start showing a familiar model of places (how user’s think of the world).\nPeople are familiar with what a postcode is, and what it contains — they use this all the time, when they are getting a parcel delivered, or sending a letter, or using their satnav. There is a point at which we, currently, ask people to pick a particular property record.\nSo we now do that as a separate steps. previously we had wrapped multiple decisions into one step, which was too much.\nSo whilst we still need, currently, to introduce the concept of titles and tenures, we do this in one place.\nHow did we build it? The Find Property Information team consists of 12 people from different disciplines, we sometimes struggled to communicate effectively and stay focused due to the sheer numbers of communication pathways between team members. We had a hunch that the size of the team was slowing down our delivery so we decided to use postcode search as a good opportunity to test it. We separated out 4 people to focus solely on delivering improved search.\nThe team came up with a number of technical approaches and chose the one that would deliver the most value. There were other potentially better solutions, but would have taken longer to implement. Building services is always a trade off between building what’s needed now, and envisioning future use cases. There are risks to both approaches, too bare bones and it can be difficult to change the solution in future, too blue sky and time and energy can be wasted on features and functions that aren’t actually needed.\nOn the whole we saw a lot of benefits from the small team. The small size meant that our processes could be much more lightweight, much less time was spent planning and discussing work, if a problem came up or a change needed to happen, it was much easier to solve as it was just a quick chat to discuss the problem, think of how to solve it and move on. The team progressed well and improved our address search component, built a title-api for retrieving titles per address, and ‘plugged into’ an audit-api for collating what was happening within the service for troubleshooting and audit needs.\nBut we reached a point where we needed to ‘plug-in’ what had been built back into the service. We needed to consider how we could deliver the functionality that had been built iteratively into the service without getting in the way, or breaking any of the other work being done by the rest of the team.\nAgile doesn’t equal No Planning We had a reached a point where we needed to get the team back together and consider how to move postcode into the service.\nWe came up with a high-level plan to deploy each of the new api’s in a way that wouldn’t impact the service or cause any downtime. It was also an iterative plan so by breaking the releases down into small chunks we could de-risk the change and rollback easily if any particular part did go wrong.\nWe also wanted to assure ourselves that the search was as good as we thought it would be so we included: a comprehensive set of automated acceptance tests; manual eyeballing; and tests to verify our hypothesis of what we expected to happen when the changes were in production. The hardest part of testing was finding a decent baseline to ‘prove our search was good. We knew our existing search was inconsistent so it made for a very poor baseline. We had other services that also had search functionality so we did some investigation into these services to test their viability as baselines.\nWhat we found was that whilst on the whole they were good enough as a baseline, they all had slight discrepancies or weird results mainly due to data quality either from us or from our address suppliers. The Addressbase dataset has over 28 million address points, and our register data is over 24 million titles. Both of these datasets change daily and when they are as large as that even a 1% error rate can equal hundreds of thousands of data rows.\nImproving the quality of these two datasets wasn’t going to be possible so instead we attempted to understand the problems a bit better so that at least if users did encounter issues we could offer them an onward journey or understand why. We produced a ‘wall of weird’ of postcodes we knew behaved strangely in existing services and added these to our test baseline to see what happened in our service.\nHow did we release it? So we had a test and deploy plan that was detailed enough to give us direction, but lightweight enough to change when things inevitably changed or went wrong. And a few things did go wrong.\nWe hoped to release an updated address index into the service as a standalone iteration. However, when testing it, we found it had more of an impact on the user experience than we were comfortable with, so we had to bundle the change in with the ‘main’ release. As a result the main release became bigger than expected and we had to schedule in downtime, adding a number of additional steps and approvals. We found the title-api performed within thresholds but not as well as we would like, we found that search results had spikes of long response times. Whilst only affecting 2% of users, scaling up to actual usage volumes could equal hundreds of unsatisfied people. That final problem was the biggest challenge we faced, we hadn’t seen it in any of our lower test environments, but then again our pre-prod environment is the one that most resembles live. At first we didn’t have a good handle on exactly how big the issue was so we created some performance scripts to allow us to monitor response times whilst under heavy load. The scripts confirmed the scale of what we were seeing, but didn’t give us any further clues as to what was causing it.\nFinally we decided that the benefits of the new search functionality exceeded the risks of some users having slow performance. We came up with a plan for measuring production performance and agreed to set some time aside to improve it should we see it happening in PROD.\nFinally we were in a position where we were ready to release. We had to turn the service off for an hour but pre-warned users of the downtime. The change itself went very smoothly and we were deployed and tested within 50 minutes.\nHow do we know whether it has been successful? The measure of success that was most pressing was whether PROD would see the same performance issues that we saw in the test environment. It took a few days to build a sample of traffic but sure enough we did see the same problem. By then however we had given a bit more thought as to a plan for improving the performance. After the first release the refactored code went into production, drastically improving performance times.\nInitial performance times, good but not excellent.\nProduction responses following improvements, note the change in scale!\nAll of our hypotheses of what would happen in Production have so far played out to be true:\nFrom the sample we tested our search is as good as existing HMLR services. Addresses changed in the past year now return in our search results. Our new audit-api is collecting audit data successfully. The most important change is that search is dropping down our ‘Top issues for our users’ chart.\nWhats next? We will continue to learn more about how search is performing in the service, shipping to Production is the only true point where you really start to learn about how people use your service and how it works at scale so I’m sure we will need to make a few changes based on feedback.\nWe also have some work we want to do, to replace our address component with an address-api that is being built by colleagues in another team. This ‘common component’ will reduce maintenance overhead and ensure more consistency between services in the future.\n",
+  "wordCount" : "1637",
+  "inLanguage": "en",
+  "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "2018-01-31T00:00:00Z",
+  "dateModified": "2018-01-31T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Ian Ames"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/improving-find-for-the-find-property-information-service/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ames World",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ames World (Alt + H)">Ames World</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/cv" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Blog</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Improving &#39;Find&#39; for the Find Property Information Service
+    </h1>
+    <div class="post-description">
+      How my team identified an improved our address based search at HM Land Registry.
+    </div>
+    <div class="post-meta"><span title='2018-01-31 00:00:00 +0000 UTC'>January 31, 2018</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>Ian Ames</span>&nbsp;|&nbsp;<span>
+    <a href="https://github.com/skipster2k2/ames-blog/tree/master/content/posts/improving-find-for-the-find-property-information-service.md" rel="noopener noreferrer edit" target="_blank">Suggest Changes</a>
+</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#why-did-we-do-this" aria-label="Why did we do this?">Why did we do this?</a></li>
+                <li>
+                    <a href="#what-were-the-problems-with-the-old-search" aria-label="What were the problems with the old search?">What were the problems with the old search?</a></li>
+                <li>
+                    <a href="#how-did-we-improve-it" aria-label="How did we improve it?">How did we improve it?</a></li>
+                <li>
+                    <a href="#how-did-we-build-it" aria-label="How did we build it?">How did we build it?</a></li>
+                <li>
+                    <a href="#agile-doesnt-equal-no-planning" aria-label="Agile doesn’t equal No Planning">Agile doesn’t equal No Planning</a></li>
+                <li>
+                    <a href="#how-did-we-release-it" aria-label="How did we release it?">How did we release it?</a></li>
+                <li>
+                    <a href="#how-do-we-know-whether-it-has-been-successful" aria-label="How do we know whether it has been successful?">How do we know whether it has been successful?</a></li>
+                <li>
+                    <a href="#whats-next" aria-label="Whats next?">Whats next?</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><a href="https://search-property-information.service.gov.uk/">Find Property Information</a> is a GOV.UK service being developed by HM Land Registry which aims to provide a simple summary of property information. Recently we have improved our ‘postcode search’ functionality.</p>
+<h2 id="why-did-we-do-this">Why did we do this?<a hidden class="anchor" aria-hidden="true" href="#why-did-we-do-this">#</a></h2>
+<p>Our first iteration of searching was developed over a year ago, we knew the limitations of it, but it was ‘good enough’ for the early stages of the service. This allowed us to move onto developing other features. Since then the quality of search has crept up the list of user issues.</p>
+<h2 id="what-were-the-problems-with-the-old-search">What were the problems with the old search?<a hidden class="anchor" aria-hidden="true" href="#what-were-the-problems-with-the-old-search">#</a></h2>
+<p>There was a mixture of design and technical issues with our old search:</p>
+<ul>
+<li>When users come to the service they think in terms of addresses, but our search results displayed land titles. This meant the results were jarring, it was especially unclear if there was more than one ‘title’ for a given address.</li>
+<li>We hadn’t updated the address information we get from Ordnance Survey for over a year, so new builds wouldn’t show in the service.</li>
+<li>Search results were confusing because of the order of the displayed addresses.</li>
+<li>We limited search results to a maximum of 50 on the false assumption this was the terms of the Ordnance Survey Addressbase licence.</li>
+</ul>
+<p><img loading="lazy" src="/images/search_results_before.jpg" title="Search results before improvement, results were ‘titles’ rather than addresses - which the user searched for - causing confusion."></p>
+<h2 id="how-did-we-improve-it">How did we improve it?<a hidden class="anchor" aria-hidden="true" href="#how-did-we-improve-it">#</a></h2>
+<p>Based on feedback we’d been collecting we had a good handle on the types of problems people had, and a strong hypothesis that people would be more successful if we flipped the results. We aimed to stop showing what we have got (how we’ve documented the world), and start showing a familiar model of places (how user’s think of the world).</p>
+<p>People are familiar with what a postcode is, and what it contains — they use this all the time, when they are getting a parcel delivered, or sending a letter, or using their satnav.
+There is a point at which we, currently, ask people to pick a particular property record.</p>
+<p>So we now do that as a separate steps. previously we had wrapped multiple decisions into one step, which was too much.</p>
+<p>So whilst we still need, currently, to introduce the concept of titles and tenures, we do this in one place.</p>
+<p><img loading="lazy" src="/images/search_results_after.jpg" title="The new search results are much clearer and align to what our users expect to see next."></p>
+<h2 id="how-did-we-build-it">How did we build it?<a hidden class="anchor" aria-hidden="true" href="#how-did-we-build-it">#</a></h2>
+<p>The Find Property Information team consists of 12 people from different disciplines, we sometimes struggled to communicate effectively and stay focused due to the sheer numbers of communication pathways between team members. We had a hunch that the size of the team was slowing down our delivery so we decided to use postcode search as a good opportunity to test it. We separated out 4 people to focus solely on delivering improved search.</p>
+<p>The team came up with a number of technical approaches and chose the one that would deliver the most value. There were other potentially better solutions, but would have taken longer to implement. Building services is always a trade off between building what’s needed now, and envisioning future use cases. There are risks to both approaches, too bare bones and it can be difficult to change the solution in future, too blue sky and time and energy can be wasted on features and functions that aren’t actually needed.</p>
+<p>On the whole we saw a lot of benefits from the small team. The small size meant that our processes could be much more lightweight, much less time was spent planning and discussing work, if a problem came up or a change needed to happen, it was much easier to solve as it was just a quick chat to discuss the problem, think of how to solve it and move on.
+The team progressed well and improved our address search component, built a title-api for retrieving titles per address, and ‘plugged into’ an audit-api for collating what was happening within the service for troubleshooting and audit needs.</p>
+<p>But we reached a point where we needed to ‘plug-in’ what had been built back into the service. We needed to consider how we could deliver the functionality that had been built iteratively into the service without getting in the way, or breaking any of the other work being done by the rest of the team.</p>
+<h2 id="agile-doesnt-equal-no-planning">Agile doesn’t equal No Planning<a hidden class="anchor" aria-hidden="true" href="#agile-doesnt-equal-no-planning">#</a></h2>
+<p>We had a reached a point where we needed to get the team back together and consider how to move postcode into the service.</p>
+<p>We came up with a high-level plan to deploy each of the new api’s in a way that wouldn’t impact the service or cause any downtime. It was also an iterative plan so by breaking the releases down into small chunks we could de-risk the change and rollback easily if any particular part did go wrong.</p>
+<p><img loading="lazy" src="/images/whiteboarding.jpg" title="Planning agile style, team members gathered around a whiteboard"></p>
+<p>We also wanted to assure ourselves that the search was as good as we thought it would be so we included: a comprehensive set of automated acceptance tests; manual eyeballing; and tests to verify our hypothesis of what we expected to happen when the changes were in production.
+The hardest part of testing was finding a decent baseline to ‘prove our search was good. We knew our existing search was inconsistent so it made for a very poor baseline. We had other services that also had search functionality so we did some investigation into these services to test their viability as baselines.</p>
+<p>What we found was that whilst on the whole they were good enough as a baseline, they all had slight discrepancies or weird results mainly due to data quality either from us or from our address suppliers. The Addressbase dataset has over 28 million address points, and our register data is over 24 million titles. Both of these datasets change daily and when they are as large as that even a 1% error rate can equal hundreds of thousands of data rows.</p>
+<p>Improving the quality of these two datasets wasn’t going to be possible so instead we attempted to understand the problems a bit better so that at least if users did encounter issues we could offer them an onward journey or understand why. We produced a ‘wall of weird’ of postcodes we knew behaved strangely in existing services and added these to our test baseline to see what happened in our service.</p>
+<p><img loading="lazy" src="/images/wall_of_weird.jpg" title="The wall of weird, a whiteboard where we captured all the strange search behaviour we identified, so that we could validate we had fixed them as we improved the service."></p>
+<h2 id="how-did-we-release-it">How did we release it?<a hidden class="anchor" aria-hidden="true" href="#how-did-we-release-it">#</a></h2>
+<p>So we had a test and deploy plan that was detailed enough to give us direction, but lightweight enough to change when things inevitably changed or went wrong. And a few things did go wrong.</p>
+<ol>
+<li>We hoped to release an updated address index into the service as a standalone iteration. However, when testing it, we found it had more of an impact on the user experience than we were comfortable with, so we had to bundle the change in with the ‘main’ release.</li>
+<li>As a result the main release became bigger than expected and we had to schedule in downtime, adding a number of additional steps and approvals.</li>
+<li>We found the title-api performed within thresholds but not as well as we would like, we found that search results had spikes of long response times. Whilst only affecting 2% of users, scaling up to actual usage volumes could equal hundreds of unsatisfied people.</li>
+</ol>
+<p>That final problem was the biggest challenge we faced, we hadn’t seen it in any of our lower test environments, but then again our pre-prod environment is the one that most resembles live. At first we didn’t have a good handle on exactly how big the issue was so we created some performance scripts to allow us to monitor response times whilst under heavy load. The scripts confirmed the scale of what we were seeing, but didn’t give us any further clues as to what was causing it.</p>
+<p>Finally we decided that the benefits of the new search functionality exceeded the risks of some users having slow performance. We came up with a plan for measuring production performance and agreed to set some time aside to improve it should we see it happening in PROD.</p>
+<p>Finally we were in a position where we were ready to release. We had to turn the service off for an hour but pre-warned users of the downtime. The change itself went very smoothly and we were deployed and tested within 50 minutes.</p>
+<h2 id="how-do-we-know-whether-it-has-been-successful">How do we know whether it has been successful?<a hidden class="anchor" aria-hidden="true" href="#how-do-we-know-whether-it-has-been-successful">#</a></h2>
+<p>The measure of success that was most pressing was whether PROD would see the same performance issues that we saw in the test environment. It took a few days to build a sample of traffic but sure enough we did see the same problem. By then however we had given a bit more thought as to a plan for improving the performance. After the first release the refactored code went into production, drastically improving performance times.</p>
+<p><img loading="lazy" src="/images/before_performance.jpg" title="Initial performance times, good but not excellent. Most responses within 2 seconds"></p>
+<p>Initial performance times, good but not excellent.</p>
+<p><img loading="lazy" src="/images/after_performance.jpg" title="Production responses following improvements, most responses in under 0.1 seconds!"></p>
+<p>Production responses following improvements, note the change in scale!</p>
+<p>All of our hypotheses of what would happen in Production have so far played out to be true:</p>
+<ol>
+<li>From the sample we tested our search is as good as existing HMLR services.</li>
+<li>Addresses changed in the past year now return in our search results.</li>
+<li>Our new audit-api is collecting audit data successfully.</li>
+</ol>
+<p>The most important change is that search is dropping down our ‘Top issues for our users’ chart.</p>
+<h2 id="whats-next">Whats next?<a hidden class="anchor" aria-hidden="true" href="#whats-next">#</a></h2>
+<p>We will continue to learn more about how search is performing in the service, shipping to Production is the only true point where you really start to learn about how people use your service and how it works at scale so I’m sure we will need to make a few changes based on feedback.</p>
+<p>We also have some work we want to do, to replace our address component with an address-api that is being built by colleagues in another team. This ‘common component’ will reduce maintenance overhead and ensure more consistency between services in the future.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/software-development/">Software Development</a></li>
+      <li><a href="http://localhost:1313/tags/agile/">Agile</a></li>
+      <li><a href="http://localhost:1313/tags/government/">Government</a></li>
+      <li><a href="http://localhost:1313/tags/product-management/">Product Management</a></li>
+      <li><a href="http://localhost:1313/tags/user-research/">User Research</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Mountaineering and a Rant About Risk Management</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/hidden-plymouth-route2-millbay-mini/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Hidden Plymouth, Route 2 - Millbay Mini</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on x"
+            href="https://x.com/intent/tweet/?text=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f&amp;hashtags=softwaredevelopment%2cagile%2cgovernment%2cproductmanagement%2cuserresearch">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f&amp;title=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service&amp;summary=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f&title=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on whatsapp"
+            href="https://api.whatsapp.com/send?text=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on telegram"
+            href="https://telegram.me/share/url?text=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Improving &#39;Find&#39; for the Find Property Information Service on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Improving%20%27Find%27%20for%20the%20Find%20Property%20Information%20Service&u=http%3a%2f%2flocalhost%3a1313%2fposts%2fimproving-find-for-the-find-property-information-service%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Ames World</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

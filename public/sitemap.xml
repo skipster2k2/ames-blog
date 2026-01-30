@@ -2,23 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/government-digital/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2026/</loc>
+    <loc>http://localhost:1313/posts/reflections-on-ukgovcamp-2026/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -27,22 +22,22 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/unorderednote-160126/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/weeknotes/</loc>
+    <loc>http://localhost:1313/posts/unorderednote-160126/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/weeknotes/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/unorderednote-281125/</loc>
+    <loc>http://localhost:1313/tags/weeknotes/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/unorderednote-281125/</loc>
     <lastmod>2025-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/unorderednote-141125/</loc>
+    <loc>http://localhost:1313/posts/unorderednote-141125/</loc>
     <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/unorderednote-211125/</loc>
+    <loc>http://localhost:1313/posts/unorderednote-211125/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/agile/</loc>
@@ -51,7 +46,7 @@
     <loc>http://localhost:1313/tags/change/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/thoughts-on-responding-to-change/</loc>
+    <loc>http://localhost:1313/posts/thoughts-on-responding-to-change/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ways-of-working/</loc>
@@ -72,46 +67,46 @@
     <loc>http://localhost:1313/tags/projects/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-delivery-manager/</loc>
+    <loc>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-delivery-manager/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/monthnote-september2024/</loc>
+    <loc>http://localhost:1313/posts/monthnote-september2024/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-020824/</loc>
+    <loc>http://localhost:1313/posts/weeknote-020824/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-260724/</loc>
+    <loc>http://localhost:1313/posts/weeknote-260724/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-190724/</loc>
+    <loc>http://localhost:1313/posts/weeknote-190724/</loc>
     <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-120724/</loc>
+    <loc>http://localhost:1313/posts/weeknote-120724/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/contracting/</loc>
-    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/contracting/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/so-youre-thinking-of-becoming-a-contractor/</loc>
+    <loc>http://localhost:1313/tags/contracting/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-050724/</loc>
+    <loc>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-contractor/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/weeknote-050724/</loc>
     <lastmod>2024-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-280624/</loc>
+    <loc>http://localhost:1313/posts/weeknote-280624/</loc>
     <lastmod>2024-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-210624/</loc>
+    <loc>http://localhost:1313/posts/weeknote-210624/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-140624/</loc>
+    <loc>http://localhost:1313/posts/weeknote-140624/</loc>
     <lastmod>2024-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknote-070624/</loc>
+    <loc>http://localhost:1313/posts/weeknote-070624/</loc>
     <lastmod>2024-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/design/</loc>
@@ -123,13 +118,13 @@
     <loc>http://localhost:1313/categories/reflection/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/what-do-i-do-now/</loc>
+    <loc>http://localhost:1313/posts/what-do-i-do-now/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/reflections-on-ukgovcamp-2024/</loc>
+    <loc>http://localhost:1313/posts/reflections-on-ukgovcamp-2024/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/a-team-icebreaker-using-midjourney-ai/</loc>
+    <loc>http://localhost:1313/posts/a-team-icebreaker-using-midjourney-ai/</loc>
     <lastmod>2023-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/icebreaker/</loc>
@@ -141,13 +136,13 @@
     <loc>http://localhost:1313/tags/delivery-tactics/</loc>
     <lastmod>2023-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/shaping-your-discovery/</loc>
+    <loc>http://localhost:1313/posts/shaping-your-discovery/</loc>
     <lastmod>2023-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/discovery/</loc>
     <lastmod>2023-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/slicing-thin-or-deep/</loc>
+    <loc>http://localhost:1313/posts/slicing-thin-or-deep/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mvp/</loc>
@@ -156,7 +151,7 @@
     <loc>http://localhost:1313/categories/opinion/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/10-things-i-learned-from-marine-navigaton/</loc>
+    <loc>http://localhost:1313/posts/10-things-i-learned-from-marine-navigaton/</loc>
     <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/communication/</loc>
@@ -168,22 +163,22 @@
     <loc>http://localhost:1313/tags/product-management/</loc>
     <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/product-prioritisation-is-triage/</loc>
+    <loc>http://localhost:1313/posts/product-prioritisation-is-triage/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode5/</loc>
+    <loc>http://localhost:1313/posts/weeknotes-nhs-digital-episode5/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode4/</loc>
+    <loc>http://localhost:1313/posts/weeknotes-nhs-digital-episode4/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode3/</loc>
+    <loc>http://localhost:1313/posts/weeknotes-nhs-digital-episode3/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode2/</loc>
+    <loc>http://localhost:1313/posts/weeknotes-nhs-digital-episode2/</loc>
     <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/weeknotes-nhs-digital-episode1/</loc>
+    <loc>http://localhost:1313/posts/weeknotes-nhs-digital-episode1/</loc>
     <lastmod>2021-05-08T12:12:52+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/how-i-work/</loc>
@@ -192,13 +187,13 @@
     <loc>http://localhost:1313/tags/user-manual/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/user-manual-of-me/</loc>
+    <loc>http://localhost:1313/posts/user-manual-of-me/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bike/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/hase-pino-tandem-review/</loc>
+    <loc>http://localhost:1313/posts/hase-pino-tandem-review/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/lifestyle/</loc>
@@ -213,7 +208,7 @@
     <loc>http://localhost:1313/tags/local-government/</loc>
     <lastmod>2020-09-22T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/what-does-great-collaboration-in-local-government-look-like/</loc>
+    <loc>http://localhost:1313/posts/what-does-great-collaboration-in-local-government-look-like/</loc>
     <lastmod>2020-09-22T23:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/home-office/</loc>
@@ -222,7 +217,7 @@
     <loc>http://localhost:1313/tags/remote-work/</loc>
     <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/shedlife/</loc>
+    <loc>http://localhost:1313/posts/shedlife/</loc>
     <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/culture/</loc>
@@ -240,7 +235,7 @@
     <loc>http://localhost:1313/tags/recruitment/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/what-would-a-great-onboarding-experience-look-like/</loc>
+    <loc>http://localhost:1313/posts/what-would-a-great-onboarding-experience-look-like/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/business/</loc>
@@ -252,7 +247,7 @@
     <loc>http://localhost:1313/tags/mapping/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/reflections-on-map-camp-2019/</loc>
+    <loc>http://localhost:1313/posts/reflections-on-map-camp-2019/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/strategy/</loc>
@@ -261,7 +256,7 @@
     <loc>http://localhost:1313/tags/wardley-maps/</loc>
     <lastmod>2019-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/10-things-i-learned-from-remote-working/</loc>
+    <loc>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</loc>
     <lastmod>2019-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/remote-working/</loc>
@@ -282,7 +277,7 @@
     <loc>http://localhost:1313/tags/meetup/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/story-crowdsourcing-game/</loc>
+    <loc>http://localhost:1313/posts/story-crowdsourcing-game/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/computer-networks/</loc>
@@ -294,7 +289,7 @@
     <loc>http://localhost:1313/tags/ipv4/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/ipv4-addressing/</loc>
+    <loc>http://localhost:1313/posts/ipv4-addressing/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/network-engineering/</loc>
@@ -306,7 +301,7 @@
     <loc>http://localhost:1313/tags/tcp/ip/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/tcp-ip-protocol-suite/</loc>
+    <loc>http://localhost:1313/posts/tcp-ip-protocol-suite/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/internet/</loc>
@@ -315,10 +310,10 @@
     <loc>http://localhost:1313/tags/network-fundamentals/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/the-osi-model/</loc>
+    <loc>http://localhost:1313/posts/the-osi-model/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/data-communication-fundamentals/</loc>
+    <loc>http://localhost:1313/posts/data-communication-fundamentals/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/data-engineering/</loc>
@@ -330,13 +325,13 @@
     <loc>http://localhost:1313/tags/network-design/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/network-fundamentals/</loc>
+    <loc>http://localhost:1313/posts/network-fundamentals/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/digital/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/essential-steps-for-an-effective-project-kick-off/</loc>
+    <loc>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/government/</loc>
@@ -354,13 +349,13 @@
     <loc>http://localhost:1313/tags/mountaineering/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/mountaineering-and-a-rant-about-risk-management/</loc>
+    <loc>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/risk/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/improving-find-for-the-find-property-information-service/</loc>
+    <loc>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/user-research/</loc>
@@ -372,7 +367,7 @@
     <loc>http://localhost:1313/tags/heritage/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/hidden-plymouth-route2-millbay-mini/</loc>
+    <loc>http://localhost:1313/posts/hidden-plymouth-route2-millbay-mini/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/history/</loc>
@@ -384,7 +379,7 @@
     <loc>http://localhost:1313/tags/travel/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</loc>
+    <loc>http://localhost:1313/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/continuous-delivery/</loc>
@@ -393,16 +388,16 @@
     <loc>http://localhost:1313/tags/continuous-improvement/</loc>
     <lastmod>2017-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/how-our-digital-team-works/</loc>
+    <loc>http://localhost:1313/posts/how-our-digital-team-works/</loc>
     <lastmod>2017-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</loc>
+    <loc>http://localhost:1313/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</loc>
     <lastmod>2016-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/productivity/</loc>
     <lastmod>2016-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/are-sprints-sustainable/</loc>
+    <loc>http://localhost:1313/posts/are-sprints-sustainable/</loc>
     <lastmod>2016-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kanban/</loc>
@@ -414,13 +409,13 @@
     <loc>http://localhost:1313/tags/digital-transformation/</loc>
     <lastmod>2016-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/user-research-is-the-most-frustrating-thing-ever/</loc>
+    <loc>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</loc>
     <lastmod>2016-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/delivery/</loc>
     <lastmod>2016-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/the-evolving-visualisation-of-workflow-in-our-team/</loc>
+    <loc>http://localhost:1313/posts/the-evolving-visualisation-of-workflow-in-our-team/</loc>
     <lastmod>2016-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>

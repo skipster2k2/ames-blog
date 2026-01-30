@@ -1,9 +1,1 @@
-[submodule "themes/bento"]
-	path = themes/bento
-	url = https://github.com/leonardofaria/bento
-[submodule "themes/introduction"]
-	path = themes/introduction
-	url = https://github.com/victoriadrake/hugo-theme-introduction.git
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
+
