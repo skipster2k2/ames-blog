@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software Development on Ames World</title>
+    <link>http://localhost:1313/tags/software-development/</link>
+    <description>Recent content in Software Development on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Things I Learned From Remote Working</title>
+      <link>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>The most useful things I learnt in my first fully remote job.</description>
+    </item>
+    <item>
+      <title>Mountaineering and a Rant About Risk Management</title>
+      <link>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>A post about how overly-burdensome risk mitigation strategies can increase your risk profile.</description>
+    </item>
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>How my team identified an improved our address based search at HM Land Registry.</description>
+    </item>
+  </channel>
+</rss>

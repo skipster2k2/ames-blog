@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Change on Ames World</title>
+    <link>http://localhost:1313/tags/change/</link>
+    <description>Recent content in Change on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/change/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Responding to Change</title>
+      <link>http://localhost:1313/posts/thoughts-on-responding-to-change/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thoughts-on-responding-to-change/</guid>
+      <description>What does responding to change mean in different contexts?</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ux on Ames World</title>
+    <link>http://localhost:1313/tags/ux/</link>
+    <description>Recent content in Ux on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essential Steps for an Effective Project Kick Off</title>
+      <link>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>A walkthrough of the phases of an effective project kick off.</description>
+    </item>
+  </channel>
+</rss>

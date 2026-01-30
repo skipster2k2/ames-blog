@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>User Research on Ames World</title>
+    <link>http://localhost:1313/tags/user-research/</link>
+    <description>Recent content in User Research on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/user-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>How my team identified an improved our address based search at HM Land Registry.</description>
+    </item>
+    <item>
+      <title>How Our Digital Team Works</title>
+      <link>http://localhost:1313/posts/how-our-digital-team-works/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-our-digital-team-works/</guid>
+      <description>An overview of my teams working practices at HM Land Registry.</description>
+    </item>
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>A tongue in cheek post about how user research can make your team feel, but you should do it anyway.</description>
+    </item>
+  </channel>
+</rss>

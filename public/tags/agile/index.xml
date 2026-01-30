@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agile on Ames World</title>
+    <link>http://localhost:1313/tags/agile/</link>
+    <description>Recent content in Agile on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Responding to Change</title>
+      <link>http://localhost:1313/posts/thoughts-on-responding-to-change/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thoughts-on-responding-to-change/</guid>
+      <description>What does responding to change mean in different contexts?</description>
+    </item>
+    <item>
+      <title>So you&#39;re thinking of becoming a delivery manager</title>
+      <link>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-delivery-manager/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-delivery-manager/</guid>
+      <description>A mega post of advice about becoming a delivery manager</description>
+    </item>
+    <item>
+      <title>What do I do now?</title>
+      <link>http://localhost:1313/posts/what-do-i-do-now/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-do-i-do-now/</guid>
+      <description>Self reflection and career planning for 2024 with bonus earworm title!</description>
+    </item>
+    <item>
+      <title>Product Prioritisation is triage</title>
+      <link>http://localhost:1313/posts/product-prioritisation-is-triage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/product-prioritisation-is-triage/</guid>
+      <description>Practical tips for product prioritisation from triage.</description>
+    </item>
+    <item>
+      <title>Story Crowdsourcing Game</title>
+      <link>http://localhost:1313/posts/story-crowdsourcing-game/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/story-crowdsourcing-game/</guid>
+      <description>An icebreaker game I ran at Agile in the Ether, designed to demonstrate cognitive load.</description>
+    </item>
+    <item>
+      <title>Essential Steps for an Effective Project Kick Off</title>
+      <link>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>A walkthrough of the phases of an effective project kick off.</description>
+    </item>
+    <item>
+      <title>Mountaineering and a Rant About Risk Management</title>
+      <link>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>A post about how overly-burdensome risk mitigation strategies can increase your risk profile.</description>
+    </item>
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>How my team identified an improved our address based search at HM Land Registry.</description>
+    </item>
+    <item>
+      <title>How Our Digital Team Works</title>
+      <link>http://localhost:1313/posts/how-our-digital-team-works/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-our-digital-team-works/</guid>
+      <description>An overview of my teams working practices at HM Land Registry.</description>
+    </item>
+    <item>
+      <title>5 Reasons Open Plan Offices Suck for Agile Teams</title>
+      <link>http://localhost:1313/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
+      <description>A list of reasons why open plan offices are terrible for agile teams.</description>
+    </item>
+    <item>
+      <title>Are Sprints Sustainable?</title>
+      <link>http://localhost:1313/posts/are-sprints-sustainable/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/are-sprints-sustainable/</guid>
+      <description>Some reflections on the limitations of agile sprints.</description>
+    </item>
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>A tongue in cheek post about how user research can make your team feel, but you should do it anyway.</description>
+    </item>
+    <item>
+      <title>The evolving visualisation of workflow in our team.</title>
+      <link>http://localhost:1313/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>An overview of how our teams workflow evolved whilst at HM Land Registry.</description>
+    </item>
+  </channel>
+</rss>

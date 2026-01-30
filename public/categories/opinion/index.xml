@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Opinion on Ames World</title>
+    <link>http://localhost:1313/categories/opinion/</link>
+    <description>Recent content in Opinion on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delivery Tactics - Slicing thin or deep?</title>
+      <link>http://localhost:1313/posts/slicing-thin-or-deep/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/slicing-thin-or-deep/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;A mug of tea in my #shedlife mug&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/shedlife_mug.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A key part of agile delivery is working out what small changes can deliver the most value. It can be hard to get agreement on what is small enough to be valuable, getting this balance right is extremely difficult and context specific, hence why MVP’s (minimum viable products) are much maligned.&lt;/p&gt;
+&lt;p&gt;There are two main approaches that can be used, you can either ‘slice thin’ deliver a small part of every step of the user journey; or ‘slice deep’ focus your effort on improving one part of the end to end service journey. Deciding which way to go depends on context, below are some things I try and consider with teams and stakeholders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10 things I learned about Delivery Management from learning to navigate very large Ships.</title>
+      <link>http://localhost:1313/posts/10-things-i-learned-from-marine-navigaton/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-i-learned-from-marine-navigaton/</guid>
+      <description>&lt;p&gt;25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.&lt;/p&gt;
+&lt;p&gt;After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product Prioritisation is triage</title>
+      <link>http://localhost:1313/posts/product-prioritisation-is-triage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/product-prioritisation-is-triage/</guid>
+      <description>Practical tips for product prioritisation from triage.</description>
+    </item>
+    <item>
+      <title>What does great collaboration in local government look like?</title>
+      <link>http://localhost:1313/posts/what-does-great-collaboration-in-local-government-look-like/</link>
+      <pubDate>Tue, 22 Sep 2020 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-does-great-collaboration-in-local-government-look-like/</guid>
+      <description>Some examples of great collaboration from accross local government in the UK.</description>
+    </item>
+    <item>
+      <title>What Would a Great Onboarding Experience Look Like?</title>
+      <link>http://localhost:1313/posts/what-would-a-great-onboarding-experience-look-like/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-would-a-great-onboarding-experience-look-like/</guid>
+      <description>How to make onboarding awesome.</description>
+    </item>
+    <item>
+      <title>Reflections on Map Camp</title>
+      <link>http://localhost:1313/posts/reflections-on-map-camp-2019/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reflections-on-map-camp-2019/</guid>
+      <description>Reflections on what I saw and learnt at Mapcamp 2019.</description>
+    </item>
+    <item>
+      <title>Essential Steps for an Effective Project Kick Off</title>
+      <link>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>A walkthrough of the phases of an effective project kick off.</description>
+    </item>
+    <item>
+      <title>Mountaineering and a Rant About Risk Management</title>
+      <link>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>A post about how overly-burdensome risk mitigation strategies can increase your risk profile.</description>
+    </item>
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>A tongue in cheek post about how user research can make your team feel, but you should do it anyway.</description>
+    </item>
+  </channel>
+</rss>

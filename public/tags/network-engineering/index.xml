@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Network Engineering on Ames World</title>
+    <link>http://localhost:1313/tags/network-engineering/</link>
+    <description>Recent content in Network Engineering on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/network-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPv4 Addressing</title>
+      <link>http://localhost:1313/posts/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ipv4-addressing/</guid>
+      <description>A technical overview of how ipv4 addressing works.</description>
+    </item>
+    <item>
+      <title>TCP/IP Protocol Suite</title>
+      <link>http://localhost:1313/posts/tcp-ip-protocol-suite/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tcp-ip-protocol-suite/</guid>
+      <description>A technical overview of the TCP/IP network protocols.</description>
+    </item>
+    <item>
+      <title>The OSI Model</title>
+      <link>http://localhost:1313/posts/the-osi-model/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-osi-model/</guid>
+      <description>An overviw of the Open Systems Interconnection model used for computer networking.</description>
+    </item>
+    <item>
+      <title>Data Communication Fundamentals</title>
+      <link>http://localhost:1313/posts/data-communication-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/data-communication-fundamentals/</guid>
+      <description>An overview of the basics of data communication concepts</description>
+    </item>
+    <item>
+      <title>Network Fundamentals</title>
+      <link>http://localhost:1313/posts/network-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/network-fundamentals/</guid>
+      <description>Overview of the fundamental features of a computer network.</description>
+    </item>
+  </channel>
+</rss>

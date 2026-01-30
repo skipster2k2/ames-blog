@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Ames World</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Blog on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflections on UKGovCamp 2026.</title>
+      <link>http://localhost:1313/posts/reflections-on-ukgovcamp-2026/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reflections-on-ukgovcamp-2026/</guid>
+      <description>&lt;p&gt;Alright Babs, I&amp;rsquo;m on the train back from UK Govcamp. This year hosted in Birmingham for the first time, bostin! As usual its been an energising event in the dark depths of January. Birmingham city council offices we&amp;rsquo;re &lt;em&gt;beautiful&lt;/em&gt; the sort of place that inflates you with civic pride that just don&amp;rsquo;t get built anymore. I was mildly amazed at how well maintained the building was, given Brum&amp;rsquo;s well publicised financial challenges, its a credit to them they&amp;rsquo;ve managed to maintain the space, and haven&amp;rsquo;t sold it for a £1 as so often happens in crisis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unordered Note 16/01/26</title>
+      <link>http://localhost:1313/posts/unorderednote-160126/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unorderednote-160126/</guid>
+      <description>A new attempt at weekly reflection.</description>
+    </item>
+    <item>
+      <title>Unordered Note 28/11/25</title>
+      <link>http://localhost:1313/posts/unorderednote-281125/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unorderednote-281125/</guid>
+      <description>A new attempt at weekly reflection.</description>
+    </item>
+    <item>
+      <title>Unordered Note 21/11/25</title>
+      <link>http://localhost:1313/posts/unorderednote-141125/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unorderednote-141125/</guid>
+      <description>2 week streak of stream of consciousness notes!</description>
+    </item>
+    <item>
+      <title>Unordered Note 14/11/25</title>
+      <link>http://localhost:1313/posts/unorderednote-211125/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unorderednote-211125/</guid>
+      <description>A new attempt at weekly reflection.</description>
+    </item>
+    <item>
+      <title>Thoughts on Responding to Change</title>
+      <link>http://localhost:1313/posts/thoughts-on-responding-to-change/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thoughts-on-responding-to-change/</guid>
+      <description>What does responding to change mean in different contexts?</description>
+    </item>
+    <item>
+      <title>So you&#39;re thinking of becoming a delivery manager</title>
+      <link>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-delivery-manager/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-delivery-manager/</guid>
+      <description>A mega post of advice about becoming a delivery manager</description>
+    </item>
+    <item>
+      <title>Monthnote September 24</title>
+      <link>http://localhost:1313/posts/monthnote-september2024/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/monthnote-september2024/</guid>
+      <description>September Monthnote</description>
+    </item>
+    <item>
+      <title>Weeknote 02/08/24</title>
+      <link>http://localhost:1313/posts/weeknote-020824/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-020824/</guid>
+      <description>We’re did this week go? This work malarkey is a right time sink!</description>
+    </item>
+    <item>
+      <title>Weeknote 26/07/24</title>
+      <link>http://localhost:1313/posts/weeknote-260724/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-260724/</guid>
+      <description>This has been a weird week</description>
+    </item>
+    <item>
+      <title>Weeknote 19/07/24</title>
+      <link>http://localhost:1313/posts/weeknote-190724/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-190724/</guid>
+      <description>Meetups, Bike rides, and Global IT outages</description>
+    </item>
+    <item>
+      <title>Weeknote 12/07/24</title>
+      <link>http://localhost:1313/posts/weeknote-120724/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-120724/</guid>
+      <description>Rain rain go away</description>
+    </item>
+    <item>
+      <title>So you&#39;re thinking of becoming a contractor</title>
+      <link>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-contractor/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/so-youre-thinking-of-becoming-a-contractor/</guid>
+      <description>A mega post of contracting advice</description>
+    </item>
+    <item>
+      <title>Weeknote 05/07/24</title>
+      <link>http://localhost:1313/posts/weeknote-050724/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-050724/</guid>
+      <description>A week of bitty things.</description>
+    </item>
+    <item>
+      <title>Weeknote 28/06/24</title>
+      <link>http://localhost:1313/posts/weeknote-280624/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-280624/</guid>
+      <description>Meeting lots of folks</description>
+    </item>
+    <item>
+      <title>Weeknote 21/06/24</title>
+      <link>http://localhost:1313/posts/weeknote-210624/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-210624/</guid>
+      <description>More funemployment shenanigans this week.</description>
+    </item>
+    <item>
+      <title>Weeknote 14/06/24 Bikes</title>
+      <link>http://localhost:1313/posts/weeknote-140624/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-140624/</guid>
+      <description>Dutch cycling mega post</description>
+    </item>
+    <item>
+      <title>Weeknote 07/06/24 Funemployment</title>
+      <link>http://localhost:1313/posts/weeknote-070624/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknote-070624/</guid>
+      <description>First weeknote for a very long time.</description>
+    </item>
+    <item>
+      <title>What do I do now?</title>
+      <link>http://localhost:1313/posts/what-do-i-do-now/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-do-i-do-now/</guid>
+      <description>Self reflection and career planning for 2024 with bonus earworm title!</description>
+    </item>
+    <item>
+      <title>Reflections on UKGovCamp 2024.</title>
+      <link>http://localhost:1313/posts/reflections-on-ukgovcamp-2024/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reflections-on-ukgovcamp-2024/</guid>
+      <description>&lt;p&gt;Despite a pretty awful journey home from UKGovCamp I&amp;rsquo;m still buzzing from it and thinking about it. I&amp;rsquo;m also horribly out of my blogging flow so you&amp;rsquo;ll have to put up with yet another ‘reflections on UKGovCamp’ post I&amp;rsquo;m afraid.&lt;/p&gt;
+&lt;h1 id=&#34;before-i-went&#34;&gt;Before I went.&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been thinking about my reflections (meta) and understanding the headspace I was in before I went is important to give context.&lt;/p&gt;
+&lt;p&gt;To summarise it in one word: &lt;em&gt;jaded.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A team icebreaker using Midjourney AI.</title>
+      <link>http://localhost:1313/posts/a-team-icebreaker-using-midjourney-ai/</link>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-team-icebreaker-using-midjourney-ai/</guid>
+      <description>&lt;p&gt;Yesterday the team got together to workshop how we move into the next phase of our project. Up until now we have mainly been in Discovery/Alpha mode, exploring the problem space and sketching out potential solutions. As we move to beta we’re onboarding devs into the team and so it was worth us think about our ways of working an how we communicate effectively between design/research and dev.&lt;/p&gt;
+&lt;p&gt;At the beginning of the day I tried out a new icebreaker for the team. There’s a long standing tradition in digital gov teams to have a mission patch at the end of a phase, its a nice way to build a team identity and celebrate success, given we had just finished alpha we were all keen to get a sticker created. This is what we did…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delivery tactics - Shaping Your Discovery</title>
+      <link>http://localhost:1313/posts/shaping-your-discovery/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/shaping-your-discovery/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;The album artwork of Saturday Night Fever. John Travolta is doing his Saturday night fever pose on a disco dance floor in the background is the begees in very tight white suits&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/SaturdayNightFever.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the delivery of a digital service, a discovery is a short period right at the beginning of the project to determine what the problem is and whether it is worth solving. Discoveries should be short, usually no more than a few weeks and should seek to provide &lt;em&gt;just enough&lt;/em&gt; confidence to proceed or not. Discoveries are intense and its important that they focus on the right things to help the team progress. Below are some tactics I use when in Discovery mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delivery Tactics - Slicing thin or deep?</title>
+      <link>http://localhost:1313/posts/slicing-thin-or-deep/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/slicing-thin-or-deep/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;A mug of tea in my #shedlife mug&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/shedlife_mug.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A key part of agile delivery is working out what small changes can deliver the most value. It can be hard to get agreement on what is small enough to be valuable, getting this balance right is extremely difficult and context specific, hence why MVP’s (minimum viable products) are much maligned.&lt;/p&gt;
+&lt;p&gt;There are two main approaches that can be used, you can either ‘slice thin’ deliver a small part of every step of the user journey; or ‘slice deep’ focus your effort on improving one part of the end to end service journey. Deciding which way to go depends on context, below are some things I try and consider with teams and stakeholders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10 things I learned about Delivery Management from learning to navigate very large Ships.</title>
+      <link>http://localhost:1313/posts/10-things-i-learned-from-marine-navigaton/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-i-learned-from-marine-navigaton/</guid>
+      <description>&lt;p&gt;25 years ago a young and naive me went to university to study Marine Navigation, My hope was that I could use the skills I learnt to travel the world and get paid whilst doing it. To my horrow I learnt fairly quickly that the reality is that most ships are in port for less than 24 hours and most time is spent at sea.&lt;/p&gt;
+&lt;p&gt;After university I found myself in the crazy world of IT and since digital delivery and product management. Nevertheless I learn’t a number of things that have served me well in my career in the subsequent years. Here’s what they were:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product Prioritisation is triage</title>
+      <link>http://localhost:1313/posts/product-prioritisation-is-triage/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/product-prioritisation-is-triage/</guid>
+      <description>Practical tips for product prioritisation from triage.</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 5</title>
+      <link>http://localhost:1313/posts/weeknotes-nhs-digital-episode5/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknotes-nhs-digital-episode5/</guid>
+      <description>Weeknotes whilst at NHS Digital</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 4</title>
+      <link>http://localhost:1313/posts/weeknotes-nhs-digital-episode4/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknotes-nhs-digital-episode4/</guid>
+      <description>Weeknotes whilst at NHS Digital</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 3</title>
+      <link>http://localhost:1313/posts/weeknotes-nhs-digital-episode3/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknotes-nhs-digital-episode3/</guid>
+      <description>Weeknotes whilst at NHS Digital</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 2</title>
+      <link>http://localhost:1313/posts/weeknotes-nhs-digital-episode2/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weeknotes-nhs-digital-episode2/</guid>
+      <description>Weeknotes whilst at NHS Digital</description>
+    </item>
+    <item>
+      <title>Weeknotes NHS Digital Episode 1</title>
+      <link>http://localhost:1313/posts/weeknotes-nhs-digital-episode1/</link>
+      <pubDate>Sat, 08 May 2021 12:12:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/weeknotes-nhs-digital-episode1/</guid>
+      <description>Weeknotes for the first two weeks at NHS Digital</description>
+    </item>
+    <item>
+      <title>User Manual of Me</title>
+      <link>http://localhost:1313/posts/user-manual-of-me/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/user-manual-of-me/</guid>
+      <description>A user manual describing the conditions I like to work in, I use this format when starting new teams so everyone knows how everyone else likes to work and we can work out our ways of working to suit.</description>
+    </item>
+    <item>
+      <title>Hase Pino tandem review</title>
+      <link>http://localhost:1313/posts/hase-pino-tandem-review/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hase-pino-tandem-review/</guid>
+      <description>The Hase Pino is a semi-recumbent tandem.</description>
+    </item>
+    <item>
+      <title>What does great collaboration in local government look like?</title>
+      <link>http://localhost:1313/posts/what-does-great-collaboration-in-local-government-look-like/</link>
+      <pubDate>Tue, 22 Sep 2020 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-does-great-collaboration-in-local-government-look-like/</guid>
+      <description>Some examples of great collaboration from accross local government in the UK.</description>
+    </item>
+    <item>
+      <title>Shedlife</title>
+      <link>http://localhost:1313/posts/shedlife/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/shedlife/</guid>
+      <description>A post about my home office, the humble shed.</description>
+    </item>
+    <item>
+      <title>What Would a Great Onboarding Experience Look Like?</title>
+      <link>http://localhost:1313/posts/what-would-a-great-onboarding-experience-look-like/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-would-a-great-onboarding-experience-look-like/</guid>
+      <description>How to make onboarding awesome.</description>
+    </item>
+    <item>
+      <title>Reflections on Map Camp</title>
+      <link>http://localhost:1313/posts/reflections-on-map-camp-2019/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reflections-on-map-camp-2019/</guid>
+      <description>Reflections on what I saw and learnt at Mapcamp 2019.</description>
+    </item>
+    <item>
+      <title>10 Things I Learned From Remote Working</title>
+      <link>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>The most useful things I learnt in my first fully remote job.</description>
+    </item>
+    <item>
+      <title>Story Crowdsourcing Game</title>
+      <link>http://localhost:1313/posts/story-crowdsourcing-game/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/story-crowdsourcing-game/</guid>
+      <description>An icebreaker game I ran at Agile in the Ether, designed to demonstrate cognitive load.</description>
+    </item>
+    <item>
+      <title>IPv4 Addressing</title>
+      <link>http://localhost:1313/posts/ipv4-addressing/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ipv4-addressing/</guid>
+      <description>A technical overview of how ipv4 addressing works.</description>
+    </item>
+    <item>
+      <title>TCP/IP Protocol Suite</title>
+      <link>http://localhost:1313/posts/tcp-ip-protocol-suite/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tcp-ip-protocol-suite/</guid>
+      <description>A technical overview of the TCP/IP network protocols.</description>
+    </item>
+    <item>
+      <title>The OSI Model</title>
+      <link>http://localhost:1313/posts/the-osi-model/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-osi-model/</guid>
+      <description>An overviw of the Open Systems Interconnection model used for computer networking.</description>
+    </item>
+    <item>
+      <title>Data Communication Fundamentals</title>
+      <link>http://localhost:1313/posts/data-communication-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/data-communication-fundamentals/</guid>
+      <description>An overview of the basics of data communication concepts</description>
+    </item>
+    <item>
+      <title>Network Fundamentals</title>
+      <link>http://localhost:1313/posts/network-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/network-fundamentals/</guid>
+      <description>Overview of the fundamental features of a computer network.</description>
+    </item>
+    <item>
+      <title>Essential Steps for an Effective Project Kick Off</title>
+      <link>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/essential-steps-for-an-effective-project-kick-off/</guid>
+      <description>A walkthrough of the phases of an effective project kick off.</description>
+    </item>
+    <item>
+      <title>Mountaineering and a Rant About Risk Management</title>
+      <link>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mountaineering-and-a-rant-about-risk-management/</guid>
+      <description>A post about how overly-burdensome risk mitigation strategies can increase your risk profile.</description>
+    </item>
+    <item>
+      <title>Improving &#39;Find&#39; for the Find Property Information Service</title>
+      <link>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/improving-find-for-the-find-property-information-service/</guid>
+      <description>How my team identified an improved our address based search at HM Land Registry.</description>
+    </item>
+    <item>
+      <title>Hidden Plymouth, Route 2 - Millbay Mini</title>
+      <link>http://localhost:1313/posts/hidden-plymouth-route2-millbay-mini/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden-plymouth-route2-millbay-mini/</guid>
+      <description>A walking route in Plymouth, UK taking in some of its histrorical sites.</description>
+    </item>
+    <item>
+      <title>Hidden Plymouth, Route 1 - Stoke to Mutton Cove</title>
+      <link>http://localhost:1313/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden-plymouth-route1-stoke-to-mutton-cove/</guid>
+      <description>A walking route in Plymouth, UK taking in some of its histrorical sites.</description>
+    </item>
+    <item>
+      <title>How Our Digital Team Works</title>
+      <link>http://localhost:1313/posts/how-our-digital-team-works/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-our-digital-team-works/</guid>
+      <description>An overview of my teams working practices at HM Land Registry.</description>
+    </item>
+    <item>
+      <title>5 Reasons Open Plan Offices Suck for Agile Teams</title>
+      <link>http://localhost:1313/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/5-reasons-open-plan-offices-suck-for-agile-teams/</guid>
+      <description>A list of reasons why open plan offices are terrible for agile teams.</description>
+    </item>
+    <item>
+      <title>Are Sprints Sustainable?</title>
+      <link>http://localhost:1313/posts/are-sprints-sustainable/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/are-sprints-sustainable/</guid>
+      <description>Some reflections on the limitations of agile sprints.</description>
+    </item>
+    <item>
+      <title>User Research Is the Most Frustrating Thing Ever</title>
+      <link>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/user-research-is-the-most-frustrating-thing-ever/</guid>
+      <description>A tongue in cheek post about how user research can make your team feel, but you should do it anyway.</description>
+    </item>
+    <item>
+      <title>The evolving visualisation of workflow in our team.</title>
+      <link>http://localhost:1313/posts/the-evolving-visualisation-of-workflow-in-our-team/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-evolving-visualisation-of-workflow-in-our-team/</guid>
+      <description>An overview of how our teams workflow evolved whilst at HM Land Registry.</description>
+    </item>
+  </channel>
+</rss>

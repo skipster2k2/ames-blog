@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Remote Working on Ames World</title>
+    <link>http://localhost:1313/tags/remote-working/</link>
+    <description>Recent content in Remote Working on Ames World</description>
+    <image>
+      <title>Ames World</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Things I Learned From Remote Working</title>
+      <link>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-i-learned-from-remote-working/</guid>
+      <description>The most useful things I learnt in my first fully remote job.</description>
+    </item>
+    <item>
+      <title>Story Crowdsourcing Game</title>
+      <link>http://localhost:1313/posts/story-crowdsourcing-game/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/story-crowdsourcing-game/</guid>
+      <description>An icebreaker game I ran at Agile in the Ether, designed to demonstrate cognitive load.</description>
+    </item>
+  </channel>
+</rss>
