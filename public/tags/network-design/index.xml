@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Design on Ames World</title>
+    <link>http://localhost:1313/tags/network-design/</link>
+    <description>Recent content in Network Design on Ames World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/network-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Fundamentals</title>
+      <link>http://localhost:1313/posts/network-fundamentals/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/network-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/network_fundamentals.jpg&#34; alt=&#34;&#34; title=&#34;An image showing a number of colourful Cat5 cables with the banner ‘Network fundamentals’&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Network fundamentals explores how computer networks are designed to enable the sharing of data taking into account three key requirements:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Performance.&lt;/strong&gt; The sharing of data and resources doesn’t degrade the computers on the network.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reliability.&lt;/strong&gt; The network doesn’t fall over all the time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Security.&lt;/strong&gt; Data is only shared with those that should have access to it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
