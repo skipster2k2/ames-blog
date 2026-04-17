@@ -62,17 +62,10 @@ params:
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Ian Ames
 
-  homeInfoParams:
-    Title: Hi there I'm Ian Ames
-    Content: >
-      - I help multidisciplinary teams deliver services in a user-centred way.
-      
-      - This is my personal blog.
-
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
-  ShowReadingTime: true
+  ShowReadingTime: false
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
@@ -81,10 +74,16 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  ShowToc: true
+  ShowToc: false
   # comments: false
   images: ["images/papermod-cover.png"]
 
+  homeInfoParams:
+    Title: Hi there I'm Ian Ames
+    Content: >
+      - I help multidisciplinary teams deliver services in a user-centred way.
+      
+      - This is my personal blog.
 
   socialIcons: # optional
     - name: "website"
@@ -105,7 +104,7 @@ params:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  markup:
+markup:
   goldmark:
     renderer:
       unsafe: true
