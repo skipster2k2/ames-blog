@@ -1,6 +1,7 @@
 ---
 title: "Reflections on UKGovCamp 2026."
 date: 2026-01-17
+description: "Thoughts on govcamp, an unconference for government nerds"
 tags: 
 - Government digital
 
